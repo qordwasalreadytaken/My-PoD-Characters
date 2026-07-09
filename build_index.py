@@ -104,6 +104,13 @@ def build_snapshot_links(archive, character_name, site_base_url):
         label = metadata.get("title") or timestamp or key
         is_milestone = metadata.get("automatic") is False
         canonical_key = timestamp or key
+        tags = metadata.get("tags")
+        if isinstance(tags, list):
+            tags = [str(tag).strip() for tag in tags if str(tag).strip()]
+        elif isinstance(tags, str) and tags.strip():
+            tags = [part.strip() for part in tags.split(",") if part.strip()]
+        else:
+            tags = []
 
         links.append({
             "label": label,
@@ -111,6 +118,7 @@ def build_snapshot_links(archive, character_name, site_base_url):
             "timestamp": timestamp,
             "id": snap_id,
             "title": metadata.get("title"),
+            "tags": tags,
             "automatic": not is_milestone,
             "url": make_share_url(site_base_url, character_name, key),
             "canonicalUrl": make_share_url(site_base_url, character_name, canonical_key),

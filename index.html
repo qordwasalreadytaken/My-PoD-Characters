@@ -3,323 +3,1014 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PoD Character Archive Links</title>
+  <title>PoD Character Archive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #000000;
       --bg-soft: #141414;
       --card: #1a1a1a;
+      --card-alt: #212121;
       --ink: #e2e2e2;
       --muted: #a7a7a7;
       --accent: #c0a080;
+      --accent-2: #d0d0d0;
+      --good: #9ad1ac;
+      --bad: #d99b9b;
       --line: #333333;
-      --ok: #9ad1ac;
       --shadow: rgba(0, 0, 0, 0.45);
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
       color: var(--ink);
-      background:
-        radial-gradient(circle at 15% 0%, #1c1c1c 0%, transparent 35%),
-        radial-gradient(circle at 90% 0%, #101010 0%, transparent 28%),
-        linear-gradient(165deg, #000000, #0a0a0a 48%, #111111);
       font-family: "IBM Plex Sans", sans-serif;
+      background:
+        radial-gradient(circle at 15% 15%, #1b1b1b 0%, transparent 40%),
+        radial-gradient(circle at 80% 0%, #121212 0%, transparent 35%),
+        linear-gradient(160deg, #000000, #0a0a0a 45%, #111111);
       min-height: 100vh;
     }
 
-    .wrap {
-      max-width: 1200px;
+    .shell {
+      max-width: 1400px;
       margin: 0 auto;
-      padding: 24px;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 320px 360px minmax(0, 1fr);
+      gap: 16px;
+      min-height: 100vh;
     }
 
-    .hero {
-      margin-bottom: 16px;
-    }
-
-    .hero h1 {
-      margin: 0 0 6px;
-      font-family: "Space Grotesk", sans-serif;
-      font-size: clamp(1.3rem, 2.5vw, 2rem);
-    }
-
-    .hero p {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    .toolbar {
-      display: flex;
-      gap: 10px;
-      margin: 14px 0 18px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    input[type="search"] {
-      flex: 1;
-      min-width: 220px;
-      background: rgba(16, 16, 16, 0.95);
+    .panel {
+      background: linear-gradient(160deg, rgba(27, 27, 27, 0.94), rgba(12, 12, 12, 0.96));
       border: 1px solid var(--line);
-      color: var(--ink);
-      border-radius: 10px;
-      padding: 10px 12px;
-      outline: none;
+      border-radius: 14px;
+      box-shadow: 0 12px 30px var(--shadow);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .panel-header {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, rgba(24, 24, 24, 0.95), rgba(24, 24, 24, 0.65));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .panel-title {
+      margin: 0;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 1.02rem;
+      letter-spacing: 0.02em;
     }
 
     .pill {
-      display: inline-block;
       border: 1px solid var(--accent);
       color: var(--accent);
       border-radius: 999px;
-      font-size: 0.75rem;
+      padding: 2px 8px;
+      font-size: 0.72rem;
       font-weight: 600;
-      padding: 3px 9px;
+      white-space: nowrap;
     }
 
-    .char-card {
+    .section {
+      padding: 14px 16px;
+    }
+
+    .filters {
+      display: grid;
+      gap: 10px;
+    }
+
+    .search {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
       border: 1px solid var(--line);
-      border-radius: 12px;
-      background: linear-gradient(155deg, rgba(24, 24, 24, 0.96), rgba(10, 10, 10, 0.96));
-      margin-bottom: 14px;
-      box-shadow: 0 10px 24px var(--shadow);
-      overflow: hidden;
+      background: rgba(16, 16, 16, 0.95);
+      color: var(--ink);
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 120ms ease;
     }
 
-    .char-head {
+    .search:focus {
+      border-color: var(--accent-2);
+    }
+
+    .list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+    }
+
+    .character-row,
+    .snapshot-row {
+      border: 0;
+      width: 100%;
+      text-align: left;
+      background: transparent;
+      color: inherit;
+      cursor: pointer;
+      border-top: 1px solid rgba(58, 58, 58, 0.72);
       padding: 12px 14px;
-      border-bottom: 1px solid rgba(58, 58, 58, 0.8);
+      transition: background 120ms ease, transform 120ms ease;
+    }
+
+    .character-row:hover,
+    .snapshot-row:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .character-row.active,
+    .snapshot-row.active {
+      background: linear-gradient(90deg, rgba(192, 160, 128, 0.22), rgba(255, 255, 255, 0.04));
+      border-left: 3px solid var(--accent);
+      padding-left: 11px;
+    }
+
+    .name-line {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
       gap: 8px;
-      flex-wrap: wrap;
+      align-items: baseline;
+      font-weight: 600;
+      color: var(--ink);
     }
 
-    .char-head .name {
-      font-weight: 700;
-      font-size: 1rem;
-    }
-
-    .meta {
+    .muted {
       color: var(--muted);
       font-size: 0.82rem;
     }
 
-    .links {
+    .snapshot-meta {
+      margin-top: 4px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .kpi {
+      background: rgba(20, 20, 20, 0.9);
+      border: 1px solid rgba(58, 58, 58, 0.82);
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .kpi .label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.75rem;
+      margin-bottom: 2px;
+    }
+
+    .kpi .value {
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: "Space Grotesk", sans-serif;
+    }
+
+    .detail {
+      padding: 16px;
+      overflow: auto;
+      animation: fadeIn 220ms ease;
+    }
+
+    .hero {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(1.4rem, 2.3vw, 2rem);
+      letter-spacing: 0.01em;
+    }
+
+    .hero small {
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--line);
+      background: rgba(26, 26, 26, 0.95);
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(22, 22, 22, 0.92);
+      padding: 12px;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 0.95rem;
+      color: var(--accent-2);
+    }
+
+    .stat-list,
+    .flat-list {
       list-style: none;
       margin: 0;
       padding: 0;
-      max-height: 360px;
-      overflow: auto;
-    }
-
-    .link-row {
-      padding: 10px 14px;
-      border-top: 1px solid rgba(55, 55, 55, 0.75);
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto auto;
-      gap: 8px;
-      align-items: center;
+      gap: 6px;
     }
 
-    .link-row a {
-      color: #e5e5e5;
-      text-decoration: none;
-      word-break: break-all;
-      font-size: 0.9rem;
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px dashed rgba(36, 80, 102, 0.45);
+      padding-bottom: 3px;
     }
 
-    .link-row a:hover {
-      text-decoration: underline;
-      text-decoration-color: var(--accent);
-    }
-
-    button {
+    .change-chip {
+      display: inline-block;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      padding: 3px 8px;
       border: 1px solid var(--line);
-      color: var(--ink);
-      background: rgba(26, 26, 26, 0.95);
-      border-radius: 8px;
-      padding: 6px 10px;
-      font-size: 0.78rem;
-      cursor: pointer;
-    }
-
-    button:hover {
-      border-color: var(--accent);
-    }
-
-    .ok {
-      color: var(--ok);
-      font-size: 0.76rem;
-      min-width: 26px;
-      text-align: right;
-    }
-
-    .empty {
+      background: rgba(17, 50, 69, 0.8);
+      margin-right: 6px;
+      margin-bottom: 6px;
       color: var(--muted);
-      padding: 14px;
-      border: 1px dashed var(--line);
-      border-radius: 12px;
-      text-align: center;
     }
 
-    @media (max-width: 780px) {
-      .link-row {
+    .change-chip.good {
+      border-color: rgba(123, 224, 165, 0.45);
+      color: var(--good);
+    }
+
+    .change-chip.bad {
+      border-color: rgba(255, 142, 142, 0.45);
+      color: var(--bad);
+    }
+
+    .message {
+      color: var(--muted);
+      padding: 16px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .shell {
+        grid-template-columns: 300px 320px minmax(0, 1fr);
+      }
+      .kpi-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .grid {
         grid-template-columns: 1fr;
       }
-      .ok {
-        text-align: left;
+    }
+
+    @media (max-width: 900px) {
+      .shell {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      .panel {
+        max-height: 340px;
+      }
+      .detail-panel {
+        max-height: none;
       }
     }
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <header class="hero">
-      <h1>PoD Character Archive Link Library</h1>
-      <p>All shareable snapshot links by character. Copy and send in one click.</p>
-    </header>
+  <main class="shell">
+    <section class="panel" aria-label="Characters">
+      <header class="panel-header">
+        <h2 class="panel-title">Character Archive</h2>
+        <span id="characterCount" class="pill">0</span>
+      </header>
+      <div class="section filters">
+        <input id="searchInput" class="search" type="text" placeholder="Search by character name">
+        <input id="tagInput" class="search" type="text" placeholder="Filter snapshots by tag">
+      </div>
+      <ul id="characterList" class="list"></ul>
+    </section>
 
-    <div class="toolbar">
-      <input id="search" type="search" placeholder="Filter characters by name">
-      <span id="count" class="pill">0 characters</span>
-    </div>
+    <section class="panel" aria-label="Snapshots">
+      <header class="panel-header">
+        <h2 class="panel-title">Timeline</h2>
+        <span id="snapshotCount" class="pill">0</span>
+      </header>
+      <div class="section" id="timelineHeader">
+        <div class="muted">Select a character to browse snapshots.</div>
+      </div>
+      <ul id="snapshotList" class="list"></ul>
+    </section>
 
-    <section id="root"></section>
+    <section class="panel detail-panel" aria-label="Snapshot detail">
+      <header class="panel-header">
+        <h2 class="panel-title">Snapshot Detail</h2>
+        <span id="statusPill" class="pill">Idle</span>
+      </header>
+      <div id="detailRoot" class="detail">
+        <div class="message">Pick a character on the left to start.</div>
+      </div>
+    </section>
   </main>
 
   <script>
     "use strict";
 
     const state = {
+      index: null,
       characters: [],
-      filtered: []
+      filteredCharacters: [],
+      selectedCharacter: null,
+      selectedArchive: null,
+      snapshots: [],
+      selectedSnapshot: null
     };
 
-    const root = document.getElementById("root");
-    const search = document.getElementById("search");
-    const count = document.getElementById("count");
+    const dom = {
+      searchInput: document.getElementById("searchInput"),
+      tagInput: document.getElementById("tagInput"),
+      characterList: document.getElementById("characterList"),
+      snapshotList: document.getElementById("snapshotList"),
+      detailRoot: document.getElementById("detailRoot"),
+      timelineHeader: document.getElementById("timelineHeader"),
+      characterCount: document.getElementById("characterCount"),
+      snapshotCount: document.getElementById("snapshotCount"),
+      statusPill: document.getElementById("statusPill")
+    };
 
-    function safe(value, fallback = "-") {
+    function normalizeArchivePayload(payload, fallbackCharacterName) {
+      if (Array.isArray(payload)) {
+        return {
+          character: fallbackCharacterName,
+          snapshots: payload
+        };
+      }
+
+      if (payload && typeof payload === "object") {
+        return {
+          character: payload.character || fallbackCharacterName,
+          snapshots: Array.isArray(payload.snapshots) ? payload.snapshots : []
+        };
+      }
+
+      return {
+        character: fallbackCharacterName,
+        snapshots: []
+      };
+    }
+
+    function readParams() {
+      const params = new URLSearchParams(window.location.search);
+      return {
+        character: params.get("c"),
+        timestamp: params.get("t")
+      };
+    }
+
+    function updateParams(character, key) {
+      const params = new URLSearchParams(window.location.search);
+
+      if (character) {
+        params.set("c", character);
+      } else {
+        params.delete("c");
+      }
+
+      if (key) {
+        params.set("t", key);
+      } else {
+        params.delete("t");
+      }
+
+      const query = params.toString();
+      const next = query ? `?${query}` : window.location.pathname;
+      window.history.replaceState({}, "", next);
+    }
+
+    function safeText(value, fallback = "-") {
       if (value === null || value === undefined || value === "") {
         return fallback;
       }
       return String(value);
     }
 
-    function fmtDate(value) {
+    function normalizeTags(rawValue) {
+      if (Array.isArray(rawValue)) {
+        return rawValue
+          .map((tag) => String(tag || "").trim())
+          .filter((tag) => tag.length > 0);
+      }
+
+      if (typeof rawValue === "string" && rawValue.trim()) {
+        return rawValue
+          .split(",")
+          .map((tag) => tag.trim())
+          .filter((tag) => tag.length > 0);
+      }
+
+      return [];
+    }
+
+    function getCharacterFilterTerm() {
+      return dom.searchInput.value.trim().toLowerCase();
+    }
+
+    function getTagFilterTerm() {
+      return dom.tagInput.value.trim().toLowerCase();
+    }
+
+    function slugify(value) {
+      if (typeof value !== "string") {
+        return "";
+      }
+
+      return value
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/-+/g, "-")
+        .replace(/^-|-$/g, "");
+    }
+
+    function getSnapshotKey(snapshot) {
+      if (!snapshot || typeof snapshot !== "object") {
+        return "";
+      }
+
+      const metadata = snapshot.metadata && typeof snapshot.metadata === "object"
+        ? snapshot.metadata
+        : {};
+
+      if (typeof metadata.slug === "string" && metadata.slug.trim()) {
+        return slugify(metadata.slug);
+      }
+
+      if (typeof metadata.title === "string" && metadata.title.trim()) {
+        return slugify(metadata.title);
+      }
+
+      if (typeof snapshot.id === "string" && snapshot.id.trim()) {
+        return snapshot.id.trim();
+      }
+
+      return typeof snapshot.timestamp === "string" ? snapshot.timestamp : "";
+    }
+
+    function formatDate(value) {
       if (!value) {
         return "Unknown";
       }
+
       const date = new Date(value);
       if (Number.isNaN(date.getTime())) {
         return value;
       }
+
       return date.toLocaleString();
     }
 
-    async function copyText(text, marker) {
-      try {
-        await navigator.clipboard.writeText(text);
-        marker.textContent = "copied";
-      } catch (_error) {
-        marker.textContent = "fail";
+    function summarizeChanges(snapshot) {
+      const changes = snapshot && snapshot.changes ? snapshot.changes : {};
+      const skillsUp = Array.isArray(changes.skills_added) ? changes.skills_added.length : 0;
+      const skillsDown = Array.isArray(changes.skills_removed) ? changes.skills_removed.length : 0;
+      const skillsDelta = Array.isArray(changes.skills_updated) ? changes.skills_updated.length : 0;
+      const gearUp = Array.isArray(changes.equipped_added) ? changes.equipped_added.length : 0;
+      const gearDown = Array.isArray(changes.equipped_removed) ? changes.equipped_removed.length : 0;
+
+      if (skillsUp + skillsDown + skillsDelta + gearUp + gearDown === 0) {
+        return "No tracked changes";
       }
-      setTimeout(() => {
-        marker.textContent = "";
-      }, 1200);
+
+      return `Skills +${skillsUp}/-${skillsDown}/d${skillsDelta} | Gear +${gearUp}/-${gearDown}`;
     }
 
-    function normalizeLinks(character) {
-      const links = Array.isArray(character.snapshotLinks) ? character.snapshotLinks.slice() : [];
-      return links.filter((item) => item && typeof item === "object" && item.url);
+    function getCharacterLevel(character) {
+      if (character && typeof character.level !== "undefined" && character.level !== null) {
+        return character.level;
+      }
+      return "?";
     }
 
-    function render() {
-      root.innerHTML = "";
-      count.textContent = `${state.filtered.length} characters`;
+    function linkMatchesTag(link, term) {
+      if (!term) {
+        return true;
+      }
 
-      if (!state.filtered.length) {
-        root.innerHTML = '<div class="empty">No matching characters.</div>';
+      return normalizeTags(link && link.tags).some((tag) => tag.toLowerCase().includes(term));
+    }
+
+    function characterMatchesTag(character, term) {
+      if (!term) {
+        return true;
+      }
+
+      const links = Array.isArray(character && character.snapshotLinks) ? character.snapshotLinks : [];
+      return links.some((link) => linkMatchesTag(link, term));
+    }
+
+    function snapshotMatchesTag(snapshot, term) {
+      if (!term) {
+        return true;
+      }
+
+      const metadata = snapshot && snapshot.metadata && typeof snapshot.metadata === "object"
+        ? snapshot.metadata
+        : {};
+
+      return normalizeTags(metadata.tags).some((tag) => tag.toLowerCase().includes(term));
+    }
+
+    function getVisibleSnapshots() {
+      const tagTerm = getTagFilterTerm();
+      return state.snapshots.filter((snapshot) => snapshotMatchesTag(snapshot, tagTerm));
+    }
+
+    function ensureSelectedSnapshotVisible() {
+      const visibleSnapshots = getVisibleSnapshots();
+
+      if (!visibleSnapshots.length) {
+        state.selectedSnapshot = null;
         return;
       }
 
-      const frag = document.createDocumentFragment();
+      if (!state.selectedSnapshot) {
+        state.selectedSnapshot = visibleSnapshots[0];
+        return;
+      }
 
-      state.filtered.forEach((character) => {
-        const card = document.createElement("article");
-        card.className = "char-card";
+      const currentKey = getSnapshotKey(state.selectedSnapshot);
+      const visibleSelection = visibleSnapshots.find((snapshot) => {
+        const key = getSnapshotKey(snapshot);
+        return key === currentKey || snapshot.timestamp === state.selectedSnapshot.timestamp;
+      });
 
-        const links = normalizeLinks(character);
+      state.selectedSnapshot = visibleSelection || visibleSnapshots[0];
+    }
 
-        const head = document.createElement("div");
-        head.className = "char-head";
-        head.innerHTML = `
-          <div class="name">${safe(character.name)}</div>
-          <div class="meta">
-            ${safe(character.class, "Unknown")} | Lv ${safe(character.level, "?")} | ${links.length} links | Updated ${fmtDate(character.lastUpdated)}
+    function applyCharacterFilter() {
+      const term = getCharacterFilterTerm();
+      const tagTerm = getTagFilterTerm();
+      state.filteredCharacters = state.characters.filter((char) => {
+        const name = (char.name || "").toLowerCase();
+        return name.includes(term) && characterMatchesTag(char, tagTerm);
+      });
+    }
+
+    function renderCharacterList() {
+      dom.characterList.innerHTML = "";
+      dom.characterCount.textContent = String(state.filteredCharacters.length);
+
+      if (state.filteredCharacters.length === 0) {
+        const item = document.createElement("li");
+        item.className = "message";
+        item.textContent = "No character matches this filter.";
+        dom.characterList.appendChild(item);
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+
+      state.filteredCharacters.forEach((character) => {
+        const li = document.createElement("li");
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "character-row";
+
+        if (state.selectedCharacter && state.selectedCharacter.name === character.name) {
+          button.classList.add("active");
+        }
+
+        const className = safeText(character.class, "Unknown Class");
+        const level = getCharacterLevel(character);
+        const updated = formatDate(character.lastUpdated);
+
+        button.innerHTML = `
+          <div class="name-line">
+            <span>${safeText(character.name, "Unknown")}</span>
+            <span class="muted">Lv ${level}</span>
+          </div>
+          <div class="snapshot-meta">
+            <span>${className}</span>
+            <span>Snapshots: ${safeText(character.snapshotCount, 0)}</span>
+            <span>Updated: ${updated}</span>
           </div>
         `;
 
-        card.appendChild(head);
+        button.addEventListener("click", () => {
+          void selectCharacter(character.name);
+        });
 
-        const list = document.createElement("ul");
-        list.className = "links";
-
-        if (!links.length) {
-          const row = document.createElement("li");
-          row.className = "link-row";
-          row.innerHTML = '<span class="meta">No links yet for this character.</span>';
-          list.appendChild(row);
-        } else {
-          links.forEach((link) => {
-            const row = document.createElement("li");
-            row.className = "link-row";
-
-            const anchor = document.createElement("a");
-            anchor.href = link.url;
-            anchor.textContent = `${safe(link.label)} -> ${safe(link.url)}`;
-
-            const btn = document.createElement("button");
-            btn.type = "button";
-            btn.textContent = "Copy";
-
-            const marker = document.createElement("span");
-            marker.className = "ok";
-
-            btn.addEventListener("click", () => {
-              void copyText(link.url, marker);
-            });
-
-            row.appendChild(anchor);
-            row.appendChild(btn);
-            row.appendChild(marker);
-            list.appendChild(row);
-          });
-        }
-
-        card.appendChild(list);
-        frag.appendChild(card);
+        li.appendChild(button);
+        fragment.appendChild(li);
       });
 
-      root.appendChild(frag);
+      dom.characterList.appendChild(fragment);
     }
 
-    function applyFilter() {
-      const q = search.value.trim().toLowerCase();
-      state.filtered = state.characters.filter((c) => (c.name || "").toLowerCase().includes(q));
-      render();
+    function renderSnapshotList() {
+      dom.snapshotList.innerHTML = "";
+      const visibleSnapshots = getVisibleSnapshots();
+      const tagTerm = getTagFilterTerm();
+      dom.snapshotCount.textContent = String(visibleSnapshots.length);
+
+      if (!state.selectedCharacter) {
+        dom.timelineHeader.innerHTML = '<div class="muted">Select a character to browse snapshots.</div>';
+        return;
+      }
+
+      dom.timelineHeader.innerHTML = `
+        <div class="name-line">
+          <span>${safeText(state.selectedCharacter.name)}</span>
+          <span class="muted">${safeText(state.selectedCharacter.class, "Unknown")}</span>
+        </div>
+        <div class="snapshot-meta">
+          <span>Latest: ${formatDate(state.selectedCharacter.lastUpdated)}</span>
+          ${tagTerm ? `<span>Tag: ${safeText(dom.tagInput.value.trim())}</span>` : ""}
+        </div>
+      `;
+
+      if (visibleSnapshots.length === 0) {
+        const empty = document.createElement("li");
+        empty.className = "message";
+        empty.textContent = tagTerm
+          ? "No snapshots match this tag filter for this character."
+          : "No snapshots found for this character.";
+        dom.snapshotList.appendChild(empty);
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+
+      visibleSnapshots.forEach((snapshot) => {
+        const li = document.createElement("li");
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "snapshot-row";
+
+        if (state.selectedSnapshot && state.selectedSnapshot.timestamp === snapshot.timestamp) {
+          button.classList.add("active");
+        }
+
+        const level = snapshot && snapshot.data && snapshot.data.Stats ? snapshot.data.Stats.Level : "?";
+        const label = snapshot.metadata && snapshot.metadata.automatic === false ? "Milestone" : "Auto";
+
+        button.innerHTML = `
+          <div class="name-line">
+            <span>${formatDate(snapshot.timestamp)}</span>
+            <span class="muted">Lv ${safeText(level)}</span>
+          </div>
+          <div class="snapshot-meta">
+            <span>${label}</span>
+            <span>${summarizeChanges(snapshot)}</span>
+          </div>
+        `;
+
+        button.addEventListener("click", () => {
+          selectSnapshotByKey(getSnapshotKey(snapshot));
+        });
+
+        li.appendChild(button);
+        fragment.appendChild(li);
+      });
+
+      dom.snapshotList.appendChild(fragment);
+    }
+
+    function getSkillRows(snapshot) {
+      const data = snapshot && snapshot.data ? snapshot.data : {};
+      const tabs = Array.isArray(data.SkillTabs) ? data.SkillTabs : [];
+      const rows = [];
+
+      tabs.forEach((tab) => {
+        const skills = Array.isArray(tab.Skills) ? tab.Skills : [];
+        skills.forEach((skill) => {
+          if (!skill || typeof skill !== "object") {
+            return;
+          }
+          rows.push({
+            name: skill.Name || "Unknown",
+            level: typeof skill.Level === "number" ? skill.Level : skill.Level || "?",
+            tab: tab.Name || ""
+          });
+        });
+      });
+
+      rows.sort((a, b) => Number(b.level) - Number(a.level));
+      return rows.slice(0, 12);
+    }
+
+    function getGearTitles(snapshot) {
+      const data = snapshot && snapshot.data ? snapshot.data : {};
+      const equipped = Array.isArray(data.Equipped) ? data.Equipped : [];
+
+      return equipped
+        .filter((item) => item && typeof item === "object")
+        .map((item) => ({
+          worn: item.Worn || "slot",
+          title: item.Title || "Unknown item"
+        }))
+        .sort((a, b) => a.worn.localeCompare(b.worn));
+    }
+
+    function renderSnapshotDetail() {
+      if (!state.selectedSnapshot) {
+        dom.detailRoot.innerHTML = '<div class="message">Select a snapshot from the timeline.</div>';
+        dom.statusPill.textContent = "Idle";
+        return;
+      }
+
+      const snapshot = state.selectedSnapshot;
+      const data = snapshot.data || {};
+      const stats = data.Stats || {};
+      const bonus = data.Bonus || {};
+      const metadata = snapshot.metadata || {};
+      const changes = snapshot.changes || {};
+
+      const changeChips = [];
+
+      const addedSkills = Array.isArray(changes.skills_added) ? changes.skills_added.length : 0;
+      const removedSkills = Array.isArray(changes.skills_removed) ? changes.skills_removed.length : 0;
+      const updatedSkills = Array.isArray(changes.skills_updated) ? changes.skills_updated.length : 0;
+      const addedGear = Array.isArray(changes.equipped_added) ? changes.equipped_added.length : 0;
+      const removedGear = Array.isArray(changes.equipped_removed) ? changes.equipped_removed.length : 0;
+
+      if (addedSkills > 0) {
+        changeChips.push(`<span class="change-chip good">+${addedSkills} new skills</span>`);
+      }
+      if (removedSkills > 0) {
+        changeChips.push(`<span class="change-chip bad">-${removedSkills} removed skills</span>`);
+      }
+      if (updatedSkills > 0) {
+        changeChips.push(`<span class="change-chip">${updatedSkills} skill level updates</span>`);
+      }
+      if (addedGear > 0) {
+        changeChips.push(`<span class="change-chip good">+${addedGear} gear changes in</span>`);
+      }
+      if (removedGear > 0) {
+        changeChips.push(`<span class="change-chip bad">-${removedGear} gear changes out</span>`);
+      }
+      if (changeChips.length === 0) {
+        changeChips.push('<span class="change-chip">No tracked changes</span>');
+      }
+
+      const skills = getSkillRows(snapshot);
+      const gear = getGearTitles(snapshot);
+
+      const skillsHtml = skills.length
+        ? skills.map((row) => `<li class="stat-row"><span>${row.name}</span><span>${safeText(row.level)} (${safeText(row.tab, "-")})</span></li>`).join("")
+        : "<li class=\"muted\">No skill data.</li>";
+
+      const gearHtml = gear.length
+        ? gear.map((item) => `<li class="stat-row"><span>${safeText(item.worn)}</span><span>${safeText(item.title)}</span></li>`).join("")
+        : "<li class=\"muted\">No equipment data.</li>";
+
+      dom.detailRoot.innerHTML = `
+        <div class="hero">
+          <h1>${safeText(data.Name, safeText(state.selectedCharacter && state.selectedCharacter.name))}</h1>
+          <small>${formatDate(snapshot.timestamp)}</small>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi"><span class="label">Class</span><span class="value">${safeText(data.Class)}</span></div>
+          <div class="kpi"><span class="label">Level</span><span class="value">${safeText(stats.Level, "?")}</span></div>
+          <div class="kpi"><span class="label">Life / Mana</span><span class="value">${safeText(stats.Life, "?")} / ${safeText(stats.Mana, "?")}</span></div>
+          <div class="kpi"><span class="label">Snapshot Type</span><span class="value">${metadata.automatic === false ? "Milestone" : "Automatic"}</span></div>
+        </div>
+
+        <div style="margin-bottom: 12px;">${changeChips.join("")}</div>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
+          <span class="badge">Hardcore: ${data.IsHardcore ? "Yes" : "No"}</span>
+          <span class="badge">Ladder: ${data.IsLadder ? "Yes" : "No"}</span>
+          <span class="badge">Dead: ${data.IsDead ? "Yes" : "No"}</span>
+          <span class="badge">Favorite: ${metadata.favorite ? "Yes" : "No"}</span>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Attributes</h3>
+            <ul class="stat-list">
+              <li class="stat-row"><span>Strength</span><span>${safeText(stats.Strength, "?")} (+${safeText(bonus.Strength, 0)})</span></li>
+              <li class="stat-row"><span>Dexterity</span><span>${safeText(stats.Dexterity, "?")} (+${safeText(bonus.Dexterity, 0)})</span></li>
+              <li class="stat-row"><span>Vitality</span><span>${safeText(stats.Vitality, "?")} (+${safeText(bonus.Vitality, 0)})</span></li>
+              <li class="stat-row"><span>Energy</span><span>${safeText(stats.Energy, "?")} (+${safeText(bonus.Energy, 0)})</span></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Resistances</h3>
+            <ul class="stat-list">
+              <li class="stat-row"><span>Fire</span><span>${safeText(bonus.FireResistance, 0)}%</span></li>
+              <li class="stat-row"><span>Cold</span><span>${safeText(bonus.ColdResistance, 0)}%</span></li>
+              <li class="stat-row"><span>Lightning</span><span>${safeText(bonus.LightningResistance, 0)}%</span></li>
+              <li class="stat-row"><span>Poison</span><span>${safeText(bonus.PoisonResistance, 0)}%</span></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Top Skills</h3>
+            <ul class="flat-list">${skillsHtml}</ul>
+          </article>
+
+          <article class="card">
+            <h3>Equipped Titles</h3>
+            <ul class="flat-list">${gearHtml}</ul>
+          </article>
+
+          <article class="card">
+            <h3>Notes</h3>
+            <ul class="flat-list">
+              <li><strong>Title:</strong> ${safeText(metadata.title, "(none)")}</li>
+              <li><strong>Description:</strong> ${safeText(metadata.description, "(none)")}</li>
+              <li><strong>Journal:</strong> ${safeText(metadata.journal, "(none)")}</li>
+              <li><strong>Tags:</strong> ${Array.isArray(metadata.tags) && metadata.tags.length ? metadata.tags.join(", ") : "(none)"}</li>
+            </ul>
+          </article>
+        </div>
+      `;
+
+      dom.statusPill.textContent = metadata.automatic === false ? "Milestone" : "Snapshot";
+    }
+
+    function selectSnapshotByKey(key) {
+      const snap = getVisibleSnapshots().find((item) => {
+        const snapshotKey = getSnapshotKey(item);
+        return snapshotKey === key || item.timestamp === key;
+      });
+      if (!snap) {
+        return;
+      }
+
+      state.selectedSnapshot = snap;
+      renderSnapshotList();
+      renderSnapshotDetail();
+      updateParams(
+        state.selectedCharacter ? state.selectedCharacter.name : null,
+        getSnapshotKey(snap)
+      );
+    }
+
+    async function selectCharacter(characterName) {
+      const character = state.characters.find((item) => item.name === characterName);
+      if (!character) {
+        return;
+      }
+
+      state.selectedCharacter = character;
+      state.selectedSnapshot = null;
+      state.snapshots = [];
+      renderCharacterList();
+      renderSnapshotList();
+      renderSnapshotDetail();
+      dom.statusPill.textContent = "Loading";
+
+      try {
+        const response = await fetch(`./snapshots/${character.name.toLowerCase()}.json`, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const payload = await response.json();
+        const archive = normalizeArchivePayload(payload, character.name);
+
+        state.selectedArchive = archive;
+        state.snapshots = archive.snapshots
+          .slice()
+          .sort((a, b) => String(b.timestamp || "").localeCompare(String(a.timestamp || "")));
+
+        const params = readParams();
+        const visibleSnapshots = getVisibleSnapshots();
+        const byUrl = params.timestamp
+          ? visibleSnapshots.find((item) => {
+              const snapshotKey = getSnapshotKey(item);
+              return snapshotKey === params.timestamp || item.timestamp === params.timestamp;
+            })
+          : null;
+
+        if (byUrl) {
+          state.selectedSnapshot = byUrl;
+        } else {
+          state.selectedSnapshot = visibleSnapshots[0] || null;
+        }
+
+        renderSnapshotList();
+        renderSnapshotDetail();
+
+        updateParams(
+          character.name,
+          state.selectedSnapshot ? getSnapshotKey(state.selectedSnapshot) : null
+        );
+      } catch (error) {
+        dom.snapshotList.innerHTML = "<li class=\"message\">Unable to load snapshot file for this character.</li>";
+        dom.detailRoot.innerHTML = `<div class=\"message\">Load error: ${safeText(error && error.message ? error.message : "unknown")}</div>`;
+        dom.statusPill.textContent = "Error";
+      }
+    }
+
+    async function handleFiltersChanged() {
+      applyCharacterFilter();
+
+      if (state.filteredCharacters.length === 0) {
+        state.selectedCharacter = null;
+        state.selectedArchive = null;
+        state.snapshots = [];
+        state.selectedSnapshot = null;
+        renderCharacterList();
+        renderSnapshotList();
+        renderSnapshotDetail();
+        updateParams(null, null);
+        dom.statusPill.textContent = "Ready";
+        return;
+      }
+
+      const selectedVisible = state.selectedCharacter
+        ? state.filteredCharacters.some((character) => character.name === state.selectedCharacter.name)
+        : false;
+
+      if (!selectedVisible) {
+        await selectCharacter(state.filteredCharacters[0].name);
+        return;
+      }
+
+      ensureSelectedSnapshotVisible();
+      renderCharacterList();
+      renderSnapshotList();
+      renderSnapshotDetail();
+      updateParams(
+        state.selectedCharacter ? state.selectedCharacter.name : null,
+        state.selectedSnapshot ? getSnapshotKey(state.selectedSnapshot) : null
+      );
+    }
+
+    function bindEvents() {
+      dom.searchInput.addEventListener("input", () => {
+        void handleFiltersChanged();
+      });
+      dom.tagInput.addEventListener("input", () => {
+        void handleFiltersChanged();
+      });
     }
 
     async function boot() {
-      search.addEventListener("input", applyFilter);
+      bindEvents();
+      dom.statusPill.textContent = "Loading";
 
       try {
         const response = await fetch("./index.json", { cache: "no-store" });
@@ -327,15 +1018,34 @@
           throw new Error(`HTTP ${response.status}`);
         }
 
-        const data = await response.json();
-        const characters = Array.isArray(data.characters) ? data.characters.slice() : [];
-        characters.sort((a, b) => String(a.name || "").localeCompare(String(b.name || "")));
+        state.index = await response.json();
+        const characters = Array.isArray(state.index.characters) ? state.index.characters.slice() : [];
+
+        characters.sort((a, b) => {
+          const aTime = String(a && a.lastUpdated ? a.lastUpdated : "");
+          const bTime = String(b && b.lastUpdated ? b.lastUpdated : "");
+          return bTime.localeCompare(aTime);
+        });
 
         state.characters = characters;
-        state.filtered = characters.slice();
-        render();
+        applyCharacterFilter();
+        renderCharacterList();
+
+        const params = readParams();
+        const fromUrl = params.character
+          ? state.characters.find((item) => item.name.toLowerCase() === params.character.toLowerCase())
+          : null;
+
+        if (fromUrl) {
+          await selectCharacter(fromUrl.name);
+        } else if (state.characters[0]) {
+          await selectCharacter(state.characters[0].name);
+        } else {
+          dom.statusPill.textContent = "Ready";
+        }
       } catch (error) {
-        root.innerHTML = `<div class="empty">Unable to load index.json: ${safe(error && error.message ? error.message : "unknown")}</div>`;
+        dom.detailRoot.innerHTML = `<div class=\"message\">Unable to load index.json: ${safeText(error && error.message ? error.message : "unknown")}</div>`;
+        dom.statusPill.textContent = "Error";
       }
     }
 

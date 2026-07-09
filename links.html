@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PoD Character Archive Links</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #000000;
+      --bg-soft: #141414;
+      --card: #1a1a1a;
+      --ink: #e2e2e2;
+      --muted: #a7a7a7;
+      --accent: #c0a080;
+      --line: #333333;
+      --ok: #9ad1ac;
+      --shadow: rgba(0, 0, 0, 0.45);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 15% 0%, #1c1c1c 0%, transparent 35%),
+        radial-gradient(circle at 90% 0%, #101010 0%, transparent 28%),
+        linear-gradient(165deg, #000000, #0a0a0a 48%, #111111);
+      font-family: "IBM Plex Sans", sans-serif;
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .hero {
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      margin: 0 0 6px;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(1.3rem, 2.5vw, 2rem);
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 10px;
+      margin: 14px 0 18px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      white-space: nowrap;
+    }
+
+    .toggle input {
+      width: 16px;
+      height: 16px;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    input[type="search"] {
+      flex: 1;
+      min-width: 220px;
+      background: rgba(16, 16, 16, 0.95);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      border-radius: 10px;
+      padding: 10px 12px;
+      outline: none;
+    }
+
+    .pill {
+      display: inline-block;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 3px 9px;
+    }
+
+    .char-card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: linear-gradient(155deg, rgba(24, 24, 24, 0.96), rgba(10, 10, 10, 0.96));
+      margin-bottom: 14px;
+      box-shadow: 0 10px 24px var(--shadow);
+      overflow: hidden;
+    }
+
+    .char-head {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(58, 58, 58, 0.8);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .char-head .name {
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      max-height: 360px;
+      overflow: auto;
+    }
+
+    .link-row {
+      padding: 10px 14px;
+      border-top: 1px solid rgba(55, 55, 55, 0.75);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .link-row a {
+      color: #e5e5e5;
+      text-decoration: none;
+      word-break: break-all;
+      font-size: 0.9rem;
+    }
+
+    .link-row a:hover {
+      text-decoration: underline;
+      text-decoration-color: var(--accent);
+    }
+
+    .link-main {
+      min-width: 0;
+    }
+
+    .link-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .tag-chip {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #4a4a4a;
+      background: #121212;
+      border-radius: 999px;
+      padding: 2px 8px;
+      color: var(--muted);
+      font-size: 0.72rem;
+      line-height: 1.2;
+    }
+
+    button {
+      border: 1px solid var(--line);
+      color: var(--ink);
+      background: rgba(26, 26, 26, 0.95);
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: var(--accent);
+    }
+
+    .ok {
+      color: var(--ok);
+      font-size: 0.76rem;
+      min-width: 26px;
+      text-align: right;
+    }
+
+    .empty {
+      color: var(--muted);
+      padding: 14px;
+      border: 1px dashed var(--line);
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 780px) {
+      .link-row {
+        grid-template-columns: 1fr;
+      }
+      .ok {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <h1>PoD Character Archive Link Library</h1>
+      <p>All shareable snapshot links by character. Copy and send in one click.</p>
+    </header>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Filter characters by name">
+      <input id="tagSearch" type="search" placeholder="Filter links by tag">
+      <label class="toggle" for="milestonesOnly">
+        <input id="milestonesOnly" type="checkbox">
+        <span>Milestones only</span>
+      </label>
+      <span id="count" class="pill">0 characters</span>
+    </div>
+
+    <section id="root"></section>
+  </main>
+
+  <script>
+    "use strict";
+
+    const state = {
+      characters: [],
+      filtered: [],
+      milestonesOnly: false,
+      tagTerm: ""
+    };
+
+    const root = document.getElementById("root");
+    const search = document.getElementById("search");
+    const tagSearch = document.getElementById("tagSearch");
+    const count = document.getElementById("count");
+    const milestoneToggle = document.getElementById("milestonesOnly");
+
+    function safe(value, fallback = "-") {
+      if (value === null || value === undefined || value === "") {
+        return fallback;
+      }
+      return String(value);
+    }
+
+    function fmtDate(value) {
+      if (!value) {
+        return "Unknown";
+      }
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) {
+        return value;
+      }
+      return date.toLocaleString();
+    }
+
+    function normalizeTags(rawValue) {
+      if (Array.isArray(rawValue)) {
+        return rawValue
+          .map((tag) => String(tag || "").trim())
+          .filter((tag) => tag.length > 0);
+      }
+
+      if (typeof rawValue === "string" && rawValue.trim()) {
+        return rawValue
+          .split(",")
+          .map((tag) => tag.trim())
+          .filter((tag) => tag.length > 0);
+      }
+
+      return [];
+    }
+
+    function linkMatchesTag(link) {
+      if (!state.tagTerm) {
+        return true;
+      }
+
+      return normalizeTags(link && link.tags).some((tag) => tag.toLowerCase().includes(state.tagTerm));
+    }
+
+    async function copyText(text, marker) {
+      try {
+        await navigator.clipboard.writeText(text);
+        marker.textContent = "copied";
+      } catch (_error) {
+        marker.textContent = "fail";
+      }
+      setTimeout(() => {
+        marker.textContent = "";
+      }, 1200);
+    }
+
+    function normalizeLinks(character) {
+      const links = Array.isArray(character.snapshotLinks) ? character.snapshotLinks.slice() : [];
+      return links.filter((item) => {
+        if (!item || typeof item !== "object" || !item.url) {
+          return false;
+        }
+
+        if (!state.milestonesOnly) {
+          return linkMatchesTag(item);
+        }
+
+        return item.automatic === false && linkMatchesTag(item);
+      });
+    }
+
+    function render() {
+      root.innerHTML = "";
+      count.textContent = `${state.filtered.length} characters`;
+
+      if (!state.filtered.length) {
+        root.innerHTML = '<div class="empty">No matching characters.</div>';
+        return;
+      }
+
+      const frag = document.createDocumentFragment();
+
+      state.filtered.forEach((character) => {
+        const card = document.createElement("article");
+        card.className = "char-card";
+
+        const links = normalizeLinks(character);
+
+        const head = document.createElement("div");
+        head.className = "char-head";
+        head.innerHTML = `
+          <div class="name">${safe(character.name)}</div>
+          <div class="meta">
+            ${safe(character.class, "Unknown")} | Lv ${safe(character.level, "?")} | ${links.length} links | Updated ${fmtDate(character.lastUpdated)}
+          </div>
+        `;
+
+        card.appendChild(head);
+
+        const list = document.createElement("ul");
+        list.className = "links";
+
+        if (!links.length) {
+          const row = document.createElement("li");
+          row.className = "link-row";
+          row.innerHTML = '<span class="meta">No links yet for this character.</span>';
+          list.appendChild(row);
+        } else {
+          links.forEach((link) => {
+            const row = document.createElement("li");
+            row.className = "link-row";
+            const tagValues = normalizeTags(link.tags);
+
+            const main = document.createElement("div");
+            main.className = "link-main";
+
+            const anchor = document.createElement("a");
+            anchor.href = link.url;
+            anchor.textContent = `${safe(link.label)} -> ${safe(link.url)}`;
+            main.appendChild(anchor);
+
+            if (tagValues.length) {
+              const tags = document.createElement("div");
+              tags.className = "link-tags";
+
+              tagValues.forEach((tag) => {
+                const chip = document.createElement("span");
+                chip.className = "tag-chip";
+                chip.textContent = tag;
+                tags.appendChild(chip);
+              });
+
+              main.appendChild(tags);
+            }
+
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.textContent = "Copy";
+
+            const marker = document.createElement("span");
+            marker.className = "ok";
+
+            btn.addEventListener("click", () => {
+              void copyText(link.url, marker);
+            });
+
+            row.appendChild(main);
+            row.appendChild(btn);
+            row.appendChild(marker);
+            list.appendChild(row);
+          });
+        }
+
+        card.appendChild(list);
+        frag.appendChild(card);
+      });
+
+      root.appendChild(frag);
+    }
+
+    function applyFilter() {
+      const q = search.value.trim().toLowerCase();
+      state.tagTerm = tagSearch.value.trim().toLowerCase();
+      state.milestonesOnly = Boolean(milestoneToggle && milestoneToggle.checked);
+      state.filtered = state.characters.filter((character) => {
+        if (!(character.name || "").toLowerCase().includes(q)) {
+          return false;
+        }
+
+        if (!state.milestonesOnly && !state.tagTerm) {
+          return true;
+        }
+
+        return normalizeLinks(character).length > 0;
+      });
+      render();
+    }
+
+    async function boot() {
+      search.addEventListener("input", applyFilter);
+      tagSearch.addEventListener("input", applyFilter);
+      if (milestoneToggle) {
+        milestoneToggle.addEventListener("change", applyFilter);
+      }
+
+      try {
+        const response = await fetch("./index.json", { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const data = await response.json();
+        const characters = Array.isArray(data.characters) ? data.characters.slice() : [];
+        characters.sort((a, b) => String(a.name || "").localeCompare(String(b.name || "")));
+
+        state.characters = characters;
+        state.filtered = characters.slice();
+        render();
+      } catch (error) {
+        root.innerHTML = `<div class="empty">Unable to load index.json: ${safe(error && error.message ? error.message : "unknown")}</div>`;
+      }
+    }
+
+    void boot();
+  </script>
+</body>
+</html>
