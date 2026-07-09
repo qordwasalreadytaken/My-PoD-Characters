@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-09T02:17:35.608148Z",
+  "generated": "2026-07-09T06:19:21.804070Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -118,12 +118,22 @@
     {
       "name": "madris",
       "class": "Sorceress",
-      "level": 82,
-      "latestSnapshot": null,
-      "snapshotCount": 10,
+      "level": 86,
+      "latestSnapshot": "0323ba8b",
+      "snapshotCount": 11,
       "milestoneCount": 0,
-      "lastUpdated": "2026-06-21T06:16:40.325483Z",
+      "lastUpdated": "2026-07-09T06:19:21.629653Z",
       "snapshotLinks": [
+        {
+          "label": "2026-07-09T06:19:21.629653Z",
+          "key": "0323ba8b",
+          "timestamp": "2026-07-09T06:19:21.629653Z",
+          "id": "0323ba8b",
+          "title": null,
+          "automatic": true,
+          "url": "character.html?c=madris&t=0323ba8b",
+          "canonicalUrl": "character.html?c=madris&t=2026-07-09T06%3A19%3A21.629653Z"
+        },
         {
           "label": "2026-06-21T06:16:40.325483Z",
           "key": "2026-06-21T06:16:40.325483Z",
