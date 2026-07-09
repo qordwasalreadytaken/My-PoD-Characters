@@ -28,7 +28,28 @@ class CharacterArchive:
             }
 
         with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            payload = json.load(f)
+
+        # Backward compatibility: older files stored a raw snapshot array.
+        if isinstance(payload, list):
+            return {
+                "version": ARCHIVE_VERSION,
+                "character": character,
+                "snapshots": payload
+            }
+
+        if isinstance(payload, dict):
+            payload.setdefault("version", ARCHIVE_VERSION)
+            payload.setdefault("character", character)
+            payload.setdefault("snapshots", [])
+            return payload
+
+        # Fallback for corrupted/unknown payload types.
+        return {
+            "version": ARCHIVE_VERSION,
+            "character": character,
+            "snapshots": []
+        }
 
 
     def update_summary(self, archive):
@@ -46,15 +67,17 @@ class CharacterArchive:
             return
 
         latest = snapshots[-1]
+        latest_data = latest.get("data", {})
+        latest_stats = latest_data.get("Stats", {})
 
         archive["summary"] = {
-            "class": latest["data"].get("Class"),
-            "level": latest["data"]["Stats"].get("Level"),
+            "class": latest_data.get("Class"),
+            "level": latest_stats.get("Level", 0),
             "latestSnapshot": latest["id"],
             "snapshotCount": len(snapshots),
             "milestoneCount": sum(
                 1 for s in snapshots
-                if not s["metadata"]["automatic"]
+                if not s.get("metadata", {}).get("automatic", True)
             ),
             "lastUpdated": latest["timestamp"]
         }
@@ -83,6 +106,7 @@ class CharacterArchive:
         description=None,
         journal=None,
         tags=None,
+        slug=None,
         favorite=False,
         always_create=False
     ):
@@ -90,8 +114,8 @@ class CharacterArchive:
 
         if last and not always_create:
             changed, changes = self.compare(
-                last["data"],
-                character_data
+                character_data,
+                last["data"]
             )
 
             if not changed:
@@ -118,6 +142,7 @@ class CharacterArchive:
                 "description": description,
                 "journal": journal,
                 "tags": tags or [],
+                "slug": slug,
                 "favorite": favorite
             },
 
