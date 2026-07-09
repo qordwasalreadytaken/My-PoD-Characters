@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-09T01:30:33.310005Z",
+  "generated": "2026-07-09T01:56:32.385262Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -8,11 +8,21 @@
       "name": "hardqord",
       "class": "Sorceress",
       "level": 30,
-      "latestSnapshot": null,
-      "snapshotCount": 9,
-      "milestoneCount": 0,
-      "lastUpdated": "2026-07-08T06:35:07.233844Z",
+      "latestSnapshot": "5f5fc959",
+      "snapshotCount": 10,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-09T01:56:32.368274Z",
       "snapshotLinks": [
+        {
+          "label": "Just Cleared Normal",
+          "key": "nm",
+          "timestamp": "2026-07-09T01:56:32.368274Z",
+          "id": "5f5fc959",
+          "title": "Just Cleared Normal",
+          "automatic": false,
+          "url": "character.html?c=hardqord&t=nm",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-09T01%3A56%3A32.368274Z"
+        },
         {
           "label": "2026-07-08T06:35:07.233844Z",
           "key": "2026-07-08T06:35:07.233844Z",
