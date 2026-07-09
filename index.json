@@ -1,10 +1,6 @@
 {
   "version": 1,
-<<<<<<< HEAD
-  "generated": "2026-07-09T06:19:21.804070Z",
-=======
-  "generated": "2026-07-09T11:07:54.509151Z",
->>>>>>> 2af5acd (tag searching, html changes/renaing)
+  "generated": "2026-07-09T11:19:34.409416Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -148,6 +144,7 @@
           "timestamp": "2026-07-09T06:19:21.629653Z",
           "id": "0323ba8b",
           "title": null,
+          "tags": [],
           "automatic": true,
           "url": "character.html?c=madris&t=0323ba8b",
           "canonicalUrl": "character.html?c=madris&t=2026-07-09T06%3A19%3A21.629653Z"
@@ -265,6 +262,28 @@
       ]
     },
     {
+      "name": "necrosallsuck",
+      "class": "Necromancer",
+      "level": 46,
+      "latestSnapshot": "36f1ae66",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-09T11:19:34.405985Z",
+      "snapshotLinks": [
+        {
+          "label": "First snapshot",
+          "key": "first-snapshot",
+          "timestamp": "2026-07-09T11:19:34.405985Z",
+          "id": "36f1ae66",
+          "title": "First snapshot",
+          "tags": [],
+          "automatic": false,
+          "url": "character.html?c=necrosallsuck&t=first-snapshot",
+          "canonicalUrl": "character.html?c=necrosallsuck&t=2026-07-09T11%3A19%3A34.405985Z"
+        }
+      ]
+    },
+    {
       "name": "sorcsallsuck",
       "class": "Sorceress",
       "level": 88,
@@ -279,6 +298,7 @@
           "timestamp": "2026-07-09T02:17:35.604333Z",
           "id": "4a4204f6",
           "title": "First snapshot",
+          "tags": [],
           "automatic": false,
           "url": "character.html?c=sorcsallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=sorcsallsuck&t=2026-07-09T02%3A17%3A35.604333Z"
