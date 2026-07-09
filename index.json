@@ -1,9 +1,34 @@
 {
   "version": 1,
-  "generated": "2026-07-09T11:19:34.409416Z",
+  "generated": "2026-07-09T11:37:34.993094Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
+    {
+      "name": "alsace",
+      "class": "Necromancer",
+      "level": 67,
+      "latestSnapshot": "076fe3b7",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-09T11:37:34.990729Z",
+      "snapshotLinks": [
+        {
+          "label": "First snapshot",
+          "key": "first-snapshot",
+          "timestamp": "2026-07-09T11:37:34.990729Z",
+          "id": "076fe3b7",
+          "title": "First snapshot",
+          "tags": [
+            "hemo",
+            "necro"
+          ],
+          "automatic": false,
+          "url": "character.html?c=alsace&t=first-snapshot",
+          "canonicalUrl": "character.html?c=alsace&t=2026-07-09T11%3A37%3A34.990729Z"
+        }
+      ]
+    },
     {
       "name": "hardqord",
       "class": "Sorceress",
