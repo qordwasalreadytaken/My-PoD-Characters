@@ -4,6 +4,110 @@
     <title>PoD Character Archive</title>
     <link rel="stylesheet" type="text/css" href="./css/pod.css" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <style>
+        #header {
+            gap: 10px;
+            padding-right: 12px;
+            flex-wrap: wrap;
+        }
+
+        #snapshotHeaderTitle {
+            padding-left: 20px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #bbb;
+            white-space: nowrap;
+        }
+
+        #snapshotFavoriteBadge {
+            display: none;
+            border: 1px solid #c0a080;
+            color: #c0a080;
+            border-radius: 999px;
+            padding: 3px 9px;
+            font-size: 0.75rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .snapshot-notes {
+            margin-bottom: 16px;
+        }
+
+        .snapshot-meta-box {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 6px;
+            padding: 10px;
+            color: #ddd;
+        }
+
+        #snapshotDescription,
+        #snapshotJournal {
+            white-space: pre-wrap;
+            margin-bottom: 14px;
+        }
+
+        #snapshotDescription {
+            min-height: 56px;
+        }
+
+        #snapshotJournal {
+            min-height: 96px;
+        }
+
+        #snapshotTags {
+            min-height: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: flex-start;
+        }
+
+        .snapshot-tag {
+            display: inline-block;
+            border: 1px solid #4a4a4a;
+            background: #121212;
+            border-radius: 999px;
+            padding: 3px 10px;
+            color: #d8d8d8;
+            font-size: 0.8rem;
+            line-height: 1.2;
+        }
+
+        .snapshot-tag-empty {
+            color: #9a9a9a;
+            font-size: 0.92rem;
+        }
+
+        @media (max-width: 880px) {
+            #header {
+                align-items: flex-start;
+                padding-top: 8px;
+            }
+
+            #snapshotHeaderTitle {
+                font-size: 1.08rem;
+                white-space: normal;
+                line-height: 1.3;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            #snapshotFavoriteBadge {
+                margin-left: 12px;
+                margin-bottom: 2px;
+            }
+
+            .snapshot-notes {
+                margin-bottom: 12px;
+            }
+
+            #snapshotJournal {
+                min-height: 72px;
+            }
+        }
+    </style>
 
 
 </head>
@@ -15,25 +119,26 @@
 <!--    <button onclick="retrieveCharacterData()" >Click me!</button> -->
 <div id="header" style="display:flex; align-items:center; min-height:48px;">
 
-    <div id="snapshotHeaderTitle" style="padding-left:20px; font-size:1.4rem; font-weight:bold; color:#bbb; white-space:nowrap;">
+    <div id="snapshotHeaderTitle">
         Snapshot
     </div>
+    <span id="snapshotFavoriteBadge">Favorite</span>
 
 </div>
         <div style="clear:both;"></div>
     </div>
     <div id="container">
     <div id="snaps">
-        <div style="margin-bottom: 16px;">
+        <div class="snapshot-notes">
             <div style="font-size: 1.05rem; font-weight: bold; color: #fff; margin-bottom: 10px;">Snapshot Notes</div>
             <div style="color:#bbb; font-size:.9rem; margin-bottom:8px;">Description</div>
-            <div id="snapshotDescription" style="background:#1a1a1a; border:1px solid #333; border-radius:6px; padding:10px; min-height:56px; white-space:pre-wrap; color:#ddd; margin-bottom:14px;">(none)</div>
+            <div id="snapshotDescription" class="snapshot-meta-box">(none)</div>
 
             <div style="color:#bbb; font-size:.9rem; margin-bottom:8px;">Journal</div>
-            <div id="snapshotJournal" style="background:#1a1a1a; border:1px solid #333; border-radius:6px; padding:10px; min-height:96px; white-space:pre-wrap; color:#ddd; margin-bottom:14px;">(none)</div>
+            <div id="snapshotJournal" class="snapshot-meta-box">(none)</div>
 
             <div style="color:#bbb; font-size:.9rem; margin-bottom:8px;">Tags</div>
-            <div id="snapshotTags" style="background:#1a1a1a; border:1px solid #333; border-radius:6px; padding:10px; min-height:40px; color:#ddd;">(none)</div>
+            <div id="snapshotTags" class="snapshot-meta-box"></div>
         </div>
     </div>
     
@@ -232,14 +337,32 @@ $(document).ready(function() {
             .replace(/^-|-$/g, '');
     }
 
+    function getSnapshotMetadata(snapshot) {
+        if (!snapshot || typeof snapshot !== 'object') {
+            return {};
+        }
+
+        if (snapshot.metadata && typeof snapshot.metadata === 'object') {
+            return snapshot.metadata;
+        }
+
+        if (snapshot.meta && typeof snapshot.meta === 'object') {
+            return snapshot.meta;
+        }
+
+        if (snapshot.data && typeof snapshot.data === 'object' && snapshot.data.metadata && typeof snapshot.data.metadata === 'object') {
+            return snapshot.data.metadata;
+        }
+
+        return {};
+    }
+
     function getSnapshotKey(snapshot) {
         if (!snapshot || typeof snapshot !== 'object') {
             return '';
         }
 
-        const metadata = snapshot.metadata && typeof snapshot.metadata === 'object'
-            ? snapshot.metadata
-            : {};
+        const metadata = getSnapshotMetadata(snapshot);
 
         if (typeof metadata.slug === 'string' && metadata.slug.trim()) {
             return slugify(metadata.slug);
@@ -257,9 +380,7 @@ $(document).ready(function() {
     }
 
     function setFocusMetadata(snapshot, fallbackName) {
-        const metadata = snapshot && snapshot.metadata && typeof snapshot.metadata === 'object'
-            ? snapshot.metadata
-            : {};
+        const metadata = getSnapshotMetadata(snapshot);
 
         const data = snapshot && snapshot.data && typeof snapshot.data === 'object'
             ? snapshot.data
@@ -277,13 +398,30 @@ $(document).ready(function() {
             ? metadata.journal
             : '(none)';
 
-        const tags = Array.isArray(metadata.tags) && metadata.tags.length > 0
-            ? metadata.tags.join(', ')
-            : '(none)';
+        let tagValues = [];
+        if (Array.isArray(metadata.tags)) {
+            tagValues = metadata.tags
+                .map((tag) => String(tag || '').trim())
+                .filter((tag) => tag.length > 0);
+        } else if (typeof metadata.tags === 'string' && metadata.tags.trim()) {
+            tagValues = metadata.tags
+                .split(',')
+                .map((tag) => tag.trim())
+                .filter((tag) => tag.length > 0);
+        }
 
         $('#snapshotDescription').text(description);
         $('#snapshotJournal').text(journal);
-        $('#snapshotTags').text(tags);
+
+        const tagsContainer = $('#snapshotTags');
+        tagsContainer.empty();
+        if (!tagValues.length) {
+            tagsContainer.append($('<span class="snapshot-tag-empty">(none)</span>'));
+        } else {
+            tagValues.forEach((tag) => {
+                tagsContainer.append($('<span class="snapshot-tag"></span>').text(tag));
+            });
+        }
 
         let fallbackTimestamp = snapshot.timestamp || 'Snapshot';
         if (typeof fallbackTimestamp === 'string' && fallbackTimestamp.length >= 10) {
@@ -295,6 +433,7 @@ $(document).ready(function() {
             : `${displayName} - ${fallbackTimestamp}`;
 
         $('#snapshotHeaderTitle').text(headerTitle);
+        $('#snapshotFavoriteBadge').toggle(metadata.favorite === true);
         document.title = `${displayName} - Archive`;
     }
 
@@ -344,9 +483,15 @@ $(document).ready(function() {
 
             let selected = null;
             if (keyOrTimestamp) {
+                const lookup = String(keyOrTimestamp).trim();
+                const normalizedLookup = lookup.toLowerCase();
                 selected = snapshots.find((snap) => {
-                    const key = getSnapshotKey(snap);
-                    return key === keyOrTimestamp || snap.timestamp === keyOrTimestamp;
+                    const key = String(getSnapshotKey(snap) || '').trim();
+                    const timestamp = String(snap.timestamp || '').trim();
+                    return key === lookup
+                        || key.toLowerCase() === normalizedLookup
+                        || timestamp === lookup
+                        || timestamp.toLowerCase() === normalizedLookup;
                 }) || null;
             }
 
@@ -354,8 +499,13 @@ $(document).ready(function() {
                 selected = snapshots[0];
             }
 
-            processCharacterData(selected.data);
             setFocusMetadata(selected, charName);
+
+            try {
+                processCharacterData(selected.data);
+            } catch (renderError) {
+                console.error('Snapshot UI render failed, but metadata loaded:', renderError);
+            }
 
             const params = new URLSearchParams(window.location.search);
             params.set('c', charName);
