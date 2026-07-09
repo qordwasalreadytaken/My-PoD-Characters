@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-09T11:37:34.993094Z",
+  "generated": "2026-07-09T11:45:18.002100Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -26,6 +26,28 @@
           "automatic": false,
           "url": "character.html?c=alsace&t=first-snapshot",
           "canonicalUrl": "character.html?c=alsace&t=2026-07-09T11%3A37%3A34.990729Z"
+        }
+      ]
+    },
+    {
+      "name": "crone",
+      "class": "Sorceress",
+      "level": 20,
+      "latestSnapshot": "2f0f0e29",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-09T11:45:17.998844Z",
+      "snapshotLinks": [
+        {
+          "label": "First snapshot",
+          "key": "first-snapshot",
+          "timestamp": "2026-07-09T11:45:17.998844Z",
+          "id": "2f0f0e29",
+          "title": "First snapshot",
+          "tags": [],
+          "automatic": false,
+          "url": "character.html?c=crone&t=first-snapshot",
+          "canonicalUrl": "character.html?c=crone&t=2026-07-09T11%3A45%3A17.998844Z"
         }
       ]
     },
