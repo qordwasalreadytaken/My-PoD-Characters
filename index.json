@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-09T01:56:32.385262Z",
+  "generated": "2026-07-09T02:17:35.608148Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -223,6 +223,27 @@
           "automatic": true,
           "url": "character.html?c=madris&t=2026-05-25T01%3A01%3A11.437842Z",
           "canonicalUrl": "character.html?c=madris&t=2026-05-25T01%3A01%3A11.437842Z"
+        }
+      ]
+    },
+    {
+      "name": "sorcsallsuck",
+      "class": "Sorceress",
+      "level": 88,
+      "latestSnapshot": "4a4204f6",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-09T02:17:35.604333Z",
+      "snapshotLinks": [
+        {
+          "label": "First snapshot",
+          "key": "first-snapshot",
+          "timestamp": "2026-07-09T02:17:35.604333Z",
+          "id": "4a4204f6",
+          "title": "First snapshot",
+          "automatic": false,
+          "url": "character.html?c=sorcsallsuck&t=first-snapshot",
+          "canonicalUrl": "character.html?c=sorcsallsuck&t=2026-07-09T02%3A17%3A35.604333Z"
         }
       ]
     }
