@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-10T11:37:08.502859Z",
+  "generated": "2026-07-10T11:41:46.561092Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1260,6 +1260,35 @@
           "automatic": false,
           "url": "character.html?c=sorcsallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=sorcsallsuck&t=2026-07-09T02%3A17%3A35.604333Z"
+        }
+      ]
+    },
+    {
+      "name": "teddyoneanddone",
+      "class": "Barbarian",
+      "level": 68,
+      "latestSnapshot": "2982ee4b",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-10T11:41:46.558537Z",
+      "tags": [
+        "Barb",
+        "HC"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "teddyoneanddone First snapshot",
+          "key": "teddyoneanddone-first-snapshot",
+          "timestamp": "2026-07-10T11:41:46.558537Z",
+          "id": "2982ee4b",
+          "title": "teddyoneanddone First snapshot",
+          "tags": [
+            "Barb",
+            "HC"
+          ],
+          "automatic": false,
+          "url": "character.html?c=teddyoneanddone&t=teddyoneanddone-first-snapshot",
+          "canonicalUrl": "character.html?c=teddyoneanddone&t=2026-07-10T11%3A41%3A46.558537Z"
         }
       ]
     }
