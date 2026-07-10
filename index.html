@@ -528,6 +528,12 @@
       <div class="section filters">
         <input id="searchInput" class="search" type="text" placeholder="Search by character name">
         <input id="tagInput" class="search" type="text" placeholder="Filter snapshots by tag">
+        <select id="characterSort" class="search" aria-label="Sort characters">
+          <option value="default">Sort: Default</option>
+          <option value="updated">Sort: Recently updated</option>
+          <option value="snapshots">Sort: Most snapshots</option>
+          <option value="alpha">Sort: A to Z</option>
+        </select>
       </div>
       <ul id="characterList" class="list"></ul>
     </section>
@@ -590,6 +596,7 @@
     const dom = {
       searchInput: document.getElementById("searchInput"),
       tagInput: document.getElementById("tagInput"),
+      characterSort: document.getElementById("characterSort"),
       characterList: document.getElementById("characterList"),
       snapshotList: document.getElementById("snapshotList"),
       detailRoot: document.getElementById("detailRoot"),
@@ -686,6 +693,10 @@
 
     function getTagFilterTerm() {
       return dom.tagInput.value.trim().toLowerCase();
+    }
+
+    function getCharacterSortMode() {
+      return dom.characterSort ? dom.characterSort.value : "default";
     }
 
     function slugify(value) {
@@ -979,6 +990,42 @@
         const name = (char.name || "").toLowerCase();
         return name.includes(term) && characterMatchesTag(char, tagTerm);
       });
+
+      const sortMode = getCharacterSortMode();
+
+      if (sortMode === "snapshots") {
+        state.filteredCharacters.sort((a, b) => {
+          const aCount = Number(a && a.snapshotCount ? a.snapshotCount : 0);
+          const bCount = Number(b && b.snapshotCount ? b.snapshotCount : 0);
+
+          if (bCount !== aCount) {
+            return bCount - aCount;
+          }
+
+          return String(a && a.name ? a.name : "").localeCompare(String(b && b.name ? b.name : ""));
+        });
+        return;
+      }
+
+      if (sortMode === "updated") {
+        state.filteredCharacters.sort((a, b) => {
+          const aTime = String(a && a.lastUpdated ? a.lastUpdated : "");
+          const bTime = String(b && b.lastUpdated ? b.lastUpdated : "");
+
+          if (bTime !== aTime) {
+            return bTime.localeCompare(aTime);
+          }
+
+          return String(a && a.name ? a.name : "").localeCompare(String(b && b.name ? b.name : ""));
+        });
+        return;
+      }
+
+      if (sortMode === "alpha") {
+        state.filteredCharacters.sort((a, b) => {
+          return String(a && a.name ? a.name : "").localeCompare(String(b && b.name ? b.name : ""));
+        });
+      }
     }
 
     function renderCharacterList() {
@@ -1401,6 +1448,9 @@
         void handleFiltersChanged();
       });
       dom.tagInput.addEventListener("input", () => {
+        void handleFiltersChanged();
+      });
+      dom.characterSort.addEventListener("change", () => {
         void handleFiltersChanged();
       });
       dom.quickviewButton.addEventListener("click", () => {
