@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-10T11:24:36.675030Z",
+  "generated": "2026-07-10T11:34:48.621803Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -739,6 +739,34 @@
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-05-18T17%3A33%3A58.573348Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-05-18T17%3A33%3A58.573348Z"
+        }
+      ]
+    },
+    {
+      "name": "hek_sor",
+      "class": "Sorceress",
+      "level": 61,
+      "latestSnapshot": "9480fa32",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-10T11:34:48.617972Z",
+      "tags": [
+        "Sorc"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "hek_sor First snapshot",
+          "key": "hek-sor-first-snapshot",
+          "timestamp": "2026-07-10T11:34:48.617972Z",
+          "id": "9480fa32",
+          "title": "hek_sor First snapshot",
+          "tags": [
+            "forb",
+            "Sorc"
+          ],
+          "automatic": false,
+          "url": "character.html?c=hek_sor&t=hek-sor-first-snapshot",
+          "canonicalUrl": "character.html?c=hek_sor&t=2026-07-10T11%3A34%3A48.617972Z"
         }
       ]
     },
