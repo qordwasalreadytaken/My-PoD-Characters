@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-10T11:34:48.621803Z",
+  "generated": "2026-07-10T11:36:11.704869Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -992,6 +992,35 @@
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-23T06%3A11%3A53.375057Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-23T06%3A11%3A53.375057Z"
+        }
+      ]
+    },
+    {
+      "name": "jazzminn",
+      "class": "Amazon",
+      "level": 79,
+      "latestSnapshot": "cd556633",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-10T11:36:11.701627Z",
+      "tags": [
+        "Ama",
+        "HC"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "jazzminn First snapshot",
+          "key": "jazzminn-first-snapshot",
+          "timestamp": "2026-07-10T11:36:11.701627Z",
+          "id": "cd556633",
+          "title": "jazzminn First snapshot",
+          "tags": [
+            "Ama",
+            "HC"
+          ],
+          "automatic": false,
+          "url": "character.html?c=jazzminn&t=jazzminn-first-snapshot",
+          "canonicalUrl": "character.html?c=jazzminn&t=2026-07-10T11%3A36%3A11.701627Z"
         }
       ]
     },
