@@ -8,9 +8,9 @@
       "metadata": {
         "automatic": false,
         "title": "First snapshot",
-        "description": null,
-        "journal": null,
-        "tags": [],
+        "description": "Voice of Reason melee sorc",
+        "journal": "Respec'd to support proc skills from Voice of Reason, it's not great",
+        "tags": ["sorc","frig"],
         "slug": null,
         "favorite": false
       },

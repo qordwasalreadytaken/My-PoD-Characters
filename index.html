@@ -86,6 +86,35 @@
       white-space: nowrap;
     }
 
+    .header-actions {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .quickview-btn {
+      border: 1px solid var(--line);
+      background: rgba(14, 14, 14, 0.9);
+      color: var(--accent-2);
+      border-radius: 999px;
+      padding: 5px 11px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: border-color 140ms ease, color 140ms ease, background 140ms ease;
+    }
+
+    .quickview-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(20, 20, 20, 0.96);
+    }
+
+    .quickview-btn:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
     .section {
       padding: 14px 16px;
     }
@@ -328,6 +357,121 @@
       padding: 16px;
     }
 
+    .quickview-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.72);
+      backdrop-filter: blur(1px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1200;
+      padding: 22px;
+    }
+
+    .quickview-modal.open {
+      display: flex;
+    }
+
+    .quickview-dialog {
+      width: min(1200px, 100%);
+      height: min(860px, 100%);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      background: #090909;
+      box-shadow: 0 22px 48px rgba(0, 0, 0, 0.62);
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+    }
+
+    .quickview-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, rgba(20, 20, 20, 0.98), rgba(18, 18, 18, 0.9));
+    }
+
+    .quickview-title {
+      margin: 0;
+      color: var(--accent-2);
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 0.92rem;
+      letter-spacing: 0.02em;
+    }
+
+    .quickview-toolbar-actions {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .quickview-nav {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .quickview-nav-btn {
+      border: 1px solid var(--line);
+      background: rgba(15, 15, 15, 0.92);
+      color: var(--ink);
+      border-radius: 8px;
+      width: 28px;
+      height: 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      cursor: pointer;
+      line-height: 1;
+      font-weight: 700;
+    }
+
+    .quickview-nav-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .quickview-nav-btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .quickview-nav-count {
+      color: var(--muted);
+      font-size: 0.8rem;
+      min-width: 56px;
+      text-align: center;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .quickview-close {
+      border: 1px solid var(--line);
+      background: rgba(15, 15, 15, 0.92);
+      color: var(--ink);
+      border-radius: 8px;
+      padding: 4px 9px;
+      cursor: pointer;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    .quickview-close:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .quickview-frame {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #000;
+    }
+
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -362,6 +506,15 @@
       .detail-panel {
         max-height: none;
       }
+
+      .quickview-dialog {
+        width: 100%;
+        height: 100%;
+      }
+
+      .quickview-modal {
+        padding: 8px;
+      }
     }
   </style>
 </head>
@@ -393,13 +546,33 @@
     <section class="panel detail-panel" aria-label="Snapshot detail">
       <header class="panel-header">
         <h2 class="panel-title">Snapshot Detail</h2>
-        <span id="statusPill" class="pill">Idle</span>
+        <div class="header-actions">
+          <button id="quickviewButton" class="quickview-btn" type="button" disabled>Archived Armory Quickview</button>
+          <span id="statusPill" class="pill">Idle</span>
+        </div>
       </header>
       <div id="detailRoot" class="detail">
         <div class="message">Pick a character on the left to start.</div>
       </div>
     </section>
   </main>
+
+  <div id="quickviewModal" class="quickview-modal" aria-hidden="true">
+    <div class="quickview-dialog" role="dialog" aria-modal="true" aria-label="Armory quickview">
+      <div class="quickview-toolbar">
+        <h3 id="quickviewTitle" class="quickview-title">Armory Quickview</h3>
+        <div class="quickview-toolbar-actions">
+          <div class="quickview-nav" aria-label="Snapshot navigation">
+            <button id="quickviewPrev" class="quickview-nav-btn" type="button" aria-label="Previous snapshot">&#8592;</button>
+            <span id="quickviewCount" class="quickview-nav-count">- / -</span>
+            <button id="quickviewNext" class="quickview-nav-btn" type="button" aria-label="Next snapshot">&#8594;</button>
+          </div>
+          <button id="quickviewClose" class="quickview-close" type="button">Close</button>
+        </div>
+      </div>
+      <iframe id="quickviewFrame" class="quickview-frame" title="Armory Quickview"></iframe>
+    </div>
+  </div>
 
   <script>
     "use strict";
@@ -423,7 +596,15 @@
       timelineHeader: document.getElementById("timelineHeader"),
       characterCount: document.getElementById("characterCount"),
       snapshotCount: document.getElementById("snapshotCount"),
-      statusPill: document.getElementById("statusPill")
+      statusPill: document.getElementById("statusPill"),
+      quickviewButton: document.getElementById("quickviewButton"),
+      quickviewModal: document.getElementById("quickviewModal"),
+      quickviewFrame: document.getElementById("quickviewFrame"),
+      quickviewClose: document.getElementById("quickviewClose"),
+      quickviewTitle: document.getElementById("quickviewTitle"),
+      quickviewPrev: document.getElementById("quickviewPrev"),
+      quickviewNext: document.getElementById("quickviewNext"),
+      quickviewCount: document.getElementById("quickviewCount")
     };
 
     function normalizeArchivePayload(payload, fallbackCharacterName) {
@@ -633,6 +814,99 @@
       }
 
       return url.toString();
+    }
+
+    function getArmoryQuickviewUrl() {
+      if (!state.selectedCharacter || !state.selectedSnapshot) {
+        return "";
+      }
+
+      const links = resolveSnapshotShareLinks(state.selectedCharacter, state.selectedSnapshot);
+      return links.shareUrl || links.canonicalUrl || "";
+    }
+
+    function syncQuickviewButtonState() {
+      const hasSelection = Boolean(state.selectedCharacter && state.selectedSnapshot);
+      if (dom.quickviewButton) {
+        dom.quickviewButton.disabled = !hasSelection;
+      }
+      syncQuickviewNavigationState();
+    }
+
+    function getSelectedSnapshotIndex() {
+      const visibleSnapshots = getVisibleSnapshots();
+      if (!visibleSnapshots.length || !state.selectedSnapshot) {
+        return { index: -1, total: visibleSnapshots.length };
+      }
+
+      const selectedKey = getSnapshotKey(state.selectedSnapshot);
+      const index = visibleSnapshots.findIndex((snapshot) => {
+        const key = getSnapshotKey(snapshot);
+        return key === selectedKey || snapshot.timestamp === state.selectedSnapshot.timestamp;
+      });
+
+      return { index, total: visibleSnapshots.length };
+    }
+
+    function syncQuickviewNavigationState() {
+      const position = getSelectedSnapshotIndex();
+      const hasSelection = position.index >= 0;
+
+      if (dom.quickviewCount) {
+        dom.quickviewCount.textContent = hasSelection
+          ? `${position.index + 1} / ${position.total}`
+          : "- / -";
+      }
+
+      if (dom.quickviewPrev) {
+        dom.quickviewPrev.disabled = !hasSelection || position.index <= 0;
+      }
+
+      if (dom.quickviewNext) {
+        dom.quickviewNext.disabled = !hasSelection || position.index >= position.total - 1;
+      }
+    }
+
+    function moveQuickviewSnapshot(step) {
+      const visibleSnapshots = getVisibleSnapshots();
+      if (!visibleSnapshots.length || !state.selectedSnapshot) {
+        return;
+      }
+
+      const position = getSelectedSnapshotIndex();
+      if (position.index < 0) {
+        return;
+      }
+
+      const nextIndex = position.index + step;
+      if (nextIndex < 0 || nextIndex >= visibleSnapshots.length) {
+        return;
+      }
+
+      const nextSnapshot = visibleSnapshots[nextIndex];
+      selectSnapshotByKey(getSnapshotKey(nextSnapshot));
+    }
+
+    function closeQuickview() {
+      dom.quickviewModal.classList.remove("open");
+      dom.quickviewModal.setAttribute("aria-hidden", "true");
+      dom.quickviewFrame.src = "about:blank";
+      syncQuickviewNavigationState();
+    }
+
+    function openQuickview() {
+      const url = getArmoryQuickviewUrl();
+      if (!url) {
+        return;
+      }
+
+      const labelName = safeText(state.selectedCharacter && state.selectedCharacter.name, "Unknown");
+      const labelTime = safeText(state.selectedSnapshot && state.selectedSnapshot.timestamp, "Unknown");
+      dom.quickviewTitle.textContent = `Armory Quickview - ${labelName} @ ${labelTime}`;
+      dom.quickviewFrame.src = url;
+      dom.quickviewModal.classList.add("open");
+      dom.quickviewModal.setAttribute("aria-hidden", "false");
+      syncQuickviewNavigationState();
     }
 
     function getCharacterLevel(character) {
@@ -867,6 +1141,7 @@
       if (!state.selectedSnapshot) {
         dom.detailRoot.innerHTML = '<div class="message">Select a snapshot from the timeline.</div>';
         dom.statusPill.textContent = "Idle";
+        syncQuickviewButtonState();
         return;
       }
 
@@ -941,6 +1216,34 @@
 
         <div class="grid">
           <article class="card">
+            <h3>Notes</h3>
+            <ul class="flat-list">
+              <li><strong>Title:</strong> ${safeText(metadata.title, "(none)")}</li>
+              <li><strong>Description:</strong> ${safeText(metadata.description, "(none)")}</li>
+              <li><strong>Journal:</strong> ${safeText(metadata.journal, "(none)")}</li>
+              <li><strong>Tags:</strong> ${Array.isArray(metadata.tags) && metadata.tags.length ? metadata.tags.join(", ") : "(none)"}</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Sharing URLs</h3>
+            <ul class="share-list">
+              <li>
+                <div class="share-label">Shareable Archive Armory link</div>
+                <a class="share-url" href="${shareLinks.shareUrl}" target="_blank" rel="noopener noreferrer">${shareLinks.shareUrl}</a>
+              </li>
+              <li>
+                <div class="share-label">Dashboard link</div>
+                <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
+              </li>
+<!--              <li>
+                <div class="share-label">Canonical viewer link</div>
+                <a class="share-url" href="${shareLinks.canonicalUrl}" target="_blank" rel="noopener noreferrer">${shareLinks.canonicalUrl}</a>
+              </li> --> 
+            </ul>
+          </article>
+
+          <article class="card">
             <h3>Attributes</h3>
             <ul class="stat-list">
               <li class="stat-row"><span>Strength</span><span>${safeText(stats.Strength, "?")} (+${safeText(bonus.Strength, 0)})</span></li>
@@ -969,38 +1272,11 @@
             <h3>Equipped Titles</h3>
             <ul class="flat-list">${gearHtml}</ul>
           </article>
-
-          <article class="card">
-            <h3>Notes</h3>
-            <ul class="flat-list">
-              <li><strong>Title:</strong> ${safeText(metadata.title, "(none)")}</li>
-              <li><strong>Description:</strong> ${safeText(metadata.description, "(none)")}</li>
-              <li><strong>Journal:</strong> ${safeText(metadata.journal, "(none)")}</li>
-              <li><strong>Tags:</strong> ${Array.isArray(metadata.tags) && metadata.tags.length ? metadata.tags.join(", ") : "(none)"}</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3>Sharing URLs</h3>
-            <ul class="share-list">
-              <li>
-                <div class="share-label">Shareable Archive Armory link</div>
-                <a class="share-url" href="${shareLinks.shareUrl}" target="_blank" rel="noopener noreferrer">${shareLinks.shareUrl}</a>
-              </li>
-              <li>
-                <div class="share-label">Dashboard link</div>
-                <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
-              </li>
-<!--              <li>
-                <div class="share-label">Canonical viewer link</div>
-                <a class="share-url" href="${shareLinks.canonicalUrl}" target="_blank" rel="noopener noreferrer">${shareLinks.canonicalUrl}</a>
-              </li> --> 
-            </ul>
-          </article>
         </div>
       `;
 
       dom.statusPill.textContent = metadata.automatic === false ? "Milestone" : "Snapshot";
+      syncQuickviewButtonState();
     }
 
     function selectSnapshotByKey(key) {
@@ -1019,6 +1295,10 @@
         state.selectedCharacter ? state.selectedCharacter.name : null,
         getSnapshotKey(snap)
       );
+
+      if (dom.quickviewModal.classList.contains("open")) {
+        openQuickview();
+      }
     }
 
     async function selectCharacter(characterName) {
@@ -1026,6 +1306,8 @@
       if (!character) {
         return;
       }
+
+      closeQuickview();
 
       state.selectedCharacter = character;
       state.selectedSnapshot = null;
@@ -1082,6 +1364,7 @@
       applyCharacterFilter();
 
       if (state.filteredCharacters.length === 0) {
+        closeQuickview();
         state.selectedCharacter = null;
         state.selectedArchive = null;
         state.snapshots = [];
@@ -1119,6 +1402,42 @@
       });
       dom.tagInput.addEventListener("input", () => {
         void handleFiltersChanged();
+      });
+      dom.quickviewButton.addEventListener("click", () => {
+        openQuickview();
+      });
+      dom.quickviewPrev.addEventListener("click", () => {
+        moveQuickviewSnapshot(-1);
+      });
+      dom.quickviewNext.addEventListener("click", () => {
+        moveQuickviewSnapshot(1);
+      });
+      dom.quickviewClose.addEventListener("click", () => {
+        closeQuickview();
+      });
+      dom.quickviewModal.addEventListener("click", (event) => {
+        if (event.target === dom.quickviewModal) {
+          closeQuickview();
+        }
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && dom.quickviewModal.classList.contains("open")) {
+          closeQuickview();
+          return;
+        }
+
+        if (!dom.quickviewModal.classList.contains("open")) {
+          return;
+        }
+
+        if (event.key === "ArrowLeft") {
+          moveQuickviewSnapshot(-1);
+          return;
+        }
+
+        if (event.key === "ArrowRight") {
+          moveQuickviewSnapshot(1);
+        }
       });
     }
 
