@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-09T11:58:11.516252Z",
+  "generated": "2026-07-10T06:18:58.176600Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -54,12 +54,23 @@
     {
       "name": "demonixxxx",
       "class": "Necromancer",
-      "level": 47,
-      "latestSnapshot": "3f8d3821",
-      "snapshotCount": 9,
+      "level": 48,
+      "latestSnapshot": "451d8139",
+      "snapshotCount": 10,
       "milestoneCount": 0,
-      "lastUpdated": "2026-07-09T11:58:09.016583Z",
+      "lastUpdated": "2026-07-10T06:18:57.120430Z",
       "snapshotLinks": [
+        {
+          "label": "2026-07-10T06:18:57.120430Z",
+          "key": "451d8139",
+          "timestamp": "2026-07-10T06:18:57.120430Z",
+          "id": "451d8139",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=demonixxxx&t=451d8139",
+          "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-10T06%3A18%3A57.120430Z"
+        },
         {
           "label": "2026-07-09T11:58:09.016583Z",
           "key": "3f8d3821",
