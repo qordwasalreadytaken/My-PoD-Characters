@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-10T06:18:58.176600Z",
+  "generated": "2026-07-10T10:42:40.285652Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -30,6 +30,204 @@
       ]
     },
     {
+      "name": "Asmorahn",
+      "class": "Assassin",
+      "level": 90,
+      "latestSnapshot": "36699e25",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:38.904141Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:38.904141Z",
+          "key": "36699e25",
+          "timestamp": "2026-07-10T10:42:38.904141Z",
+          "id": "36699e25",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=Asmorahn&t=36699e25",
+          "canonicalUrl": "character.html?c=Asmorahn&t=2026-07-10T10%3A42%3A38.904141Z"
+        }
+      ]
+    },
+    {
+      "name": "Azandor",
+      "class": "Amazon",
+      "level": 87,
+      "latestSnapshot": "7e43e444",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:39.075013Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:39.075013Z",
+          "key": "7e43e444",
+          "timestamp": "2026-07-10T10:42:39.075013Z",
+          "id": "7e43e444",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=Azandor&t=7e43e444",
+          "canonicalUrl": "character.html?c=Azandor&t=2026-07-10T10%3A42%3A39.075013Z"
+        }
+      ]
+    },
+    {
+      "name": "Bardukk",
+      "class": "Barbarian",
+      "level": 90,
+      "latestSnapshot": "8e958c91",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:39.215736Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:39.215736Z",
+          "key": "8e958c91",
+          "timestamp": "2026-07-10T10:42:39.215736Z",
+          "id": "8e958c91",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=Bardukk&t=8e958c91",
+          "canonicalUrl": "character.html?c=Bardukk&t=2026-07-10T10%3A42%3A39.215736Z"
+        }
+      ]
+    },
+    {
+      "name": "Belzok",
+      "class": "Necromancer",
+      "level": 93,
+      "latestSnapshot": "8c5c0e70",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:39.342753Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:39.342753Z",
+          "key": "8c5c0e70",
+          "timestamp": "2026-07-10T10:42:39.342753Z",
+          "id": "8c5c0e70",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=Belzok&t=8c5c0e70",
+          "canonicalUrl": "character.html?c=Belzok&t=2026-07-10T10%3A42%3A39.342753Z"
+        }
+      ]
+    },
+    {
+      "name": "canshehitthirty",
+      "class": "Sorceress",
+      "level": 50,
+      "latestSnapshot": "96f372a6",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:39.486612Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:39.486612Z",
+          "key": "96f372a6",
+          "timestamp": "2026-07-10T10:42:39.486612Z",
+          "id": "96f372a6",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=canshehitthirty&t=96f372a6",
+          "canonicalUrl": "character.html?c=canshehitthirty&t=2026-07-10T10%3A42%3A39.486612Z"
+        }
+      ]
+    },
+    {
+      "name": "cripdontrip",
+      "class": "Amazon",
+      "level": 83,
+      "latestSnapshot": "949a2174",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:39.631713Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:39.631713Z",
+          "key": "949a2174",
+          "timestamp": "2026-07-10T10:42:39.631713Z",
+          "id": "949a2174",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=cripdontrip&t=949a2174",
+          "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-10T10%3A42%3A39.631713Z"
+        }
+      ]
+    },
+    {
+      "name": "criphelia",
+      "class": "Sorceress",
+      "level": 89,
+      "latestSnapshot": "be9ed507",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:39.774906Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:39.774906Z",
+          "key": "be9ed507",
+          "timestamp": "2026-07-10T10:42:39.774906Z",
+          "id": "be9ed507",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=criphelia&t=be9ed507",
+          "canonicalUrl": "character.html?c=criphelia&t=2026-07-10T10%3A42%3A39.774906Z"
+        }
+      ]
+    },
+    {
+      "name": "Criptalya",
+      "class": "Assassin",
+      "level": 92,
+      "latestSnapshot": "c8e8cc5b",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:39.938598Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:39.938598Z",
+          "key": "c8e8cc5b",
+          "timestamp": "2026-07-10T10:42:39.938598Z",
+          "id": "c8e8cc5b",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=Criptalya&t=c8e8cc5b",
+          "canonicalUrl": "character.html?c=Criptalya&t=2026-07-10T10%3A42%3A39.938598Z"
+        }
+      ]
+    },
+    {
+      "name": "cripthena",
+      "class": "Amazon",
+      "level": 97,
+      "latestSnapshot": "d21957d0",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:40.115392Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:40.115392Z",
+          "key": "d21957d0",
+          "timestamp": "2026-07-10T10:42:40.115392Z",
+          "id": "d21957d0",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=cripthena&t=d21957d0",
+          "canonicalUrl": "character.html?c=cripthena&t=2026-07-10T10%3A42%3A40.115392Z"
+        }
+      ]
+    },
+    {
       "name": "crone",
       "class": "Sorceress",
       "level": 20,
@@ -52,14 +250,47 @@
       ]
     },
     {
+      "name": "dalliah",
+      "class": "Amazon",
+      "level": 86,
+      "latestSnapshot": "2b0064eb",
+      "snapshotCount": 1,
+      "milestoneCount": 0,
+      "lastUpdated": "2026-07-10T10:42:40.281843Z",
+      "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:40.281843Z",
+          "key": "2b0064eb",
+          "timestamp": "2026-07-10T10:42:40.281843Z",
+          "id": "2b0064eb",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=dalliah&t=2b0064eb",
+          "canonicalUrl": "character.html?c=dalliah&t=2026-07-10T10%3A42%3A40.281843Z"
+        }
+      ]
+    },
+    {
       "name": "demonixxxx",
       "class": "Necromancer",
-      "level": 48,
-      "latestSnapshot": "451d8139",
-      "snapshotCount": 10,
+      "level": 49,
+      "latestSnapshot": "e9dba1c0",
+      "snapshotCount": 11,
       "milestoneCount": 0,
-      "lastUpdated": "2026-07-10T06:18:57.120430Z",
+      "lastUpdated": "2026-07-10T10:42:37.568675Z",
       "snapshotLinks": [
+        {
+          "label": "2026-07-10T10:42:37.568675Z",
+          "key": "e9dba1c0",
+          "timestamp": "2026-07-10T10:42:37.568675Z",
+          "id": "e9dba1c0",
+          "title": null,
+          "tags": [],
+          "automatic": true,
+          "url": "character.html?c=demonixxxx&t=e9dba1c0",
+          "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-10T10%3A42%3A37.568675Z"
+        },
         {
           "label": "2026-07-10T06:18:57.120430Z",
           "key": "451d8139",
@@ -719,7 +950,10 @@
           "timestamp": "2026-07-09T02:17:35.604333Z",
           "id": "4a4204f6",
           "title": "First snapshot",
-          "tags": [],
+          "tags": [
+            "sorc",
+            "frig"
+          ],
           "automatic": false,
           "url": "character.html?c=sorcsallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=sorcsallsuck&t=2026-07-09T02%3A17%3A35.604333Z"
