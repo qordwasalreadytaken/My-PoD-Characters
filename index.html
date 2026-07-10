@@ -262,6 +262,37 @@
       gap: 6px;
     }
 
+    .share-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .share-label {
+      color: var(--muted);
+      font-size: 0.78rem;
+      margin-bottom: 3px;
+    }
+
+    .share-url {
+      display: block;
+      color: var(--accent-2);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+      font-family: "Space Grotesk", sans-serif;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 7px 9px;
+      background: rgba(15, 15, 15, 0.9);
+    }
+
+    .share-url:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
     .stat-row {
       display: flex;
       justify-content: space-between;
@@ -541,6 +572,69 @@
       return `Skills +${skillsUp}/-${skillsDown}/d${skillsDelta} | Gear +${gearUp}/-${gearDown}`;
     }
 
+    function toAbsoluteUrl(value) {
+      if (typeof value !== "string" || !value.trim()) {
+        return "";
+      }
+
+      try {
+        return new URL(value, window.location.href).toString();
+      } catch (_) {
+        return "";
+      }
+    }
+
+    function buildCharacterSharePath(characterName, key) {
+      const params = new URLSearchParams();
+      params.set("c", String(characterName || "").toLowerCase());
+
+      if (key) {
+        params.set("t", key);
+      }
+
+      return `character.html?${params.toString()}`;
+    }
+
+    function resolveSnapshotShareLinks(character, snapshot) {
+      const links = Array.isArray(character && character.snapshotLinks) ? character.snapshotLinks : [];
+      const snapshotKey = getSnapshotKey(snapshot);
+      const snapshotTimestamp = snapshot && snapshot.timestamp ? String(snapshot.timestamp) : "";
+      const snapshotId = snapshot && snapshot.id ? String(snapshot.id) : "";
+
+      const matched = links.find((link) => {
+        const key = link && typeof link.key === "string" ? link.key : "";
+        const timestamp = link && typeof link.timestamp === "string" ? link.timestamp : "";
+        const id = link && typeof link.id === "string" ? link.id : "";
+
+        return key === snapshotKey || timestamp === snapshotTimestamp || (snapshotId && id === snapshotId);
+      });
+
+      const fallbackPath = buildCharacterSharePath(
+        character && character.name,
+        snapshotKey || snapshotTimestamp
+      );
+
+      return {
+        shareUrl: toAbsoluteUrl(matched && matched.url ? matched.url : fallbackPath),
+        canonicalUrl: toAbsoluteUrl(matched && matched.canonicalUrl ? matched.canonicalUrl : fallbackPath)
+      };
+    }
+
+    function buildDashboardShareUrl(character, snapshot) {
+      const url = new URL(window.location.href);
+      const key = getSnapshotKey(snapshot) || (snapshot && snapshot.timestamp ? snapshot.timestamp : "");
+
+      if (character && character.name) {
+        url.searchParams.set("c", character.name);
+      }
+
+      if (key) {
+        url.searchParams.set("t", key);
+      }
+
+      return url.toString();
+    }
+
     function getCharacterLevel(character) {
       if (character && typeof character.level !== "undefined" && character.level !== null) {
         return character.level;
@@ -782,6 +876,8 @@
       const bonus = data.Bonus || {};
       const metadata = snapshot.metadata || {};
       const changes = snapshot.changes || {};
+      const shareLinks = resolveSnapshotShareLinks(state.selectedCharacter, snapshot);
+      const dashboardShareUrl = buildDashboardShareUrl(state.selectedCharacter, snapshot);
 
       const changeChips = [];
 
@@ -881,6 +977,24 @@
               <li><strong>Description:</strong> ${safeText(metadata.description, "(none)")}</li>
               <li><strong>Journal:</strong> ${safeText(metadata.journal, "(none)")}</li>
               <li><strong>Tags:</strong> ${Array.isArray(metadata.tags) && metadata.tags.length ? metadata.tags.join(", ") : "(none)"}</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Sharing URLs</h3>
+            <ul class="share-list">
+              <li>
+                <div class="share-label">Shareable Archive Armory link</div>
+                <a class="share-url" href="${shareLinks.shareUrl}" target="_blank" rel="noopener noreferrer">${shareLinks.shareUrl}</a>
+              </li>
+              <li>
+                <div class="share-label">Dashboard link</div>
+                <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
+              </li>
+<!--              <li>
+                <div class="share-label">Canonical viewer link</div>
+                <a class="share-url" href="${shareLinks.canonicalUrl}" target="_blank" rel="noopener noreferrer">${shareLinks.canonicalUrl}</a>
+              </li> --> 
             </ul>
           </article>
         </div>
