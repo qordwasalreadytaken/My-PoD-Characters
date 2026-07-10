@@ -7,6 +7,83 @@ from urllib.parse import urlencode
 SNAPSHOT_DIR = "snapshots"
 
 
+CLASS_TAG_MAP = {
+    "assassin": "Asn",
+    "amazon": "Ama",
+    "barbarian": "Barb",
+    "druid": "Druid",
+    "necromancer": "Necro",
+    "paladin": "Pal",
+    "sorceress": "Sorc",
+}
+
+
+def class_to_tag(class_name):
+    if not isinstance(class_name, str):
+        return None
+
+    normalized = class_name.strip().lower()
+    if not normalized:
+        return None
+
+    return CLASS_TAG_MAP.get(normalized)
+
+
+def dedupe_tags(values):
+    result = []
+    seen = set()
+
+    for value in values:
+        tag = str(value).strip()
+        if not tag:
+            continue
+
+        key = tag.lower()
+        if key in seen:
+            continue
+
+        seen.add(key)
+        result.append(tag)
+
+    return result
+
+
+def build_snapshot_auto_tags(snap):
+    if not isinstance(snap, dict):
+        return []
+
+    tags = []
+    data = snap.get("data")
+    if not isinstance(data, dict):
+        return tags
+
+    class_tag = class_to_tag(data.get("Class"))
+    if class_tag:
+        tags.append(class_tag)
+
+    if data.get("IsHardcore") is True:
+        tags.append("HC")
+
+    return dedupe_tags(tags)
+
+
+def build_character_auto_tags(archive, summary):
+    tags = []
+
+    class_tag = class_to_tag(summary.get("class") if isinstance(summary, dict) else None)
+    if class_tag:
+        tags.append(class_tag)
+
+    snapshots = archive.get("snapshots", []) if isinstance(archive, dict) else []
+    if snapshots:
+        latest = snapshots[-1] if isinstance(snapshots[-1], dict) else {}
+        data = latest.get("data") if isinstance(latest, dict) else {}
+        if isinstance(data, dict) and data.get("IsHardcore") is True:
+            tags.append("HC")
+
+    return dedupe_tags(tags)
+
+
 def slugify(value):
     if not isinstance(value, str):
         return ""
@@ -112,6 +189,8 @@ def build_snapshot_links(archive, character_name, site_base_url):
         else:
             tags = []
 
+        tags = dedupe_tags(tags + build_snapshot_auto_tags(snap))
+
         links.append({
             "label": label,
             "key": key,
@@ -186,10 +265,12 @@ def build_index():
 
         summary = compute_summary(archive)
         snapshot_links = build_snapshot_links(archive, character_name, site_base_url)
+        character_tags = build_character_auto_tags(archive, summary)
 
         index["characters"].append({
             "name": character_name,
             **summary,
+            "tags": character_tags,
             "snapshotLinks": snapshot_links,
         })
 

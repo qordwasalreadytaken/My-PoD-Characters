@@ -593,6 +593,16 @@
       selectedSnapshot: null
     };
 
+    const CLASS_TAG_MAP = {
+      assassin: "Asn",
+      amazon: "Ama",
+      barbarian: "Barb",
+      druid: "Druid",
+      necromancer: "Necro",
+      paladin: "Pal",
+      sorceress: "Sorc"
+    };
+
     const dom = {
       searchInput: document.getElementById("searchInput"),
       tagInput: document.getElementById("tagInput"),
@@ -685,6 +695,75 @@
       }
 
       return [];
+    }
+
+    function dedupeTags(values) {
+      const result = [];
+      const seen = new Set();
+
+      values.forEach((value) => {
+        const tag = String(value || "").trim();
+        if (!tag) {
+          return;
+        }
+
+        const key = tag.toLowerCase();
+        if (seen.has(key)) {
+          return;
+        }
+
+        seen.add(key);
+        result.push(tag);
+      });
+
+      return result;
+    }
+
+    function classToTag(className) {
+      if (typeof className !== "string") {
+        return "";
+      }
+
+      const normalized = className.trim().toLowerCase();
+      return CLASS_TAG_MAP[normalized] || "";
+    }
+
+    function getAutomaticSnapshotTags(snapshot) {
+      if (!snapshot || typeof snapshot !== "object") {
+        return [];
+      }
+
+      const data = snapshot.data && typeof snapshot.data === "object"
+        ? snapshot.data
+        : {};
+
+      const tags = [];
+      const classTag = classToTag(data.Class);
+      if (classTag) {
+        tags.push(classTag);
+      }
+
+      if (data.IsHardcore === true) {
+        tags.push("HC");
+      }
+
+      return dedupeTags(tags);
+    }
+
+    function getCharacterTags(character) {
+      if (!character || typeof character !== "object") {
+        return [];
+      }
+
+      const tags = [];
+      tags.push(...normalizeTags(character.tags));
+
+      const classTag = classToTag(character.class);
+      if (classTag) {
+        tags.push(classTag);
+      }
+
+      return dedupeTags(tags);
     }
 
     function getCharacterFilterTerm() {
@@ -940,6 +1019,10 @@
         return true;
       }
 
+      if (getCharacterTags(character).some((tag) => tag.toLowerCase().includes(term))) {
+        return true;
+      }
+
       const links = Array.isArray(character && character.snapshotLinks) ? character.snapshotLinks : [];
       return links.some((link) => linkMatchesTag(link, term));
     }
@@ -953,7 +1036,12 @@
         ? snapshot.metadata
         : {};
 
-      return normalizeTags(metadata.tags).some((tag) => tag.toLowerCase().includes(term));
+      const mergedTags = dedupeTags([
+        ...normalizeTags(metadata.tags),
+        ...getAutomaticSnapshotTags(snapshot)
+      ]);
+
+      return mergedTags.some((tag) => tag.toLowerCase().includes(term));
     }
 
     function getVisibleSnapshots() {
@@ -1200,6 +1288,10 @@
       const changes = snapshot.changes || {};
       const shareLinks = resolveSnapshotShareLinks(state.selectedCharacter, snapshot);
       const dashboardShareUrl = buildDashboardShareUrl(state.selectedCharacter, snapshot);
+      const snapshotTags = dedupeTags([
+        ...normalizeTags(metadata.tags),
+        ...getAutomaticSnapshotTags(snapshot)
+      ]);
 
       const changeChips = [];
 
@@ -1268,7 +1360,7 @@
               <li><strong>Title:</strong> ${safeText(metadata.title, "(none)")}</li>
               <li><strong>Description:</strong> ${safeText(metadata.description, "(none)")}</li>
               <li><strong>Journal:</strong> ${safeText(metadata.journal, "(none)")}</li>
-              <li><strong>Tags:</strong> ${Array.isArray(metadata.tags) && metadata.tags.length ? metadata.tags.join(", ") : "(none)"}</li>
+              <li><strong>Tags:</strong> ${snapshotTags.length ? snapshotTags.join(", ") : "(none)"}</li>
             </ul>
           </article>
 
