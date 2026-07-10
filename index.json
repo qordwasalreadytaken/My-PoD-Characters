@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-10T10:42:40.285652Z",
+  "generated": "2026-07-10T11:24:36.675030Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -12,6 +12,9 @@
       "snapshotCount": 1,
       "milestoneCount": 1,
       "lastUpdated": "2026-07-09T11:37:34.990729Z",
+      "tags": [
+        "Necro"
+      ],
       "snapshotLinks": [
         {
           "label": "First snapshot",
@@ -37,6 +40,9 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:38.904141Z",
+      "tags": [
+        "Asn"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:38.904141Z",
@@ -44,7 +50,9 @@
           "timestamp": "2026-07-10T10:42:38.904141Z",
           "id": "36699e25",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Asn"
+          ],
           "automatic": true,
           "url": "character.html?c=Asmorahn&t=36699e25",
           "canonicalUrl": "character.html?c=Asmorahn&t=2026-07-10T10%3A42%3A38.904141Z"
@@ -59,6 +67,9 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:39.075013Z",
+      "tags": [
+        "Ama"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:39.075013Z",
@@ -66,7 +77,9 @@
           "timestamp": "2026-07-10T10:42:39.075013Z",
           "id": "7e43e444",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama"
+          ],
           "automatic": true,
           "url": "character.html?c=Azandor&t=7e43e444",
           "canonicalUrl": "character.html?c=Azandor&t=2026-07-10T10%3A42%3A39.075013Z"
@@ -81,6 +94,9 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:39.215736Z",
+      "tags": [
+        "Barb"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:39.215736Z",
@@ -88,7 +104,9 @@
           "timestamp": "2026-07-10T10:42:39.215736Z",
           "id": "8e958c91",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Barb"
+          ],
           "automatic": true,
           "url": "character.html?c=Bardukk&t=8e958c91",
           "canonicalUrl": "character.html?c=Bardukk&t=2026-07-10T10%3A42%3A39.215736Z"
@@ -103,6 +121,9 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:39.342753Z",
+      "tags": [
+        "Necro"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:39.342753Z",
@@ -110,7 +131,9 @@
           "timestamp": "2026-07-10T10:42:39.342753Z",
           "id": "8c5c0e70",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=Belzok&t=8c5c0e70",
           "canonicalUrl": "character.html?c=Belzok&t=2026-07-10T10%3A42%3A39.342753Z"
@@ -125,6 +148,10 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:39.486612Z",
+      "tags": [
+        "Sorc",
+        "HC"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:39.486612Z",
@@ -132,7 +159,10 @@
           "timestamp": "2026-07-10T10:42:39.486612Z",
           "id": "96f372a6",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=canshehitthirty&t=96f372a6",
           "canonicalUrl": "character.html?c=canshehitthirty&t=2026-07-10T10%3A42%3A39.486612Z"
@@ -147,6 +177,10 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:39.631713Z",
+      "tags": [
+        "Ama",
+        "HC"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:39.631713Z",
@@ -154,7 +188,10 @@
           "timestamp": "2026-07-10T10:42:39.631713Z",
           "id": "949a2174",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=cripdontrip&t=949a2174",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-10T10%3A42%3A39.631713Z"
@@ -169,6 +206,9 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:39.774906Z",
+      "tags": [
+        "Sorc"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:39.774906Z",
@@ -176,7 +216,9 @@
           "timestamp": "2026-07-10T10:42:39.774906Z",
           "id": "be9ed507",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=criphelia&t=be9ed507",
           "canonicalUrl": "character.html?c=criphelia&t=2026-07-10T10%3A42%3A39.774906Z"
@@ -191,6 +233,9 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:39.938598Z",
+      "tags": [
+        "Asn"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:39.938598Z",
@@ -198,7 +243,9 @@
           "timestamp": "2026-07-10T10:42:39.938598Z",
           "id": "c8e8cc5b",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Asn"
+          ],
           "automatic": true,
           "url": "character.html?c=Criptalya&t=c8e8cc5b",
           "canonicalUrl": "character.html?c=Criptalya&t=2026-07-10T10%3A42%3A39.938598Z"
@@ -213,6 +260,9 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:40.115392Z",
+      "tags": [
+        "Ama"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:40.115392Z",
@@ -220,7 +270,9 @@
           "timestamp": "2026-07-10T10:42:40.115392Z",
           "id": "d21957d0",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama"
+          ],
           "automatic": true,
           "url": "character.html?c=cripthena&t=d21957d0",
           "canonicalUrl": "character.html?c=cripthena&t=2026-07-10T10%3A42%3A40.115392Z"
@@ -235,6 +287,10 @@
       "snapshotCount": 1,
       "milestoneCount": 1,
       "lastUpdated": "2026-07-09T11:45:17.998844Z",
+      "tags": [
+        "Sorc",
+        "HC"
+      ],
       "snapshotLinks": [
         {
           "label": "First snapshot",
@@ -242,7 +298,10 @@
           "timestamp": "2026-07-09T11:45:17.998844Z",
           "id": "2f0f0e29",
           "title": "First snapshot",
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": false,
           "url": "character.html?c=crone&t=first-snapshot",
           "canonicalUrl": "character.html?c=crone&t=2026-07-09T11%3A45%3A17.998844Z"
@@ -257,6 +316,9 @@
       "snapshotCount": 1,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:40.281843Z",
+      "tags": [
+        "Ama"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:40.281843Z",
@@ -264,7 +326,9 @@
           "timestamp": "2026-07-10T10:42:40.281843Z",
           "id": "2b0064eb",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama"
+          ],
           "automatic": true,
           "url": "character.html?c=dalliah&t=2b0064eb",
           "canonicalUrl": "character.html?c=dalliah&t=2026-07-10T10%3A42%3A40.281843Z"
@@ -279,6 +343,9 @@
       "snapshotCount": 11,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-10T10:42:37.568675Z",
+      "tags": [
+        "Necro"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-10T10:42:37.568675Z",
@@ -286,7 +353,9 @@
           "timestamp": "2026-07-10T10:42:37.568675Z",
           "id": "e9dba1c0",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=e9dba1c0",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-10T10%3A42%3A37.568675Z"
@@ -297,7 +366,9 @@
           "timestamp": "2026-07-10T06:18:57.120430Z",
           "id": "451d8139",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=451d8139",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-10T06%3A18%3A57.120430Z"
@@ -308,7 +379,9 @@
           "timestamp": "2026-07-09T11:58:09.016583Z",
           "id": "3f8d3821",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=3f8d3821",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-09T11%3A58%3A09.016583Z"
@@ -319,7 +392,9 @@
           "timestamp": "2026-07-08T06:35:07.233844Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=2026-07-08T06%3A35%3A07.233844Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-08T06%3A35%3A07.233844Z"
@@ -330,7 +405,9 @@
           "timestamp": "2026-07-07T17:25:13.573924Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=2026-07-07T17%3A25%3A13.573924Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-07T17%3A25%3A13.573924Z"
@@ -341,7 +418,9 @@
           "timestamp": "2026-07-07T06:57:00.500900Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=2026-07-07T06%3A57%3A00.500900Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-07T06%3A57%3A00.500900Z"
@@ -352,7 +431,9 @@
           "timestamp": "2026-07-06T18:16:06.576057Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=2026-07-06T18%3A16%3A06.576057Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-06T18%3A16%3A06.576057Z"
@@ -363,7 +444,9 @@
           "timestamp": "2026-07-06T06:08:18.001555Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=2026-07-06T06%3A08%3A18.001555Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-06T06%3A08%3A18.001555Z"
@@ -374,7 +457,9 @@
           "timestamp": "2026-07-05T06:00:49.102327Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=2026-07-05T06%3A00%3A49.102327Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-05T06%3A00%3A49.102327Z"
@@ -385,7 +470,9 @@
           "timestamp": "2026-07-04T05:54:44.433760Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=2026-07-04T05%3A54%3A44.433760Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-04T05%3A54%3A44.433760Z"
@@ -396,7 +483,9 @@
           "timestamp": "2026-07-01T01:50:49.041375Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": true,
           "url": "character.html?c=demonixxxx&t=2026-07-01T01%3A50%3A49.041375Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-01T01%3A50%3A49.041375Z"
@@ -411,6 +500,9 @@
       "snapshotCount": 3,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-09T11:58:09.332988Z",
+      "tags": [
+        "Druid"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-09T11:58:09.332988Z",
@@ -418,7 +510,9 @@
           "timestamp": "2026-07-09T11:58:09.332988Z",
           "id": "a6f05a5f",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Druid"
+          ],
           "automatic": true,
           "url": "character.html?c=feralfury&t=a6f05a5f",
           "canonicalUrl": "character.html?c=feralfury&t=2026-07-09T11%3A58%3A09.332988Z"
@@ -429,7 +523,9 @@
           "timestamp": "2026-07-08T06:35:07.233844Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Druid"
+          ],
           "automatic": true,
           "url": "character.html?c=feralfury&t=2026-07-08T06%3A35%3A07.233844Z",
           "canonicalUrl": "character.html?c=feralfury&t=2026-07-08T06%3A35%3A07.233844Z"
@@ -440,7 +536,9 @@
           "timestamp": "2026-07-01T01:50:49.041375Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Druid"
+          ],
           "automatic": true,
           "url": "character.html?c=feralfury&t=2026-07-01T01%3A50%3A49.041375Z",
           "canonicalUrl": "character.html?c=feralfury&t=2026-07-01T01%3A50%3A49.041375Z"
@@ -455,6 +553,9 @@
       "snapshotCount": 2,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-09T11:58:09.671927Z",
+      "tags": [
+        "Druid"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-09T11:58:09.671927Z",
@@ -462,7 +563,9 @@
           "timestamp": "2026-07-09T11:58:09.671927Z",
           "id": "a9368b07",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Druid"
+          ],
           "automatic": true,
           "url": "character.html?c=flyinpecker&t=a9368b07",
           "canonicalUrl": "character.html?c=flyinpecker&t=2026-07-09T11%3A58%3A09.671927Z"
@@ -473,7 +576,9 @@
           "timestamp": "2026-07-04T17:54:36.923043Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Druid"
+          ],
           "automatic": true,
           "url": "character.html?c=flyinpecker&t=2026-07-04T17%3A54%3A36.923043Z",
           "canonicalUrl": "character.html?c=flyinpecker&t=2026-07-04T17%3A54%3A36.923043Z"
@@ -488,6 +593,10 @@
       "snapshotCount": 10,
       "milestoneCount": 1,
       "lastUpdated": "2026-07-09T01:56:32.368274Z",
+      "tags": [
+        "Sorc",
+        "HC"
+      ],
       "snapshotLinks": [
         {
           "label": "Just Cleared Normal",
@@ -498,7 +607,8 @@
           "tags": [
             "sorc",
             "ssfhc",
-            "frig"
+            "frig",
+            "HC"
           ],
           "automatic": false,
           "url": "character.html?c=hardqord&t=nm",
@@ -510,7 +620,10 @@
           "timestamp": "2026-07-08T06:35:07.233844Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-07-08T06%3A35%3A07.233844Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-08T06%3A35%3A07.233844Z"
@@ -521,7 +634,10 @@
           "timestamp": "2026-07-07T06:57:00.500900Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-07-07T06%3A57%3A00.500900Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-07T06%3A57%3A00.500900Z"
@@ -532,7 +648,10 @@
           "timestamp": "2026-07-06T06:08:18.001555Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-07-06T06%3A08%3A18.001555Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-06T06%3A08%3A18.001555Z"
@@ -543,7 +662,10 @@
           "timestamp": "2026-07-05T17:51:55.140883Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-07-05T17%3A51%3A55.140883Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-05T17%3A51%3A55.140883Z"
@@ -554,7 +676,10 @@
           "timestamp": "2026-07-04T05:54:44.433760Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-07-04T05%3A54%3A44.433760Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-04T05%3A54%3A44.433760Z"
@@ -565,7 +690,10 @@
           "timestamp": "2026-07-03T17:09:30.228706Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-07-03T17%3A09%3A30.228706Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-03T17%3A09%3A30.228706Z"
@@ -576,7 +704,10 @@
           "timestamp": "2026-07-03T15:41:27.305526Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-07-03T15%3A41%3A27.305526Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-03T15%3A41%3A27.305526Z"
@@ -587,7 +718,10 @@
           "timestamp": "2026-05-21T05:59:55.310200Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-05-21T05%3A59%3A55.310200Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-05-21T05%3A59%3A55.310200Z"
@@ -598,7 +732,10 @@
           "timestamp": "2026-05-18T17:33:58.573348Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=hardqord&t=2026-05-18T17%3A33%3A58.573348Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-05-18T17%3A33%3A58.573348Z"
@@ -613,14 +750,21 @@
       "snapshotCount": 15,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-01T01:50:49.041375Z",
+      "tags": [
+        "Ama",
+        "HC"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-01T01:50:49.041375Z",
           "key": "2026-07-01T01:50:49.041375Z",
           "timestamp": "2026-07-01T01:50:49.041375Z",
           "id": null,
-          "title": "Sad days",
-          "tags": ["hc"],
+          "title": null,
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-07-01T01%3A50%3A49.041375Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-07-01T01%3A50%3A49.041375Z"
@@ -630,8 +774,11 @@
           "key": "2026-06-30T07:24:01.038627Z",
           "timestamp": "2026-06-30T07:24:01.038627Z",
           "id": null,
-          "title": "Jazminn's Last Day Alive",
-          "tags": ["hc"],
+          "title": null,
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-30T07%3A24%3A01.038627Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-30T07%3A24%3A01.038627Z"
@@ -642,7 +789,10 @@
           "timestamp": "2026-06-29T17:40:16.895583Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-29T17%3A40%3A16.895583Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-29T17%3A40%3A16.895583Z"
@@ -653,7 +803,10 @@
           "timestamp": "2026-06-29T07:09:43.832539Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-29T07%3A09%3A43.832539Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-29T07%3A09%3A43.832539Z"
@@ -664,7 +817,10 @@
           "timestamp": "2026-06-28T17:12:16.260701Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-28T17%3A12%3A16.260701Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-28T17%3A12%3A16.260701Z"
@@ -675,7 +831,10 @@
           "timestamp": "2026-06-27T17:57:26.393006Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-27T17%3A57%3A26.393006Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-27T17%3A57%3A26.393006Z"
@@ -686,7 +845,10 @@
           "timestamp": "2026-06-27T06:05:05.241059Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-27T06%3A05%3A05.241059Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-27T06%3A05%3A05.241059Z"
@@ -697,7 +859,10 @@
           "timestamp": "2026-06-26T17:28:14.728930Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-26T17%3A28%3A14.728930Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-26T17%3A28%3A14.728930Z"
@@ -708,7 +873,10 @@
           "timestamp": "2026-06-26T07:22:21.776725Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-26T07%3A22%3A21.776725Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-26T07%3A22%3A21.776725Z"
@@ -719,7 +887,10 @@
           "timestamp": "2026-06-25T18:32:00.580205Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-25T18%3A32%3A00.580205Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-25T18%3A32%3A00.580205Z"
@@ -730,7 +901,10 @@
           "timestamp": "2026-06-25T06:08:31.088722Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-25T06%3A08%3A31.088722Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-25T06%3A08%3A31.088722Z"
@@ -741,7 +915,10 @@
           "timestamp": "2026-06-24T18:27:18.536679Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-24T18%3A27%3A18.536679Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-24T18%3A27%3A18.536679Z"
@@ -752,7 +929,10 @@
           "timestamp": "2026-06-24T06:04:08.979128Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-24T06%3A04%3A08.979128Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-24T06%3A04%3A08.979128Z"
@@ -763,7 +943,10 @@
           "timestamp": "2026-06-23T17:32:05.436259Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-23T17%3A32%3A05.436259Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-23T17%3A32%3A05.436259Z"
@@ -774,7 +957,10 @@
           "timestamp": "2026-06-23T06:11:53.375057Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Ama",
+            "HC"
+          ],
           "automatic": true,
           "url": "character.html?c=jazminn&t=2026-06-23T06%3A11%3A53.375057Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-23T06%3A11%3A53.375057Z"
@@ -789,6 +975,9 @@
       "snapshotCount": 11,
       "milestoneCount": 0,
       "lastUpdated": "2026-07-09T06:19:21.629653Z",
+      "tags": [
+        "Sorc"
+      ],
       "snapshotLinks": [
         {
           "label": "2026-07-09T06:19:21.629653Z",
@@ -796,7 +985,9 @@
           "timestamp": "2026-07-09T06:19:21.629653Z",
           "id": "0323ba8b",
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=0323ba8b",
           "canonicalUrl": "character.html?c=madris&t=2026-07-09T06%3A19%3A21.629653Z"
@@ -807,7 +998,9 @@
           "timestamp": "2026-06-21T06:16:40.325483Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-06-21T06%3A16%3A40.325483Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-21T06%3A16%3A40.325483Z"
@@ -818,7 +1011,9 @@
           "timestamp": "2026-06-19T06:21:46.253409Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-06-19T06%3A21%3A46.253409Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-19T06%3A21%3A46.253409Z"
@@ -829,7 +1024,9 @@
           "timestamp": "2026-06-15T07:28:36.749620Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-06-15T07%3A28%3A36.749620Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-15T07%3A28%3A36.749620Z"
@@ -840,7 +1037,9 @@
           "timestamp": "2026-06-14T17:57:56.523739Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-06-14T17%3A57%3A56.523739Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-14T17%3A57%3A56.523739Z"
@@ -851,7 +1050,9 @@
           "timestamp": "2026-06-14T06:14:07.435909Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-06-14T06%3A14%3A07.435909Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-14T06%3A14%3A07.435909Z"
@@ -862,7 +1063,9 @@
           "timestamp": "2026-06-13T17:14:49.485188Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-06-13T17%3A14%3A49.485188Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-13T17%3A14%3A49.485188Z"
@@ -873,7 +1076,9 @@
           "timestamp": "2026-06-13T06:19:17.449004Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-06-13T06%3A19%3A17.449004Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-13T06%3A19%3A17.449004Z"
@@ -884,7 +1089,9 @@
           "timestamp": "2026-06-12T17:52:08.278229Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-06-12T17%3A52%3A08.278229Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-12T17%3A52%3A08.278229Z"
@@ -895,7 +1102,9 @@
           "timestamp": "2026-05-25T06:18:48.456315Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-05-25T06%3A18%3A48.456315Z",
           "canonicalUrl": "character.html?c=madris&t=2026-05-25T06%3A18%3A48.456315Z"
@@ -906,7 +1115,9 @@
           "timestamp": "2026-05-25T01:01:11.437842Z",
           "id": null,
           "title": null,
-          "tags": [],
+          "tags": [
+            "Sorc"
+          ],
           "automatic": true,
           "url": "character.html?c=madris&t=2026-05-25T01%3A01%3A11.437842Z",
           "canonicalUrl": "character.html?c=madris&t=2026-05-25T01%3A01%3A11.437842Z"
@@ -921,6 +1132,9 @@
       "snapshotCount": 1,
       "milestoneCount": 1,
       "lastUpdated": "2026-07-09T11:19:34.405985Z",
+      "tags": [
+        "Necro"
+      ],
       "snapshotLinks": [
         {
           "label": "First snapshot",
@@ -928,7 +1142,9 @@
           "timestamp": "2026-07-09T11:19:34.405985Z",
           "id": "36f1ae66",
           "title": "First snapshot",
-          "tags": [],
+          "tags": [
+            "Necro"
+          ],
           "automatic": false,
           "url": "character.html?c=necrosallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=necrosallsuck&t=2026-07-09T11%3A19%3A34.405985Z"
@@ -943,6 +1159,9 @@
       "snapshotCount": 1,
       "milestoneCount": 1,
       "lastUpdated": "2026-07-09T02:17:35.604333Z",
+      "tags": [
+        "Sorc"
+      ],
       "snapshotLinks": [
         {
           "label": "First snapshot",
