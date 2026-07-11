@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-11T13:21:42.985343Z",
+  "generated": "2026-07-11T15:46:03.535282Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -588,16 +588,31 @@
     {
       "name": "hardqord",
       "class": "Sorceress",
-      "level": 36,
-      "latestSnapshot": "c6ee5e23",
-      "snapshotCount": 13,
-      "milestoneCount": 3,
-      "lastUpdated": "2026-07-11T13:21:42.967137Z",
+      "level": 38,
+      "latestSnapshot": "67e7a8ef",
+      "snapshotCount": 14,
+      "milestoneCount": 4,
+      "lastUpdated": "2026-07-11T15:46:03.508524Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Magic Arrow instead of Exploding Projectiles",
+          "key": "magic-arrow-instead-of-exploding-projectiles",
+          "timestamp": "2026-07-11T15:46:03.508524Z",
+          "id": "67e7a8ef",
+          "title": "Magic Arrow instead of Exploding Projectiles",
+          "tags": [
+            "sorc",
+            "hc",
+            "frig"
+          ],
+          "automatic": false,
+          "url": "character.html?c=hardqord&t=magic-arrow-instead-of-exploding-projectiles",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T15%3A46%3A03.508524Z"
+        },
         {
           "label": "Still Alive!",
           "key": "still-alive",
