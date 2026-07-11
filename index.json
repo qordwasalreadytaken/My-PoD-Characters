@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-11T15:46:03.535282Z",
+  "generated": "2026-07-11T21:25:24.952004Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -172,16 +172,31 @@
     {
       "name": "cripdontrip",
       "class": "Amazon",
-      "level": 83,
-      "latestSnapshot": "949a2174",
-      "snapshotCount": 1,
-      "milestoneCount": 0,
-      "lastUpdated": "2026-07-10T10:42:39.631713Z",
+      "level": 85,
+      "latestSnapshot": "59a8b304",
+      "snapshotCount": 2,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-11T21:25:24.945457Z",
       "tags": [
         "Ama",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Helmet Upgrade!",
+          "key": "helmet-upgrade",
+          "timestamp": "2026-07-11T21:25:24.945457Z",
+          "id": "59a8b304",
+          "title": "Helmet Upgrade!",
+          "tags": [
+            "ssfhc",
+            "Ama",
+            "HC"
+          ],
+          "automatic": false,
+          "url": "character.html?c=cripdontrip&t=helmet-upgrade",
+          "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-11T21%3A25%3A24.945457Z"
+        },
         {
           "label": "2026-07-10T10:42:39.631713Z",
           "key": "949a2174",
