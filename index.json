@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-11T01:10:35.243823Z",
+  "generated": "2026-07-11T05:51:46.251584Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -588,16 +588,30 @@
     {
       "name": "hardqord",
       "class": "Sorceress",
-      "level": 32,
-      "latestSnapshot": "ff9587e9",
-      "snapshotCount": 11,
+      "level": 34,
+      "latestSnapshot": "7197a956",
+      "snapshotCount": 12,
       "milestoneCount": 2,
-      "lastUpdated": "2026-07-11T01:10:35.229860Z",
+      "lastUpdated": "2026-07-11T05:51:44.865062Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-11T05:51:44.865062Z",
+          "key": "7197a956",
+          "timestamp": "2026-07-11T05:51:44.865062Z",
+          "id": "7197a956",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "url": "character.html?c=hardqord&t=7197a956",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T05%3A51%3A44.865062Z"
+        },
         {
           "label": "Starting Norm Baal and Cow Runs",
           "key": "32",
@@ -762,14 +776,27 @@
       "name": "hek_sor",
       "class": "Sorceress",
       "level": 61,
-      "latestSnapshot": "9480fa32",
-      "snapshotCount": 1,
+      "latestSnapshot": "39116258",
+      "snapshotCount": 2,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-10T11:34:48.617972Z",
+      "lastUpdated": "2026-07-11T05:51:45.023356Z",
       "tags": [
         "Sorc"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-11T05:51:45.023356Z",
+          "key": "39116258",
+          "timestamp": "2026-07-11T05:51:45.023356Z",
+          "id": "39116258",
+          "title": null,
+          "tags": [
+            "Sorc"
+          ],
+          "automatic": true,
+          "url": "character.html?c=hek_sor&t=39116258",
+          "canonicalUrl": "character.html?c=hek_sor&t=2026-07-11T05%3A51%3A45.023356Z"
+        },
         {
           "label": "hek_sor First snapshot",
           "key": "hek-sor-first-snapshot",
@@ -1014,16 +1041,30 @@
     {
       "name": "jazzminn",
       "class": "Amazon",
-      "level": 79,
-      "latestSnapshot": "cd556633",
-      "snapshotCount": 1,
+      "level": 80,
+      "latestSnapshot": "f50a0922",
+      "snapshotCount": 2,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-10T11:36:11.701627Z",
+      "lastUpdated": "2026-07-11T05:51:45.460512Z",
       "tags": [
         "Ama",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-11T05:51:45.460512Z",
+          "key": "f50a0922",
+          "timestamp": "2026-07-11T05:51:45.460512Z",
+          "id": "f50a0922",
+          "title": null,
+          "tags": [
+            "Ama",
+            "HC"
+          ],
+          "automatic": true,
+          "url": "character.html?c=jazzminn&t=f50a0922",
+          "canonicalUrl": "character.html?c=jazzminn&t=2026-07-11T05%3A51%3A45.460512Z"
+        },
         {
           "label": "jazzminn First snapshot",
           "key": "jazzminn-first-snapshot",
@@ -1227,15 +1268,28 @@
     {
       "name": "rikka",
       "class": "Amazon",
-      "level": 56,
-      "latestSnapshot": "88cef5a4",
-      "snapshotCount": 1,
+      "level": 59,
+      "latestSnapshot": "4ec79eaa",
+      "snapshotCount": 2,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-10T11:37:08.498421Z",
+      "lastUpdated": "2026-07-11T05:51:45.915282Z",
       "tags": [
         "Ama"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-11T05:51:45.915282Z",
+          "key": "4ec79eaa",
+          "timestamp": "2026-07-11T05:51:45.915282Z",
+          "id": "4ec79eaa",
+          "title": null,
+          "tags": [
+            "Ama"
+          ],
+          "automatic": true,
+          "url": "character.html?c=rikka&t=4ec79eaa",
+          "canonicalUrl": "character.html?c=rikka&t=2026-07-11T05%3A51%3A45.915282Z"
+        },
         {
           "label": "rikka First snapshot",
           "key": "rikka-first-snapshot",
