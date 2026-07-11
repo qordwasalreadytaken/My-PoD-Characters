@@ -143,6 +143,7 @@ def main():
     archive = CharacterArchive()
 
     character_archive = archive.load(character)
+    archive.refresh_snapshot_changes(character_archive, only_missing=True)
 
     archive.add_snapshot(
         character_archive,

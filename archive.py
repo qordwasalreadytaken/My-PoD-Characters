@@ -66,20 +66,20 @@ class CharacterArchive:
             }
             return
 
-        latest = snapshots[-1]
+        latest = snapshots[-1] if isinstance(snapshots[-1], dict) else {}
         latest_data = latest.get("data", {})
         latest_stats = latest_data.get("Stats", {})
 
         archive["summary"] = {
             "class": latest_data.get("Class"),
             "level": latest_stats.get("Level", 0),
-            "latestSnapshot": latest["id"],
+            "latestSnapshot": latest.get("id"),
             "snapshotCount": len(snapshots),
             "milestoneCount": sum(
                 1 for s in snapshots
                 if not s.get("metadata", {}).get("automatic", True)
             ),
-            "lastUpdated": latest["timestamp"]
+            "lastUpdated": latest.get("timestamp")
         }
 
     def save(self, archive):
@@ -97,6 +97,64 @@ class CharacterArchive:
 
         return archive["snapshots"][-1]
 
+    def _empty_changes(self):
+        return {
+            "skill_change": False,
+            "equipped_change": False,
+            "skills_added": [],
+            "skills_removed": [],
+            "skills_updated": [],
+            "equipped_added": [],
+            "equipped_removed": []
+        }
+
+    def _has_changes_payload(self, changes):
+        if not isinstance(changes, dict):
+            return False
+
+        required = {
+            "skill_change",
+            "equipped_change",
+            "skills_added",
+            "skills_removed",
+            "skills_updated",
+            "equipped_added",
+            "equipped_removed"
+        }
+
+        return required.issubset(changes.keys())
+
+    def calculate_changes(self, previous_snapshot, current_snapshot):
+        if not previous_snapshot or not current_snapshot:
+            return self._empty_changes()
+
+        previous_data = previous_snapshot.get("data") if isinstance(previous_snapshot, dict) else {}
+        current_data = current_snapshot.get("data") if isinstance(current_snapshot, dict) else {}
+
+        _, changes = self.compare(current_data or {}, previous_data or {})
+        return changes
+
+    def refresh_snapshot_changes(self, archive, only_missing=False):
+        snapshots = archive.get("snapshots", [])
+        updated = 0
+
+        for index, snapshot in enumerate(snapshots):
+            if not isinstance(snapshot, dict):
+                continue
+
+            existing = snapshot.get("changes")
+            if only_missing and self._has_changes_payload(existing):
+                continue
+
+            if index == 0:
+                snapshot["changes"] = self._empty_changes()
+            else:
+                snapshot["changes"] = self.calculate_changes(snapshots[index - 1], snapshot)
+
+            updated += 1
+
+        return updated
+
     def add_snapshot(
         self,
         archive,
@@ -112,25 +170,17 @@ class CharacterArchive:
     ):
         last = self.latest_snapshot(archive)
 
-        if last and not always_create:
+        if last:
             changed, changes = self.compare(
                 character_data,
                 last["data"]
             )
 
-            if not changed:
+            if not changed and not always_create:
                 return False
 
         else:
-            changes = {
-                "skill_change": False,
-                "equipped_change": False,
-                "skills_added": [],
-                "skills_removed": [],
-                "skills_updated": [],
-                "equipped_added": [],
-                "equipped_removed": []
-            }
+            changes = self._empty_changes()
 
         snapshot = {
             "id": uuid.uuid4().hex[:8],

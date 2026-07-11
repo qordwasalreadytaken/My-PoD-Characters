@@ -539,6 +539,15 @@
           }
         ],
         "MercenaryEquipped": []
+      },
+      "changes": {
+        "skill_change": false,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [],
+        "equipped_removed": []
       }
     },
     {
@@ -1399,7 +1408,25 @@
       "equipped_removed": [
         "Buckler",
         "Storm Impaler"
-      ]
+      ],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [
+          "Lycanthropy",
+          "Werewolf"
+        ],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [
+          "Blood Crescent",
+          "Stone Reaver"
+        ],
+        "equipped_removed": [
+          "Buckler",
+          "Storm Impaler"
+        ]
+      }
     },
     {
       "id": "a6f05a5f",

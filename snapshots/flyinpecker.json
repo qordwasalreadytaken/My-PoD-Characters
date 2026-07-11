@@ -1488,7 +1488,16 @@
       "skills_removed": [],
       "skills_updated": [],
       "equipped_added": [],
-      "equipped_removed": []
+      "equipped_removed": [],
+      "changes": {
+        "skill_change": false,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [],
+        "equipped_removed": []
+      }
     },
     {
       "id": "a9368b07",

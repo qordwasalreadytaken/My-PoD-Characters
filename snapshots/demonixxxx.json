@@ -1334,6 +1334,15 @@
           }
         ],
         "MercenaryEquipped": []
+      },
+      "changes": {
+        "skill_change": false,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [],
+        "equipped_removed": []
       }
     },
     {
@@ -2861,7 +2870,22 @@
         }
       ],
       "equipped_added": [],
-      "equipped_removed": []
+      "equipped_removed": [],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Hemorrhage",
+            "from": 13,
+            "to": 14
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": []
+      }
     },
     {
       "timestamp": "2026-07-05T06:00:49.102327Z",
@@ -4020,7 +4044,22 @@
         }
       ],
       "equipped_added": [],
-      "equipped_removed": []
+      "equipped_removed": [],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Life Tap",
+            "from": 5,
+            "to": 7
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": []
+      }
     },
     {
       "timestamp": "2026-07-06T06:08:18.001555Z",
@@ -5419,7 +5458,33 @@
       "equipped_removed": [
         "Carrion Hide",
         "Steel Ring of Health"
-      ]
+      ],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Hemorrhage",
+            "from": 14,
+            "to": 16
+          },
+          {
+            "name": "Iron Maiden",
+            "from": 5,
+            "to": 7
+          }
+        ],
+        "equipped_added": [
+          "Beast Loop",
+          "Glyph Suit"
+        ],
+        "equipped_removed": [
+          "Carrion Hide",
+          "Steel Ring of Health"
+        ]
+      }
     },
     {
       "timestamp": "2026-07-06T18:16:06.576057Z",
@@ -6844,7 +6909,24 @@
         "Eagle Crest",
         "Gorefoot",
         "Sturdy Chain Gloves of Self-Repair"
-      ]
+      ],
+      "changes": {
+        "skill_change": false,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [
+          "Duskdeep",
+          "Sander's Riprap",
+          "Sander's Taboo"
+        ],
+        "equipped_removed": [
+          "Eagle Crest",
+          "Gorefoot",
+          "Sturdy Chain Gloves of Self-Repair"
+        ]
+      }
     },
     {
       "timestamp": "2026-07-07T06:57:00.500900Z",
@@ -8149,7 +8231,36 @@
       ],
       "equipped_removed": [
         "Amulet of Energy"
-      ]
+      ],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Hemorrhage",
+            "from": 16,
+            "to": 19
+          },
+          {
+            "name": "Iron Maiden",
+            "from": 7,
+            "to": 9
+          },
+          {
+            "name": "Life Tap",
+            "from": 7,
+            "to": 8
+          }
+        ],
+        "equipped_added": [
+          "Vidala's Snare"
+        ],
+        "equipped_removed": [
+          "Amulet of Energy"
+        ]
+      }
     },
     {
       "timestamp": "2026-07-07T17:25:13.573924Z",
@@ -9312,7 +9423,38 @@
       "equipped_removed": [
         "Duskdeep",
         "Vidala's Snare"
-      ]
+      ],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Hemorrhage",
+            "from": 19,
+            "to": 20
+          },
+          {
+            "name": "Iron Maiden",
+            "from": 9,
+            "to": 10
+          },
+          {
+            "name": "Weaken",
+            "from": 5,
+            "to": 8
+          }
+        ],
+        "equipped_added": [
+          "Nokozan Relic",
+          "Undead Crown"
+        ],
+        "equipped_removed": [
+          "Duskdeep",
+          "Vidala's Snare"
+        ]
+      }
     },
     {
       "timestamp": "2026-07-08T06:35:07.233844Z",
@@ -10545,7 +10687,22 @@
         }
       ],
       "equipped_added": [],
-      "equipped_removed": []
+      "equipped_removed": [],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Weaken",
+            "from": 8,
+            "to": 11
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": []
+      }
     },
     {
       "id": "3f8d3821",

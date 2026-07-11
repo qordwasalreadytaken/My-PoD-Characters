@@ -1458,6 +1458,15 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": false,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [],
+        "equipped_removed": []
       }
     },
     {
@@ -2713,6 +2722,32 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Shiver Armor",
+            "from": 1,
+            "to": 2
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": [
+          "Ancients' Pledge",
+          "Arctic Binding",
+          "Bitter Star",
+          "Blood Eye",
+          "Bloodfist",
+          "Entropy Band",
+          "Helm",
+          "Hsarus' Iron Heel",
+          "Nokozan Relic",
+          "Stealth"
+        ]
       }
     },
     {
@@ -3102,7 +3137,31 @@
       "equipped_added": [
         "Wirt's Leg"
       ],
-      "equipped_removed": []
+      "equipped_removed": [],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [
+          "Ice Blast",
+          "Ice Bolt",
+          "Shiver Armor",
+          "Telekinesis",
+          "Teleport",
+          "Warmth"
+        ],
+        "skills_updated": [
+          {
+            "name": "Frigerate",
+            "from": 20,
+            "to": 1
+          }
+        ],
+        "equipped_added": [
+          "Wirt's Leg"
+        ],
+        "equipped_removed": []
+      }
     },
     {
       "timestamp": "2026-07-03T17:09:30.228706Z",
@@ -4255,7 +4314,37 @@
       ],
       "equipped_removed": [
         "Wirt's Leg"
-      ]
+      ],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [
+          "Ice Bolt",
+          "Telekinesis",
+          "Warmth"
+        ],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Frigerate",
+            "from": 1,
+            "to": 9
+          }
+        ],
+        "equipped_added": [
+          "Angelic Sickle",
+          "Arctic Binding",
+          "Arctic Furs",
+          "Carrion Claw",
+          "Havoc Eye",
+          "Pelta Lunata",
+          "Skull Cap",
+          "Storm Coil"
+        ],
+        "equipped_removed": [
+          "Wirt's Leg"
+        ]
+      }
     },
     {
       "timestamp": "2026-07-04T05:54:44.433760Z",
@@ -5983,7 +6072,30 @@
         "Horadric Staff",
         "Iratha's Collar"
       ],
-      "equipped_removed": []
+      "equipped_removed": [],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [
+          "Ice Blast",
+          "Shiver Armor",
+          "Teleport"
+        ],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Frigerate",
+            "from": 9,
+            "to": 12
+          }
+        ],
+        "equipped_added": [
+          "Glyph Spur",
+          "Horadric Staff",
+          "Iratha's Collar"
+        ],
+        "equipped_removed": []
+      }
     },
     {
       "timestamp": "2026-07-05T17:51:55.140883Z",
@@ -7950,7 +8062,24 @@
       "equipped_added": [],
       "equipped_removed": [
         "Horadric Staff"
-      ]
+      ],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Frigerate",
+            "from": 12,
+            "to": 13
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": [
+          "Horadric Staff"
+        ]
+      }
     },
     {
       "timestamp": "2026-07-06T06:08:18.001555Z",
@@ -9500,7 +9629,30 @@
         "Havoc Eye",
         "Pelta Lunata",
         "Storm Coil"
-      ]
+      ],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Frigerate",
+            "from": 13,
+            "to": 17
+          }
+        ],
+        "equipped_added": [
+          "Angelic Halo",
+          "Cathan's Seal",
+          "Kite Shield"
+        ],
+        "equipped_removed": [
+          "Havoc Eye",
+          "Pelta Lunata",
+          "Storm Coil"
+        ]
+      }
     },
     {
       "timestamp": "2026-07-07T06:57:00.500900Z",
@@ -11275,7 +11427,37 @@
         "Angelic Sickle",
         "Arctic Binding",
         "Arctic Furs"
-      ]
+      ],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Frigerate",
+            "from": 17,
+            "to": 20
+          },
+          {
+            "name": "Shiver Armor",
+            "from": 1,
+            "to": 4
+          }
+        ],
+        "equipped_added": [
+          "Breast Plate",
+          "Death's Guard",
+          "Dragonbreath",
+          "Rogue's Bow",
+          "Skewer of Krintiz"
+        ],
+        "equipped_removed": [
+          "Angelic Sickle",
+          "Arctic Binding",
+          "Arctic Furs"
+        ]
+      }
     },
     {
       "timestamp": "2026-07-08T06:35:07.233844Z",
@@ -13087,7 +13269,24 @@
         }
       ],
       "equipped_added": [],
-      "equipped_removed": []
+      "equipped_removed": [],
+      "changes": {
+        "skill_change": true,
+        "equipped_change": false,
+        "skills_added": [
+          "Cold Mastery"
+        ],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Shiver Armor",
+            "from": 4,
+            "to": 6
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": []
+      }
     },
     {
       "id": "5f5fc959",

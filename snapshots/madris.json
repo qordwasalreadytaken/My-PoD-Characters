@@ -1741,6 +1741,15 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": false,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [],
+        "equipped_removed": []
       }
     },
     {
@@ -3655,6 +3664,24 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": false,
+        "skills_added": [
+          "Static Field",
+          "Teleport"
+        ],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Telekinesis",
+            "from": 9,
+            "to": 15
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": []
       }
     },
     {
@@ -5504,6 +5531,17 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": false,
+        "skills_added": [
+          "Chain Lightning"
+        ],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [],
+        "equipped_removed": []
       }
     },
     {
@@ -7835,6 +7873,47 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [
+          "Energy Shield",
+          "Thunder Storm"
+        ],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Telekinesis",
+            "from": 15,
+            "to": 20
+          }
+        ],
+        "equipped_added": [
+          "Beast Eye",
+          "Corruption Noose",
+          "Demon Shank",
+          "Frostburn",
+          "Lore",
+          "Nightsmoke",
+          "Skin of the Vipermagi",
+          "Skull Eye",
+          "Spirit",
+          "Visceratuant"
+        ],
+        "equipped_removed": [
+          "Buckler of Blocking",
+          "Cruel Needle",
+          "Darkglow",
+          "Ring of the Apprentice",
+          "Ring of the Apprentice",
+          "Short Staff of the Mind",
+          "Sigon's Gage",
+          "Sigon's Sabot",
+          "Sigon's Visor",
+          "Sigon's Wrap",
+          "Wraithra Heart"
+        ]
       }
     },
     {
@@ -10080,6 +10159,32 @@
             },
             "Worn": "weapon1"
           }
+        ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [
+          "Lightning Mastery"
+        ],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Energy Shield",
+            "from": 3,
+            "to": 5
+          },
+          {
+            "name": "Thunder Storm",
+            "from": 1,
+            "to": 6
+          }
+        ],
+        "equipped_added": [
+          "Gloom's Trap"
+        ],
+        "equipped_removed": [
+          "Nightsmoke"
         ]
       }
     },
@@ -12393,6 +12498,39 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Energy Shield",
+            "from": 5,
+            "to": 8
+          },
+          {
+            "name": "Teleport",
+            "from": 1,
+            "to": 13
+          },
+          {
+            "name": "Thunder Storm",
+            "from": 6,
+            "to": 12
+          }
+        ],
+        "equipped_added": [
+          "Powered Amulet",
+          "Silkweave",
+          "Spirit"
+        ],
+        "equipped_removed": [
+          "Corruption Noose",
+          "Demon Shank",
+          "Visceratuant"
+        ]
       }
     },
     {
@@ -14586,6 +14724,21 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Teleport",
+            "from": 13,
+            "to": 17
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": []
       }
     },
     {
@@ -16732,6 +16885,35 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Energy Shield",
+            "from": 8,
+            "to": 10
+          },
+          {
+            "name": "Teleport",
+            "from": 17,
+            "to": 20
+          },
+          {
+            "name": "Thunder Storm",
+            "from": 12,
+            "to": 20
+          }
+        ],
+        "equipped_added": [
+          "Harlequin Crest"
+        ],
+        "equipped_removed": [
+          "Lore"
+        ]
       }
     },
     {
@@ -18696,6 +18878,32 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Energy Shield",
+            "from": 10,
+            "to": 11
+          },
+          {
+            "name": "Lightning Mastery",
+            "from": 1,
+            "to": 12
+          }
+        ],
+        "equipped_added": [
+          "Chaos Hold",
+          "Eschuta's Temper"
+        ],
+        "equipped_removed": [
+          "Beast Eye",
+          "Spirit"
+        ]
       }
     },
     {
@@ -20613,6 +20821,21 @@
             "Worn": "weapon1"
           }
         ]
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": false,
+        "skills_added": [],
+        "skills_removed": [],
+        "skills_updated": [
+          {
+            "name": "Lightning Mastery",
+            "from": 12,
+            "to": 13
+          }
+        ],
+        "equipped_added": [],
+        "equipped_removed": []
       }
     },
     {

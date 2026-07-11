@@ -257,6 +257,7 @@ def main():
             continue
 
         char_archive = archive.load(character)
+        archive.refresh_snapshot_changes(char_archive, only_missing=True)
 
         if archive.add_snapshot(char_archive, data):
 
