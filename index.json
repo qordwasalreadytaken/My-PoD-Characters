@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-10T11:41:46.561092Z",
+  "generated": "2026-07-11T01:10:35.243823Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -588,16 +588,32 @@
     {
       "name": "hardqord",
       "class": "Sorceress",
-      "level": 30,
-      "latestSnapshot": "5f5fc959",
-      "snapshotCount": 10,
-      "milestoneCount": 1,
-      "lastUpdated": "2026-07-09T01:56:32.368274Z",
+      "level": 32,
+      "latestSnapshot": "ff9587e9",
+      "snapshotCount": 11,
+      "milestoneCount": 2,
+      "lastUpdated": "2026-07-11T01:10:35.229860Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Starting Norm Baal and Cow Runs",
+          "key": "32",
+          "timestamp": "2026-07-11T01:10:35.229860Z",
+          "id": "ff9587e9",
+          "title": "Starting Norm Baal and Cow Runs",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "url": "character.html?c=hardqord&t=32",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T01%3A10%3A35.229860Z"
+        },
         {
           "label": "Just Cleared Normal",
           "key": "nm",
