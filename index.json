@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-11T12:26:28.094495Z",
+  "generated": "2026-07-11T13:21:42.985343Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -588,16 +588,32 @@
     {
       "name": "hardqord",
       "class": "Sorceress",
-      "level": 34,
-      "latestSnapshot": "7197a956",
-      "snapshotCount": 12,
-      "milestoneCount": 2,
-      "lastUpdated": "2026-07-11T05:51:44.865062Z",
+      "level": 36,
+      "latestSnapshot": "c6ee5e23",
+      "snapshotCount": 13,
+      "milestoneCount": 3,
+      "lastUpdated": "2026-07-11T13:21:42.967137Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Still Alive!",
+          "key": "still-alive",
+          "timestamp": "2026-07-11T13:21:42.967137Z",
+          "id": "c6ee5e23",
+          "title": "Still Alive!",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "url": "character.html?c=hardqord&t=still-alive",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T13%3A21%3A42.967137Z"
+        },
         {
           "label": "2026-07-11T05:51:44.865062Z",
           "key": "7197a956",
