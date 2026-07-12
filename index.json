@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-12T19:16:52.212271Z",
+  "generated": "2026-07-12T21:35:58.029537Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1532,6 +1532,38 @@
           "story": false,
           "url": "character.html?c=rikka&t=rikka-first-snapshot",
           "canonicalUrl": "character.html?c=rikka&t=2026-07-10T11%3A37%3A08.498421Z"
+        }
+      ]
+    },
+    {
+      "name": "SkillIssue",
+      "class": "Sorceress",
+      "level": 1,
+      "latestSnapshot": "2e216feb",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-12T21:35:58.028606Z",
+      "tags": [
+        "Sorc",
+        "HC"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "Fresh Start",
+          "key": "fresh-start",
+          "timestamp": "2026-07-12T21:35:58.028606Z",
+          "id": "2e216feb",
+          "title": "Fresh Start",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=fresh-start",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-12T21%3A35%3A58.028606Z"
         }
       ]
     },
