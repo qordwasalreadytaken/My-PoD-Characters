@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-12T06:02:10.619491Z",
+  "generated": "2026-07-12T11:47:51.138130Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -630,16 +630,30 @@
     {
       "name": "hardqord",
       "class": "Sorceress",
-      "level": 41,
-      "latestSnapshot": "665012e2",
-      "snapshotCount": 15,
-      "milestoneCount": 4,
-      "lastUpdated": "2026-07-12T06:02:09.636544Z",
+      "level": 42,
+      "latestSnapshot": "34ad16a0",
+      "snapshotCount": 16,
+      "milestoneCount": 5,
+      "lastUpdated": "2026-07-12T11:47:51.109320Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Beat NM Andy",
+          "key": "beat-nm-andy",
+          "timestamp": "2026-07-12T11:47:51.109320Z",
+          "id": "34ad16a0",
+          "title": "Beat NM Andy",
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": false,
+          "url": "character.html?c=hardqord&t=beat-nm-andy",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T11%3A47%3A51.109320Z"
+        },
         {
           "label": "2026-07-12T06:02:09.636544Z",
           "key": "665012e2",
