@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-11T21:25:24.952004Z",
+  "generated": "2026-07-12T06:02:10.619491Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -172,16 +172,30 @@
     {
       "name": "cripdontrip",
       "class": "Amazon",
-      "level": 85,
-      "latestSnapshot": "59a8b304",
-      "snapshotCount": 2,
+      "level": 86,
+      "latestSnapshot": "15bade3e",
+      "snapshotCount": 3,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-11T21:25:24.945457Z",
+      "lastUpdated": "2026-07-12T06:02:08.683436Z",
       "tags": [
         "Ama",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-12T06:02:08.683436Z",
+          "key": "15bade3e",
+          "timestamp": "2026-07-12T06:02:08.683436Z",
+          "id": "15bade3e",
+          "title": null,
+          "tags": [
+            "Ama",
+            "HC"
+          ],
+          "automatic": true,
+          "url": "character.html?c=cripdontrip&t=15bade3e",
+          "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-12T06%3A02%3A08.683436Z"
+        },
         {
           "label": "Helmet Upgrade!",
           "key": "helmet-upgrade",
@@ -353,15 +367,28 @@
     {
       "name": "demonixxxx",
       "class": "Necromancer",
-      "level": 49,
-      "latestSnapshot": "e9dba1c0",
-      "snapshotCount": 11,
+      "level": 51,
+      "latestSnapshot": "949cd3b4",
+      "snapshotCount": 12,
       "milestoneCount": 0,
-      "lastUpdated": "2026-07-10T10:42:37.568675Z",
+      "lastUpdated": "2026-07-12T06:02:09.318696Z",
       "tags": [
         "Necro"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-12T06:02:09.318696Z",
+          "key": "949cd3b4",
+          "timestamp": "2026-07-12T06:02:09.318696Z",
+          "id": "949cd3b4",
+          "title": null,
+          "tags": [
+            "Necro"
+          ],
+          "automatic": true,
+          "url": "character.html?c=demonixxxx&t=949cd3b4",
+          "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-12T06%3A02%3A09.318696Z"
+        },
         {
           "label": "2026-07-10T10:42:37.568675Z",
           "key": "e9dba1c0",
@@ -603,16 +630,30 @@
     {
       "name": "hardqord",
       "class": "Sorceress",
-      "level": 38,
-      "latestSnapshot": "67e7a8ef",
-      "snapshotCount": 14,
+      "level": 41,
+      "latestSnapshot": "665012e2",
+      "snapshotCount": 15,
       "milestoneCount": 4,
-      "lastUpdated": "2026-07-11T15:46:03.508524Z",
+      "lastUpdated": "2026-07-12T06:02:09.636544Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-12T06:02:09.636544Z",
+          "key": "665012e2",
+          "timestamp": "2026-07-12T06:02:09.636544Z",
+          "id": "665012e2",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "url": "character.html?c=hardqord&t=665012e2",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T06%3A02%3A09.636544Z"
+        },
         {
           "label": "Magic Arrow instead of Exploding Projectiles",
           "key": "magic-arrow-instead-of-exploding-projectiles",
@@ -1087,16 +1128,30 @@
     {
       "name": "jazzminn",
       "class": "Amazon",
-      "level": 80,
-      "latestSnapshot": "f50a0922",
-      "snapshotCount": 2,
+      "level": 81,
+      "latestSnapshot": "327e5315",
+      "snapshotCount": 3,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-11T05:51:45.460512Z",
+      "lastUpdated": "2026-07-12T06:02:10.106036Z",
       "tags": [
         "Ama",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-12T06:02:10.106036Z",
+          "key": "327e5315",
+          "timestamp": "2026-07-12T06:02:10.106036Z",
+          "id": "327e5315",
+          "title": null,
+          "tags": [
+            "Ama",
+            "HC"
+          ],
+          "automatic": true,
+          "url": "character.html?c=jazzminn&t=327e5315",
+          "canonicalUrl": "character.html?c=jazzminn&t=2026-07-12T06%3A02%3A10.106036Z"
+        },
         {
           "label": "2026-07-11T05:51:45.460512Z",
           "key": "f50a0922",
@@ -1382,16 +1437,30 @@
     {
       "name": "teddyoneanddone",
       "class": "Barbarian",
-      "level": 68,
-      "latestSnapshot": "2982ee4b",
-      "snapshotCount": 1,
+      "level": 72,
+      "latestSnapshot": "e8d9ae59",
+      "snapshotCount": 2,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-10T11:41:46.558537Z",
+      "lastUpdated": "2026-07-12T06:02:10.614184Z",
       "tags": [
         "Barb",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-12T06:02:10.614184Z",
+          "key": "e8d9ae59",
+          "timestamp": "2026-07-12T06:02:10.614184Z",
+          "id": "e8d9ae59",
+          "title": null,
+          "tags": [
+            "Barb",
+            "HC"
+          ],
+          "automatic": true,
+          "url": "character.html?c=teddyoneanddone&t=e8d9ae59",
+          "canonicalUrl": "character.html?c=teddyoneanddone&t=2026-07-12T06%3A02%3A10.614184Z"
+        },
         {
           "label": "teddyoneanddone First snapshot",
           "key": "teddyoneanddone-first-snapshot",
