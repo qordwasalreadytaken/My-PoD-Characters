@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-12T16:17:34.747535Z",
+  "generated": "2026-07-12T18:37:38.630509Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -630,16 +630,32 @@
     {
       "name": "hardqord",
       "class": "Sorceress",
-      "level": 47,
-      "latestSnapshot": "88dcb266",
-      "snapshotCount": 17,
-      "milestoneCount": 6,
-      "lastUpdated": "2026-07-12T16:17:34.716682Z",
+      "level": 50,
+      "latestSnapshot": "f126b788",
+      "snapshotCount": 18,
+      "milestoneCount": 7,
+      "lastUpdated": "2026-07-12T18:37:38.595971Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Dead",
+          "key": "dead",
+          "timestamp": "2026-07-12T18:37:38.595971Z",
+          "id": "f126b788",
+          "title": "Dead",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "url": "character.html?c=hardqord&t=dead",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T18%3A37%3A38.595971Z"
+        },
         {
           "label": "Starting Act 3 NM",
           "key": "starting-act-3-nm",
