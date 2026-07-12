@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-12T11:47:51.138130Z",
+  "generated": "2026-07-12T16:17:34.747535Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -630,16 +630,32 @@
     {
       "name": "hardqord",
       "class": "Sorceress",
-      "level": 42,
-      "latestSnapshot": "34ad16a0",
-      "snapshotCount": 16,
-      "milestoneCount": 5,
-      "lastUpdated": "2026-07-12T11:47:51.109320Z",
+      "level": 47,
+      "latestSnapshot": "88dcb266",
+      "snapshotCount": 17,
+      "milestoneCount": 6,
+      "lastUpdated": "2026-07-12T16:17:34.716682Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Starting Act 3 NM",
+          "key": "starting-act-3-nm",
+          "timestamp": "2026-07-12T16:17:34.716682Z",
+          "id": "88dcb266",
+          "title": "Starting Act 3 NM",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "url": "character.html?c=hardqord&t=starting-act-3-nm",
+          "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T16%3A17%3A34.716682Z"
+        },
         {
           "label": "Beat NM Andy",
           "key": "beat-nm-andy",
