@@ -30,6 +30,36 @@
             text-transform: uppercase;
         }
 
+        #storyNav {
+            display: none;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+            padding-right: 8px;
+        }
+
+        .story-nav-button {
+            border: 1px solid #444;
+            background: #141414;
+            color: #ddd;
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .story-nav-button:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+        }
+
+        #storyNavLabel {
+            color: #b8b8b8;
+            font-size: 0.85rem;
+            min-width: 78px;
+            text-align: center;
+        }
+
         .snapshot-notes {
             margin-bottom: 16px;
         }
@@ -99,6 +129,11 @@
                 margin-bottom: 2px;
             }
 
+            #storyNav {
+                margin-left: 12px;
+                padding-right: 12px;
+            }
+
             .snapshot-notes {
                 margin-bottom: 12px;
             }
@@ -123,6 +158,11 @@
         Snapshot
     </div>
     <span id="snapshotFavoriteBadge">Favorite</span>
+    <div id="storyNav" aria-label="Story navigation controls">
+        <button id="storyPrev" class="story-nav-button" type="button" aria-label="Previous story snapshot">◀</button>
+        <span id="storyNavLabel">Story</span>
+        <button id="storyNext" class="story-nav-button" type="button" aria-label="Next story snapshot">▶</button>
+    </div>
 
 </div>
         <div style="clear:both;"></div>
@@ -308,10 +348,28 @@
 
 $(document).ready(function() {
     console.log("(document).ready worked");
+    const storyNavState = {
+        characterName: null,
+        entries: [],
+        currentIndex: -1
+    };
 
     function getQueryParam(param) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
+    }
+
+    function parseBoolean(value) {
+        if (value === true) {
+            return true;
+        }
+
+        if (typeof value !== 'string') {
+            return false;
+        }
+
+        const normalized = value.trim().toLowerCase();
+        return normalized === '1' || normalized === 'true' || normalized === 'yes' || normalized === 'y' || normalized === 'on';
     }
 
     function normalizeHistory(payload) {
@@ -377,6 +435,71 @@ $(document).ready(function() {
         }
 
         return typeof snapshot.timestamp === 'string' ? snapshot.timestamp : '';
+    }
+
+    function isStorySnapshot(snapshot) {
+        const metadata = getSnapshotMetadata(snapshot);
+        return parseBoolean(metadata.story);
+    }
+
+    function buildStoryEntries(snapshots) {
+        return snapshots
+            .slice()
+            .sort((a, b) => String(a.timestamp || '').localeCompare(String(b.timestamp || '')))
+            .filter((snapshot) => isStorySnapshot(snapshot))
+            .map((snapshot) => ({
+                snapshot,
+                key: getSnapshotKey(snapshot) || snapshot.timestamp || 'latest',
+                title: getSnapshotMetadata(snapshot).title || snapshot.timestamp || 'Snapshot',
+            }));
+    }
+
+    function updateStoryNav(characterName, selectedSnapshot, snapshots) {
+        const entries = buildStoryEntries(snapshots);
+        const nav = $('#storyNav');
+        const label = $('#storyNavLabel');
+        const prevBtn = $('#storyPrev');
+        const nextBtn = $('#storyNext');
+
+        const index = entries.findIndex((entry) => entry.snapshot === selectedSnapshot);
+
+        storyNavState.characterName = characterName;
+        storyNavState.entries = entries;
+        storyNavState.currentIndex = index;
+
+        if (!entries.length || index < 0) {
+            nav.hide();
+            label.text('Story');
+            prevBtn.prop('disabled', true);
+            nextBtn.prop('disabled', true);
+            return;
+        }
+
+        label.text(`Story ${index + 1}/${entries.length}`);
+        prevBtn.prop('disabled', entries.length <= 1);
+        nextBtn.prop('disabled', entries.length <= 1);
+        nav.show();
+    }
+
+    function navigateStory(direction) {
+        const total = storyNavState.entries.length;
+        if (!total || storyNavState.currentIndex < 0) {
+            return;
+        }
+
+        const offset = direction < 0 ? -1 : 1;
+        const nextIndex = (storyNavState.currentIndex + offset + total) % total;
+        const nextEntry = storyNavState.entries[nextIndex];
+        if (!nextEntry || !nextEntry.key || !storyNavState.characterName) {
+            return;
+        }
+
+        const params = new URLSearchParams(window.location.search);
+        params.set('c', storyNavState.characterName);
+        params.set('t', nextEntry.key);
+        const newUrl = window.location.pathname + '?' + params.toString();
+        window.history.replaceState({}, '', newUrl);
+        void loadFocusSnapshot();
     }
 
     function setFocusMetadata(snapshot, fallbackName) {
@@ -500,6 +623,7 @@ $(document).ready(function() {
             }
 
             setFocusMetadata(selected, charName);
+            updateStoryNav(charName, selected, snapshots);
 
             try {
                 processCharacterData(selected.data);
@@ -531,6 +655,32 @@ $(document).ready(function() {
         const scroll = $('#main').scrollTop();
         $('.arrow').toggleClass('fade', scroll >= 1);
     });
+
+    $('#storyPrev').on('click', function() {
+        navigateStory(-1);
+    });
+
+    $('#storyNext').on('click', function() {
+        navigateStory(1);
+    });
+
+    $(document).on('keydown', function(event) {
+        const tag = (event.target && event.target.tagName) ? event.target.tagName.toLowerCase() : '';
+        if (tag === 'input' || tag === 'textarea' || tag === 'select') {
+            return;
+        }
+
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            navigateStory(-1);
+        }
+
+        if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            navigateStory(1);
+        }
+    });
+
     void loadFocusSnapshot();
 });
 

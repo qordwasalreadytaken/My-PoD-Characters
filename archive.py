@@ -166,6 +166,7 @@ class CharacterArchive:
         tags=None,
         slug=None,
         favorite=False,
+        story=False,
         always_create=False
     ):
         last = self.latest_snapshot(archive)
@@ -193,7 +194,8 @@ class CharacterArchive:
                 "journal": journal,
                 "tags": tags or [],
                 "slug": slug,
-                "favorite": favorite
+                "favorite": favorite,
+                "story": story
             },
 
             "changes": changes,

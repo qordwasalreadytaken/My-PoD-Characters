@@ -90,6 +90,7 @@ def parse_args():
     parser.add_argument("--tags", help="Comma-separated tags")
     parser.add_argument("--slug", help="Optional URL-friendly snapshot key")
     parser.add_argument("--favorite", default="false", help="Mark snapshot as favorite (true/false)")
+    parser.add_argument("--story", default="false", help="Include snapshot in story navigation (true/false)")
     return parser.parse_args()
 
 
@@ -111,6 +112,7 @@ def main():
         tags = parse_tags(args.tags)
         slug = args.slug.strip() if args.slug else None
         favorite = parse_bool(args.favorite)
+        story = parse_bool(args.story)
     else:
         if not isinstance(characters, list) or not characters:
             print("config.json must define a non-empty 'characters' list when running interactively.")
@@ -130,6 +132,7 @@ def main():
         tags = parse_tags(input("Tags (comma-separated): ").strip())
         slug = input("Slug (optional): ").strip() or None
         favorite = parse_bool(input("Favorite? (y/N): ").strip() or "false")
+        story = parse_bool(input("Include in story navigation? (y/N): ").strip() or "false")
 
     print()
     print("Fetching latest character...")
@@ -155,6 +158,7 @@ def main():
         tags=tags,
         slug=slug,
         favorite=favorite,
+        story=story,
         always_create=True
     )
 

@@ -13302,7 +13302,8 @@
           "frig"
         ],
         "slug": "nm",
-        "favorite": true
+        "favorite": true,
+        "story": true
       },
       "changes": {
         "skill_change": false,
@@ -15122,7 +15123,8 @@
           "frig"
         ],
         "slug": "32",
-        "favorite": true
+        "favorite": true,
+        "story": true
       },
       "changes": {
         "skill_change": false,
@@ -18505,7 +18507,8 @@
           "frig"
         ],
         "slug": null,
-        "favorite": true
+        "favorite": true,
+        "story": true
       },
       "changes": {
         "skill_change": true,
@@ -20182,7 +20185,8 @@
           "frig"
         ],
         "slug": null,
-        "favorite": false
+        "favorite": false,
+        "story": true
       },
       "changes": {
         "skill_change": true,
@@ -23716,7 +23720,8 @@
         "journal": "Not sure if this bow build is adequate for NM Act 2, still waiting for more tiem drops before respec'ing. ISO 3-socket helmet, better 4-socket bow for new merc.",
         "tags": [],
         "slug": null,
-        "favorite": false
+        "favorite": false,
+        "story": true
       },
       "changes": {
         "skill_change": true,
@@ -25442,7 +25447,8 @@
           "frig"
         ],
         "slug": null,
-        "favorite": false
+        "favorite": false,
+        "story": true
       },
       "changes": {
         "skill_change": true,
@@ -27273,7 +27279,8 @@
           "frig"
         ],
         "slug": null,
-        "favorite": false
+        "favorite": false,
+        "story": true
       },
       "changes": {
         "skill_change": true,
