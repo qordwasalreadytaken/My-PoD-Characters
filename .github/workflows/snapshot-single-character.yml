@@ -27,6 +27,11 @@ on:
         description: Optional URL-friendly key (e.g. first-uber-clear)
         required: false
         type: string
+      story:
+        description: Mark as story
+        required: false
+        default: false
+        type: boolean
       favorite:
         description: Mark as favorite
         required: false
@@ -68,6 +73,7 @@ jobs:
             --journal "${{ github.event.inputs.journal }}" \
             --tags "${{ github.event.inputs.tags }}" \
             --slug "${{ github.event.inputs.slug }}" \
+            --story "${{ github.event.inputs.story }}" \
             --favorite "${{ github.event.inputs.favorite }}"
 
       - name: Commit and push changes
