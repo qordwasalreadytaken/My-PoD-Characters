@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-12T21:35:58.029537Z",
+  "generated": "2026-07-13T01:41:26.821813Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1538,16 +1538,31 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 1,
-      "latestSnapshot": "2e216feb",
-      "snapshotCount": 1,
-      "milestoneCount": 1,
-      "lastUpdated": "2026-07-12T21:35:58.028606Z",
+      "level": 14,
+      "latestSnapshot": "1db92ba2",
+      "snapshotCount": 2,
+      "milestoneCount": 2,
+      "lastUpdated": "2026-07-13T01:41:26.818465Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Andy Norm",
+          "key": "andy-norm",
+          "timestamp": "2026-07-13T01:41:26.818465Z",
+          "id": "1db92ba2",
+          "title": "Andy Norm",
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": false,
+          "story": false,
+          "url": "character.html?c=SkillIssue&t=andy-norm",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-13T01%3A41%3A26.818465Z"
+        },
         {
           "label": "Fresh Start",
           "key": "fresh-start",
