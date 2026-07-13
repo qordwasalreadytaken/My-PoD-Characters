@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-13T01:41:26.821813Z",
+  "generated": "2026-07-13T01:47:50.816285Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1538,16 +1538,33 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 14,
-      "latestSnapshot": "1db92ba2",
-      "snapshotCount": 2,
-      "milestoneCount": 2,
-      "lastUpdated": "2026-07-13T01:41:26.818465Z",
+      "level": 15,
+      "latestSnapshot": "49323d6f",
+      "snapshotCount": 3,
+      "milestoneCount": 3,
+      "lastUpdated": "2026-07-13T01:47:50.812126Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Norm Andy Done",
+          "key": "norm-andy-done",
+          "timestamp": "2026-07-13T01:47:50.812126Z",
+          "id": "49323d6f",
+          "title": "Norm Andy Done",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=norm-andy-done",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-13T01%3A47%3A50.812126Z"
+        },
         {
           "label": "Andy Norm",
           "key": "andy-norm",
