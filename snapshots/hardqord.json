@@ -2752,6 +2752,20 @@
     },
     {
       "timestamp": "2026-07-03T15:41:27.305526Z",
+      "metadata": {
+        "automatic": false,
+        "title": "From the ashes of lvl 30 HardQord...",
+        "description": "SSFHC Frigerate Sorc - Starting Again",
+        "journal": "The previous hero HardQord was killed at lvl 30, let's see if we do better this time",
+        "tags": [
+          "sorc",
+          "ssfhc",
+          "frig"
+        ],
+        "slug": "fresh-start",
+        "favorite": true,
+        "story": true
+      },
       "data": {
         "Name": "HardQord",
         "IsLadder": true,
@@ -6099,6 +6113,20 @@
     },
     {
       "timestamp": "2026-07-05T17:51:55.140883Z",
+      "metadata": {
+        "automatic": false,
+        "title": "How she looks at Level 20",
+        "description": "SSFHC Frigerate Sorc - Starting Again",
+        "journal": "Starting to plan for the futre, Frigerate through Norm but what after that? Found a great 4-socket staff with +3 Meteor, is this a sign?",
+        "tags": [
+          "sorc",
+          "ssfhc",
+          "frig"
+        ],
+        "slug": "lvl20",
+        "favorite": false,
+        "story": true
+      },
       "data": {
         "Name": "HardQord",
         "IsLadder": true,

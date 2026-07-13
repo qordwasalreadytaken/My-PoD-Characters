@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-13T06:02:34.674664Z",
+  "generated": "2026-07-13T11:45:02.234352Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -892,18 +892,20 @@
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-06T06%3A08%3A18.001555Z"
         },
         {
-          "label": "2026-07-05T17:51:55.140883Z",
-          "key": "2026-07-05T17:51:55.140883Z",
+          "label": "How she looks at Level 20",
+          "key": "lvl20",
           "timestamp": "2026-07-05T17:51:55.140883Z",
           "id": null,
-          "title": null,
+          "title": "How she looks at Level 20",
           "tags": [
-            "Sorc",
+            "sorc",
+            "ssfhc",
+            "frig",
             "HC"
           ],
-          "automatic": true,
-          "story": false,
-          "url": "character.html?c=hardqord&t=2026-07-05T17%3A51%3A55.140883Z",
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=hardqord&t=lvl20",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-05T17%3A51%3A55.140883Z"
         },
         {
@@ -937,18 +939,20 @@
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-03T17%3A09%3A30.228706Z"
         },
         {
-          "label": "2026-07-03T15:41:27.305526Z",
-          "key": "2026-07-03T15:41:27.305526Z",
+          "label": "From the ashes of lvl 30 HardQord...",
+          "key": "fresh-start",
           "timestamp": "2026-07-03T15:41:27.305526Z",
           "id": null,
-          "title": null,
+          "title": "From the ashes of lvl 30 HardQord...",
           "tags": [
-            "Sorc",
+            "sorc",
+            "ssfhc",
+            "frig",
             "HC"
           ],
-          "automatic": true,
-          "story": false,
-          "url": "character.html?c=hardqord&t=2026-07-03T15%3A41%3A27.305526Z",
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=hardqord&t=fresh-start",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-03T15%3A41%3A27.305526Z"
         },
         {
