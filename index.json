@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-14T22:59:03.078607Z",
+  "generated": "2026-07-15T01:14:27.863761Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1628,16 +1628,33 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 20,
-      "latestSnapshot": "5b609f26",
-      "snapshotCount": 5,
-      "milestoneCount": 4,
-      "lastUpdated": "2026-07-14T22:59:03.069890Z",
+      "level": 22,
+      "latestSnapshot": "642d2ff5",
+      "snapshotCount": 6,
+      "milestoneCount": 5,
+      "lastUpdated": "2026-07-15T01:14:27.852886Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Made it to Act 3",
+          "key": "a3",
+          "timestamp": "2026-07-15T01:14:27.852886Z",
+          "id": "642d2ff5",
+          "title": "Made it to Act 3",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=a3",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-15T01%3A14%3A27.852886Z"
+        },
         {
           "label": "Level 20",
           "key": "lvl20",
