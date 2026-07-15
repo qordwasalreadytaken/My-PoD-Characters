@@ -317,14 +317,549 @@
         ],
         "MercenaryEquipped": []
       }
+    },
+    {
+      "id": "f1b5a87a",
+      "timestamp": "2026-07-15T05:47:15.155136Z",
+      "metadata": {
+        "automatic": true,
+        "title": null,
+        "description": null,
+        "journal": null,
+        "tags": [],
+        "slug": null,
+        "favorite": false,
+        "story": false
+      },
+      "changes": {
+        "skill_change": true,
+        "equipped_change": true,
+        "skills_added": [
+          "Inferno",
+          "Telekinesis"
+        ],
+        "skills_removed": [],
+        "skills_updated": [],
+        "equipped_added": [
+          "Amulet of the Apprentice",
+          "Rugged Boots",
+          "Skull Cap of Self-Repair"
+        ],
+        "equipped_removed": []
+      },
+      "data": {
+        "Name": "TeddyOneandOnly",
+        "IsLadder": true,
+        "IsHardcore": true,
+        "IsDead": false,
+        "Class": "Sorceress",
+        "Stats": {
+          "Level": 7,
+          "Experience": 28678,
+          "Strength": 25,
+          "Dexterity": 25,
+          "Vitality": 20,
+          "Energy": 35,
+          "BaseLife": 69,
+          "Life": 49,
+          "BaseMana": 47,
+          "Mana": 47,
+          "Gold": 12395,
+          "Stashed": 2327
+        },
+        "Bonus": {
+          "Strength": 0,
+          "Dexterity": 0,
+          "Vitality": 0,
+          "Energy": 0,
+          "FireResistance": 0,
+          "MaximumFireResistance": 0,
+          "ColdResistance": 0,
+          "MaximumColdResistance": 0,
+          "LightningResistance": 5,
+          "MaximumLightningResistance": 0,
+          "PoisonResistance": 0,
+          "MaximumPoisonResistance": 0,
+          "MagicFind": 0,
+          "GoldFind": 0,
+          "FasterCastRate": 10,
+          "FasterHitRecovery": 0,
+          "IncreasedAttackSpeed": 0,
+          "CrushingBlow": 0,
+          "OpenWounds": 0,
+          "DeadlyStrike": 0,
+          "DamageReduction": 0,
+          "CooldownReduction": 0,
+          "WeaponSetMain": {
+            "Strength": 0,
+            "Dexterity": 0,
+            "Vitality": 0,
+            "Energy": 0,
+            "FireResistance": 0,
+            "MaximumFireResistance": 0,
+            "ColdResistance": 0,
+            "MaximumColdResistance": 0,
+            "LightningResistance": 0,
+            "MaximumLightningResistance": 0,
+            "PoisonResistance": 0,
+            "MaximumPoisonResistance": 0,
+            "MagicFind": 0,
+            "GoldFind": 0,
+            "FasterCastRate": 0,
+            "FasterHitRecovery": 0,
+            "IncreasedAttackSpeed": 0,
+            "CrushingBlow": 0,
+            "OpenWounds": 0,
+            "DeadlyStrike": 0,
+            "DamageReduction": 0,
+            "CooldownReduction": 0
+          },
+          "WeaponSetOffhand": {
+            "Strength": 0,
+            "Dexterity": 0,
+            "Vitality": 0,
+            "Energy": 0,
+            "FireResistance": 0,
+            "MaximumFireResistance": 0,
+            "ColdResistance": 0,
+            "MaximumColdResistance": 0,
+            "LightningResistance": 0,
+            "MaximumLightningResistance": 0,
+            "PoisonResistance": 0,
+            "MaximumPoisonResistance": 0,
+            "MagicFind": 0,
+            "GoldFind": 0,
+            "FasterCastRate": 0,
+            "FasterHitRecovery": 0,
+            "IncreasedAttackSpeed": 0,
+            "CrushingBlow": 0,
+            "OpenWounds": 0,
+            "DeadlyStrike": 0,
+            "DamageReduction": 0,
+            "CooldownReduction": 0
+          }
+        },
+        "SkillTabs": [
+          {
+            "Name": "Fire Skills",
+            "Total": 5,
+            "Skills": [
+              {
+                "ID": 2,
+                "Name": "Warmth",
+                "Level": 4
+              },
+              {
+                "ID": 6,
+                "Name": "Inferno",
+                "Level": 1
+              }
+            ]
+          },
+          {
+            "Name": "Lightning Skills",
+            "Total": 1,
+            "Skills": [
+              {
+                "ID": 8,
+                "Name": "Telekinesis",
+                "Level": 1
+              }
+            ]
+          },
+          {
+            "Name": "Cold Skills",
+            "Total": 0,
+            "Skills": []
+          }
+        ],
+        "MercenaryExperience": 0,
+        "MercenaryType": "Rogue Scout",
+        "MercenaryName": "Aliza",
+        "MercenaryLevel": "1",
+        "Equipped": [
+          {
+            "Quality": "Rare",
+            "ID": "1391863789",
+            "QualityCode": "q_rare",
+            "Title": "Spirit Pelt",
+            "Tag": "Quilted Armor",
+            "TextTag": "Quilted Armor",
+            "Ethereal": "False",
+            "Enhanced": "True",
+            "Defense": "12",
+            "Durability": "11",
+            "DurabilityMaximum": "20",
+            "ItemLevel": "8",
+            "LevelReq": 3,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+27% Enhanced Defense",
+              "Lightning Resist +5%",
+              "Attacker Takes Damage of 3"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 3,
+              "invwidth": 2
+            },
+            "Worn": "body"
+          },
+          {
+            "Quality": "Magic",
+            "ID": "1345699817",
+            "QualityCode": "q_magic",
+            "Title": "Sash of Self-Repair",
+            "Tag": "Sash",
+            "TextTag": "Sash(L)",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "Defense": "2",
+            "Durability": "12",
+            "DurabilityMaximum": "12",
+            "ItemLevel": "4",
+            "LevelReq": 1,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Repairs 1 durability in 33 seconds"
+            ],
+            "Position": {
+              "x": 8,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 2
+            },
+            "Worn": "belt"
+          },
+          {
+            "Quality": "Magic",
+            "ID": "3258042342",
+            "QualityCode": "q_magic",
+            "Title": "Rugged Boots",
+            "Tag": "Boots",
+            "TextTag": "Leather Boots",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "Defense": "3",
+            "Durability": "10",
+            "DurabilityMaximum": "12",
+            "ItemLevel": "5",
+            "LevelReq": 1,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+8 Maximum Stamina"
+            ],
+            "Position": {
+              "x": 9,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 2,
+              "invwidth": 2
+            },
+            "Worn": "boots"
+          },
+          {
+            "Quality": "Magic",
+            "ID": "2841972351",
+            "QualityCode": "q_magic",
+            "Title": "Skull Cap of Self-Repair",
+            "Tag": "Skull Cap",
+            "TextTag": "Skull Cap",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "Defense": "9",
+            "Durability": "18",
+            "DurabilityMaximum": "18",
+            "ItemLevel": "8",
+            "LevelReq": 1,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Repairs 1 durability in 33 seconds"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 2,
+              "invwidth": 2
+            },
+            "Worn": "helmet"
+          },
+          {
+            "Quality": "Magic",
+            "ID": "3339730762",
+            "QualityCode": "q_magic",
+            "Title": "Amulet of the Apprentice",
+            "Tag": "Amulet",
+            "TextTag": "amulet",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "0",
+            "ItemLevel": "27",
+            "LevelReq": 3,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10% Faster Cast Rate"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": "amulet"
+          },
+          {
+            "Quality": "Normal",
+            "ID": "2097806843",
+            "QualityCode": "q_normal",
+            "Title": "Short Staff",
+            "Tag": "Short Staff",
+            "TextTag": "Short Staff",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "DamageMinimum": "1",
+            "DamageMaximum": "5",
+            "Durability": "89",
+            "DurabilityMaximum": "90",
+            "ItemLevel": "1",
+            "LevelReq": 0,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+50% Damage to Undead",
+              "+1 to Fire Bolt (Sorceress Only)"
+            ],
+            "Position": {
+              "x": 4,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 3,
+              "invwidth": 1
+            },
+            "Worn": "weapon1"
+          }
+        ],
+        "Inventory": [
+          {
+            "Quality": "Normal",
+            "ID": "2831735410",
+            "QualityCode": "q_normal",
+            "Title": "Tome of Town Portal",
+            "Tag": "Tome of Town Portal",
+            "TextTag": "Town Portal Book",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "10",
+            "LevelReq": 0,
+            "SocketCount": "0",
+            "PropertyList": [],
+            "Position": {
+              "x": 2,
+              "y": 3
+            },
+            "Size": {
+              "invheight": 2,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Chipped Emerald",
+            "Tag": "Chipped Emerald",
+            "TextTag": "Chipped Emerald",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 1,
+            "SocketCount": "0",
+            "PropertyList": [],
+            "Position": {
+              "x": 9,
+              "y": 8
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Chipped Emerald",
+            "Tag": "Chipped Emerald",
+            "TextTag": "Chipped Emerald",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 1,
+            "SocketCount": "0",
+            "PropertyList": [],
+            "Position": {
+              "x": 9,
+              "y": 7
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Chipped Sapphire",
+            "Tag": "Chipped Sapphire",
+            "TextTag": "Chipped Saphire",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 1,
+            "SocketCount": "0",
+            "PropertyList": [],
+            "Position": {
+              "x": 9,
+              "y": 6
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Normal",
+            "ID": "3080281484",
+            "QualityCode": "q_normal",
+            "Title": "Preserved Head",
+            "Tag": "Preserved Head",
+            "TextTag": "Preserved Head",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "Block": "23",
+            "Defense": "5",
+            "Durability": "10",
+            "DurabilityMaximum": "20",
+            "ItemLevel": "8",
+            "LevelReq": 3,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Adds 2-7 poison damage over 3 seconds",
+              "+2 to Weaken (Necromancer Only)"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 2,
+              "invwidth": 2
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Magic",
+            "ID": "1616915189",
+            "QualityCode": "q_magic",
+            "Title": "Small Shield",
+            "Tag": "Small Shield",
+            "TextTag": "Small Shield",
+            "Ethereal": "False",
+            "Block": "25",
+            "Defense": "8",
+            "Durability": "11",
+            "DurabilityMaximum": "16",
+            "ItemLevel": "8",
+            "LevelReq": 3,
+            "PropertyList": [
+              "\u00ffc1Unidentified"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 2
+            },
+            "Size": {
+              "invheight": 2,
+              "invwidth": 2
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Magic",
+            "ID": "2087257766",
+            "QualityCode": "q_magic",
+            "Title": "Skull Cap",
+            "Tag": "Skull Cap",
+            "TextTag": "Skull Cap",
+            "Ethereal": "False",
+            "Defense": "10",
+            "Durability": "11",
+            "DurabilityMaximum": "18",
+            "ItemLevel": "8",
+            "LevelReq": 3,
+            "PropertyList": [
+              "\u00ffc1Unidentified"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 4
+            },
+            "Size": {
+              "invheight": 2,
+              "invwidth": 2
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Magic",
+            "ID": "1863298209",
+            "QualityCode": "q_magic",
+            "Title": "Amulet",
+            "Tag": "Amulet",
+            "TextTag": "amulet",
+            "Ethereal": "False",
+            "AlternateGraphics": "2",
+            "ItemLevel": "6",
+            "LevelReq": 3,
+            "PropertyList": [
+              "\u00ffc1Unidentified"
+            ],
+            "Position": {
+              "x": 9,
+              "y": 5
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "MercenaryEquipped": []
+      }
     }
   ],
   "summary": {
     "class": "Sorceress",
-    "level": 5,
-    "latestSnapshot": "e10591f2",
-    "snapshotCount": 1,
+    "level": 7,
+    "latestSnapshot": "f1b5a87a",
+    "snapshotCount": 2,
     "milestoneCount": 1,
-    "lastUpdated": "2026-07-15T01:17:18.535131Z"
+    "lastUpdated": "2026-07-15T05:47:15.155136Z"
   }
 }

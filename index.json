@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-15T01:17:18.536411Z",
+  "generated": "2026-07-15T05:47:15.156645Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -411,15 +411,29 @@
     {
       "name": "demonixxxx",
       "class": "Necromancer",
-      "level": 55,
-      "latestSnapshot": "98888cce",
-      "snapshotCount": 13,
+      "level": 57,
+      "latestSnapshot": "df490d21",
+      "snapshotCount": 14,
       "milestoneCount": 0,
-      "lastUpdated": "2026-07-13T06:02:30.578818Z",
+      "lastUpdated": "2026-07-15T05:47:12.923199Z",
       "tags": [
         "Necro"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-15T05:47:12.923199Z",
+          "key": "df490d21",
+          "timestamp": "2026-07-15T05:47:12.923199Z",
+          "id": "df490d21",
+          "title": null,
+          "tags": [
+            "Necro"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=demonixxxx&t=df490d21",
+          "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-15T05%3A47%3A12.923199Z"
+        },
         {
           "label": "2026-07-13T06:02:30.578818Z",
           "key": "98888cce",
@@ -1005,15 +1019,29 @@
     {
       "name": "hek_sor",
       "class": "Sorceress",
-      "level": 78,
-      "latestSnapshot": "063a16cb",
-      "snapshotCount": 4,
+      "level": 85,
+      "latestSnapshot": "9369c485",
+      "snapshotCount": 5,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-14T05:46:44.054057Z",
+      "lastUpdated": "2026-07-15T05:47:13.538056Z",
       "tags": [
         "Sorc"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-15T05:47:13.538056Z",
+          "key": "9369c485",
+          "timestamp": "2026-07-15T05:47:13.538056Z",
+          "id": "9369c485",
+          "title": null,
+          "tags": [
+            "Sorc"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=hek_sor&t=9369c485",
+          "canonicalUrl": "character.html?c=hek_sor&t=2026-07-15T05%3A47%3A13.538056Z"
+        },
         {
           "label": "2026-07-14T05:46:44.054057Z",
           "key": "063a16cb",
@@ -1830,16 +1858,31 @@
     {
       "name": "teddyoneandonly",
       "class": "Sorceress",
-      "level": 5,
-      "latestSnapshot": "e10591f2",
-      "snapshotCount": 1,
+      "level": 7,
+      "latestSnapshot": "f1b5a87a",
+      "snapshotCount": 2,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-15T01:17:18.535131Z",
+      "lastUpdated": "2026-07-15T05:47:15.155136Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-15T05:47:15.155136Z",
+          "key": "f1b5a87a",
+          "timestamp": "2026-07-15T05:47:15.155136Z",
+          "id": "f1b5a87a",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=teddyoneandonly&t=f1b5a87a",
+          "canonicalUrl": "character.html?c=teddyoneandonly&t=2026-07-15T05%3A47%3A15.155136Z"
+        },
         {
           "label": "Teddy Starting over",
           "key": "1",
