@@ -63,6 +63,8 @@ def build_snapshot_auto_tags(snap):
 
     if data.get("IsHardcore") is True:
         tags.append("HC")
+    if data.get("IsHardcore") is False:
+        tags.append("SC")
 
     return dedupe_tags(tags)
 
