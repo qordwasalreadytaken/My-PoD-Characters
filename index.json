@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-16T01:25:35.323617Z",
+  "generated": "2026-07-16T05:52:24.631236Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1047,15 +1047,30 @@
     {
       "name": "hek_sor",
       "class": "Sorceress",
-      "level": 85,
-      "latestSnapshot": "9369c485",
-      "snapshotCount": 5,
+      "level": 87,
+      "latestSnapshot": "9d40487d",
+      "snapshotCount": 6,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-15T05:47:13.538056Z",
+      "lastUpdated": "2026-07-16T05:52:21.049947Z",
       "tags": [
         "Sorc"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-16T05:52:21.049947Z",
+          "key": "9d40487d",
+          "timestamp": "2026-07-16T05:52:21.049947Z",
+          "id": "9d40487d",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "SC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=hek_sor&t=9d40487d",
+          "canonicalUrl": "character.html?c=hek_sor&t=2026-07-16T05%3A52%3A21.049947Z"
+        },
         {
           "label": "2026-07-15T05:47:13.538056Z",
           "key": "9369c485",
@@ -1705,15 +1720,30 @@
       "name": "SkillIssue",
       "class": "Sorceress",
       "level": 24,
-      "latestSnapshot": "d991e3d5",
-      "snapshotCount": 7,
+      "latestSnapshot": "90176d40",
+      "snapshotCount": 8,
       "milestoneCount": 6,
-      "lastUpdated": "2026-07-16T01:25:35.311426Z",
+      "lastUpdated": "2026-07-16T05:52:23.264913Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-16T05:52:23.264913Z",
+          "key": "90176d40",
+          "timestamp": "2026-07-16T05:52:23.264913Z",
+          "id": "90176d40",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=SkillIssue&t=90176d40",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-16T05%3A52%3A23.264913Z"
+        },
         {
           "label": "Pre-Meph",
           "key": "meph",
