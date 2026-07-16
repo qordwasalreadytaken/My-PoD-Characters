@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-15T05:47:15.156645Z",
+  "generated": "2026-07-16T01:25:35.323617Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -24,7 +24,8 @@
           "title": "First snapshot",
           "tags": [
             "hemo",
-            "necro"
+            "necro",
+            "SC"
           ],
           "automatic": false,
           "story": false,
@@ -52,7 +53,8 @@
           "id": "36699e25",
           "title": null,
           "tags": [
-            "Asn"
+            "Asn",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -80,7 +82,8 @@
           "id": "7e43e444",
           "title": null,
           "tags": [
-            "Ama"
+            "Ama",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -108,7 +111,8 @@
           "id": "8e958c91",
           "title": null,
           "tags": [
-            "Barb"
+            "Barb",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -136,7 +140,8 @@
           "id": "8c5c0e70",
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -285,7 +290,8 @@
           "id": "be9ed507",
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -313,7 +319,8 @@
           "id": "c8e8cc5b",
           "title": null,
           "tags": [
-            "Asn"
+            "Asn",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -341,7 +348,8 @@
           "id": "d21957d0",
           "title": null,
           "tags": [
-            "Ama"
+            "Ama",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -399,7 +407,8 @@
           "id": "2b0064eb",
           "title": null,
           "tags": [
-            "Ama"
+            "Ama",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -427,7 +436,8 @@
           "id": "df490d21",
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -441,7 +451,8 @@
           "id": "98888cce",
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -455,7 +466,8 @@
           "id": "949cd3b4",
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -469,7 +481,8 @@
           "id": "e9dba1c0",
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -483,7 +496,8 @@
           "id": "451d8139",
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -497,7 +511,8 @@
           "id": "3f8d3821",
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -511,7 +526,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -525,7 +541,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -539,7 +556,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -553,7 +571,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -567,7 +586,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -581,7 +601,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -595,7 +616,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -609,7 +631,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -637,7 +660,8 @@
           "id": "a6f05a5f",
           "title": null,
           "tags": [
-            "Druid"
+            "Druid",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -651,7 +675,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Druid"
+            "Druid",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -665,7 +690,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Druid"
+            "Druid",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -693,7 +719,8 @@
           "id": "a9368b07",
           "title": null,
           "tags": [
-            "Druid"
+            "Druid",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -707,7 +734,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Druid"
+            "Druid",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1035,7 +1063,8 @@
           "id": "9369c485",
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1049,7 +1078,8 @@
           "id": "063a16cb",
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1063,7 +1093,8 @@
           "id": "4e4e3017",
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1077,7 +1108,8 @@
           "id": "39116258",
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1092,7 +1124,8 @@
           "title": "hek_sor First snapshot",
           "tags": [
             "forb",
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": false,
           "story": false,
@@ -1420,7 +1453,8 @@
           "id": "0323ba8b",
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1434,7 +1468,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1448,7 +1483,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1462,7 +1498,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1476,7 +1513,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1490,7 +1528,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1504,7 +1543,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1518,7 +1558,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1532,7 +1573,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1546,7 +1588,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1560,7 +1603,8 @@
           "id": null,
           "title": null,
           "tags": [
-            "Sorc"
+            "Sorc",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1588,7 +1632,8 @@
           "id": "36f1ae66",
           "title": "First snapshot",
           "tags": [
-            "Necro"
+            "Necro",
+            "SC"
           ],
           "automatic": false,
           "story": false,
@@ -1616,7 +1661,8 @@
           "id": "10a04447",
           "title": null,
           "tags": [
-            "Ama"
+            "Ama",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1630,7 +1676,8 @@
           "id": "4ec79eaa",
           "title": null,
           "tags": [
-            "Ama"
+            "Ama",
+            "SC"
           ],
           "automatic": true,
           "story": false,
@@ -1644,7 +1691,8 @@
           "id": "88cef5a4",
           "title": "rikka First snapshot",
           "tags": [
-            "Ama"
+            "Ama",
+            "SC"
           ],
           "automatic": false,
           "story": false,
@@ -1656,16 +1704,33 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 22,
-      "latestSnapshot": "642d2ff5",
-      "snapshotCount": 6,
-      "milestoneCount": 5,
-      "lastUpdated": "2026-07-15T01:14:27.852886Z",
+      "level": 24,
+      "latestSnapshot": "d991e3d5",
+      "snapshotCount": 7,
+      "milestoneCount": 6,
+      "lastUpdated": "2026-07-16T01:25:35.311426Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Pre-Meph",
+          "key": "meph",
+          "timestamp": "2026-07-16T01:25:35.311426Z",
+          "id": "d991e3d5",
+          "title": "Pre-Meph",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=meph",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-16T01%3A25%3A35.311426Z"
+        },
         {
           "label": "Made it to Act 3",
           "key": "a3",
@@ -1786,7 +1851,8 @@
           "title": "First snapshot",
           "tags": [
             "sorc",
-            "frig"
+            "frig",
+            "SC"
           ],
           "automatic": false,
           "story": false,
