@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-16T05:52:24.631236Z",
+  "generated": "2026-07-17T01:35:18.591496Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1719,16 +1719,33 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 24,
-      "latestSnapshot": "90176d40",
-      "snapshotCount": 8,
-      "milestoneCount": 6,
-      "lastUpdated": "2026-07-16T05:52:23.264913Z",
+      "level": 26,
+      "latestSnapshot": "7395b0b9",
+      "snapshotCount": 9,
+      "milestoneCount": 7,
+      "lastUpdated": "2026-07-17T01:35:18.575216Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Beat Norm Diablo",
+          "key": "a5",
+          "timestamp": "2026-07-17T01:35:18.575216Z",
+          "id": "7395b0b9",
+          "title": "Beat Norm Diablo",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=a5",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-17T01%3A35%3A18.575216Z"
+        },
         {
           "label": "2026-07-16T05:52:23.264913Z",
           "key": "90176d40",
