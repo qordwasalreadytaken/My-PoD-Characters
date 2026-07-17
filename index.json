@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-17T01:35:18.591496Z",
+  "generated": "2026-07-17T05:52:51.139398Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -183,16 +183,31 @@
     {
       "name": "cripdontrip",
       "class": "Amazon",
-      "level": 88,
-      "latestSnapshot": "e5069e34",
-      "snapshotCount": 5,
+      "level": 89,
+      "latestSnapshot": "3c72653a",
+      "snapshotCount": 6,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-14T05:46:42.909463Z",
+      "lastUpdated": "2026-07-17T05:52:44.629328Z",
       "tags": [
         "Ama",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-17T05:52:44.629328Z",
+          "key": "3c72653a",
+          "timestamp": "2026-07-17T05:52:44.629328Z",
+          "id": "3c72653a",
+          "title": null,
+          "tags": [
+            "Ama",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=cripdontrip&t=3c72653a",
+          "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-17T05%3A52%3A44.629328Z"
+        },
         {
           "label": "2026-07-14T05:46:42.909463Z",
           "key": "e5069e34",
@@ -1719,16 +1734,31 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 26,
-      "latestSnapshot": "7395b0b9",
-      "snapshotCount": 9,
+      "level": 27,
+      "latestSnapshot": "6d588d5b",
+      "snapshotCount": 10,
       "milestoneCount": 7,
-      "lastUpdated": "2026-07-17T01:35:18.575216Z",
+      "lastUpdated": "2026-07-17T05:52:49.710805Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-17T05:52:49.710805Z",
+          "key": "6d588d5b",
+          "timestamp": "2026-07-17T05:52:49.710805Z",
+          "id": "6d588d5b",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=SkillIssue&t=6d588d5b",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-17T05%3A52%3A49.710805Z"
+        },
         {
           "label": "Beat Norm Diablo",
           "key": "a5",
