@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-18T01:59:09.906536Z",
+  "generated": "2026-07-18T05:44:55.420416Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -376,16 +376,31 @@
     {
       "name": "crone",
       "class": "Sorceress",
-      "level": 20,
-      "latestSnapshot": "2f0f0e29",
-      "snapshotCount": 1,
+      "level": 22,
+      "latestSnapshot": "56fe4898",
+      "snapshotCount": 2,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-09T11:45:17.998844Z",
+      "lastUpdated": "2026-07-18T05:44:52.666161Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-18T05:44:52.666161Z",
+          "key": "56fe4898",
+          "timestamp": "2026-07-18T05:44:52.666161Z",
+          "id": "56fe4898",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=crone&t=56fe4898",
+          "canonicalUrl": "character.html?c=crone&t=2026-07-18T05%3A44%3A52.666161Z"
+        },
         {
           "label": "First snapshot",
           "key": "first-snapshot",
