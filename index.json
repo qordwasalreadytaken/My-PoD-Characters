@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-17T05:52:51.139398Z",
+  "generated": "2026-07-18T01:59:09.906536Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1734,16 +1734,33 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 27,
-      "latestSnapshot": "6d588d5b",
-      "snapshotCount": 10,
-      "milestoneCount": 7,
-      "lastUpdated": "2026-07-17T05:52:49.710805Z",
+      "level": 30,
+      "latestSnapshot": "fff8f1a9",
+      "snapshotCount": 11,
+      "milestoneCount": 8,
+      "lastUpdated": "2026-07-18T01:59:09.887031Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Norm Baal Done!",
+          "key": "nm",
+          "timestamp": "2026-07-18T01:59:09.887031Z",
+          "id": "fff8f1a9",
+          "title": "Norm Baal Done!",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=nm",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-18T01%3A59%3A09.887031Z"
+        },
         {
           "label": "2026-07-17T05:52:49.710805Z",
           "key": "6d588d5b",
