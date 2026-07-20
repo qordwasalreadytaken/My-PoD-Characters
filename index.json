@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-19T06:00:01.983900Z",
+  "generated": "2026-07-20T06:02:46.621312Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -183,16 +183,31 @@
     {
       "name": "cripdontrip",
       "class": "Amazon",
-      "level": 90,
-      "latestSnapshot": "d0cf23eb",
-      "snapshotCount": 7,
+      "level": 91,
+      "latestSnapshot": "ee452d0d",
+      "snapshotCount": 8,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-19T05:59:54.846208Z",
+      "lastUpdated": "2026-07-20T06:02:44.292537Z",
       "tags": [
         "Ama",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-20T06:02:44.292537Z",
+          "key": "ee452d0d",
+          "timestamp": "2026-07-20T06:02:44.292537Z",
+          "id": "ee452d0d",
+          "title": null,
+          "tags": [
+            "Ama",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=cripdontrip&t=ee452d0d",
+          "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-20T06%3A02%3A44.292537Z"
+        },
         {
           "label": "2026-07-19T05:59:54.846208Z",
           "key": "d0cf23eb",
@@ -1764,16 +1779,31 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 34,
-      "latestSnapshot": "42fc6556",
-      "snapshotCount": 12,
+      "level": 36,
+      "latestSnapshot": "05e984ba",
+      "snapshotCount": 13,
       "milestoneCount": 8,
-      "lastUpdated": "2026-07-19T06:00:00.571388Z",
+      "lastUpdated": "2026-07-20T06:02:46.103872Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-20T06:02:46.103872Z",
+          "key": "05e984ba",
+          "timestamp": "2026-07-20T06:02:46.103872Z",
+          "id": "05e984ba",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=SkillIssue&t=05e984ba",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-20T06%3A02%3A46.103872Z"
+        },
         {
           "label": "2026-07-19T06:00:00.571388Z",
           "key": "42fc6556",
