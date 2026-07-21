@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-20T06:02:46.621312Z",
+  "generated": "2026-07-21T02:11:07.420462Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1779,16 +1779,33 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 36,
-      "latestSnapshot": "05e984ba",
-      "snapshotCount": 13,
-      "milestoneCount": 8,
-      "lastUpdated": "2026-07-20T06:02:46.103872Z",
+      "level": 40,
+      "latestSnapshot": "a45e5117",
+      "snapshotCount": 14,
+      "milestoneCount": 9,
+      "lastUpdated": "2026-07-21T02:11:07.395097Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Lvl 40 Starting NM",
+          "key": "lvl-40-starting-nm",
+          "timestamp": "2026-07-21T02:11:07.395097Z",
+          "id": "a45e5117",
+          "title": "Lvl 40 Starting NM",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=lvl-40-starting-nm",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-21T02%3A11%3A07.395097Z"
+        },
         {
           "label": "2026-07-20T06:02:46.103872Z",
           "key": "05e984ba",
