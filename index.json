@@ -1,21 +1,36 @@
 {
   "version": 1,
-  "generated": "2026-07-21T02:11:07.420462Z",
+  "generated": "2026-07-21T05:59:56.291498Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
     {
       "name": "alsace",
       "class": "Necromancer",
-      "level": 67,
-      "latestSnapshot": "076fe3b7",
-      "snapshotCount": 1,
+      "level": 77,
+      "latestSnapshot": "eabdd9d0",
+      "snapshotCount": 2,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-09T11:37:34.990729Z",
+      "lastUpdated": "2026-07-21T05:59:48.118147Z",
       "tags": [
         "Necro"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-21T05:59:48.118147Z",
+          "key": "eabdd9d0",
+          "timestamp": "2026-07-21T05:59:48.118147Z",
+          "id": "eabdd9d0",
+          "title": null,
+          "tags": [
+            "Necro",
+            "SC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=alsace&t=eabdd9d0",
+          "canonicalUrl": "character.html?c=alsace&t=2026-07-21T05%3A59%3A48.118147Z"
+        },
         {
           "label": "First snapshot",
           "key": "first-snapshot",
@@ -183,16 +198,31 @@
     {
       "name": "cripdontrip",
       "class": "Amazon",
-      "level": 91,
-      "latestSnapshot": "ee452d0d",
-      "snapshotCount": 8,
+      "level": 92,
+      "latestSnapshot": "7beec7da",
+      "snapshotCount": 9,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-20T06:02:44.292537Z",
+      "lastUpdated": "2026-07-21T05:59:49.894406Z",
       "tags": [
         "Ama",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-21T05:59:49.894406Z",
+          "key": "7beec7da",
+          "timestamp": "2026-07-21T05:59:49.894406Z",
+          "id": "7beec7da",
+          "title": null,
+          "tags": [
+            "Ama",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=cripdontrip&t=7beec7da",
+          "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-21T05%3A59%3A49.894406Z"
+        },
         {
           "label": "2026-07-20T06:02:44.292537Z",
           "key": "ee452d0d",
