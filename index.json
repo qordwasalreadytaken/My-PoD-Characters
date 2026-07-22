@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-21T05:59:56.291498Z",
+  "generated": "2026-07-22T01:08:58.103303Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1809,16 +1809,33 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 40,
-      "latestSnapshot": "a45e5117",
-      "snapshotCount": 14,
-      "milestoneCount": 9,
-      "lastUpdated": "2026-07-21T02:11:07.395097Z",
+      "level": 43,
+      "latestSnapshot": "b8486521",
+      "snapshotCount": 15,
+      "milestoneCount": 10,
+      "lastUpdated": "2026-07-22T01:08:58.076183Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Andarial Down!",
+          "key": "nmact2",
+          "timestamp": "2026-07-22T01:08:58.076183Z",
+          "id": "b8486521",
+          "title": "Andarial Down!",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=nmact2",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-22T01%3A08%3A58.076183Z"
+        },
         {
           "label": "Lvl 40 Starting NM",
           "key": "lvl-40-starting-nm",
