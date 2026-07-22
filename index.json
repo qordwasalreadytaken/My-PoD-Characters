@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-22T05:58:46.105928Z",
+  "generated": "2026-07-22T15:28:22.126448Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -445,6 +445,36 @@
           "story": false,
           "url": "character.html?c=cripthena&t=d21957d0",
           "canonicalUrl": "character.html?c=cripthena&t=2026-07-10T10%3A42%3A40.115392Z"
+        }
+      ]
+    },
+    {
+      "name": "criptophilia",
+      "class": "Necromancer",
+      "level": 27,
+      "latestSnapshot": "b2044dda",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-22T15:28:22.122516Z",
+      "tags": [
+        "Necro",
+        "HC"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "2026-07-22T15:28:22.122516Z",
+          "key": "b2044dda",
+          "timestamp": "2026-07-22T15:28:22.122516Z",
+          "id": "b2044dda",
+          "title": null,
+          "tags": [
+            "Necro",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=criptophilia&t=b2044dda",
+          "canonicalUrl": "character.html?c=criptophilia&t=2026-07-22T15%3A28%3A22.122516Z"
         }
       ]
     },
