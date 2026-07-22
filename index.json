@@ -1,21 +1,36 @@
 {
   "version": 1,
-  "generated": "2026-07-22T01:08:58.103303Z",
+  "generated": "2026-07-22T05:58:46.105928Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
     {
       "name": "alsace",
       "class": "Necromancer",
-      "level": 77,
-      "latestSnapshot": "eabdd9d0",
-      "snapshotCount": 2,
+      "level": 82,
+      "latestSnapshot": "9228bdc2",
+      "snapshotCount": 3,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-21T05:59:48.118147Z",
+      "lastUpdated": "2026-07-22T05:58:37.168444Z",
       "tags": [
         "Necro"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-22T05:58:37.168444Z",
+          "key": "9228bdc2",
+          "timestamp": "2026-07-22T05:58:37.168444Z",
+          "id": "9228bdc2",
+          "title": null,
+          "tags": [
+            "Necro",
+            "SC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=alsace&t=9228bdc2",
+          "canonicalUrl": "character.html?c=alsace&t=2026-07-22T05%3A58%3A37.168444Z"
+        },
         {
           "label": "2026-07-21T05:59:48.118147Z",
           "key": "eabdd9d0",
@@ -1138,14 +1153,29 @@
       "name": "hek_sor",
       "class": "Sorceress",
       "level": 87,
-      "latestSnapshot": "9d40487d",
-      "snapshotCount": 6,
+      "latestSnapshot": "fc4b5d04",
+      "snapshotCount": 7,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-16T05:52:21.049947Z",
+      "lastUpdated": "2026-07-22T05:58:42.535917Z",
       "tags": [
         "Sorc"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-22T05:58:42.535917Z",
+          "key": "fc4b5d04",
+          "timestamp": "2026-07-22T05:58:42.535917Z",
+          "id": "fc4b5d04",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "SC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=hek_sor&t=fc4b5d04",
+          "canonicalUrl": "character.html?c=hek_sor&t=2026-07-22T05%3A58%3A42.535917Z"
+        },
         {
           "label": "2026-07-16T05:52:21.049947Z",
           "key": "9d40487d",
@@ -1810,15 +1840,30 @@
       "name": "SkillIssue",
       "class": "Sorceress",
       "level": 43,
-      "latestSnapshot": "b8486521",
-      "snapshotCount": 15,
+      "latestSnapshot": "3348f72e",
+      "snapshotCount": 16,
       "milestoneCount": 10,
-      "lastUpdated": "2026-07-22T01:08:58.076183Z",
+      "lastUpdated": "2026-07-22T05:58:44.739265Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-22T05:58:44.739265Z",
+          "key": "3348f72e",
+          "timestamp": "2026-07-22T05:58:44.739265Z",
+          "id": "3348f72e",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=SkillIssue&t=3348f72e",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-22T05%3A58%3A44.739265Z"
+        },
         {
           "label": "Andarial Down!",
           "key": "nmact2",
