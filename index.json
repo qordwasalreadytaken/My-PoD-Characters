@@ -1,21 +1,36 @@
 {
   "version": 1,
-  "generated": "2026-07-24T01:35:59.508234Z",
+  "generated": "2026-07-24T05:58:16.491734Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
     {
       "name": "alsace",
       "class": "Necromancer",
-      "level": 83,
-      "latestSnapshot": "1d504313",
-      "snapshotCount": 4,
+      "level": 85,
+      "latestSnapshot": "3adaac95",
+      "snapshotCount": 5,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-23T06:00:16.001019Z",
+      "lastUpdated": "2026-07-24T05:58:06.181974Z",
       "tags": [
         "Necro"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-24T05:58:06.181974Z",
+          "key": "3adaac95",
+          "timestamp": "2026-07-24T05:58:06.181974Z",
+          "id": "3adaac95",
+          "title": null,
+          "tags": [
+            "Necro",
+            "SC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=alsace&t=3adaac95",
+          "canonicalUrl": "character.html?c=alsace&t=2026-07-24T05%3A58%3A06.181974Z"
+        },
         {
           "label": "2026-07-23T06:00:16.001019Z",
           "key": "1d504313",
@@ -466,16 +481,31 @@
     {
       "name": "criptophilia",
       "class": "Necromancer",
-      "level": 52,
-      "latestSnapshot": "00516588",
-      "snapshotCount": 2,
+      "level": 77,
+      "latestSnapshot": "705ac7c6",
+      "snapshotCount": 3,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-23T06:00:18.111795Z",
+      "lastUpdated": "2026-07-24T05:58:09.950640Z",
       "tags": [
         "Necro",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-24T05:58:09.950640Z",
+          "key": "705ac7c6",
+          "timestamp": "2026-07-24T05:58:09.950640Z",
+          "id": "705ac7c6",
+          "title": null,
+          "tags": [
+            "Necro",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=criptophilia&t=705ac7c6",
+          "canonicalUrl": "character.html?c=criptophilia&t=2026-07-24T05%3A58%3A09.950640Z"
+        },
         {
           "label": "2026-07-23T06:00:18.111795Z",
           "key": "00516588",
@@ -1212,15 +1242,30 @@
     {
       "name": "hek_sor",
       "class": "Sorceress",
-      "level": 88,
-      "latestSnapshot": "c3c310df",
-      "snapshotCount": 8,
+      "level": 89,
+      "latestSnapshot": "818dabad",
+      "snapshotCount": 9,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-23T06:00:19.712407Z",
+      "lastUpdated": "2026-07-24T05:58:12.619775Z",
       "tags": [
         "Sorc"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-24T05:58:12.619775Z",
+          "key": "818dabad",
+          "timestamp": "2026-07-24T05:58:12.619775Z",
+          "id": "818dabad",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "SC"
+          ],
+          "automatic": true,
+          "story": false,
+          "url": "character.html?c=hek_sor&t=818dabad",
+          "canonicalUrl": "character.html?c=hek_sor&t=2026-07-24T05%3A58%3A12.619775Z"
+        },
         {
           "label": "2026-07-23T06:00:19.712407Z",
           "key": "c3c310df",
