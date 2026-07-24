@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-23T06:00:22.314581Z",
+  "generated": "2026-07-24T01:35:59.508234Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1914,16 +1914,33 @@
     {
       "name": "SkillIssue",
       "class": "Sorceress",
-      "level": 48,
-      "latestSnapshot": "ffdc054e",
-      "snapshotCount": 17,
-      "milestoneCount": 10,
-      "lastUpdated": "2026-07-23T06:00:21.197782Z",
+      "level": 49,
+      "latestSnapshot": "c062c4b8",
+      "snapshotCount": 18,
+      "milestoneCount": 11,
+      "lastUpdated": "2026-07-24T01:35:59.475440Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "Dead",
+          "key": "dead",
+          "timestamp": "2026-07-24T01:35:59.475440Z",
+          "id": "c062c4b8",
+          "title": "Dead",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillIssue&t=dead",
+          "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-24T01%3A35%3A59.475440Z"
+        },
         {
           "label": "2026-07-23T06:00:21.197782Z",
           "key": "ffdc054e",
