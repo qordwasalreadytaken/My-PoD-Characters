@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-25T05:53:11.948222Z",
+  "generated": "2026-07-25T13:48:08.143008Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -2320,6 +2320,38 @@
           "story": false,
           "url": "character.html?c=sorcsallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=sorcsallsuck&t=2026-07-09T02%3A17%3A35.604333Z"
+        }
+      ]
+    },
+    {
+      "name": "teddyfuckdolls",
+      "class": "Barbarian",
+      "level": 38,
+      "latestSnapshot": "83ba465a",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-25T13:48:08.140438Z",
+      "tags": [
+        "Barb",
+        "HC"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "Teddy is back!!",
+          "key": "teddylovesdolls",
+          "timestamp": "2026-07-25T13:48:08.140438Z",
+          "id": "83ba465a",
+          "title": "Teddy is back!!",
+          "tags": [
+            "ssfhc",
+            "ww",
+            "Barb",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=teddyfuckdolls&t=teddylovesdolls",
+          "canonicalUrl": "character.html?c=teddyfuckdolls&t=2026-07-25T13%3A48%3A08.140438Z"
         }
       ]
     },
