@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-24T05:58:16.491734Z",
+  "generated": "2026-07-25T01:46:15.268823Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -2258,6 +2258,38 @@
           "story": true,
           "url": "character.html?c=SkillIssue&t=fresh-start",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-12T21%3A35%3A58.028606Z"
+        }
+      ]
+    },
+    {
+      "name": "SkillTissue",
+      "class": "Sorceress",
+      "level": 11,
+      "latestSnapshot": "a3d5e632",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-25T01:46:15.266924Z",
+      "tags": [
+        "Sorc",
+        "HC"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "Starting Fresh...again",
+          "key": "11",
+          "timestamp": "2026-07-25T01:46:15.266924Z",
+          "id": "a3d5e632",
+          "title": "Starting Fresh...again",
+          "tags": [
+            "sorc",
+            "ssfhc",
+            "frig",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "url": "character.html?c=SkillTissue&t=11",
+          "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-25T01%3A46%3A15.266924Z"
         }
       ]
     },
