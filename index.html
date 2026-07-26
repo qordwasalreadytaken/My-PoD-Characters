@@ -516,6 +516,18 @@
         padding: 8px;
       }
     }
+    .favorite-filter {
+      background: none;
+      border: none;
+      color: #888;
+      font-size: 1.3rem;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    .favorite-filter.active {
+      color: gold;
+    }    
   </style>
 </head>
 <body>
@@ -523,6 +535,14 @@
     <section class="panel" aria-label="Characters">
       <header class="panel-header">
         <h2 class="panel-title">Character Archive</h2>
+        <button
+          id="favoriteFilter"
+          class="favorite-filter"
+          type="button"
+          title="Show favorites only"
+          aria-pressed="false">
+          ☆
+      </button>
         <span id="characterCount" class="pill">0</span>
       </header>
       <div class="section filters">
@@ -621,7 +641,8 @@
       quickviewTitle: document.getElementById("quickviewTitle"),
       quickviewPrev: document.getElementById("quickviewPrev"),
       quickviewNext: document.getElementById("quickviewNext"),
-      quickviewCount: document.getElementById("quickviewCount")
+      quickviewCount: document.getElementById("quickviewCount"),
+      favoriteFilter: document.getElementById("favoriteFilter")
     };
 
     function normalizeArchivePayload(payload, fallbackCharacterName) {
@@ -1075,8 +1096,17 @@
       const term = getCharacterFilterTerm();
       const tagTerm = getTagFilterTerm();
       state.filteredCharacters = state.characters.filter((char) => {
-        const name = (char.name || "").toLowerCase();
-        return name.includes(term) && characterMatchesTag(char, tagTerm);
+          const name = (char.name || "").toLowerCase();
+
+          const favoriteMatch =
+              !state.showFavoritesOnly ||
+              char?.metadata?.favorite === true || char?.snapshot.metadata?.favorite === true ;
+
+          return (
+              name.includes(term) &&
+              characterMatchesTag(char, tagTerm) &&
+              favoriteMatch
+          );
       });
 
       const sortMode = getCharacterSortMode();
@@ -1509,6 +1539,7 @@
         state.selectedArchive = null;
         state.snapshots = [];
         state.selectedSnapshot = null;
+        state.showFavoritesOnly = false;
         renderCharacterList();
         renderSnapshotList();
         renderSnapshotDetail();
@@ -1537,6 +1568,25 @@
     }
 
     function bindEvents() {
+      dom.favoriteFilter.addEventListener("click", () => {
+          state.showFavoritesOnly = !state.showFavoritesOnly;
+
+          dom.favoriteFilter.classList.toggle(
+              "active",
+              state.showFavoritesOnly
+          );
+
+          dom.favoriteFilter.textContent =
+              state.showFavoritesOnly ? "★" : "☆";
+
+          dom.favoriteFilter.setAttribute(
+              "aria-pressed",
+              state.showFavoritesOnly
+          );
+
+          applyCharacterFilter();
+          renderCharacterList();
+      });      
       dom.searchInput.addEventListener("input", () => {
         void handleFiltersChanged();
       });
