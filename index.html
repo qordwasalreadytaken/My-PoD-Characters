@@ -907,6 +907,7 @@
       );
 
       return {
+        key: matched?.key || snapshotKey || "",
         shareUrl: toAbsoluteUrl(matched && matched.url ? matched.url : fallbackPath),
         canonicalUrl: toAbsoluteUrl(matched && matched.canonicalUrl ? matched.canonicalUrl : fallbackPath)
       };
@@ -1392,6 +1393,7 @@
               <li><strong>Journal:</strong> ${safeText(metadata.journal, "(none)")}</li>
               <li><strong>Tags:</strong> ${snapshotTags.length ? snapshotTags.join(", ") : "(none)"}</li>
               <li><strong>Story:</strong> ${metadata.story ? "Yes" : "No"}</li>
+              <li><strong>Snapshot Key:</strong> ${safeText(shareLinks.key, "(none)")}</li>
             </ul>
           </article>
 
