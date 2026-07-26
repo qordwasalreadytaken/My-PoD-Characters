@@ -25,9 +25,15 @@ def find_snapshot(snapshots, key):
     target = key.casefold()
 
     for snapshot in snapshots:
-        slug = str(snapshot.get("slug", ""))
+        snapshot_id = str(snapshot.get("id", ""))
 
-        if slug.casefold() == target:
+        metadata = snapshot.get("metadata", {})
+        slug = str(metadata.get("slug", ""))
+
+        if (
+            snapshot_id.casefold() == target
+            or slug.casefold() == target
+        ):
             return snapshot
 
     return None
@@ -74,10 +80,7 @@ def main():
         return
 
 
-    metadata = snapshot.setdefault(
-        "metadata",
-        {}
-    )
+    metadata = snapshot.setdefault("metadata", {})
 
 
     changed = False
