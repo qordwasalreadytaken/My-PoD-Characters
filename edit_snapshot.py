@@ -52,7 +52,7 @@ def parse_tags(value):
 
 def main():
 
-    args = parse_args()
+    args = parse_tags()
 
     path = find_character_file(args.character)
 
