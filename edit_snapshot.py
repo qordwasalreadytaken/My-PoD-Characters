@@ -1,11 +1,69 @@
 import json
 import os
+import argparse
 
 from build_index import build_index
 
 SNAPSHOT_DIR = "snapshots"
 
+def parse_args():
+    import argparse
 
+    parser = argparse.ArgumentParser(
+        description="Edit an existing character snapshot."
+    )
+
+    parser.add_argument(
+        "--character",
+        required=True,
+        help="Character name"
+    )
+
+    parser.add_argument(
+        "--snapshot",
+        required=True,
+        help="Snapshot ID or slug"
+    )
+
+    parser.add_argument(
+        "--key",
+        help="New snapshot key/slug"
+    )
+
+    parser.add_argument(
+        "--title",
+        help="New title (leave blank to keep)"
+    )
+
+    parser.add_argument(
+        "--description",
+        help="New description (leave blank to keep)"
+    )
+
+    parser.add_argument(
+        "--journal",
+        help="New journal (leave blank to keep)"
+    )
+
+    parser.add_argument(
+        "--tags",
+        help="New tags (comma-separated, leave blank to keep)"
+    )
+
+    parser.add_argument(
+        "--favorite",
+        choices=["Leave", "Yes", "No"],
+        default="Leave"
+    )
+
+    parser.add_argument(
+        "--story",
+        choices=["Leave", "Yes", "No"],
+        default="Leave"
+    )
+
+    return parser.parse_args()
+    
 def find_character_file(character):
     target = character.casefold()
 
@@ -52,7 +110,7 @@ def parse_tags(value):
 
 def main():
 
-    args = parse_tags()
+    args = parse_args()
 
     path = find_character_file(args.character)
 
