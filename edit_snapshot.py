@@ -87,6 +87,9 @@ def main():
         metadata["title"] = args.title
         changed = True
 
+    if args.key:
+        metadata["slug"] = args.key
+        changed = True
 
     if args.description:
         metadata["description"] = args.description

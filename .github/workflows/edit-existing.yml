@@ -13,6 +13,11 @@ on:
         required: true
         type: string
 
+      key:
+        description: "New snapshot key (leave blank to keep)"
+        required: false
+        type: string
+
       title:
         description: "New title (leave blank to keep)"
         required: false
@@ -72,6 +77,7 @@ jobs:
           python edit_snapshot.py \
             --character "${{ github.event.inputs.character }}" \
             --snapshot "${{ github.event.inputs.snapshot }}" \
+            --key "${{ github.event.inputs.key }}" \
             --title "${{ github.event.inputs.title }}" \
             --description "${{ github.event.inputs.description }}" \
             --journal "${{ github.event.inputs.journal }}" \
