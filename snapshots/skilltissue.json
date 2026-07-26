@@ -940,11 +940,11 @@
       "timestamp": "2026-07-26T06:01:41.773531Z",
       "metadata": {
         "automatic": true,
-        "title": null,
-        "description": null,
-        "journal": null,
+        "title": "Edit test",
+        "description": "Testing snapshot edit",
+        "journal": "Does it work? \nI hope so!",
         "tags": [],
-        "slug": null,
+        "slug": "keyedit",
         "favorite": false,
         "story": false
       },
