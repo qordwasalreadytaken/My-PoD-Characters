@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       character:
-        description: Character name to delete
+        description: "⚠️ Permanently deletes this character. This cannot be undone."
         required: true
         type: string
 

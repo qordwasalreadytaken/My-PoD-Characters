@@ -19,15 +19,26 @@ def parse_args():
 def main():
     args = parse_args()
 
-    filename = os.path.join(SNAPSHOT_DIR, f"{args.character}.json")
+    import os
 
-    if not os.path.exists(filename):
+    target = args.character.casefold()
+    filename = None
+
+    for entry in os.listdir(SNAPSHOT_DIR):
+        if not entry.endswith(".json"):
+            continue
+
+        if os.path.splitext(entry)[0].casefold() == target:
+            filename = os.path.join(SNAPSHOT_DIR, entry)
+            break
+
+    if filename is None:
         print(f"{args.character} does not exist.")
         return
 
     os.remove(filename)
 
-    print(f"Deleted {args.character}")
+    print(f"Deleted {os.path.splitext(os.path.basename(filename))[0]}")
 
     build_index()
 
