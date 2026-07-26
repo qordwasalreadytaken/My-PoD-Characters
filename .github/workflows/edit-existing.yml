@@ -1,0 +1,94 @@
+name: Edit Snapshot
+
+on:
+  workflow_dispatch:
+    inputs:
+      character:
+        description: "Character name"
+        required: true
+        type: string
+
+      snapshot:
+        description: "Snapshot key to edit"
+        required: true
+        type: string
+
+      title:
+        description: "New title (leave blank to keep)"
+        required: false
+        type: string
+
+      description:
+        description: "New description (leave blank to keep)"
+        required: false
+        type: string
+
+      journal:
+        description: "New journal (use \\n for line breaks, leave blank to keep)"
+        required: false
+        type: string
+
+      tags:
+        description: "New tags comma separated (leave blank to keep)"
+        required: false
+        type: string
+
+      favorite:
+        description: "Favorite"
+        required: true
+        type: choice
+        options:
+          - Leave
+          - Yes
+          - No
+
+      story:
+        description: "Story navigation"
+        required: true
+        type: choice
+        options:
+          - Leave
+          - Yes
+          - No
+
+
+permissions:
+  contents: write
+
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Edit existing snapshot
+        run: |
+          python edit_snapshot.py \
+            --character "${{ github.event.inputs.character }}" \
+            --snapshot "${{ github.event.inputs.snapshot }}" \
+            --title "${{ github.event.inputs.title }}" \
+            --description "${{ github.event.inputs.description }}" \
+            --journal "${{ github.event.inputs.journal }}" \
+            --tags "${{ github.event.inputs.tags }}" \
+            --favorite "${{ github.event.inputs.favorite }}" \
+            --story "${{ github.event.inputs.story }}"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git add -A
+          git commit -m "Edit snapshot ${{ github.event.inputs.snapshot }} for ${{ github.event.inputs.character }}"
+          git push
