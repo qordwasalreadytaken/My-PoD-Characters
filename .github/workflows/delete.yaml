@@ -40,6 +40,6 @@ jobs:
             exit 0
           fi
 
-          git add snapshots character_index.json
+          git add -A
           git commit -m "Delete ${{ github.event.inputs.character }}"
           git push
