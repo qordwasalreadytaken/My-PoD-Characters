@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-26T13:19:49.368677Z",
+  "generated": "2026-07-26T13:42:37.125473Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -186,36 +186,6 @@
           "favorite": false,
           "url": "character.html?c=Bardukk&t=8e958c91",
           "canonicalUrl": "character.html?c=Bardukk&t=2026-07-10T10%3A42%3A39.215736Z"
-        }
-      ]
-    },
-    {
-      "name": "Belzok",
-      "class": "Necromancer",
-      "level": 93,
-      "latestSnapshot": "8c5c0e70",
-      "snapshotCount": 1,
-      "milestoneCount": 0,
-      "lastUpdated": "2026-07-10T10:42:39.342753Z",
-      "tags": [
-        "Necro"
-      ],
-      "snapshotLinks": [
-        {
-          "label": "2026-07-10T10:42:39.342753Z",
-          "key": "8c5c0e70",
-          "timestamp": "2026-07-10T10:42:39.342753Z",
-          "id": "8c5c0e70",
-          "title": null,
-          "tags": [
-            "Necro",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=Belzok&t=8c5c0e70",
-          "canonicalUrl": "character.html?c=Belzok&t=2026-07-10T10%3A42%3A39.342753Z"
         }
       ]
     },
