@@ -202,6 +202,7 @@ def build_snapshot_links(archive, character_name, site_base_url):
             "tags": tags,
             "automatic": not is_milestone,
             "story": metadata.get("story") is True,
+            "favorite": metadata.get("favorite") is True,
             "url": make_share_url(site_base_url, character_name, key),
             "canonicalUrl": make_share_url(site_base_url, character_name, canonical_key),
         })

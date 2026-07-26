@@ -1100,7 +1100,7 @@
 
           const favoriteMatch =
               !state.showFavoritesOnly ||
-              char?.metadata?.favorite === true || char?.snapshot.metadata?.favorite === true ;
+              (char.snapshotLinks ?? []).some(snapshot => snapshot?.favorite === true);
 
           return (
               name.includes(term) &&

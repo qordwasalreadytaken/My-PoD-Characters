@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-26T13:04:08.071271Z",
+  "generated": "2026-07-26T13:19:49.368677Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -28,6 +28,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=alsace&t=3adaac95",
           "canonicalUrl": "character.html?c=alsace&t=2026-07-24T05%3A58%3A06.181974Z"
         },
@@ -43,6 +44,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=alsace&t=1d504313",
           "canonicalUrl": "character.html?c=alsace&t=2026-07-23T06%3A00%3A16.001019Z"
         },
@@ -58,6 +60,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=alsace&t=9228bdc2",
           "canonicalUrl": "character.html?c=alsace&t=2026-07-22T05%3A58%3A37.168444Z"
         },
@@ -73,6 +76,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=alsace&t=eabdd9d0",
           "canonicalUrl": "character.html?c=alsace&t=2026-07-21T05%3A59%3A48.118147Z"
         },
@@ -89,6 +93,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=alsace&t=first-snapshot",
           "canonicalUrl": "character.html?c=alsace&t=2026-07-09T11%3A37%3A34.990729Z"
         }
@@ -118,6 +123,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=Asmorahn&t=36699e25",
           "canonicalUrl": "character.html?c=Asmorahn&t=2026-07-10T10%3A42%3A38.904141Z"
         }
@@ -147,6 +153,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=Azandor&t=7e43e444",
           "canonicalUrl": "character.html?c=Azandor&t=2026-07-10T10%3A42%3A39.075013Z"
         }
@@ -176,6 +183,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=Bardukk&t=8e958c91",
           "canonicalUrl": "character.html?c=Bardukk&t=2026-07-10T10%3A42%3A39.215736Z"
         }
@@ -205,6 +213,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=Belzok&t=8c5c0e70",
           "canonicalUrl": "character.html?c=Belzok&t=2026-07-10T10%3A42%3A39.342753Z"
         }
@@ -235,6 +244,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=canshehitthirty&t=96f372a6",
           "canonicalUrl": "character.html?c=canshehitthirty&t=2026-07-10T10%3A42%3A39.486612Z"
         }
@@ -265,6 +275,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=7beec7da",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-21T05%3A59%3A49.894406Z"
         },
@@ -280,6 +291,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=ee452d0d",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-20T06%3A02%3A44.292537Z"
         },
@@ -295,6 +307,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=d0cf23eb",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-19T05%3A59%3A54.846208Z"
         },
@@ -310,6 +323,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=3c72653a",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-17T05%3A52%3A44.629328Z"
         },
@@ -325,6 +339,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=e5069e34",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-14T05%3A46%3A42.909463Z"
         },
@@ -340,6 +355,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=8112147f",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-13T06%3A02%3A28.546240Z"
         },
@@ -355,6 +371,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=15bade3e",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-12T06%3A02%3A08.683436Z"
         },
@@ -371,6 +388,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=helmet-upgrade",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-11T21%3A25%3A24.945457Z"
         },
@@ -386,6 +404,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripdontrip&t=949a2174",
           "canonicalUrl": "character.html?c=cripdontrip&t=2026-07-10T10%3A42%3A39.631713Z"
         }
@@ -415,6 +434,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=criphelia&t=be9ed507",
           "canonicalUrl": "character.html?c=criphelia&t=2026-07-10T10%3A42%3A39.774906Z"
         }
@@ -444,6 +464,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=Criptalya&t=c8e8cc5b",
           "canonicalUrl": "character.html?c=Criptalya&t=2026-07-10T10%3A42%3A39.938598Z"
         }
@@ -473,6 +494,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=cripthena&t=d21957d0",
           "canonicalUrl": "character.html?c=cripthena&t=2026-07-10T10%3A42%3A40.115392Z"
         }
@@ -503,6 +525,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=criptophilia&t=705ac7c6",
           "canonicalUrl": "character.html?c=criptophilia&t=2026-07-24T05%3A58%3A09.950640Z"
         },
@@ -518,6 +541,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=criptophilia&t=00516588",
           "canonicalUrl": "character.html?c=criptophilia&t=2026-07-23T06%3A00%3A18.111795Z"
         },
@@ -533,6 +557,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=criptophilia&t=b2044dda",
           "canonicalUrl": "character.html?c=criptophilia&t=2026-07-22T15%3A28%3A22.122516Z"
         }
@@ -563,6 +588,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=crone&t=56fe4898",
           "canonicalUrl": "character.html?c=crone&t=2026-07-18T05%3A44%3A52.666161Z"
         },
@@ -578,6 +604,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=crone&t=first-snapshot",
           "canonicalUrl": "character.html?c=crone&t=2026-07-09T11%3A45%3A17.998844Z"
         }
@@ -607,6 +634,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=dalliah&t=2b0064eb",
           "canonicalUrl": "character.html?c=dalliah&t=2026-07-10T10%3A42%3A40.281843Z"
         }
@@ -636,6 +664,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=df490d21",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-15T05%3A47%3A12.923199Z"
         },
@@ -651,6 +680,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=98888cce",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-13T06%3A02%3A30.578818Z"
         },
@@ -666,6 +696,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=949cd3b4",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-12T06%3A02%3A09.318696Z"
         },
@@ -681,6 +712,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=e9dba1c0",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-10T10%3A42%3A37.568675Z"
         },
@@ -696,6 +728,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=451d8139",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-10T06%3A18%3A57.120430Z"
         },
@@ -711,6 +744,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=3f8d3821",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-09T11%3A58%3A09.016583Z"
         },
@@ -726,6 +760,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=2026-07-08T06%3A35%3A07.233844Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-08T06%3A35%3A07.233844Z"
         },
@@ -741,6 +776,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=2026-07-07T17%3A25%3A13.573924Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-07T17%3A25%3A13.573924Z"
         },
@@ -756,6 +792,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=2026-07-07T06%3A57%3A00.500900Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-07T06%3A57%3A00.500900Z"
         },
@@ -771,6 +808,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=2026-07-06T18%3A16%3A06.576057Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-06T18%3A16%3A06.576057Z"
         },
@@ -786,6 +824,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=2026-07-06T06%3A08%3A18.001555Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-06T06%3A08%3A18.001555Z"
         },
@@ -801,6 +840,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=2026-07-05T06%3A00%3A49.102327Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-05T06%3A00%3A49.102327Z"
         },
@@ -816,6 +856,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=2026-07-04T05%3A54%3A44.433760Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-04T05%3A54%3A44.433760Z"
         },
@@ -831,6 +872,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=demonixxxx&t=2026-07-01T01%3A50%3A49.041375Z",
           "canonicalUrl": "character.html?c=demonixxxx&t=2026-07-01T01%3A50%3A49.041375Z"
         }
@@ -860,6 +902,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=feralfury&t=a6f05a5f",
           "canonicalUrl": "character.html?c=feralfury&t=2026-07-09T11%3A58%3A09.332988Z"
         },
@@ -875,6 +918,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=feralfury&t=2026-07-08T06%3A35%3A07.233844Z",
           "canonicalUrl": "character.html?c=feralfury&t=2026-07-08T06%3A35%3A07.233844Z"
         },
@@ -890,6 +934,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=feralfury&t=2026-07-01T01%3A50%3A49.041375Z",
           "canonicalUrl": "character.html?c=feralfury&t=2026-07-01T01%3A50%3A49.041375Z"
         }
@@ -919,6 +964,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=flyinpecker&t=a9368b07",
           "canonicalUrl": "character.html?c=flyinpecker&t=2026-07-09T11%3A58%3A09.671927Z"
         },
@@ -934,6 +980,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=flyinpecker&t=2026-07-04T17%3A54%3A36.923043Z",
           "canonicalUrl": "character.html?c=flyinpecker&t=2026-07-04T17%3A54%3A36.923043Z"
         }
@@ -966,6 +1013,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=dead",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T18%3A37%3A38.595971Z"
         },
@@ -983,6 +1031,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=starting-act-3-nm",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T16%3A17%3A34.716682Z"
         },
@@ -998,6 +1047,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=beat-nm-andy",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T11%3A47%3A51.109320Z"
         },
@@ -1013,6 +1063,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=665012e2",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T06%3A02%3A09.636544Z"
         },
@@ -1029,6 +1080,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=magic-arrow-instead-of-exploding-projectiles",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T15%3A46%3A03.508524Z"
         },
@@ -1046,6 +1098,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": true,
           "url": "character.html?c=hardqord&t=still-alive",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T13%3A21%3A42.967137Z"
         },
@@ -1061,6 +1114,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=7197a956",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T05%3A51%3A44.865062Z"
         },
@@ -1078,6 +1132,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": true,
           "url": "character.html?c=hardqord&t=32",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T01%3A10%3A35.229860Z"
         },
@@ -1095,6 +1150,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": true,
           "url": "character.html?c=hardqord&t=nm",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-09T01%3A56%3A32.368274Z"
         },
@@ -1110,6 +1166,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-08T06%3A35%3A07.233844Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-08T06%3A35%3A07.233844Z"
         },
@@ -1125,6 +1182,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-07T06%3A57%3A00.500900Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-07T06%3A57%3A00.500900Z"
         },
@@ -1140,6 +1198,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-06T06%3A08%3A18.001555Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-06T06%3A08%3A18.001555Z"
         },
@@ -1157,6 +1216,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=lvl20",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-05T17%3A51%3A55.140883Z"
         },
@@ -1172,6 +1232,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-04T05%3A54%3A44.433760Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-04T05%3A54%3A44.433760Z"
         },
@@ -1187,6 +1248,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-03T17%3A09%3A30.228706Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-03T17%3A09%3A30.228706Z"
         },
@@ -1204,6 +1266,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": true,
           "url": "character.html?c=hardqord&t=fresh-start",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-03T15%3A41%3A27.305526Z"
         },
@@ -1219,6 +1282,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=2026-05-21T05%3A59%3A55.310200Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-05-21T05%3A59%3A55.310200Z"
         },
@@ -1234,6 +1298,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hardqord&t=2026-05-18T17%3A33%3A58.573348Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-05-18T17%3A33%3A58.573348Z"
         }
@@ -1263,6 +1328,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=818dabad",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-24T05%3A58%3A12.619775Z"
         },
@@ -1278,6 +1344,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=c3c310df",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-23T06%3A00%3A19.712407Z"
         },
@@ -1293,6 +1360,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=fc4b5d04",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-22T05%3A58%3A42.535917Z"
         },
@@ -1308,6 +1376,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=9d40487d",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-16T05%3A52%3A21.049947Z"
         },
@@ -1323,6 +1392,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=9369c485",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-15T05%3A47%3A13.538056Z"
         },
@@ -1338,6 +1408,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=063a16cb",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-14T05%3A46%3A44.054057Z"
         },
@@ -1353,6 +1424,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=4e4e3017",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-13T06%3A02%3A31.911133Z"
         },
@@ -1368,6 +1440,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=39116258",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-11T05%3A51%3A45.023356Z"
         },
@@ -1384,6 +1457,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=hek_sor&t=hek-sor-first-snapshot",
           "canonicalUrl": "character.html?c=hek_sor&t=2026-07-10T11%3A34%3A48.617972Z"
         }
@@ -1414,6 +1488,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-07-01T01%3A50%3A49.041375Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-07-01T01%3A50%3A49.041375Z"
         },
@@ -1429,6 +1504,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-30T07%3A24%3A01.038627Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-30T07%3A24%3A01.038627Z"
         },
@@ -1444,6 +1520,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-29T17%3A40%3A16.895583Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-29T17%3A40%3A16.895583Z"
         },
@@ -1459,6 +1536,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-29T07%3A09%3A43.832539Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-29T07%3A09%3A43.832539Z"
         },
@@ -1474,6 +1552,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-28T17%3A12%3A16.260701Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-28T17%3A12%3A16.260701Z"
         },
@@ -1489,6 +1568,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-27T17%3A57%3A26.393006Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-27T17%3A57%3A26.393006Z"
         },
@@ -1504,6 +1584,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-27T06%3A05%3A05.241059Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-27T06%3A05%3A05.241059Z"
         },
@@ -1519,6 +1600,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-26T17%3A28%3A14.728930Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-26T17%3A28%3A14.728930Z"
         },
@@ -1534,6 +1616,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-26T07%3A22%3A21.776725Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-26T07%3A22%3A21.776725Z"
         },
@@ -1549,6 +1632,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-25T18%3A32%3A00.580205Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-25T18%3A32%3A00.580205Z"
         },
@@ -1564,6 +1648,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-25T06%3A08%3A31.088722Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-25T06%3A08%3A31.088722Z"
         },
@@ -1579,6 +1664,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-24T18%3A27%3A18.536679Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-24T18%3A27%3A18.536679Z"
         },
@@ -1594,6 +1680,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-24T06%3A04%3A08.979128Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-24T06%3A04%3A08.979128Z"
         },
@@ -1609,6 +1696,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-23T17%3A32%3A05.436259Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-23T17%3A32%3A05.436259Z"
         },
@@ -1624,6 +1712,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazminn&t=2026-06-23T06%3A11%3A53.375057Z",
           "canonicalUrl": "character.html?c=jazminn&t=2026-06-23T06%3A11%3A53.375057Z"
         }
@@ -1654,6 +1743,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazzminn&t=327e5315",
           "canonicalUrl": "character.html?c=jazzminn&t=2026-07-12T06%3A02%3A10.106036Z"
         },
@@ -1669,6 +1759,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazzminn&t=f50a0922",
           "canonicalUrl": "character.html?c=jazzminn&t=2026-07-11T05%3A51%3A45.460512Z"
         },
@@ -1684,6 +1775,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=jazzminn&t=jazzminn-first-snapshot",
           "canonicalUrl": "character.html?c=jazzminn&t=2026-07-10T11%3A36%3A11.701627Z"
         }
@@ -1713,6 +1805,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=0323ba8b",
           "canonicalUrl": "character.html?c=madris&t=2026-07-09T06%3A19%3A21.629653Z"
         },
@@ -1728,6 +1821,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-06-21T06%3A16%3A40.325483Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-21T06%3A16%3A40.325483Z"
         },
@@ -1743,6 +1837,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-06-19T06%3A21%3A46.253409Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-19T06%3A21%3A46.253409Z"
         },
@@ -1758,6 +1853,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-06-15T07%3A28%3A36.749620Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-15T07%3A28%3A36.749620Z"
         },
@@ -1773,6 +1869,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-06-14T17%3A57%3A56.523739Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-14T17%3A57%3A56.523739Z"
         },
@@ -1788,6 +1885,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-06-14T06%3A14%3A07.435909Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-14T06%3A14%3A07.435909Z"
         },
@@ -1803,6 +1901,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-06-13T17%3A14%3A49.485188Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-13T17%3A14%3A49.485188Z"
         },
@@ -1818,6 +1917,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-06-13T06%3A19%3A17.449004Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-13T06%3A19%3A17.449004Z"
         },
@@ -1833,6 +1933,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-06-12T17%3A52%3A08.278229Z",
           "canonicalUrl": "character.html?c=madris&t=2026-06-12T17%3A52%3A08.278229Z"
         },
@@ -1848,6 +1949,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-05-25T06%3A18%3A48.456315Z",
           "canonicalUrl": "character.html?c=madris&t=2026-05-25T06%3A18%3A48.456315Z"
         },
@@ -1863,6 +1965,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=madris&t=2026-05-25T01%3A01%3A11.437842Z",
           "canonicalUrl": "character.html?c=madris&t=2026-05-25T01%3A01%3A11.437842Z"
         }
@@ -1892,6 +1995,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=necrosallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=necrosallsuck&t=2026-07-09T11%3A19%3A34.405985Z"
         }
@@ -1921,6 +2025,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=rikka&t=10a04447",
           "canonicalUrl": "character.html?c=rikka&t=2026-07-13T06%3A02%3A33.733354Z"
         },
@@ -1936,6 +2041,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=rikka&t=4ec79eaa",
           "canonicalUrl": "character.html?c=rikka&t=2026-07-11T05%3A51%3A45.915282Z"
         },
@@ -1951,6 +2057,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=rikka&t=rikka-first-snapshot",
           "canonicalUrl": "character.html?c=rikka&t=2026-07-10T11%3A37%3A08.498421Z"
         }
@@ -1983,6 +2090,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=dead",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-24T01%3A35%3A59.475440Z"
         },
@@ -1998,6 +2106,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=ffdc054e",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-23T06%3A00%3A21.197782Z"
         },
@@ -2013,6 +2122,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=3348f72e",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-22T05%3A58%3A44.739265Z"
         },
@@ -2030,6 +2140,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=nmact2",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-22T01%3A08%3A58.076183Z"
         },
@@ -2047,6 +2158,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=lvl-40-starting-nm",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-21T02%3A11%3A07.395097Z"
         },
@@ -2062,6 +2174,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=05e984ba",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-20T06%3A02%3A46.103872Z"
         },
@@ -2077,6 +2190,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=42fc6556",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-19T06%3A00%3A00.571388Z"
         },
@@ -2094,6 +2208,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=nm",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-18T01%3A59%3A09.887031Z"
         },
@@ -2109,6 +2224,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=6d588d5b",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-17T05%3A52%3A49.710805Z"
         },
@@ -2126,6 +2242,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=a5",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-17T01%3A35%3A18.575216Z"
         },
@@ -2141,6 +2258,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=90176d40",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-16T05%3A52%3A23.264913Z"
         },
@@ -2158,6 +2276,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=meph",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-16T01%3A25%3A35.311426Z"
         },
@@ -2175,6 +2294,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=a3",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-15T01%3A14%3A27.852886Z"
         },
@@ -2192,6 +2312,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=lvl20",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-14T22%3A59%3A03.069890Z"
         },
@@ -2207,6 +2328,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=239accef",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-14T05%3A46%3A44.836012Z"
         },
@@ -2224,6 +2346,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=norm-andy-done",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-13T01%3A47%3A50.812126Z"
         },
@@ -2239,6 +2362,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=andy-norm",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-13T01%3A41%3A26.818465Z"
         },
@@ -2256,6 +2380,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillIssue&t=fresh-start",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-12T21%3A35%3A58.028606Z"
         }
@@ -2286,6 +2411,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": true,
           "url": "character.html?c=SkillTissue&t=fav",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-26T13%3A04%3A08.066810Z"
         },
@@ -2301,6 +2427,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=SkillTissue&t=bffaebbb",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-26T06%3A01%3A41.773531Z"
         },
@@ -2318,6 +2445,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=SkillTissue&t=11",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-25T01%3A46%3A15.266924Z"
         }
@@ -2348,6 +2476,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=sorcsallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=sorcsallsuck&t=2026-07-09T02%3A17%3A35.604333Z"
         }
@@ -2378,6 +2507,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=teddyfuckdolls&t=8ebb84a5",
           "canonicalUrl": "character.html?c=teddyfuckdolls&t=2026-07-26T06%3A01%3A41.997399Z"
         },
@@ -2395,6 +2525,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=teddyfuckdolls&t=teddylovesdolls",
           "canonicalUrl": "character.html?c=teddyfuckdolls&t=2026-07-25T13%3A48%3A08.140438Z"
         }
@@ -2425,6 +2556,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=teddyoneanddone&t=d4b6d340",
           "canonicalUrl": "character.html?c=teddyoneanddone&t=2026-07-13T06%3A02%3A34.666658Z"
         },
@@ -2440,6 +2572,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=teddyoneanddone&t=e8d9ae59",
           "canonicalUrl": "character.html?c=teddyoneanddone&t=2026-07-12T06%3A02%3A10.614184Z"
         },
@@ -2455,6 +2588,7 @@
           ],
           "automatic": false,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=teddyoneanddone&t=teddyoneanddone-first-snapshot",
           "canonicalUrl": "character.html?c=teddyoneanddone&t=2026-07-10T11%3A41%3A46.558537Z"
         }
@@ -2485,6 +2619,7 @@
           ],
           "automatic": true,
           "story": false,
+          "favorite": false,
           "url": "character.html?c=teddyoneandonly&t=f1b5a87a",
           "canonicalUrl": "character.html?c=teddyoneandonly&t=2026-07-15T05%3A47%3A15.155136Z"
         },
@@ -2500,6 +2635,7 @@
           ],
           "automatic": false,
           "story": true,
+          "favorite": false,
           "url": "character.html?c=teddyoneandonly&t=1",
           "canonicalUrl": "character.html?c=teddyoneandonly&t=2026-07-15T01%3A17%3A18.535131Z"
         }
