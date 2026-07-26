@@ -1,47 +1,15 @@
-import argparse
 import json
 import os
 
 from build_index import build_index
 
-
 SNAPSHOT_DIR = "snapshots"
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(
-        description="Edit an existing character snapshot."
-    )
-
-    parser.add_argument("--character", required=True)
-    parser.add_argument("--snapshot", required=True)
-
-    parser.add_argument("--title")
-    parser.add_argument("--description")
-    parser.add_argument("--journal")
-    parser.add_argument("--tags")
-
-    parser.add_argument(
-        "--favorite",
-        choices=["Leave", "Yes", "No"],
-        default="Leave"
-    )
-
-    parser.add_argument(
-        "--story",
-        choices=["Leave", "Yes,No"],
-        default="Leave"
-    )
-
-    return parser.parse_args()
-
-
 def find_character_file(character):
-
     target = character.casefold()
 
     for filename in os.listdir(SNAPSHOT_DIR):
-
         if not filename.endswith(".json"):
             continue
 
@@ -53,8 +21,19 @@ def find_character_file(character):
     return None
 
 
-def parse_tags(value):
+def find_snapshot(snapshots, key):
+    target = key.casefold()
 
+    for snapshot in snapshots:
+        slug = str(snapshot.get("slug", ""))
+
+        if slug.casefold() == target:
+            return snapshot
+
+    return None
+
+
+def parse_tags(value):
     if not value:
         return None
 
@@ -63,17 +42,6 @@ def parse_tags(value):
         for tag in value.split(",")
         if tag.strip()
     ]
-
-
-def update_bool(current, value):
-
-    if value == "Yes":
-        return True
-
-    if value == "No":
-        return False
-
-    return current
 
 
 def main():
@@ -93,56 +61,63 @@ def main():
 
     snapshots = archive.get("snapshots", [])
 
-    target = None
+    snapshot = find_snapshot(
+        snapshots,
+        args.snapshot
+    )
 
-    for snapshot in snapshots:
-
-        key = str(snapshot.get("key", ""))
-
-        if key.casefold() == args.snapshot.casefold():
-            target = snapshot
-            break
-
-
-    if target is None:
+    if snapshot is None:
         print(
-            f"Snapshot '{args.snapshot}' not found for {args.character}"
+            f"Snapshot '{args.snapshot}' not found "
+            f"for {args.character}"
         )
         return
+
+
+    metadata = snapshot.setdefault(
+        "metadata",
+        {}
+    )
 
 
     changed = False
 
 
     if args.title:
-        target["title"] = args.title
+        metadata["title"] = args.title
         changed = True
 
 
     if args.description:
-        target["description"] = args.description
+        metadata["description"] = args.description
         changed = True
 
 
     if args.journal:
-        target["journal"] = args.journal.replace("\\n", "\n")
+        metadata["journal"] = (
+            args.journal.replace("\\n", "\n")
+        )
         changed = True
 
 
     tags = parse_tags(args.tags)
 
     if tags is not None:
-        target["tags"] = tags
+        metadata["tags"] = tags
         changed = True
 
 
     if args.favorite != "Leave":
-        target["favorite"] = args.favorite == "Yes"
+        metadata["favorite"] = (
+            args.favorite == "Yes"
+        )
         changed = True
 
 
     if args.story != "Leave":
-        target["story"] = args.story == "Yes"
+        metadata["story"] = (
+            args.story == "Yes"
+        )
         changed = True
 
 
@@ -165,10 +140,9 @@ def main():
         f.write("\n")
 
 
-    print(f"Updated {args.character} snapshot {args.snapshot}")
+    print(
+        f"Updated {args.character} "
+        f"snapshot {args.snapshot}"
+    )
 
     build_index()
-
-
-if __name__ == "__main__":
-    main()
