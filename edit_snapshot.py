@@ -64,10 +64,22 @@ def main():
     with open(path, "r", encoding="utf-8") as f:
         archive = json.load(f)
 
+    print(f"Loaded archive: {path}")
+    print(f"Archive type: {type(archive)}")
+    print(f"Archive keys: {archive.keys() if isinstance(archive, dict) else 'not dict'}")
 
     snapshots = archive.get("snapshots", [])
 
-    snapshot = find_snapshot(
+    print(f"Found {len(snapshots)} snapshots")
+
+    for s in snapshots[:5]:
+        print(
+            "Snapshot:",
+            "id=", s.get("id"),
+            "slug=", s.get("metadata", {}).get("slug")
+        )
+        
+        snapshot = find_snapshot(
         snapshots,
         args.snapshot
     )
@@ -77,6 +89,11 @@ def main():
             f"Snapshot '{args.snapshot}' not found "
             f"for {args.character}"
         )
+
+        print("Available IDs:")
+        for s in snapshots:
+            print(" -", s.get("id"))
+
         return
 
 
