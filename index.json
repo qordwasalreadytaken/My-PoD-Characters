@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-26T06:01:42.522152Z",
+  "generated": "2026-07-26T13:04:08.071271Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -2265,15 +2265,30 @@
       "name": "SkillTissue",
       "class": "Sorceress",
       "level": 20,
-      "latestSnapshot": "bffaebbb",
-      "snapshotCount": 2,
-      "milestoneCount": 1,
-      "lastUpdated": "2026-07-26T06:01:41.773531Z",
+      "latestSnapshot": "0e11284b",
+      "snapshotCount": 3,
+      "milestoneCount": 2,
+      "lastUpdated": "2026-07-26T13:04:08.066810Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "adding favorite",
+          "key": "fav",
+          "timestamp": "2026-07-26T13:04:08.066810Z",
+          "id": "0e11284b",
+          "title": "adding favorite",
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": false,
+          "story": false,
+          "url": "character.html?c=SkillTissue&t=fav",
+          "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-26T13%3A04%3A08.066810Z"
+        },
         {
           "label": "2026-07-26T06:01:41.773531Z",
           "key": "bffaebbb",
