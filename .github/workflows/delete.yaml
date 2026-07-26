@@ -1,0 +1,45 @@
+name: Delete Character
+
+on:
+  workflow_dispatch:
+    inputs:
+      character:
+        description: Character name to delete
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Delete character
+        run: |
+          python delete.py \
+            --character "${{ github.event.inputs.character }}"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git add snapshots character_index.json
+          git commit -m "Delete ${{ github.event.inputs.character }}"
+          git push
