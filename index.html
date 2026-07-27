@@ -527,7 +527,42 @@
 
     .favorite-filter.active {
       color: gold;
-    }    
+    }   
+
+    .tooltip {
+      position: relative;
+      cursor: help;
+      border-bottom: 1px dotted #888;
+    }
+
+    .tooltiptext {
+      visibility: hidden;
+      position: absolute;
+      z-index: 1000;
+
+      width: 260px;
+      padding: 8px 10px;
+
+      background: #222;
+      color: #fff;
+      border: 1px solid #555;
+      border-radius: 6px;
+
+      font-weight: normal;
+      line-height: 1.4;
+
+      left: 0;
+      top: 125%;
+
+      opacity: 0;
+      transition: opacity .15s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
   </style>
 </head>
 <body>
@@ -1393,7 +1428,18 @@
               <li><strong>Journal:</strong> ${safeText(metadata.journal, "(none)")}</li>
               <li><strong>Tags:</strong> ${snapshotTags.length ? snapshotTags.join(", ") : "(none)"}</li>
               <li><strong>Story:</strong> ${metadata.story ? "Yes" : "No"}</li>
-              <li><strong>Snapshot Key:</strong> ${safeText(shareLinks.key, "(none)")}</li>
+              <li>
+                <strong class="tooltip">
+                  Snapshot Key:
+                  <span class="tooltiptext">
+                    This key appears in the page URL.<br><br>
+                    Copy it when using the
+                    <strong>Edit Snapshot</strong>
+                    GitHub Action.
+                  </span>
+                </strong>
+                ${safeText(shareLinks.key, "(none)")}
+              </li>
             </ul>
           </article>
 

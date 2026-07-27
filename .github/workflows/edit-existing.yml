@@ -1,4 +1,4 @@
-name: Edit Snapshot
+name: Edit Existing Snapshot
 run-name: Edit snapshot for ${{ inputs.character }}
 
 on:
