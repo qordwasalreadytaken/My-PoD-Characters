@@ -1,39 +1,56 @@
-name: Snapshot Single Character
+name: Create Milestone Snapshot
+run-name: Add milestone for ${{ inputs.character }}
 
 on:
   workflow_dispatch:
     inputs:
       character:
-        description: Character name to snapshot
+        description: |
+          Character name to snapshot.
+          Case doesn't matter.
         required: true
         type: string
       title:
-        description: Optional milestone title
+        description: Optional milestone title.
         required: false
         type: string
       description:
-        description: Optional milestone description
+        description: |
+          Optional milestone description.
+          Short description shown on the archive page.
         required: false
         type: string
       journal:
-        description: Optional journal text
+        description: |
+          Optional longer journal text.
+          Supports multiple lines with \\n for line breaks.
         required: false
         type: string
       tags:
-        description: Optional comma-separated tags
+        description: |
+          Optional comma-separated tags.
+          Class tags (sorc, barb, etc.) are automatically added.
+          Example: ssfhc, season15
         required: false
         type: string
       slug:
-        description: Optional URL-friendly key (e.g. first-uber-clear)
+        description: |
+          Optional Snapshot Key.
+          Used in share links/url's.
+          Example: first-uber-clear, Level20, etc.
         required: false
         type: string
       story:
-        description: Mark as story
+        description: |
+          Include this milestone in the Story timeline.
         required: false
         default: false
         type: boolean
       favorite:
-        description: Mark as favorite
+        description: |
+          Mark as favorite
+          Marks this milestone with a ★ on the archive page
+          Marking just one snapshot as favorite will include a character in favorites
         required: false
         default: false
         type: boolean

@@ -1,10 +1,18 @@
 name: Delete Character
+run-name: Delete character ${{ inputs.character }}
 
 on:
   workflow_dispatch:
     inputs:
       character:
-        description: "⚠️ Permanently deletes this character. This cannot be undone."
+        description: |
+          Character to delete.
+          Case doesn't matter.
+
+          WARNING:
+          This permanently deletes every snapshot
+          and removes the character from the watchlist.
+          This cannot be undone.
         required: true
         type: string
 

@@ -1,4 +1,5 @@
 name: Edit Snapshot
+run-name: Edit snapshot for ${{ inputs.character }}
 
 on:
   workflow_dispatch:
@@ -39,7 +40,9 @@ on:
         type: string
 
       favorite:
-        description: "Favorite"
+        description: |
+          Favorite
+          Marks this milestone with a ★ on the archive page
         required: true
         type: choice
         options:
