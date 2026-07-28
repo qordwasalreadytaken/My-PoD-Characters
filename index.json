@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-27T10:58:07.673480Z",
+  "generated": "2026-07-28T01:29:22.413004Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -2562,6 +2562,38 @@
           "favorite": false,
           "url": "character.html?c=teddyfuckdolls&t=teddylovesdolls",
           "canonicalUrl": "character.html?c=teddyfuckdolls&t=2026-07-25T13%3A48%3A08.140438Z"
+        }
+      ]
+    },
+    {
+      "name": "TeddyHCSoloSoso",
+      "class": "Sorceress",
+      "level": 4,
+      "latestSnapshot": "ec92e7e2",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-07-28T01:29:22.410677Z",
+      "tags": [
+        "Sorc",
+        "HC"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "Teddy Rocking the SSF HC Sorc",
+          "key": "starting",
+          "timestamp": "2026-07-28T01:29:22.410677Z",
+          "id": "ec92e7e2",
+          "title": "Teddy Rocking the SSF HC Sorc",
+          "tags": [
+            "ssfhc",
+            "Sorc",
+            "HC"
+          ],
+          "automatic": false,
+          "story": true,
+          "favorite": true,
+          "url": "character.html?c=TeddyHCSoloSoso&t=starting",
+          "canonicalUrl": "character.html?c=TeddyHCSoloSoso&t=2026-07-28T01%3A29%3A22.410677Z"
         }
       ]
     },
