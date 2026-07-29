@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-29T01:36:17.725555Z",
+  "generated": "2026-07-29T05:59:50.210194Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -2600,16 +2600,32 @@
     {
       "name": "TeddyHCSoloSoso",
       "class": "Sorceress",
-      "level": 18,
-      "latestSnapshot": "7abe1956",
-      "snapshotCount": 2,
+      "level": 27,
+      "latestSnapshot": "eb55d3cd",
+      "snapshotCount": 3,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-28T05:57:23.277176Z",
+      "lastUpdated": "2026-07-29T05:59:49.196587Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-29T05:59:49.196587Z",
+          "key": "eb55d3cd",
+          "timestamp": "2026-07-29T05:59:49.196587Z",
+          "id": "eb55d3cd",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "favorite": false,
+          "url": "character.html?c=TeddyHCSoloSoso&t=eb55d3cd",
+          "canonicalUrl": "character.html?c=TeddyHCSoloSoso&t=2026-07-29T05%3A59%3A49.196587Z"
+        },
         {
           "label": "2026-07-28T05:57:23.277176Z",
           "key": "7abe1956",
