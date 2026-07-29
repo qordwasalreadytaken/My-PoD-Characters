@@ -91,6 +91,7 @@ def parse_args():
     parser.add_argument("--slug", help="Optional URL-friendly snapshot key")
     parser.add_argument("--favorite", default="false", help="Mark snapshot as favorite (true/false)")
     parser.add_argument("--story", default="false", help="Include snapshot in story navigation (true/false)")
+    parser.add_argument("--guide", help="Character snapshot featured in a build guide")
     return parser.parse_args()
 
 
@@ -113,6 +114,7 @@ def main():
         slug = args.slug.strip() if args.slug else None
         favorite = parse_bool(args.favorite)
         story = parse_bool(args.story)
+        guide = args.guide.strip() if args.guide else None
     else:
         if not isinstance(characters, list) or not characters:
             print("config.json must define a non-empty 'characters' list when running interactively.")
@@ -133,6 +135,7 @@ def main():
         slug = input("Slug (optional): ").strip() or None
         favorite = parse_bool(input("Favorite? (y/N): ").strip() or "false")
         story = parse_bool(input("Include in story navigation? (y/N): ").strip() or "false")
+        guide = input("Featured in guide (optional): ").strip() or None
 
     print()
     print("Fetching latest character...")
@@ -159,6 +162,7 @@ def main():
         slug=slug,
         favorite=favorite,
         story=story,
+        guide=guide,
         always_create=True
     )
 

@@ -59,6 +59,11 @@ on:
           - Yes
           - No
 
+      guide:
+        description: "New url for build guide (leave blank to keep)"
+        required: false
+        type: string
+
 
 permissions:
   contents: write
@@ -86,6 +91,7 @@ jobs:
           TAGS: ${{ github.event.inputs.tags }}
           FAVORITE: ${{ github.event.inputs.favorite }}
           STORY: ${{ github.event.inputs.story }}
+          GUIDE: ${{ github.event.inputs.guide }}
         run: |
           python edit_snapshot.py \
             --character "$CHARACTER" \
@@ -96,7 +102,8 @@ jobs:
             --journal "$JOURNAL" \
             --tags "$TAGS" \
             --favorite "$FAVORITE" \
-            --story "$STORY"
+            --story "$STORY" \
+            --guide "$GUIDE"
       - name: Commit changes
         run: |
           git config user.name "github-actions"

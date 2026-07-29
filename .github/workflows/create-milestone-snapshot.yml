@@ -54,6 +54,12 @@ on:
         required: false
         default: false
         type: boolean
+      guide:
+        description: |
+          URL for build guide if featured in one.
+        required: false
+        type: string
+
 
 permissions:
   contents: write
@@ -91,6 +97,7 @@ jobs:
           SLUG: ${{ inputs.slug }}
           STORY: ${{ inputs.story }}
           FAVORITE: ${{ inputs.favorite }}
+          GUIDE: ${{ inputs.guide }}
         run: |
           python manual_snapshot.py \
             --character "$CHARACTER" \
@@ -100,7 +107,8 @@ jobs:
             --tags "$TAGS" \
             --slug "$SLUG" \
             --story "$STORY" \
-            --favorite "$FAVORITE"
+            --favorite "$FAVORITE" \
+            --guide "$GUIDE"
 
       - name: Commit and push changes
         run: |

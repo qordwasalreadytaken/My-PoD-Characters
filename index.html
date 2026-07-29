@@ -1349,18 +1349,24 @@
       return rows.slice(0, 12);
     }
 
-    function getGearTitles(snapshot) {
-      const data = snapshot && snapshot.data ? snapshot.data : {};
-      const equipped = Array.isArray(data.Equipped) ? data.Equipped : [];
+  function capitalize(text) {
+    return text
+      ? text.charAt(0).toUpperCase() + text.slice(1)
+      : "";
+  }
 
-      return equipped
-        .filter((item) => item && typeof item === "object")
-        .map((item) => ({
-          worn: item.Worn || "slot",
-          title: item.Title || "Unknown item"
-        }))
-        .sort((a, b) => a.worn.localeCompare(b.worn));
-    }
+  function getGearTitles(snapshot) {
+    const data = snapshot && snapshot.data ? snapshot.data : {};
+    const equipped = Array.isArray(data.Equipped) ? data.Equipped : [];
+
+    return equipped
+      .filter((item) => item && typeof item === "object")
+      .map((item) => ({
+        worn: capitalize(item.Worn || "slot"),
+        title: item.Title || "Unknown item"
+      }))
+      .sort((a, b) => a.worn.localeCompare(b.worn));
+  }
 
     function renderSnapshotDetail() {
       if (!state.selectedSnapshot) {
@@ -1490,6 +1496,10 @@
               </li>
               <li>
                 <div class="share-label">Dashboard link</div>
+                <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
+              </li>
+              <li>
+                <div class="share-label">Featured in guide</div>
                 <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
               </li>
             </ul>

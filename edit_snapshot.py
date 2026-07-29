@@ -62,6 +62,11 @@ def parse_args():
         default="Leave"
     )
 
+    parser.add_argument(
+        "--guide",
+        help="New guide (leave blank to keep)"
+    )
+
     return parser.parse_args()
     
 def find_character_file(character):
@@ -178,6 +183,10 @@ def main():
         metadata["journal"] = (
             args.journal.replace("\\n", "\n")
         )
+        changed = True
+
+    if args.guide:
+        metadata["guide"] = args.guide
         changed = True
 
 
