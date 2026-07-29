@@ -998,12 +998,22 @@
 
 
     function getBuildUrl() {
-      if (!state.selectedCharacter || !state.selectedSnapshot) {
-        return "";
-      }
-
       const guideUrl = metadata.guide ? String(metadata.guide).trim() : "";
-      return guideUrl || "Not Featured";
+
+      const guideHtml = guideUrl
+        ? `
+          <li>
+            <div class="share-label">Featured in guide</div>
+            <a class="share-url"
+              href="${guideUrl}"
+              target="_blank"
+              rel="noopener noreferrer">
+              ${guideUrl}
+            </a>
+          </li>
+        `
+        : "";
+      return guideHtml;
     }
     
     function syncQuickviewButtonState() {
@@ -1510,10 +1520,19 @@
                 <div class="share-label">Dashboard link</div>
                 <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
               </li>
-              <li>
-                <div class="share-label">Featured in guide</div>
-                <a class="share-url" href="${guideUrl}" target="_blank" rel="noopener noreferrer">${guideUrl}</a>
-              </li>
+            <li>
+              <div class="share-label">Featured in guide</div>
+              ${
+                metadata.guide
+                  ? `<a class="share-url"
+                        href="${guideHref}"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        ${safeText(guideUrl)}
+                    </a>`
+                  : `<span class="muted">(none)</span>`
+              }
+            </li> 
             </ul>
           </article>
 
