@@ -6624,7 +6624,7 @@
             "ItemLevel": "20",
             "LevelReq": 6,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 5,
@@ -6648,7 +6648,7 @@
             "ItemLevel": "20",
             "LevelReq": 1,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 5,
@@ -6718,7 +6718,7 @@
             "ItemLevel": "23",
             "LevelReq": 12,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 5,
@@ -6742,7 +6742,7 @@
             "ItemLevel": "19",
             "LevelReq": 5,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 4,
@@ -6792,7 +6792,7 @@
             "ItemLevel": "13",
             "LevelReq": 9,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 1,
@@ -17061,7 +17061,7 @@
             "ItemLevel": "40",
             "LevelReq": 3,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 8,
@@ -17177,7 +17177,7 @@
             "ItemLevel": "43",
             "LevelReq": 12,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 7,
@@ -19591,7 +19591,7 @@
             "LevelReq": 20,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "+50% Increased Attack Speed",
               "+48% Enhanced Damage",
               "+60 to Attack Rating",
@@ -21176,7 +21176,7 @@
             "LevelReq": 20,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "+50% Increased Attack Speed",
               "+48% Enhanced Damage",
               "+60 to Attack Rating",
@@ -22855,7 +22855,7 @@
             "LevelReq": 20,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "+50% Increased Attack Speed",
               "+48% Enhanced Damage",
               "+60 to Attack Rating",
@@ -24551,7 +24551,7 @@
             "LevelReq": 20,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "+50% Increased Attack Speed",
               "+48% Enhanced Damage",
               "+60 to Attack Rating",
@@ -26193,7 +26193,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+10 to Maximum Damage",
               "+35% Enhanced Defense",
@@ -27475,8 +27475,8 @@
       "metadata": {
         "automatic": false,
         "title": "Dead",
-        "description": "Level 49, so close!",
-        "journal": "Dolls got me on the way down to Meph",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\\nThere is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...",
+        "journal": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra magna mauris, vitae consequat dolor tincidunt eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce viverra bibendum nulla, sed cursus mi placerat nec. Nunc faucibus, eros vestibulum hendrerit posuere, diam mauris scelerisque erat, non tincidunt nibh lectus sagittis est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam porttitor auctor varius. Suspendisse potenti. Vestibulum accumsan porta turpis sit amet feugiat. Donec et ipsum facilisis, accumsan tortor nec, aliquam dui. Nullam ex massa, rutrum at tortor sit amet, commodo vestibulum orci. Phasellus ipsum felis, viverra ac blandit vel, lacinia lacinia massa. Mauris convallis elementum vestibulum. Maecenas pellentesque, orci ut luctus aliquam, ligula erat pharetra neque, placerat efficitur tellus lorem eu quam. Ut ut finibus sem. In gravida, nulla sed hendrerit rhoncus, elit nisi iaculis nisi, at gravida massa ante in lorem. In quis convallis dui. ",
         "tags": [
           "sorc",
           "ssfhc",
