@@ -563,6 +563,30 @@
       opacity: 1;
     }
 
+    .copy-key {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+    }
+
+    .copy-key code {
+        background: rgba(255,255,255,.08);
+        padding: 2px 5px;
+        border-radius: 4px;
+    }
+
+    .copy-key:hover code {
+        background: rgba(255,255,255,.16);
+    }
+
+    .copy-key:active {
+        transform: scale(.98);
+    }
+
   </style>
 </head>
 <body>
@@ -1429,7 +1453,9 @@
               <li><strong>Tags:</strong> ${snapshotTags.length ? snapshotTags.join(", ") : "(none)"}</li>
               <li><strong>Story:</strong> ${metadata.story ? "Yes" : "No"}</li>
               <li>
-                <strong class="tooltip">
+                <strong
+                  class="tooltip"
+                >
                   Snapshot Key:
                   <span class="tooltiptext">
                     This key appears in the page URL.<br><br>
@@ -1438,7 +1464,15 @@
                     GitHub Action.
                   </span>
                 </strong>
-                ${safeText(shareLinks.key, "(none)")}
+
+                <button
+                  type="button"
+                  class="copy-key"
+                  onclick="copySnapshotKey('${shareLinks.key}', this)"
+                  title="Copy Snapshot Key"
+                >
+                  <code>${safeText(shareLinks.key, "(none)")}</code> 📋
+                </button>
               </li>
             </ul>
           </article>
@@ -1722,7 +1756,21 @@
         dom.statusPill.textContent = "Error";
       }
     }
+    async function copySnapshotKey(key, button) {
+        try {
+            await navigator.clipboard.writeText(key);
 
+            const original = button.innerHTML;
+            button.innerHTML = `<code>${key}</code> ✓ Copied!`;
+
+            setTimeout(() => {
+                button.innerHTML = original;
+            }, 1500);
+
+        } catch (err) {
+            console.error(err);
+        }
+    }
     void boot();
   </script>
 </body>

@@ -2,59 +2,185 @@
 <html>
 <head>
     <title>PoD Character Archive</title>
-    <link rel="stylesheet" type="text/css" href="./css/character.css" />
+    <link rel="stylesheet" type="text/css" href="./css/pod.css" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <style>
+        #header {
+            gap: 10px;
+            padding-right: 12px;
+            flex-wrap: wrap;
+        }
 
+        #snapshotHeaderTitle {
+            padding-left: 20px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #bbb;
+            white-space: nowrap;
+        }
+
+        #snapshotFavoriteBadge {
+            display: none;
+            border: 1px solid #c0a080;
+            color: #c0a080;
+            border-radius: 999px;
+            padding: 3px 9px;
+            font-size: 0.75rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        #storyNav {
+            display: none;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+            padding-right: 8px;
+        }
+
+        .story-nav-button {
+            border: 1px solid #444;
+            background: #141414;
+            color: #ddd;
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .story-nav-button:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+        }
+
+        #storyNavLabel {
+            color: #b8b8b8;
+            font-size: 0.85rem;
+            min-width: 78px;
+            text-align: center;
+        }
+
+        .snapshot-notes {
+            margin-bottom: 16px;
+        }
+
+        .snapshot-meta-box {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 6px;
+            padding: 10px;
+            color: #ddd;
+        }
+
+        #snapshotDescription,
+        #snapshotJournal {
+            white-space: pre-wrap;
+            margin-bottom: 14px;
+        }
+
+        #snapshotDescription {
+            min-height: 56px;
+        }
+
+        #snapshotJournal {
+            min-height: 96px;
+        }
+
+        #snapshotTags {
+            min-height: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: flex-start;
+        }
+
+        .snapshot-tag {
+            display: inline-block;
+            border: 1px solid #4a4a4a;
+            background: #121212;
+            border-radius: 999px;
+            padding: 3px 10px;
+            color: #d8d8d8;
+            font-size: 0.8rem;
+            line-height: 1.2;
+        }
+
+        .snapshot-tag-empty {
+            color: #9a9a9a;
+            font-size: 0.92rem;
+        }
+
+        @media (max-width: 880px) {
+            #header {
+                align-items: flex-start;
+                padding-top: 8px;
+            }
+
+            #snapshotHeaderTitle {
+                font-size: 1.08rem;
+                white-space: normal;
+                line-height: 1.3;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            #snapshotFavoriteBadge {
+                margin-left: 12px;
+                margin-bottom: 2px;
+            }
+
+            #storyNav {
+                margin-left: 12px;
+                padding-right: 12px;
+            }
+
+            .snapshot-notes {
+                margin-bottom: 12px;
+            }
+
+            #snapshotJournal {
+                min-height: 72px;
+            }
+        }
     </style>
 
 
 </head>
 <body style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<!--    <div id="alertBanner" style="display: none; padding: 10px; background-color: #ffcc00; color: #333;">
+        The streamer hasn't set up their account name. Please let them know to configure it!
+    </div> -->
     <div id="app" class="full-height"></div>
-<header id="header" class="panel-header">
+<!--    <button onclick="retrieveCharacterData()" >Click me!</button> -->
+<div id="header" style="display:flex; align-items:center; min-height:48px;">
 
     <div id="snapshotHeaderTitle">
         Snapshot
     </div>
-
     <span id="snapshotFavoriteBadge">Favorite</span>
-
     <div id="storyNav" aria-label="Story navigation controls">
         <button id="storyPrev" class="story-nav-button" type="button" aria-label="Previous story snapshot">◀</button>
         <span id="storyNavLabel">Story</span>
         <button id="storyNext" class="story-nav-button" type="button" aria-label="Next story snapshot">▶</button>
     </div>
 
-</header>
-
-<div id="container">
-
+</div>
+        <div style="clear:both;"></div>
+    </div>
+    <div id="container">
     <div id="snaps">
+        <div class="snapshot-notes">
+            <div style="font-size: 1.05rem; font-weight: bold; color: #fff; margin-bottom: 10px;">Snapshot Notes</div>
+            <div style="color:#bbb; font-size:.9rem; margin-bottom:8px;">Description</div>
+            <div id="snapshotDescription" class="snapshot-meta-box">(none)</div>
 
-        <section class="snapshot-notes">
-        <h2 class="section-title">Snapshot Notes</h2>
+            <div style="color:#bbb; font-size:.9rem; margin-bottom:8px;">Journal</div>
+            <div id="snapshotJournal" class="snapshot-meta-box">(none)</div>
 
-        <div class="field">
-            <div class="field-label">Description</div>
-            <div id="snapshotDescription" class="snapshot-meta-box"></div>
-        </div>
-
-        <div class="field">
-            <div class="field-label">Journal</div>
-            <div id="snapshotJournal" class="snapshot-meta-box"></div>
-        </div>
-
-        <div class="field">
-            <div class="field-label">Tags</div>
+            <div style="color:#bbb; font-size:.9rem; margin-bottom:8px;">Tags</div>
             <div id="snapshotTags"></div>
         </div>
-
-    </section>
-
-</div>
-
-</header>
+    </div>
     
     <div id="main">
 <!--        <h2><span id="name"></span> <span id="level-label"></span><span id="level"></span> <span id="class"></span></h2> -->
@@ -341,12 +467,8 @@ $(document).ready(function() {
         storyNavState.entries = entries;
         storyNavState.currentIndex = index;
 
-        console.log("Story entries:", entries);
-        console.log("Selected snapshot:", selectedSnapshot);
-        console.log("Index:", index);
-
         if (!entries.length || index < 0) {
-            nav.css('display', 'none');
+            nav.hide();
             label.text('Story');
             prevBtn.prop('disabled', true);
             nextBtn.prop('disabled', true);
@@ -356,7 +478,7 @@ $(document).ready(function() {
         label.text(`Story ${index + 1}/${entries.length}`);
         prevBtn.prop('disabled', entries.length <= 1);
         nextBtn.prop('disabled', entries.length <= 1);
-        nav.css('display', 'flex');
+        nav.show();
     }
 
     function navigateStory(direction) {

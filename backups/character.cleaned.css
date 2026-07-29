@@ -1,0 +1,149 @@
+/*
+ * CSS Doctor
+ * Duplicate selectors consolidated.
+ * Original file preserved.
+ */
+
+#header {
+    gap: 10px;
+    padding-right: 12px;
+    flex-wrap: wrap;
+
+}
+
+#snapshotHeaderTitle {
+    padding-left: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #bbb;
+    white-space: nowrap;
+}
+
+#snapshotFavoriteBadge {
+    display: none;
+    border: 1px solid #c0a080;
+    color: #c0a080;
+    border-radius: 999px;
+    padding: 3px 9px;
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+#storyNav {
+    display: none;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.story-nav-button {
+    border: 1px solid #444;
+    background: #141414;
+    color: #ddd;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.story-nav-button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+#storyNavLabel {
+    color: #b8b8b8;
+    font-size: 0.85rem;
+    min-width: 78px;
+    text-align: center;
+}
+
+.snapshot-notes {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.snapshot-meta-box {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 10px;
+    color: #ddd;
+}
+
+#snapshotDescription,
+    #snapshotJournal {
+    white-space: pre-wrap;
+    margin-bottom: 14px;
+}
+
+#snapshotDescription {
+    min-height: 56px;
+}
+
+#snapshotJournal {
+    min-height: 96px;
+}
+
+#snapshotTags {
+    min-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.snapshot-tag {
+    display: inline-block;
+    border: 1px solid #4a4a4a;
+    background: #121212;
+    border-radius: 999px;
+    padding: 3px 10px;
+    color: #d8d8d8;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+.snapshot-tag-empty {
+    color: #9a9a9a;
+    font-size: 0.92rem;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.panel-title {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #eee;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.field-label {
+    color: #aaa;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.section-title {
+    margin: 0;
+    color: #fff;
+    font-size: 1.05rem;
+}
+
