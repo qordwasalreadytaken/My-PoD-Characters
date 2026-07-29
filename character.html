@@ -45,6 +45,11 @@
             <div id="snapshotJournal" class="snapshot-meta-box"></div>
         </div>
 
+        <div id="snapshotGuideField" class="field">
+            <div class="field-label">Featured in Build Guide</div>
+            <div id="snapshotGuide" class="snapshot-meta-box"></div>
+        </div>
+
         <div class="field">
             <div class="field-label">Tags</div>
             <div id="snapshotTags"></div>
@@ -413,6 +418,7 @@ $(document).ready(function() {
 
         $('#snapshotDescription').text(description);
         $('#snapshotJournal').text(journal);
+        $('#snapshotGuide').text(metadata.guide ? metadata.guide : '(none)');
 
         const tagsContainer = $('#snapshotTags');
         tagsContainer.empty();
@@ -436,7 +442,25 @@ $(document).ready(function() {
         $('#snapshotHeaderTitle').text(headerTitle);
         $('#snapshotFavoriteBadge').toggle(metadata.favorite === true);
         document.title = `${displayName} - Archive`;
-    }
+
+        const guideField = document.getElementById("snapshotGuideField");
+        const guideBox = document.getElementById("snapshotGuide");
+
+        const guideUrl = metadata.guide ? String(metadata.guide).trim() : "";
+
+        if (guideUrl) {
+            guideField.style.display = "";
+            guideBox.innerHTML = `
+                <a href="${guideUrl}"
+                target="_blank"
+                rel="noopener noreferrer">
+                    Open Build Guide ↗
+                </a>
+            `;
+        } else {
+            guideField.style.display = "none";
+        }        
+            }
 
     async function fetchSnapshotPayload(characterName) {
         const lower = characterName.toLowerCase();
@@ -467,6 +491,7 @@ $(document).ready(function() {
         if (!charName) {
             $('#snapshotDescription').text('(missing ?c=character in URL)');
             $('#snapshotJournal').text('(none)');
+            $('#snapshotGuide').text('(none)');
             $('#snapshotTags').text('(none)');
             $('#snapshotHeaderTitle').text('Snapshot');
             return;
@@ -518,6 +543,7 @@ $(document).ready(function() {
             console.error('Error loading focus snapshot:', error);
             $('#snapshotDescription').text('(unable to load snapshot)');
             $('#snapshotJournal').text('(none)');
+            $('#snapshotGuide').text('(none)');
             $('#snapshotTags').text('(none)');
             $('#snapshotHeaderTitle').text('Snapshot Load Error');
         }
