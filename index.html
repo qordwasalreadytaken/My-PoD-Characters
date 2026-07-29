@@ -996,6 +996,16 @@
       return links.shareUrl || links.canonicalUrl || "";
     }
 
+
+    function getBuildUrl() {
+      if (!state.selectedCharacter || !state.selectedSnapshot) {
+        return "";
+      }
+
+      const guideUrl = metadata.guide ? String(metadata.guide).trim() : "";
+      return guideUrl || "Not Featured";
+    }
+    
     function syncQuickviewButtonState() {
       const hasSelection = Boolean(state.selectedCharacter && state.selectedSnapshot);
       if (dom.quickviewButton) {
@@ -1384,6 +1394,8 @@
       const changes = snapshot.changes || {};
       const shareLinks = resolveSnapshotShareLinks(state.selectedCharacter, snapshot);
       const dashboardShareUrl = buildDashboardShareUrl(state.selectedCharacter, snapshot);
+      const guideUrl = metadata.guide ? String(metadata.guide).trim() : "Not Featured";
+      
       const snapshotTags = dedupeTags([
         ...normalizeTags(metadata.tags),
         ...getAutomaticSnapshotTags(snapshot)
@@ -1500,7 +1512,7 @@
               </li>
               <li>
                 <div class="share-label">Featured in guide</div>
-                <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
+                <a class="share-url" href="${guideUrl}" target="_blank" rel="noopener noreferrer">${guideUrl}</a>
               </li>
             </ul>
           </article>
