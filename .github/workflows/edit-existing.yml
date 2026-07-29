@@ -76,18 +76,27 @@ jobs:
           python-version: "3.12"
 
       - name: Edit existing snapshot
+        env:
+          CHARACTER: ${{ github.event.inputs.character }}
+          SNAPSHOT: ${{ github.event.inputs.snapshot }}
+          KEY: ${{ github.event.inputs.key }}
+          TITLE: ${{ github.event.inputs.title }}
+          DESCRIPTION: ${{ github.event.inputs.description }}
+          JOURNAL: ${{ github.event.inputs.journal }}
+          TAGS: ${{ github.event.inputs.tags }}
+          FAVORITE: ${{ github.event.inputs.favorite }}
+          STORY: ${{ github.event.inputs.story }}
         run: |
           python edit_snapshot.py \
-            --character "${{ github.event.inputs.character }}" \
-            --snapshot "${{ github.event.inputs.snapshot }}" \
-            --key "${{ github.event.inputs.key }}" \
-            --title "${{ github.event.inputs.title }}" \
-            --description "${{ github.event.inputs.description }}" \
-            --journal "${{ github.event.inputs.journal }}" \
-            --tags "${{ github.event.inputs.tags }}" \
-            --favorite "${{ github.event.inputs.favorite }}" \
-            --story "${{ github.event.inputs.story }}"
-
+            --character "$CHARACTER" \
+            --snapshot "$SNAPSHOT" \
+            --key "$KEY" \
+            --title "$TITLE" \
+            --description "$DESCRIPTION" \
+            --journal "$JOURNAL" \
+            --tags "$TAGS" \
+            --favorite "$FAVORITE" \
+            --story "$STORY"
       - name: Commit changes
         run: |
           git config user.name "github-actions"
