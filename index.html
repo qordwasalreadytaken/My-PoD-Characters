@@ -1520,19 +1520,19 @@
                 <div class="share-label">Dashboard link</div>
                 <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
               </li>
-            <li>
-              <div class="share-label">Featured in guide</div>
-              ${
-                metadata.guide
-                  ? `<a class="share-url"
-                        href="${guideHref}"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        ${safeText(guideUrl)}
-                    </a>`
-                  : `<span class="muted">(none)</span>`
-              }
-            </li> 
+              <li>
+                <div class="share-label">Featured in guide</div>
+                ${
+                  metadata.guide
+                    ? `<a class="share-url"
+                          href="${guideUrl}"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          ${safeText(guideUrl)}
+                      </a>`
+                    : `<span class="muted">Not linked to a build guide</span>`
+                }
+              </li> 
             </ul>
           </article>
 
