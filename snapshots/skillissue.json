@@ -27484,7 +27484,8 @@
         ],
         "slug": "dead",
         "favorite": false,
-        "story": true
+        "story": true,
+        "guide": "https://www.reddit.com/r/pathofdiablo/comments/jb4p07/hemorrhage_meatwall_corpse_explosion_variants/"
       },
       "changes": {
         "skill_change": true,
