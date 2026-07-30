@@ -620,26 +620,7 @@
     <section class="panel" aria-label="Snapshots">
       <header class="panel-header">
         <h2 class="panel-title">Timeline</h2>
-
-        <div class="snapshot-nav">
-          <button
-            id="snapshotPrev"
-            class="story-nav-button"
-            type="button"
-            aria-label="Previous snapshot"
-            title="Previous snapshot"
-          >◀</button>
-
-          <span id="snapshotCount" class="pill">0</span>
-
-          <button
-            id="snapshotNext"
-            class="story-nav-button"
-            type="button"
-            aria-label="Next snapshot"
-            title="Next snapshot"
-          >▶</button>
-        </div>
+        <span id="snapshotCount" class="pill">0</span>
       </header>
       <div class="section" id="timelineHeader">
         <div class="muted">Select a character to browse snapshots.</div>
@@ -720,9 +701,7 @@
       quickviewPrev: document.getElementById("quickviewPrev"),
       quickviewNext: document.getElementById("quickviewNext"),
       quickviewCount: document.getElementById("quickviewCount"),
-      favoriteFilter: document.getElementById("favoriteFilter"),
-      snapshotPrev: document.getElementById("snapshotPrev"),
-      snapshotNext: document.getElementById("snapshotNext")      
+      favoriteFilter: document.getElementById("favoriteFilter")
     };
 
     function normalizeArchivePayload(payload, fallbackCharacterName) {
@@ -1301,19 +1280,6 @@
     function renderSnapshotList() {
       dom.snapshotList.innerHTML = "";
       const visibleSnapshots = getVisibleSnapshots();
-      const currentIndex = state.selectedSnapshot
-        ? visibleSnapshots.findIndex(
-            (snapshot) =>
-              snapshot.timestamp === state.selectedSnapshot.timestamp
-          )
-        : -1;
-
-      dom.snapshotPrev.disabled =
-        currentIndex <= 0;
-
-      dom.snapshotNext.disabled =
-        currentIndex < 0 ||
-        currentIndex >= visibleSnapshots.length - 1;      
       const tagTerm = getTagFilterTerm();
       dom.snapshotCount.textContent = String(visibleSnapshots.length);
 
@@ -1808,20 +1774,16 @@
           closeQuickview();
         }
       });
-      dom.snapshotPrev.addEventListener("click", () => {
-        moveTimelineSnapshot(-1);
-      });
-
-      dom.snapshotNext.addEventListener("click", () => {
-        moveTimelineSnapshot(1);
-      });      
       document.addEventListener("keydown", (event) => {
         if (event.key === "Escape" && dom.quickviewModal.classList.contains("open")) {
           closeQuickview();
           return;
         }
 
-      if (dom.quickviewModal.classList.contains("open")) {
+        if (!dom.quickviewModal.classList.contains("open")) {
+          return;
+        }
+
         if (event.key === "ArrowLeft") {
           moveQuickviewSnapshot(-1);
           return;
@@ -1829,47 +1791,10 @@
 
         if (event.key === "ArrowRight") {
           moveQuickviewSnapshot(1);
-          return;
         }
-
-        return;
-      }
-
-      if (event.key === "ArrowLeft") {
-        moveTimelineSnapshot(-1);
-        return;
-      }
-
-      if (event.key === "ArrowRight") {
-        moveTimelineSnapshot(1);
-      }
       });
     }
 
-    function moveTimelineSnapshot(direction) {
-      const snapshots = getVisibleSnapshots();
-
-      if (!snapshots.length || !state.selectedSnapshot) {
-        return;
-      }
-
-      const currentIndex = snapshots.findIndex(
-        (snapshot) => snapshot.timestamp === state.selectedSnapshot.timestamp
-      );
-
-      if (currentIndex < 0) {
-        return;
-      }
-
-      const nextIndex = currentIndex + direction;
-
-      if (nextIndex < 0 || nextIndex >= snapshots.length) {
-        return;
-      }
-
-      selectSnapshotByKey(getSnapshotKey(snapshots[nextIndex]));
-    }
-    
     async function boot() {
       bindEvents();
       dom.statusPill.textContent = "Loading";
