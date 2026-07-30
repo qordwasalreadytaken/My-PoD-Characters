@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-29T10:42:08.478257Z",
+  "generated": "2026-07-30T05:54:43.487433Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -2407,16 +2407,32 @@
     {
       "name": "SkillTissue",
       "class": "Sorceress",
-      "level": 25,
-      "latestSnapshot": "7a344da4",
-      "snapshotCount": 5,
+      "level": 29,
+      "latestSnapshot": "dc7536b8",
+      "snapshotCount": 6,
       "milestoneCount": 2,
-      "lastUpdated": "2026-07-28T05:57:22.301150Z",
+      "lastUpdated": "2026-07-30T05:54:41.270123Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-30T05:54:41.270123Z",
+          "key": "dc7536b8",
+          "timestamp": "2026-07-30T05:54:41.270123Z",
+          "id": "dc7536b8",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "favorite": false,
+          "url": "character.html?c=SkillTissue&t=dc7536b8",
+          "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-30T05%3A54%3A41.270123Z"
+        },
         {
           "label": "2026-07-28T05:57:22.301150Z",
           "key": "7a344da4",
@@ -2600,16 +2616,32 @@
     {
       "name": "TeddyHCSoloSoso",
       "class": "Sorceress",
-      "level": 27,
-      "latestSnapshot": "eb55d3cd",
-      "snapshotCount": 3,
+      "level": 7,
+      "latestSnapshot": "ab85ffe3",
+      "snapshotCount": 4,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-29T05:59:49.196587Z",
+      "lastUpdated": "2026-07-30T05:54:42.302578Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-30T05:54:42.302578Z",
+          "key": "ab85ffe3",
+          "timestamp": "2026-07-30T05:54:42.302578Z",
+          "id": "ab85ffe3",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "favorite": false,
+          "url": "character.html?c=TeddyHCSoloSoso&t=ab85ffe3",
+          "canonicalUrl": "character.html?c=TeddyHCSoloSoso&t=2026-07-30T05%3A54%3A42.302578Z"
+        },
         {
           "label": "2026-07-29T05:59:49.196587Z",
           "key": "eb55d3cd",
