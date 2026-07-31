@@ -4400,7 +4400,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -6033,7 +6033,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -7658,7 +7658,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -9079,11 +9079,15 @@
       "timestamp": "2026-07-31T06:02:10.217708Z",
       "metadata": {
         "automatic": true,
-        "title": null,
-        "description": null,
-        "journal": null,
-        "tags": [],
-        "slug": null,
+        "title": "Made it to NM",
+        "description": "Beat Norm Baal, time to grind a few levels",
+        "journal": "Had to cheese the first one by luring Lister out of the throne room, Baal was easy but slow using normal bow attacks. Exploding arrows plus the ranged frig damage took him down slowly but smooth and easily. ",
+        "tags": [
+          "ssfhc",
+          "frig",
+          "nm"
+        ],
+        "slug": "nm",
         "favorite": false,
         "story": false
       },
@@ -9483,7 +9487,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",

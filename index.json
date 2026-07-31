@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-31T06:02:12.720747Z",
+  "generated": "2026-07-31T10:26:04.428150Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -2450,19 +2450,22 @@
       ],
       "snapshotLinks": [
         {
-          "label": "2026-07-31T06:02:10.217708Z",
-          "key": "6c9aaa53",
+          "label": "Made it to NM",
+          "key": "nm",
           "timestamp": "2026-07-31T06:02:10.217708Z",
           "id": "6c9aaa53",
-          "title": null,
+          "title": "Made it to NM",
           "tags": [
+            "ssfhc",
+            "frig",
+            "nm",
             "Sorc",
             "HC"
           ],
           "automatic": true,
           "story": false,
           "favorite": false,
-          "url": "character.html?c=SkillTissue&t=6c9aaa53",
+          "url": "character.html?c=SkillTissue&t=nm",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-31T06%3A02%3A10.217708Z"
         },
         {
