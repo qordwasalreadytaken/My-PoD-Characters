@@ -587,6 +587,74 @@
         transform: scale(.98);
     }
 
+    .change-summary {
+        cursor: help;
+    }
+
+    .change-tooltip {
+        position: fixed;
+        z-index: 2000;
+
+        max-width: 320px;
+        padding: 10px 12px;
+
+        background: #111;
+        color: #ddd;
+
+        border: 1px solid #555;
+        border-radius: 6px;
+
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+
+        font-size: 0.82rem;
+        line-height: 1.35;
+
+        pointer-events: none;
+    }
+
+.change-tooltip.below {
+    bottom: auto;
+    top: 100%;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.change-tooltip.above {
+    bottom: 100%;
+    top: auto;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+    .change-tooltip-section + .change-tooltip-section {
+        margin-top: 10px;
+    }
+
+    .change-tooltip-heading {
+        margin-bottom: 4px;
+        color: #c0a080;
+        font-weight: 600;
+    }
+
+    .change-item {
+        padding-left: 4px;
+    }
+
+    .change-item.added {
+        color: #b8d8b8;
+    }
+
+    .change-item.removed {
+        color: #d8a0a0;
+    }
+
+    .change-item.updated {
+        color: #d8d0a0;
+    }
+
+    .change-tooltip-empty {
+        color: #999;
+    }
+
   </style>
 </head>
 <body>
@@ -1350,6 +1418,7 @@
         const button = document.createElement("button");
         button.type = "button";
         button.className = "snapshot-row";
+        const changeSummary = summarizeChanges(snapshot);
 
         if (state.selectedSnapshot && state.selectedSnapshot.timestamp === snapshot.timestamp) {
           button.classList.add("active");
@@ -1365,10 +1434,18 @@
           </div>
           <div class="snapshot-meta">
             <span>${label}</span>
-            <span>${summarizeChanges(snapshot)}</span>
+            <span class="change-summary">${changeSummary}</span>
           </div>
         `;
+        const changeSummaryElement = button.querySelector(".change-summary");
 
+        changeSummaryElement.addEventListener("mouseenter", () => {
+          showChangeTooltip(changeSummaryElement, snapshot);
+        });
+
+        changeSummaryElement.addEventListener("mouseleave", () => {
+          hideChangeTooltip();
+        });
         button.addEventListener("click", () => {
           selectSnapshotByKey(getSnapshotKey(snapshot));
         });
@@ -1436,6 +1513,8 @@
       const bonus = data.Bonus || {};
       const metadata = snapshot.metadata || {};
       const changes = snapshot.changes || {};
+      console.log("SNAPSHOT CHANGES:", changes);
+      console.log(JSON.stringify(changes, null, 2));      
       const shareLinks = resolveSnapshotShareLinks(state.selectedCharacter, snapshot);
       const dashboardShareUrl = buildDashboardShareUrl(state.selectedCharacter, snapshot);
       const guideUrl = metadata.guide ? String(metadata.guide).trim() : "Not Featured";
@@ -1844,6 +1923,7 @@
         moveTimelineSnapshot(1);
       }
       });
+      
     }
 
     function moveTimelineSnapshot(direction) {
@@ -1869,8 +1949,118 @@
 
       selectSnapshotByKey(getSnapshotKey(snapshots[nextIndex]));
     }
+
     
-    async function boot() {
+    function verboseChanges(snapshot) {
+      const changes = snapshot && snapshot.changes ? snapshot.changes : {};
+
+      const skillsAdded = Array.isArray(changes.skills_added) ? changes.skills_added : [];
+      const skillsRemoved = Array.isArray(changes.skills_removed) ? changes.skills_removed : [];
+      const skillsUpdated = Array.isArray(changes.skills_updated) ? changes.skills_updated : [];
+      const gearAdded = Array.isArray(changes.equipped_added) ? changes.equipped_added : [];
+      const gearRemoved = Array.isArray(changes.equipped_removed) ? changes.equipped_removed : [];
+
+      const totalChanges =
+        skillsAdded.length +
+        skillsRemoved.length +
+        skillsUpdated.length +
+        gearAdded.length +
+        gearRemoved.length;
+
+      if (totalChanges === 0) {
+        return '<div class="change-tooltip-empty">No tracked changes</div>';
+      }
+
+      const sections = [];
+
+      if (skillsAdded.length || skillsRemoved.length || skillsUpdated.length) {
+        const items = [];
+
+        skillsAdded.forEach((skill) => {
+          items.push(`<div class="change-item added">+ ${safeText(skill)}</div>`);
+        });
+
+        skillsRemoved.forEach((skill) => {
+          items.push(`<div class="change-item removed">− ${safeText(skill)}</div>`);
+        });
+
+        skillsUpdated.forEach((skill) => {
+          items.push(`
+            <div class="change-item updated">
+              ↻ ${safeText(skill.name)}
+              <span class="change-level">(${safeText(skill.from)} → ${safeText(skill.to)})</span>
+            </div>
+          `);
+        });
+
+        sections.push(`
+          <div class="change-tooltip-section">
+            <div class="change-tooltip-heading">Skills</div>
+            ${items.join("")}
+          </div>
+        `);
+      }
+
+      if (gearAdded.length || gearRemoved.length) {
+        const items = [];
+
+        gearAdded.forEach((item) => {
+          items.push(`<div class="change-item added">+ ${safeText(item)}</div>`);
+        });
+
+        gearRemoved.forEach((item) => {
+          items.push(`<div class="change-item removed">− ${safeText(item)}</div>`);
+        });
+
+        sections.push(`
+          <div class="change-tooltip-section">
+            <div class="change-tooltip-heading">Gear</div>
+            ${items.join("")}
+          </div>
+        `);
+      }
+
+      return sections.join("");
+    }
+
+    function showChangeTooltip(target, snapshot) {
+        hideChangeTooltip();
+
+        const tooltip = document.createElement("div");
+        tooltip.className = "change-tooltip";
+        tooltip.innerHTML = verboseChanges(snapshot);
+
+        document.body.appendChild(tooltip);
+
+        const rect = target.getBoundingClientRect();
+        const gap = 8;
+
+        // Position horizontally first
+        tooltip.style.left = `${rect.left + rect.width / 2}px`;
+        tooltip.style.transform = "translateX(-50%)";
+
+        // Make sure we can measure the tooltip
+        const tooltipHeight = tooltip.offsetHeight;
+
+        const spaceAbove = rect.top;
+        const spaceBelow = window.innerHeight - rect.bottom;
+
+        if (spaceAbove >= tooltipHeight + gap || spaceAbove >= spaceBelow) {
+            // Show above
+            tooltip.style.top = `${rect.top - tooltipHeight - gap}px`;
+        } else {
+            // Show below
+            tooltip.style.top = `${rect.bottom + gap}px`;
+        }
+    }
+
+      function hideChangeTooltip() {
+        document.querySelectorAll(".change-tooltip").forEach((tooltip) => {
+          tooltip.remove();
+        });
+      }
+
+async function boot() {
       bindEvents();
       dom.statusPill.textContent = "Loading";
 
