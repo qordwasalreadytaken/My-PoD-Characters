@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-07-30T05:54:43.487433Z",
+  "generated": "2026-07-31T06:02:12.720747Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1294,14 +1294,30 @@
       "name": "hek_sor",
       "class": "Sorceress",
       "level": 89,
-      "latestSnapshot": "818dabad",
-      "snapshotCount": 9,
+      "latestSnapshot": "19b3c439",
+      "snapshotCount": 10,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-24T05:58:12.619775Z",
+      "lastUpdated": "2026-07-31T06:02:07.330816Z",
       "tags": [
         "Sorc"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-31T06:02:07.330816Z",
+          "key": "19b3c439",
+          "timestamp": "2026-07-31T06:02:07.330816Z",
+          "id": "19b3c439",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "SC"
+          ],
+          "automatic": true,
+          "story": false,
+          "favorite": false,
+          "url": "character.html?c=hek_sor&t=19b3c439",
+          "canonicalUrl": "character.html?c=hek_sor&t=2026-07-31T06%3A02%3A07.330816Z"
+        },
         {
           "label": "2026-07-24T05:58:12.619775Z",
           "key": "818dabad",
@@ -1990,15 +2006,31 @@
     {
       "name": "rikka",
       "class": "Amazon",
-      "level": 75,
-      "latestSnapshot": "213563ba",
-      "snapshotCount": 5,
+      "level": 76,
+      "latestSnapshot": "68dd05ad",
+      "snapshotCount": 6,
       "milestoneCount": 1,
-      "lastUpdated": "2026-07-28T05:57:21.649668Z",
+      "lastUpdated": "2026-07-31T06:02:09.558027Z",
       "tags": [
         "Ama"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-31T06:02:09.558027Z",
+          "key": "68dd05ad",
+          "timestamp": "2026-07-31T06:02:09.558027Z",
+          "id": "68dd05ad",
+          "title": null,
+          "tags": [
+            "Ama",
+            "SC"
+          ],
+          "automatic": true,
+          "story": false,
+          "favorite": false,
+          "url": "character.html?c=rikka&t=68dd05ad",
+          "canonicalUrl": "character.html?c=rikka&t=2026-07-31T06%3A02%3A09.558027Z"
+        },
         {
           "label": "2026-07-28T05:57:21.649668Z",
           "key": "213563ba",
@@ -2407,16 +2439,32 @@
     {
       "name": "SkillTissue",
       "class": "Sorceress",
-      "level": 29,
-      "latestSnapshot": "dc7536b8",
-      "snapshotCount": 6,
+      "level": 31,
+      "latestSnapshot": "6c9aaa53",
+      "snapshotCount": 7,
       "milestoneCount": 2,
-      "lastUpdated": "2026-07-30T05:54:41.270123Z",
+      "lastUpdated": "2026-07-31T06:02:10.217708Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-07-31T06:02:10.217708Z",
+          "key": "6c9aaa53",
+          "timestamp": "2026-07-31T06:02:10.217708Z",
+          "id": "6c9aaa53",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "favorite": false,
+          "url": "character.html?c=SkillTissue&t=6c9aaa53",
+          "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-31T06%3A02%3A10.217708Z"
+        },
         {
           "label": "2026-07-30T05:54:41.270123Z",
           "key": "dc7536b8",
