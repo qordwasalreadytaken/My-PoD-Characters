@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-01T12:54:47.172954Z",
+  "generated": "2026-08-01T12:55:14.431682Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1142,116 +1142,6 @@
           "favorite": false,
           "url": "character.html?c=necrosallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=necrosallsuck&t=2026-07-09T11%3A19%3A34.405985Z"
-        }
-      ]
-    },
-    {
-      "name": "rikka",
-      "class": "Amazon",
-      "level": 76,
-      "latestSnapshot": "68dd05ad",
-      "snapshotCount": 6,
-      "milestoneCount": 1,
-      "lastUpdated": "2026-07-31T06:02:09.558027Z",
-      "tags": [
-        "Ama"
-      ],
-      "snapshotLinks": [
-        {
-          "label": "2026-07-31T06:02:09.558027Z",
-          "key": "68dd05ad",
-          "timestamp": "2026-07-31T06:02:09.558027Z",
-          "id": "68dd05ad",
-          "title": null,
-          "tags": [
-            "Ama",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=rikka&t=68dd05ad",
-          "canonicalUrl": "character.html?c=rikka&t=2026-07-31T06%3A02%3A09.558027Z"
-        },
-        {
-          "label": "2026-07-28T05:57:21.649668Z",
-          "key": "213563ba",
-          "timestamp": "2026-07-28T05:57:21.649668Z",
-          "id": "213563ba",
-          "title": null,
-          "tags": [
-            "Ama",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=rikka&t=213563ba",
-          "canonicalUrl": "character.html?c=rikka&t=2026-07-28T05%3A57%3A21.649668Z"
-        },
-        {
-          "label": "2026-07-27T06:09:01.689441Z",
-          "key": "9006eafe",
-          "timestamp": "2026-07-27T06:09:01.689441Z",
-          "id": "9006eafe",
-          "title": null,
-          "tags": [
-            "Ama",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=rikka&t=9006eafe",
-          "canonicalUrl": "character.html?c=rikka&t=2026-07-27T06%3A09%3A01.689441Z"
-        },
-        {
-          "label": "2026-07-13T06:02:33.733354Z",
-          "key": "10a04447",
-          "timestamp": "2026-07-13T06:02:33.733354Z",
-          "id": "10a04447",
-          "title": null,
-          "tags": [
-            "Ama",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=rikka&t=10a04447",
-          "canonicalUrl": "character.html?c=rikka&t=2026-07-13T06%3A02%3A33.733354Z"
-        },
-        {
-          "label": "2026-07-11T05:51:45.915282Z",
-          "key": "4ec79eaa",
-          "timestamp": "2026-07-11T05:51:45.915282Z",
-          "id": "4ec79eaa",
-          "title": null,
-          "tags": [
-            "Ama",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=rikka&t=4ec79eaa",
-          "canonicalUrl": "character.html?c=rikka&t=2026-07-11T05%3A51%3A45.915282Z"
-        },
-        {
-          "label": "rikka First snapshot",
-          "key": "rikka-first-snapshot",
-          "timestamp": "2026-07-10T11:37:08.498421Z",
-          "id": "88cef5a4",
-          "title": "rikka First snapshot",
-          "tags": [
-            "Ama",
-            "SC"
-          ],
-          "automatic": false,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=rikka&t=rikka-first-snapshot",
-          "canonicalUrl": "character.html?c=rikka&t=2026-07-10T11%3A37%3A08.498421Z"
         }
       ]
     },
