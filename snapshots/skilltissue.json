@@ -945,8 +945,8 @@
         "journal": "Switched to Angelic set peices, hope it helps with the AR issues",
         "tags": [],
         "slug": "Level-20",
-        "favorite": false,
-        "story": false,
+        "favorite": true,
+        "story": true,
         "guide": "https://qordwasalreadytaken.github.io/My-PoD-Characters/"
       },
       "changes": {
