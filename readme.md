@@ -64,7 +64,7 @@ That's it.
 
 The Journaling Nephalem is entirely powered by GitHub.
 
-GitHub Actions periodically query the Path of Diablo API and save snapshots of your characters. Those snapshots are committed back into your repository, and GitHub Pages automatically publishes a static website for browsing your character history.
+GitHub Actions periodically check your characters for changes. Snapshots are only saved when something has changed, preventing duplicate entries while still preserving your character's progression. Each new snapshot is committed to your repository, and GitHub Pages automatically publishes an updated static website.
 
 Because everything is stored in your own repository:
 
