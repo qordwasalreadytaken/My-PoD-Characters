@@ -913,13 +913,17 @@ function createImageHTML(itemObject, hoverContainerId) {
     const propertySize = itemObject["PropertyList"].length;
     const maxCharWidth = Math.max.apply(Math, itemObject["PropertyList"].map(x => x.length));
     const tooltipClass = propertySize > 10 || maxCharWidth > 40 ? "itemhover-box itemhover-box-small" : "itemhover-box";
-        
-    // Append the tooltip content directly to the specified container
+    const tooltipId = `${hoverContainerId}-${itemObject.Worn}-hover`;
+
     $("#" + hoverContainerId).append(`
-        <div class="${tooltipClass}" id="${hoverContainerId}-${itemObject["Worn"]}-hover">
+        <div class="${tooltipClass}" id="${tooltipId}">
             ${tooltipContent}
         </div>
     `);
+
+    const tooltip = document.getElementById(tooltipId);
+    centerTooltip(tooltip);
+
         
     // Generate and return the image HTML
     let imageHTML = "";
@@ -1061,19 +1065,21 @@ function renderCharms(inventoryItems) {
         // Create charm content (image + tooltip)
         const charmContent = createCharmContent(charm, index, size);
         slot.append(charmContent);
-        
-        // If charm spans multiple cells, mark those cells as occupied
-        if (size.invwidth > 1 || size.invheight > 1) {
-            for (let dy = 0; dy < size.invheight; dy++) {
-                for (let dx = 0; dx < size.invwidth; dx++) {
-                    if (dx === 0 && dy === 0) continue; // Skip the main cell
-                    const occupiedSlotId = `charm-${gridX + dx}-${gridY + dy}`;
-                    $(`#${occupiedSlotId}`).addClass('charm-occupied');
+        const tooltip = document.getElementById(`charm-tooltip-${index}`);
+        centerTooltip(tooltip);
+                
+                // If charm spans multiple cells, mark those cells as occupied
+                if (size.invwidth > 1 || size.invheight > 1) {
+                    for (let dy = 0; dy < size.invheight; dy++) {
+                        for (let dx = 0; dx < size.invwidth; dx++) {
+                            if (dx === 0 && dy === 0) continue; // Skip the main cell
+                            const occupiedSlotId = `charm-${gridX + dx}-${gridY + dy}`;
+                            $(`#${occupiedSlotId}`).addClass('charm-occupied');
+                        }
+                    }
                 }
-            }
+            });
         }
-    });
-}
 
 function createCharmContent(charmObject, index, size) {
     // Determine charm image based on Tag field
@@ -1109,7 +1115,7 @@ function createCharmContent(charmObject, index, size) {
     const propertySize = charmObject["PropertyList"].length;
     const maxCharWidth = Math.max.apply(Math, charmObject["PropertyList"].map(x => x.length));
     const tooltipClass = propertySize > 10 || maxCharWidth > 40 ? "itemhover-box itemhover-box-small" : "itemhover-box";
-    
+    const tooltipId = `charm-tooltip-${index}`;
     return `
         <div class="charm-hover-wrapper" style="
             width: ${width}px;
@@ -1124,7 +1130,7 @@ function createCharmContent(charmObject, index, size) {
                 display: block;
                 pointer-events: none;
             " />
-            <div class="${tooltipClass}">
+            <div class="${tooltipClass}" id="${tooltipId}">
                 ${tooltipContent}
             </div>
         </div>
@@ -1189,6 +1195,16 @@ function toggleWeaponSwap() {
     console.log("Swapped to " + (isSwapped ? "swap" : "primary") + " weapons");
 }
 
+function centerTooltip(tooltip) {
+    const rect = document
+        .getElementById("items")
+        .getBoundingClientRect();
+
+    console.log(rect);
+    tooltip.style.left = `${rect.left + rect.width / 2 + 36}px`;
+    tooltip.style.top = `${rect.top + 10}px`;
+    tooltip.style.transform = "translateX(-50%)";
+}
 </script>
 </body>
 

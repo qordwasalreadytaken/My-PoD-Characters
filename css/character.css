@@ -893,25 +893,19 @@
 
 /* .itemhover-box */
 
-.itemhover-box {
+/*.itemhover-box {
     position: fixed;
     top: 95px;
     left: 50%;
     transform: translateX(-50%);
-
     max-width: 580px;
-
     padding: 10px;
-
     background: #000;
     color: #c0a080;
-
     border: 2px solid #c0a080;
     border-radius: 6px;
-
     font-size: 16px;
     text-align: center;
-
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -919,6 +913,22 @@
     z-index: 1000;
     flex: 1;
     align-content: center;
+} */
+.itemhover-box {
+    position: fixed;
+    max-width: 580px;
+    padding: 10px;
+    background: #000;
+    color: #c0a080;
+    border: 2px solid #c0a080;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 1000;
 }
 
 .charm-hover-wrapper:hover .itemhover-box {
