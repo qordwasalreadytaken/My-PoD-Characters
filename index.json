@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-01T15:02:35.593269Z",
+  "generated": "2026-08-01T15:04:04.518015Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -813,7 +813,7 @@
             "HC"
           ],
           "automatic": true,
-          "story": true,
+          "story": false,
           "favorite": true,
           "url": "character.html?c=SkillTissue&t=level-20",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-26T06%3A01%3A41.773531Z"

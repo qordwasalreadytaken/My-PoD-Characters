@@ -946,7 +946,7 @@
         "tags": [],
         "slug": "Level-20",
         "favorite": true,
-        "story": true,
+        "story": false,
         "guide": "https://qordwasalreadytaken.github.io/My-PoD-Characters/"
       },
       "changes": {
