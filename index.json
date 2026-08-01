@@ -1,39 +1,9 @@
 {
   "version": 1,
-  "generated": "2026-08-01T12:58:22.275113Z",
+  "generated": "2026-08-01T12:58:52.517676Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
-    {
-      "name": "Asmorahn",
-      "class": "Assassin",
-      "level": 90,
-      "latestSnapshot": "36699e25",
-      "snapshotCount": 1,
-      "milestoneCount": 0,
-      "lastUpdated": "2026-07-10T10:42:38.904141Z",
-      "tags": [
-        "Asn"
-      ],
-      "snapshotLinks": [
-        {
-          "label": "2026-07-10T10:42:38.904141Z",
-          "key": "36699e25",
-          "timestamp": "2026-07-10T10:42:38.904141Z",
-          "id": "36699e25",
-          "title": null,
-          "tags": [
-            "Asn",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=Asmorahn&t=36699e25",
-          "canonicalUrl": "character.html?c=Asmorahn&t=2026-07-10T10%3A42%3A38.904141Z"
-        }
-      ]
-    },
     {
       "name": "Azandor",
       "class": "Amazon",
