@@ -112,8 +112,8 @@ This creates a curated timeline of your character's journey.
 
 | Workflow                  | Purpose                            |
 | ------------------------- | ---------------------------------- |
-| Create Milestone Snapshot | Capture a manual snapshot         |
+| Create Milestone Snapshot | Capture a manual snapshot/Milestone         |
 | Edit Snapshot             | Edit an existing snapshot                    |
 | Delete Character          | Remove a character                 |
-| Daily All Characters Snapshot      | Automatically records snapshots    |
+| Daily All Characters Snapshot      | Automatically creates daily snapshots for all characters added    |
 
