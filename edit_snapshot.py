@@ -58,7 +58,7 @@ def parse_args():
 
     parser.add_argument(
         "--story",
-        choices=["Leave", "Yes", "No"],
+        choices=["Leave", "Yes", "No", "true", "false"],
         default="Leave"
     )
 
@@ -203,11 +203,8 @@ def main():
 
 
     if args.story != "Leave":
-        metadata["story"] = (
-            args.story == "Yes"
-        )
+        metadata["story"] = args.story.lower() in ("yes", "true")
         changed = True
-
 
     if not changed:
         print("No changes requested.")
