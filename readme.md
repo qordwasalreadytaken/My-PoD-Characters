@@ -1,3 +1,5 @@
+# Readme Under Construction
+
 # The Journaling Nephalem
 
 Capture your Path of Diablo journey one snapshot at a time.
