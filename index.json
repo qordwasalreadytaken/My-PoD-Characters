@@ -1,39 +1,9 @@
 {
   "version": 1,
-  "generated": "2026-08-01T12:59:22.338599Z",
+  "generated": "2026-08-01T12:59:45.745669Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
-    {
-      "name": "Bardukk",
-      "class": "Barbarian",
-      "level": 90,
-      "latestSnapshot": "0596ff98",
-      "snapshotCount": 1,
-      "milestoneCount": 0,
-      "lastUpdated": "2026-07-27T06:09:02.835398Z",
-      "tags": [
-        "Barb"
-      ],
-      "snapshotLinks": [
-        {
-          "label": "2026-07-27T06:09:02.835398Z",
-          "key": "0596ff98",
-          "timestamp": "2026-07-27T06:09:02.835398Z",
-          "id": "0596ff98",
-          "title": null,
-          "tags": [
-            "Barb",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=Bardukk&t=0596ff98",
-          "canonicalUrl": "character.html?c=Bardukk&t=2026-07-27T06%3A09%3A02.835398Z"
-        }
-      ]
-    },
     {
       "name": "canshehitthirty",
       "class": "Sorceress",
