@@ -45,7 +45,7 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 Every Path of Diablo ladder eventually ends.
 
-Characters disappear from the official armory, memories fade, and record of that perfect gear progression is gone forever.
+Characters disappear from the official armory, memories fade, and the story of that gear progression is gone forever.
 
 The Journaling Nephalem solves that problem by keeping your own permanent archive. Every snapshot becomes part of your character's history, allowing you to look back at your journey months or even years later.
 
@@ -112,10 +112,10 @@ This creates a curated timeline of your character's journey.
 
 ## Github Actions
 
-| Workflow                  | Purpose                            |
-| ------------------------- | ---------------------------------- |
-| Create Milestone Snapshot | Capture a manual snapshot/Milestone         |
-| Edit Snapshot             | Edit an existing snapshot                    |
-| Delete Character          | Remove a character                 |
-| Daily All Characters Snapshot      | Automatically creates daily snapshots for all characters added    |
+| Workflow                      | Purpose                                                                           |
+| ----------------------------- | --------------------------------------------------------------------------------- |
+| Create Milestone Snapshot     | Create a manual snapshot with optional journal entries, tags, and story metadata  |
+| Edit Snapshot                 | Update the metadata of an existing snapshot                                       |
+| Delete Character              | Remove a character and its archived snapshots                                     |
+| Daily All Characters Snapshot | Check every tracked character and create snapshots only when changes are detected |
 
