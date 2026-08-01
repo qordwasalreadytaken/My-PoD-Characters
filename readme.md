@@ -27,15 +27,15 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 ### Dashboard
 
-(screenshot)
+![Dashboard View](image.png)
 
 ### Armory
 
-(screenshot)
+![Armory Pages](image-1.png)
 
 ### Story Navigation
 
-(screenshot)
+![Tell a story through snapshots](image-2.png)
 
 ## Why?
 
