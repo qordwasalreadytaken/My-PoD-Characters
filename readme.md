@@ -21,7 +21,6 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 - Browse every snapshot from a searchable timeline
 - Track equipment and skill changes between snapshots
 - Story mode for navigating milestone snapshots
-- 100% static site hosted with GitHub Pages
 - JSON-based archive that's easy to back up or modify
 
 
@@ -44,7 +43,7 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 Every Path of Diablo ladder eventually ends.
 
-Characters disappear from the official armory, memories fade, and that perfect gear progression is gone forever.
+Characters disappear from the official armory, memories fade, and record of that perfect gear progression is gone forever.
 
 The Journaling Nephalem solves that problem by keeping your own permanent archive. Every snapshot becomes part of your character's history, allowing you to look back at your journey months or even years later.
 
@@ -65,12 +64,11 @@ That's it.
 
 The Journaling Nephalem is entirely powered by GitHub.
 
-GitHub Actions periodically query the Path of Diablo API and save snapshots of your characters as JSON. Those snapshots are committed back into your repository, and GitHub Pages automatically publishes a static website for browsing your character history.
+GitHub Actions periodically query the Path of Diablo API and save snapshots of your characters. Those snapshots are committed back into your repository, and GitHub Pages automatically publishes a static website for browsing your character history.
 
 Because everything is stored in your own repository:
 
 - Your archive is permanent.
-- You own all of your data.
 - No database or web server is required.
 - The entire site can be hosted for free using GitHub Pages.
 
@@ -83,12 +81,13 @@ Milestone snapshots let you capture the moments that matter.
 
 Examples include:
 
+- Capturing a moment in time to use in a build guide
 - Finding your first high rune
 - Completing your endgame build
 - Defeating Diablo Clone
 - Reaching level 99
 - Beginning a new build
-- Switching mercenaries
+- Regrettable Respec's
 
 Milestones can include:
 
