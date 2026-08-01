@@ -62,6 +62,15 @@ The Journaling Nephalem solves that problem by keeping your own permanent archiv
 That's it.
 
 
+## Video Walkthrough
+
+Prefer a guided setup?
+
+Watch the complete walkthrough covering GitHub Actions, milestones, and navigating the dashboard.
+
+*Audio issues on the first video made it kinda suck, need to record a new one*
+
+
 ## How It Works
 
 The Journaling Nephalem is entirely powered by GitHub.
@@ -118,4 +127,9 @@ This creates a curated timeline of your character's journey.
 | Edit Snapshot                 | Update the metadata of an existing snapshot                                       |
 | Delete Character              | Remove a character and its archived snapshots                                     |
 | Daily All Characters Snapshot | Check every tracked character and create snapshots only when changes are detected |
+
+
+---
+
+Questions and suggestions are always welcome.
 
