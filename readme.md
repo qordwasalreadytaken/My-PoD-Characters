@@ -57,5 +57,53 @@ The Journaling Nephalem solves that problem by keeping your own permanent archiv
 That's it.
 
 
+## How It Works
+
+The Journaling Nephalem is entirely powered by GitHub.
+
+GitHub Actions periodically query the Path of Diablo API and save snapshots of your characters as JSON. Those snapshots are committed back into your repository, and GitHub Pages automatically publishes a static website for browsing your character history.
+
+Because everything is stored in your own repository:
+
+- Your archive is permanent.
+- You own all of your data.
+- No database or web server is required.
+- The entire site can be hosted for free using GitHub Pages.
+
+
+## Creating Milestones
+
+Automatic snapshots are great for recording your character's progression, but not every moment is equally memorable.
+
+Milestone snapshots let you capture the moments that matter.
+
+Examples include:
+
+- Finding your first high rune
+- Completing your endgame build
+- Defeating Diablo Clone
+- Reaching level 99
+- Beginning a new build
+- Switching mercenaries
+
+Milestones can include:
+
+- Custom title
+- Description
+- Journal entry
+- Tags
+- Favorite status
+- Story marker
+
+
+## Story Snapshots
+
+Mark any milestone as part of your character's story.
+
+The armory includes Story Navigation, allowing you to jump directly between important milestones while skipping routine automatic snapshots.
+
+This creates a curated timeline of your character's journey.
+
+
 
 
