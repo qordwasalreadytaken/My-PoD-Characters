@@ -64,6 +64,10 @@ on:
         required: false
         type: string
 
+      clear_guide:
+        description: "Remove existing build guide URL"
+        required: false
+        type: boolean
 
 permissions:
   contents: write
@@ -92,6 +96,7 @@ jobs:
           FAVORITE: ${{ github.event.inputs.favorite }}
           STORY: ${{ github.event.inputs.story }}
           GUIDE: ${{ github.event.inputs.guide }}
+          CLEAR_GUIDE: ${{ github.event.inputs.clear_guide }}
         run: |
           python edit_snapshot.py \
             --character "$CHARACTER" \
@@ -103,7 +108,8 @@ jobs:
             --tags "$TAGS" \
             --favorite "$FAVORITE" \
             --story "$STORY" \
-            --guide "$GUIDE"
+            --guide "$GUIDE" \
+            --clear-guide "$CLEAR_GUIDE"
       - name: Commit changes
         run: |
           git config user.name "github-actions"

@@ -67,6 +67,13 @@ def parse_args():
         help="New guide (leave blank to keep)"
     )
 
+    parser.add_argument(
+        "--clear-guide",
+        choices=["true", "false"],
+        default="false",
+        help="Remove existing guide URL"
+    )
+
     return parser.parse_args()
     
 def find_character_file(character):
@@ -185,10 +192,14 @@ def main():
         )
         changed = True
 
-    if args.guide:
+    if args.clear_guide == "true":
+        if "guide" in metadata:
+            del metadata["guide"]
+            changed = True
+
+    elif args.guide:
         metadata["guide"] = args.guide
         changed = True
-
 
     tags = parse_tags(args.tags)
 
