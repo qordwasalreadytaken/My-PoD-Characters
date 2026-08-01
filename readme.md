@@ -23,6 +23,20 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 - 100% static site hosted with GitHub Pages
 - JSON-based archive that's easy to back up or modify
 
+## Screenshots
+
+### Dashboard
+
+(screenshot)
+
+### Armory
+
+(screenshot)
+
+### Story Navigation
+
+(screenshot)
+
 ## Why?
 
 Every Path of Diablo ladder eventually ends.
