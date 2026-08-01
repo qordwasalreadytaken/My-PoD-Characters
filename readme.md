@@ -81,7 +81,7 @@ Watch the complete walkthrough covering GitHub Actions, milestones, and navigati
 
 The Journaling Nephalem is entirely powered by GitHub.
 
-GitHub Actions periodically check your characters for changes. Snapshots are only saved when something has changed, preventing duplicate entries while still preserving your character's progression. Each new snapshot is committed to your repository, and GitHub Pages automatically publishes an updated static website.
+GitHub Actions periodically check your characters for changes. Snapshots are only saved when something has changed, preventing duplicate entries while still preserving your character's progression. Each new snapshot is committed to your repository, and GitHub Pages automatically publishes an updated dashboard.
 
 Because everything is stored in your own repository:
 

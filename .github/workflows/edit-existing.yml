@@ -10,7 +10,7 @@ on:
         type: string
 
       snapshot:
-        description: "Snapshot key to edit"
+        description: "Snapshot key to edit (available in the Notes section of a snapshot)"
         required: true
         type: string
 
