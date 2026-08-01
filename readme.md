@@ -10,6 +10,7 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 ---
 
+
 ## Features
 
 - Automatic character snapshots using GitHub Actions
@@ -22,6 +23,7 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 - Story mode for navigating milestone snapshots
 - 100% static site hosted with GitHub Pages
 - JSON-based archive that's easy to back up or modify
+
 
 ## Screenshots
 
@@ -37,6 +39,7 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 ![Tell a story through snapshots](image-2.png)
 
+
 ## Why?
 
 Every Path of Diablo ladder eventually ends.
@@ -44,6 +47,7 @@ Every Path of Diablo ladder eventually ends.
 Characters disappear from the official armory, memories fade, and that perfect gear progression is gone forever.
 
 The Journaling Nephalem solves that problem by keeping your own permanent archive. Every snapshot becomes part of your character's history, allowing you to look back at your journey months or even years later.
+
 
 ## Quick Start
 
