@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-01T12:55:35.102340Z",
+  "generated": "2026-08-01T12:55:59.796052Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1598,102 +1598,6 @@
           "favorite": false,
           "url": "character.html?c=teddyfuckdolls&t=teddylovesdolls",
           "canonicalUrl": "character.html?c=teddyfuckdolls&t=2026-07-25T13%3A48%3A08.140438Z"
-        }
-      ]
-    },
-    {
-      "name": "TeddyHCSoloSoso",
-      "class": "Sorceress",
-      "level": 23,
-      "latestSnapshot": "0c09366e",
-      "snapshotCount": 5,
-      "milestoneCount": 1,
-      "lastUpdated": "2026-08-01T05:59:51.713238Z",
-      "tags": [
-        "Sorc",
-        "HC"
-      ],
-      "snapshotLinks": [
-        {
-          "label": "2026-08-01T05:59:51.713238Z",
-          "key": "0c09366e",
-          "timestamp": "2026-08-01T05:59:51.713238Z",
-          "id": "0c09366e",
-          "title": null,
-          "tags": [
-            "Sorc",
-            "HC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=TeddyHCSoloSoso&t=0c09366e",
-          "canonicalUrl": "character.html?c=TeddyHCSoloSoso&t=2026-08-01T05%3A59%3A51.713238Z"
-        },
-        {
-          "label": "2026-07-30T05:54:42.302578Z",
-          "key": "ab85ffe3",
-          "timestamp": "2026-07-30T05:54:42.302578Z",
-          "id": "ab85ffe3",
-          "title": null,
-          "tags": [
-            "Sorc",
-            "HC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=TeddyHCSoloSoso&t=ab85ffe3",
-          "canonicalUrl": "character.html?c=TeddyHCSoloSoso&t=2026-07-30T05%3A54%3A42.302578Z"
-        },
-        {
-          "label": "2026-07-29T05:59:49.196587Z",
-          "key": "eb55d3cd",
-          "timestamp": "2026-07-29T05:59:49.196587Z",
-          "id": "eb55d3cd",
-          "title": null,
-          "tags": [
-            "Sorc",
-            "HC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=TeddyHCSoloSoso&t=eb55d3cd",
-          "canonicalUrl": "character.html?c=TeddyHCSoloSoso&t=2026-07-29T05%3A59%3A49.196587Z"
-        },
-        {
-          "label": "2026-07-28T05:57:23.277176Z",
-          "key": "7abe1956",
-          "timestamp": "2026-07-28T05:57:23.277176Z",
-          "id": "7abe1956",
-          "title": null,
-          "tags": [
-            "Sorc",
-            "HC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=TeddyHCSoloSoso&t=7abe1956",
-          "canonicalUrl": "character.html?c=TeddyHCSoloSoso&t=2026-07-28T05%3A57%3A23.277176Z"
-        },
-        {
-          "label": "Teddy Rocking the SSF HC Sorc",
-          "key": "starting",
-          "timestamp": "2026-07-28T01:29:22.410677Z",
-          "id": "ec92e7e2",
-          "title": "Teddy Rocking the SSF HC Sorc",
-          "tags": [
-            "ssfhc",
-            "Sorc",
-            "HC"
-          ],
-          "automatic": false,
-          "story": true,
-          "favorite": true,
-          "url": "character.html?c=TeddyHCSoloSoso&t=starting",
-          "canonicalUrl": "character.html?c=TeddyHCSoloSoso&t=2026-07-28T01%3A29%3A22.410677Z"
         }
       ]
     },
