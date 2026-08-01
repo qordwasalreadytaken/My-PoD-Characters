@@ -32,16 +32,16 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 Dashboard with list of characters, snapshots, and details about the selected snapshot
 
-![Dashboard View](image.png)
+![Dashboard View](image-4.png)
 
 
 Quickly see what changed from the previous snapshot
 
-![Quickly see what changed from the previous snapshot](image-3.png)
+![Quickly see what changed from the previous snapshot](image-5.png)
 
 ### Armory
 
-Familiar, shareable Armory view that includes snapshot notes & details, and optional Story navigation
+Shareable Armory view pages that include a snapshots notes & details, and optional Story navigation. Perfect for including in build guides.
 
 ![Tell a story through snapshots](image-2.png)
 
