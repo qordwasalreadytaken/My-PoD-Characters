@@ -30,14 +30,18 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 ### Dashboard
 
+Dashboard with list of characters, snapshots, and details about the selected snapshot
 ![Dashboard View](image.png)
+
+Quickly see what changed from the previous snapshot
+![Quickly see what changed from the previous snapshot](image-3.png)
 
 ### Armory
 
+Armory Quickview allows you to quickly move through all of a characters snapshot armory pages
 ![Armory Pages](image-1.png)
 
-### Story Navigation
-
+Familiar, shareable Armory view that includes snapshot notes & details, and optional Story navigation
 ![Tell a story through snapshots](image-2.png)
 
 
