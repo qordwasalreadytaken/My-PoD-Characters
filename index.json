@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-01T13:13:06.329854Z",
+  "generated": "2026-08-01T14:38:43.627458Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -803,11 +803,11 @@
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-26T13%3A04%3A08.066810Z"
         },
         {
-          "label": "Edit test",
-          "key": "keyedit",
+          "label": "Level 20",
+          "key": "level-20",
           "timestamp": "2026-07-26T06:01:41.773531Z",
           "id": "bffaebbb",
-          "title": "Edit test",
+          "title": "Level 20",
           "tags": [
             "Sorc",
             "HC"
@@ -815,7 +815,7 @@
           "automatic": true,
           "story": false,
           "favorite": false,
-          "url": "character.html?c=SkillTissue&t=keyedit",
+          "url": "character.html?c=SkillTissue&t=level-20",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-26T06%3A01%3A41.773531Z"
         },
         {
