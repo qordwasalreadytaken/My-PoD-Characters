@@ -1236,7 +1236,16 @@
 
     function getVisibleSnapshots() {
       const tagTerm = getTagFilterTerm();
-      return state.snapshots.filter((snapshot) => snapshotMatchesTag(snapshot, tagTerm));
+
+      return state.snapshots.filter((snapshot) => {
+        const tagMatch = snapshotMatchesTag(snapshot, tagTerm);
+
+        const favoriteMatch =
+          !state.showFavoritesOnly ||
+          snapshot?.metadata?.favorite === true;
+
+        return tagMatch && favoriteMatch;
+      });
     }
 
     function ensureSelectedSnapshotVisible() {
@@ -1860,6 +1869,7 @@
 
           applyCharacterFilter();
           renderCharacterList();
+          renderSnapshotList();
       });      
       dom.searchInput.addEventListener("input", () => {
         void handleFiltersChanged();
