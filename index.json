@@ -1,39 +1,9 @@
 {
   "version": 1,
-  "generated": "2026-08-01T12:58:52.517676Z",
+  "generated": "2026-08-01T12:59:22.338599Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
-    {
-      "name": "Azandor",
-      "class": "Amazon",
-      "level": 87,
-      "latestSnapshot": "7e43e444",
-      "snapshotCount": 1,
-      "milestoneCount": 0,
-      "lastUpdated": "2026-07-10T10:42:39.075013Z",
-      "tags": [
-        "Ama"
-      ],
-      "snapshotLinks": [
-        {
-          "label": "2026-07-10T10:42:39.075013Z",
-          "key": "7e43e444",
-          "timestamp": "2026-07-10T10:42:39.075013Z",
-          "id": "7e43e444",
-          "title": null,
-          "tags": [
-            "Ama",
-            "SC"
-          ],
-          "automatic": true,
-          "story": false,
-          "favorite": false,
-          "url": "character.html?c=Azandor&t=7e43e444",
-          "canonicalUrl": "character.html?c=Azandor&t=2026-07-10T10%3A42%3A39.075013Z"
-        }
-      ]
-    },
     {
       "name": "Bardukk",
       "class": "Barbarian",
