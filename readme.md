@@ -23,4 +23,25 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 - 100% static site hosted with GitHub Pages
 - JSON-based archive that's easy to back up or modify
 
+## Why?
+
+Every Path of Diablo ladder eventually ends.
+
+Characters disappear from the official armory, memories fade, and that perfect gear progression is gone forever.
+
+The Journaling Nephalem solves that problem by keeping your own permanent archive. Every snapshot becomes part of your character's history, allowing you to look back at your journey months or even years later.
+
+## Quick Start
+
+1. Fork this repository.
+2. Enable GitHub Actions.
+3. Add your character names.
+4. Run the initial snapshot workflow.
+5. Enable the scheduled workflow.
+6. Visit your GitHub Pages site.
+
+That's it.
+
+
+
 
