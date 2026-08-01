@@ -15,10 +15,10 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 ## Features
 
-- Automatic character snapshots
-- Journal entries for memorable moments
-- Favorite important snapshots
-- Custom tags for organization
+- Automatic character snapshots (once a day by default)
+- Journal entries for memorable moments or note taking
+- "Favorite" ⭐ important snapshots
+- Custom tags for organization (class and HC tags added by default)
 - Interactive armory viewer
 - Browse every snapshot from a searchable timeline
 - Track equipment and skill changes between snapshots
@@ -61,6 +61,12 @@ The Journaling Nephalem solves that problem by keeping your own permanent archiv
 
 That's it.
 
+## Adding Characters
+
+You can add characters:
+- One at a time by simply creating manual snapshots for each of them by running the  Create Milestone Snapshot workflow
+- In bulk by editing the watched_characters.json to include character names and running the Daily All Character Snapshots workflow
+
 
 ## Video Walkthrough
 
@@ -83,6 +89,7 @@ Because everything is stored in your own repository:
 - No database or web server is required.
 - The entire site can be hosted for free using GitHub Pages.
 
+Since this is driven by character names, reusing character names adds to any existing character history.
 
 ## Creating Milestones
 
@@ -93,9 +100,9 @@ Milestone snapshots let you capture the moments that matter.
 Examples include:
 
 - Capturing a moment in time to feature in a build guide
-- Finding your first high rune
+- Finding your first Cham (arguably the best rune, fight me!)
 - Completing your endgame build
-- Defeating Diablo Clone
+- Your Diablo Clone build
 - Reaching level 99
 - Beginning a new build
 - Regrettable Respec's
@@ -105,26 +112,37 @@ Milestones can include:
 - Custom title
 - Description
 - Journal entry
-- Tags
+- Tags for easy filtering/sorting
 - Favorite status
 - Story marker
 
+Milestones, or manual snapshots, are created using the Create Milestone Snapshot workflow in GitHub Actions. 
 
 ## Story Snapshots
 
 Mark any milestone as part of your character's story.
 
-The armory includes Story Navigation, allowing you to jump directly between important milestones while skipping routine automatic snapshots.
+The armory includes Story Navigation, allowing you to jump directly between important milestones while skipping routine or automatic snapshots.
 
 This creates a curated timeline of your character's journey.
 
 
-## Github Actions
+## Editing Existing Snapshots
+
+You can edit all details of any existing snapshots using the Edit Existing Snapshot workflow
+
+
+## Deleting Characters
+
+You can completely remove a character by running the Delete Character workflow
+
+
+## Only a few Purposeful Github Actions
 
 | Workflow                      | Purpose                                                                           |
 | ----------------------------- | --------------------------------------------------------------------------------- |
 | Create Milestone Snapshot     | Create a manual snapshot with optional journal entries, tags, and story metadata  |
-| Edit Snapshot                 | Update the metadata of an existing snapshot                                       |
+| Edit Snapshot                 | Edit/Update the metadata of an existing snapshot                                       |
 | Delete Character              | Remove a character and its archived snapshots                                     |
 | Daily All Characters Snapshot | Check every tracked character and create snapshots only when changes are detected |
 
