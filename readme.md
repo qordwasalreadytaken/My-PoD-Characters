@@ -2,7 +2,7 @@
 
 Capture your Path of Diablo journey one snapshot at a time.
 
-The Journaling Nephalem is a static, GitHub-hosted character archive that automatically records snapshots of your Path of Diablo characters. Track equipment upgrades, level progression, skills, and personal milestones throughout a season, then preserve your character's history long after the ladder resets.
+The Journaling Nephalem is a character archive that automatically records snapshots of your Path of Diablo characters. Track equipment upgrades, level progression, skills, and personal milestones throughout a season, then preserve your character's history long after the ladder resets.
 
 Unlike a traditional armory, The Journaling Nephalem lets you tell the story of your character. Add journal entries, tag memorable moments, mark favorite snapshots, and browse exactly how your build evolved over time.
 
@@ -13,7 +13,7 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 ## Features
 
-- Automatic character snapshots using GitHub Actions
+- Automatic character snapshots
 - Journal entries for memorable moments
 - Favorite important snapshots
 - Custom tags for organization
@@ -50,7 +50,7 @@ The Journaling Nephalem solves that problem by keeping your own permanent archiv
 
 ## Quick Start
 
-1. Fork this repository.
+1. Fork this repo.
 2. Enable GitHub Actions.
 3. Add your character names.
 4. Run the initial snapshot workflow.
@@ -81,7 +81,7 @@ Milestone snapshots let you capture the moments that matter.
 
 Examples include:
 
-- Capturing a moment in time to use in a build guide
+- Capturing a moment in time to feature in a build guide
 - Finding your first high rune
 - Completing your endgame build
 - Defeating Diablo Clone
@@ -108,5 +108,12 @@ The armory includes Story Navigation, allowing you to jump directly between impo
 This creates a curated timeline of your character's journey.
 
 
+## Github Actions
 
+| Workflow                  | Purpose                            |
+| ------------------------- | ---------------------------------- |
+| Create Milestone Snapshot | Capture a manual snapshot         |
+| Edit Snapshot             | Edit an existing snapshot                    |
+| Delete Character          | Remove a character                 |
+| Daily All Characters Snapshot      | Automatically records snapshots    |
 
