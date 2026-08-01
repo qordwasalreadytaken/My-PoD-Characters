@@ -52,7 +52,7 @@ def parse_args():
 
     parser.add_argument(
         "--favorite",
-        choices=["Leave", "Yes", "No"],
+        choices=["Leave", "Yes", "No", "true", "false"],
         default="Leave"
     )
 
@@ -198,9 +198,7 @@ def main():
 
 
     if args.favorite != "Leave":
-        metadata["favorite"] = (
-            args.favorite == "Yes"
-        )
+        metadata["favorite"] = args.favorite.lower() in ("yes", "true")
         changed = True
 
 
