@@ -1624,6 +1624,29 @@
                   <code>${safeText(shareLinks.key, "(none)")}</code> 📋
                 </button>
               </li>
+              <li>
+                <strong>Featured in guide:</strong> 
+                
+                ${
+                  metadata.guide
+                    ? `
+                      <button
+                        type="button"
+                        class="copy-key"
+                        onclick="copySnapshotKey('${guideUrl}', this)"
+                        title="Copy Featured in guide link"
+                        >
+                        📋
+                      </button>   
+                      <a class="share-url"
+                          href="${guideUrl}"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          ${safeText(guideUrl)}
+                      </a>`
+                    : `<span class="muted"><br>Not linked to a build guide</span>`
+                }
+              </li> 
             </ul>
           </article>
 
@@ -1682,30 +1705,6 @@
                 </div>
                 <a class="share-url" href="${dashboardShareUrl}" target="_blank" rel="noopener noreferrer">${dashboardShareUrl}</a>
               </li>
-              <li>
-                <div class="share-label">Featured in guide
-                
-                ${
-                  metadata.guide
-                    ? `
-                      <button
-                        type="button"
-                        class="copy-key"
-                        onclick="copySnapshotKey('${guideUrl}', this)"
-                        title="Copy Featured in guide link"
-                        >
-                        📋
-                      </button>   
-                      <a class="share-url"
-                          href="${guideUrl}"
-                          target="_blank"
-                          rel="noopener noreferrer">
-                          ${safeText(guideUrl)}
-                      </a>`
-                    : `<span class="muted"><br>Not linked to a build guide</span>`
-                }
-                    </div>
-              </li> 
             </ul>
           </article>
 
