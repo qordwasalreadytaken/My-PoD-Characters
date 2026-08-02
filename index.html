@@ -1631,7 +1631,20 @@
             <h3>Sharing URLs</h3>
             <ul class="share-list">
               <li>
-                <div class="share-label">Shareable Archive Armory link
+                <div class="share-label">Shareable Archive Armory link, compact page no notes
+                <button
+                  type="button"
+                  class="copy-key"
+                  onclick="copySnapshotKey('${shareLinks.shareUrl}&view=compact', this)"
+                  title="Copy Shareable Archive Armory link"
+                  >
+                   📋
+                </button>   
+                </div>             
+                <a class="share-url" href="${shareLinks.shareUrl}&view=compact" target="_blank" rel="noopener noreferrer">${shareLinks.shareUrl}&view=compact</a>
+              </li>
+              <li>
+                <div class="share-label">Shareable Archive Armory link, with notes and tags
                 <button
                   type="button"
                   class="copy-key"

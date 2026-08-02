@@ -238,6 +238,10 @@ $(document).ready(function() {
         return urlParams.get(param);
     }
 
+    function getViewMode() {
+        return (getQueryParam("view") || "full").toLowerCase();
+    }
+
     function parseBoolean(value) {
         if (value === true) {
             return true;
@@ -382,6 +386,7 @@ $(document).ready(function() {
         params.set('t', nextEntry.key);
         const newUrl = window.location.pathname + '?' + params.toString();
         window.history.replaceState({}, '', newUrl);
+        applyViewMode();
         void loadFocusSnapshot();
     }
 
@@ -585,6 +590,25 @@ $(document).ready(function() {
         }
     });
 
+function applyViewMode() {
+    const view = getViewMode();
+
+    if (view !== "compact") {
+        return;
+    }
+
+    $("#snaps").hide();
+
+    $("#main").css({
+        marginLeft: "50px",
+        width: "100%"
+    });
+    $("#header").addClass("compact-view");
+    $("#snapshotHeaderTitle").addClass("compact-view");
+    
+}
+
+    applyViewMode();
     void loadFocusSnapshot();
 });
 
@@ -1205,6 +1229,8 @@ function centerTooltip(tooltip) {
     tooltip.style.top = `${rect.top + 10}px`;
     tooltip.style.transform = "translateX(-50%)";
 }
+
+
 </script>
 </body>
 
