@@ -41,10 +41,11 @@ Quickly see what changed from the previous snapshot
 
 ### Armory
 
-Shareable Armory view pages that include a snapshots notes & details, and optional Story navigation. Perfect for including in build guides.
+Shareable Armory view pages that include a snapshots notes & details, and optional Story navigation, as well as a compact view that excludes those details. Perfect for including in build guides.
 
 ![Tell a story through snapshots](image-2.png)
 
+![Comact Armory View](image-6.png)
 
 Armory Quickview allows you to quickly move through all of a characters snapshot armory pages without leaving the dashboard
 
