@@ -66,6 +66,10 @@ def build_snapshot_auto_tags(snap):
     if data.get("IsHardcore") is False:
         tags.append("SC")
 
+    metadata = snap.get("metadata", {})
+    if isinstance(metadata, dict) and metadata.get("story") is True:
+        tags.append("story")
+
     return dedupe_tags(tags)
 
 
@@ -83,6 +87,13 @@ def build_character_auto_tags(archive, summary):
         if isinstance(data, dict) and data.get("IsHardcore") is True:
             tags.append("HC")
 
+    if any(
+        isinstance(s.get("metadata"), dict) and
+        s["metadata"].get("story") is True
+        for s in snapshots
+    ):
+        tags.append("story")
+        
     return dedupe_tags(tags)
 
 

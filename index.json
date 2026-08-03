@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-03T06:03:24.583924Z",
+  "generated": "2026-08-03T12:06:03.965236Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -45,7 +45,8 @@
       "lastUpdated": "2026-07-12T18:37:38.595971Z",
       "tags": [
         "Sorc",
-        "HC"
+        "HC",
+        "story"
       ],
       "snapshotLinks": [
         {
@@ -58,7 +59,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -76,7 +78,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -92,7 +95,8 @@
           "title": "Beat NM Andy",
           "tags": [
             "Sorc",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -125,7 +129,8 @@
           "tags": [
             "sorc",
             "hc",
-            "frig"
+            "frig",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -143,7 +148,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -177,7 +183,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -195,7 +202,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -261,7 +269,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -311,7 +320,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -393,7 +403,8 @@
       "lastUpdated": "2026-07-24T01:35:59.475440Z",
       "tags": [
         "Sorc",
-        "HC"
+        "HC",
+        "story"
       ],
       "snapshotLinks": [
         {
@@ -406,7 +417,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -456,7 +468,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -474,7 +487,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -524,7 +538,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -558,7 +573,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -592,7 +608,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -610,7 +627,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -628,7 +646,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -662,7 +681,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -696,7 +716,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
@@ -716,7 +737,8 @@
       "lastUpdated": "2026-08-02T06:00:14.747926Z",
       "tags": [
         "Sorc",
-        "HC"
+        "HC",
+        "story"
       ],
       "snapshotLinks": [
         {
@@ -844,7 +866,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC"
+            "HC",
+            "story"
           ],
           "automatic": false,
           "story": true,
