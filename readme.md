@@ -6,7 +6,7 @@ Capture your Path of Diablo journey one snapshot at a time.
 
 The Journaling Nephalem is a character archive that automatically records snapshots of your Path of Diablo characters. Track equipment upgrades, level progression, skills, and personal milestones throughout a season, then preserve your character's history long after the ladder resets.
 
-Unlike a traditional armory, The Journaling Nephalem lets you tell the story of your character. Add journal entries, tag memorable moments, mark favorite snapshots, and browse exactly how your build evolved over time.
+Unlike a traditional armory, The Journaling Nephalem lets you tell the story of your character. Add journal entries and notes, tag memorable moments, mark favorite snapshots, and browse exactly how your build evolved over time.
 
 > Every hero has a story. Don't let yours disappear at ladder reset.
 
@@ -69,6 +69,8 @@ Every Path of Diablo ladder eventually ends.
 Characters disappear from the official armory, memories fade, and the story of that gear progression is gone forever.
 
 The Journaling Nephalem solves that problem by keeping your own permanent archive. Every snapshot becomes part of your character's history, allowing you to look back at your journey months or even years later.
+
+Beyond basic archiving, interactive armory snapshots offer a visual alternative to tedious note-taking. Whether you're comparing how a build feels season-over-season or just documenting a milestone, it keeps your history organized and easy to revisit.
 
 
 ## Quick Start
@@ -160,7 +162,7 @@ You can completely remove a character by running the Delete Character workflow
 
 ## Only a few Purposeful Github Actions
 
-No getting overloaded with automation options.
+No getting overwhelmed with automation options.
 
 | Workflow                      | Purpose                                                                           |
 | ----------------------------- | --------------------------------------------------------------------------------- |
