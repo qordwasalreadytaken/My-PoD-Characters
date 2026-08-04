@@ -167,6 +167,7 @@ class CharacterArchive:
         slug=None,
         favorite=False,
         story=False,
+        guide=None,
         always_create=False
     ):
         last = self.latest_snapshot(archive)
