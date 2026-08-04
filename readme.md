@@ -52,6 +52,12 @@ Armory Quickview allows you to quickly move through all of a characters snapshot
 ![Armory Pages](image-1.png)
 
 
+## Example Dashboard
+
+See it in action here:
+https://qordwasalreadytaken.github.io/My-PoD-Characters
+
+
 ## Why?
 
 Every Path of Diablo ladder eventually ends.
