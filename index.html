@@ -897,27 +897,40 @@
       return CLASS_TAG_MAP[normalized] || "";
     }
 
-    function getAutomaticSnapshotTags(snapshot) {
-      if (!snapshot || typeof snapshot !== "object") {
-        return [];
-      }
-
-      const data = snapshot.data && typeof snapshot.data === "object"
-        ? snapshot.data
-        : {};
-
-      const tags = [];
-      const classTag = classToTag(data.Class);
-      if (classTag) {
-        tags.push(classTag);
-      }
-
-      if (data.IsHardcore === true) {
-        tags.push("HC");
-      }
-
-      return dedupeTags(tags);
+  function getAutomaticSnapshotTags(snapshot) {
+    if (!snapshot || typeof snapshot !== "object") {
+      return [];
     }
+
+    const data = snapshot.data && typeof snapshot.data === "object"
+      ? snapshot.data
+      : {};
+
+    const metadata = snapshot.metadata && typeof snapshot.metadata === "object"
+      ? snapshot.metadata
+      : {};
+
+    const tags = [];
+
+    const classTag = classToTag(data.Class);
+    if (classTag) {
+      tags.push(classTag);
+    }
+
+    if (data.IsHardcore === true) {
+      tags.push("HC");
+    }
+
+    if (data.IsHardcore === false) {
+      tags.push("SC");
+    }
+
+    if (metadata.story === true) {
+      tags.push("story");
+    }
+
+    return dedupeTags(tags);
+  }
 
     function getCharacterTags(character) {
       if (!character || typeof character !== "object") {
