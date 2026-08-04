@@ -90,8 +90,8 @@ That's it.
 ## Adding Characters
 
 You can add characters:
-- One at a time by simply creating manual snapshots for each of them by running the Create Milestone Snapshot workflow
-- In bulk by editing the watched_characters.json to include character names and running the Daily All Character Snapshots workflow
+- One at a time by simply creating manual snapshots for each of them by running the Create Milestone Snapshot action
+- In bulk by editing the watched_characters.json to include character names and running the Daily All Character Snapshots action
 
 
 ## Video Walkthrough
@@ -107,7 +107,7 @@ Watch the complete walkthrough covering GitHub Actions, milestones, and navigati
 
 The Journaling Nephalem is entirely powered by GitHub.
 
-GitHub Actions periodically check your characters for changes. Snapshots are only saved when skills or equipment have changed, preventing duplicate entries while still preserving your character's progression. Each new snapshot is committed to your repository, and GitHub Pages automatically publishes an updated dashboard.
+GitHub Actions periodically check your characters for changes. Automatic snapshots are only saved when skills or equipment have changed, preventing duplicate entries while still preserving your character's progression. Milestone snapshots are always saved, even when there are no changes. Each new snapshot is committed to your repository, and GitHub Pages automatically publishes an updated dashboard.
 
 Because everything is stored in your own repository:
 
@@ -165,7 +165,7 @@ You can completely remove a character by running the Delete Character workflow
 
 ## Only a few Purposeful Github Actions
 
-No getting overwhelmed with automation options.
+No getting overwhelmed with too many automation options
 
 | Workflow                      | Purpose                                                                           |
 | ----------------------------- | --------------------------------------------------------------------------------- |
