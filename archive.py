@@ -196,6 +196,7 @@ class CharacterArchive:
                 "tags": tags or [],
                 "slug": slug,
                 "favorite": favorite,
+                "guide": guide,
                 "story": story
             },
 
