@@ -172,6 +172,20 @@ No getting overwhelmed with automation options.
 | Daily All Characters Snapshot | Check every tracked character and create snapshots only when changes are detected |
 
 
+## Roadmap
+
+Shortlist of to-do's
+
+| Status                |To-do                                                                           |
+| ----------------------------- | ---------------------------------------------------------------------- |
+| X | Add automatic class tagging  |
+| X | Add automatic story tagging  |
+| X | Tag filter should respect story tag  |
+|   | Combine character name search and filter tag |
+| - | Improve mobile dashboard |
+|   | Improve mobile armory |
+
+
 ---
 
 Questions and suggestions are always welcome.
