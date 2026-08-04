@@ -15,11 +15,11 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 ## Features
 
-- Automatic character snapshots (once a day by default)
+- Automatic character snapshots (configurable, once a day by default)
 - Journal entries for memorable moments or note taking
 - "Favorite" ⭐ important snapshots
-- Custom tags for organization (class and HC tags added by default)
-- Interactive armory viewer
+- Custom tags for organization and searching(class and HC tags added by default)
+- Interactive armory viewer with shareable views
 - Browse every snapshot from a searchable timeline
 - Track equipment and skill changes between snapshots
 - Story mode for navigating milestone snapshots
@@ -41,7 +41,7 @@ Quickly see what changed from the previous snapshot
 
 ### Armory
 
-Shareable Armory view pages that include a snapshots notes & details, and optional Story navigation, as well as a compact view that excludes those details. Perfect for including in build guides.
+Shareable Armory view pages that include a snapshots notes & details, and optional Story navigation, as well as a compact view that does not include those details. Perfect for including in build guides.
 
 ![Tell a story through snapshots](image-2.png)
 
@@ -75,7 +75,7 @@ That's it.
 ## Adding Characters
 
 You can add characters:
-- One at a time by simply creating manual snapshots for each of them by running the  Create Milestone Snapshot workflow
+- One at a time by simply creating manual snapshots for each of them by running the Create Milestone Snapshot workflow
 - In bulk by editing the watched_characters.json to include character names and running the Daily All Character Snapshots workflow
 
 
@@ -92,7 +92,7 @@ Watch the complete walkthrough covering GitHub Actions, milestones, and navigati
 
 The Journaling Nephalem is entirely powered by GitHub.
 
-GitHub Actions periodically check your characters for changes. Snapshots are only saved when something has changed, preventing duplicate entries while still preserving your character's progression. Each new snapshot is committed to your repository, and GitHub Pages automatically publishes an updated dashboard.
+GitHub Actions periodically check your characters for changes. Snapshots are only saved when skills or equipment have changed, preventing duplicate entries while still preserving your character's progression. Each new snapshot is committed to your repository, and GitHub Pages automatically publishes an updated dashboard.
 
 Because everything is stored in your own repository:
 
@@ -133,7 +133,7 @@ Milestones, or manual snapshots, are created using the Create Milestone Snapshot
 
 Mark any milestone as part of your character's story.
 
-The armory includes Story Navigation, allowing you to jump directly between important milestones while skipping routine or automatic snapshots.
+The armory view includes a Story Navigation, allowing you to jump directly between important milestones while skipping routine or automatic snapshots.
 
 This creates a curated timeline of your character's journey.
 
@@ -149,6 +149,8 @@ You can completely remove a character by running the Delete Character workflow
 
 
 ## Only a few Purposeful Github Actions
+
+No getting overloaded with automation options.
 
 | Workflow                      | Purpose                                                                           |
 | ----------------------------- | --------------------------------------------------------------------------------- |
