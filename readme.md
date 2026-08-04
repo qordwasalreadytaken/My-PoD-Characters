@@ -51,9 +51,9 @@ Armory Quickview allows you to quickly move through all of a characters snapshot
 
 ![Armory Pages](image-1.png)
 
-Built-in dashboard and armory links for easy sharing
+Built-in dashboard, armory, and external links for easy sharing
 
-![Shareable URL's]
+![Shareable URL's](image-7.png)
 
 
 ## Example Dashboard
