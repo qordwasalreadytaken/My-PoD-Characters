@@ -178,9 +178,10 @@ Shortlist of to-do's
 
 | Status                |To-do                                                                           |
 | ----------------------------- | ---------------------------------------------------------------------- |
-| X | Add automatic class tagging  |
-| X | Add automatic story tagging  |
-| X | Tag filter should respect story tag  |
+| X | Add left/right arrow keyboard keys for navigation through snapshots  |
+| X | Add "favorites" and favorite filtering  |
+| X | Add automatic class and story tagging  |
+| X | Tag filtering should respect class and story tags  |
 |   | Combine character name search and filter tag |
 | - | Improve mobile dashboard |
 |   | Improve mobile armory |
