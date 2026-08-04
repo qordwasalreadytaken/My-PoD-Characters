@@ -10,6 +10,9 @@ Unlike a traditional armory, The Journaling Nephalem lets you tell the story of 
 
 > Every hero has a story. Don't let yours disappear at ladder reset.
 
+See it in action here:
+https://qordwasalreadytaken.github.io/My-PoD-Characters
+
 ---
 
 
