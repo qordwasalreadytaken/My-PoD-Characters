@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-04T22:01:41.653678Z",
+  "generated": "2026-08-05T01:31:14.121876Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -730,17 +730,33 @@
     {
       "name": "SkillTissue",
       "class": "Sorceress",
-      "level": 40,
-      "latestSnapshot": "33546cc5",
-      "snapshotCount": 10,
-      "milestoneCount": 4,
-      "lastUpdated": "2026-08-04T22:01:41.633695Z",
+      "level": 48,
+      "latestSnapshot": "97e612d8",
+      "snapshotCount": 11,
+      "milestoneCount": 5,
+      "lastUpdated": "2026-08-05T01:31:14.105984Z",
       "tags": [
         "Sorc",
         "HC",
         "story"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-08-05T01:31:14.105984Z",
+          "key": "97e612d8",
+          "timestamp": "2026-08-05T01:31:14.105984Z",
+          "id": "97e612d8",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": false,
+          "story": false,
+          "favorite": false,
+          "url": "character.html?c=SkillTissue&t=97e612d8",
+          "canonicalUrl": "character.html?c=SkillTissue&t=2026-08-05T01%3A31%3A14.105984Z"
+        },
         {
           "label": "Starting NM",
           "key": "starting-nm",
