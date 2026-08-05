@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-05T11:13:18.437649Z",
+  "generated": "2026-08-05T11:47:34.028435Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -941,6 +941,36 @@
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=11",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-25T01%3A46%3A15.266924Z"
+        }
+      ]
+    },
+    {
+      "name": "sorcsallsuck",
+      "class": "Sorceress",
+      "level": 88,
+      "latestSnapshot": "063643c5",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-08-05T11:47:34.024291Z",
+      "tags": [
+        "Sorc"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "2026-08-05T11:47:34.024291Z",
+          "key": "063643c5",
+          "timestamp": "2026-08-05T11:47:34.024291Z",
+          "id": "063643c5",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "SC"
+          ],
+          "automatic": false,
+          "story": false,
+          "favorite": false,
+          "url": "character.html?c=sorcsallsuck&t=063643c5",
+          "canonicalUrl": "character.html?c=sorcsallsuck&t=2026-08-05T11%3A47%3A34.024291Z"
         }
       ]
     }
