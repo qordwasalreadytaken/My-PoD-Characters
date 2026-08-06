@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-06T10:56:17.147257Z",
+  "generated": "2026-08-06T22:35:17.085807Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -29,6 +29,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=canshehitthirty&t=96f372a6",
           "canonicalUrl": "character.html?c=canshehitthirty&t=2026-07-10T10%3A42%3A39.486612Z"
@@ -64,6 +65,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=dead",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T18%3A37%3A38.595971Z"
@@ -83,6 +85,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=starting-act-3-nm",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T16%3A17%3A34.716682Z"
@@ -100,6 +103,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=beat-nm-andy",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T11%3A47%3A51.109320Z"
@@ -116,6 +120,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=665012e2",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-12T06%3A02%3A09.636544Z"
@@ -134,6 +139,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=magic-arrow-instead-of-exploding-projectiles",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T15%3A46%3A03.508524Z"
@@ -153,6 +159,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": true,
           "url": "character.html?c=hardqord&t=still-alive",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T13%3A21%3A42.967137Z"
@@ -169,6 +176,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=7197a956",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T05%3A51%3A44.865062Z"
@@ -188,6 +196,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": true,
           "url": "character.html?c=hardqord&t=32",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-11T01%3A10%3A35.229860Z"
@@ -207,6 +216,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": true,
           "url": "character.html?c=hardqord&t=nm",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-09T01%3A56%3A32.368274Z"
@@ -223,6 +233,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-08T06%3A35%3A07.233844Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-08T06%3A35%3A07.233844Z"
@@ -239,6 +250,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-07T06%3A57%3A00.500900Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-07T06%3A57%3A00.500900Z"
@@ -255,6 +267,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-06T06%3A08%3A18.001555Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-06T06%3A08%3A18.001555Z"
@@ -274,6 +287,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=lvl20",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-05T17%3A51%3A55.140883Z"
@@ -290,6 +304,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-04T05%3A54%3A44.433760Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-04T05%3A54%3A44.433760Z"
@@ -306,6 +321,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=2026-07-03T17%3A09%3A30.228706Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-03T17%3A09%3A30.228706Z"
@@ -325,6 +341,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": true,
           "url": "character.html?c=hardqord&t=fresh-start",
           "canonicalUrl": "character.html?c=hardqord&t=2026-07-03T15%3A41%3A27.305526Z"
@@ -341,6 +358,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=2026-05-21T05%3A59%3A55.310200Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-05-21T05%3A59%3A55.310200Z"
@@ -357,6 +375,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=hardqord&t=2026-05-18T17%3A33%3A58.573348Z",
           "canonicalUrl": "character.html?c=hardqord&t=2026-05-18T17%3A33%3A58.573348Z"
@@ -367,14 +386,35 @@
       "name": "necrosallsuck",
       "class": "Necromancer",
       "level": 46,
-      "latestSnapshot": "36f1ae66",
-      "snapshotCount": 1,
-      "milestoneCount": 1,
-      "lastUpdated": "2026-07-09T11:19:34.405985Z",
+      "latestSnapshot": "5313d9ba",
+      "snapshotCount": 2,
+      "milestoneCount": 2,
+      "lastUpdated": "2026-08-06T22:35:17.080016Z",
       "tags": [
-        "Necro"
+        "Necro",
+        "story",
+        "guide"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-08-06T22:35:17.080016Z",
+          "key": "5313d9ba",
+          "timestamp": "2026-08-06T22:35:17.080016Z",
+          "id": "5313d9ba",
+          "title": null,
+          "tags": [
+            "Necro",
+            "SC",
+            "story",
+            "guide"
+          ],
+          "automatic": false,
+          "story": true,
+          "guide": "https://qordwasalreadytaken.github.io",
+          "favorite": true,
+          "url": "character.html?c=necrosallsuck&t=5313d9ba",
+          "canonicalUrl": "character.html?c=necrosallsuck&t=2026-08-06T22%3A35%3A17.080016Z"
+        },
         {
           "label": "First snapshot",
           "key": "first-snapshot",
@@ -387,6 +427,7 @@
           ],
           "automatic": false,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=necrosallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=necrosallsuck&t=2026-07-09T11%3A19%3A34.405985Z"
@@ -404,7 +445,8 @@
       "tags": [
         "Sorc",
         "HC",
-        "story"
+        "story",
+        "guide"
       ],
       "snapshotLinks": [
         {
@@ -418,10 +460,12 @@
             "ssfhc",
             "frig",
             "HC",
-            "story"
+            "story",
+            "guide"
           ],
           "automatic": false,
           "story": true,
+          "guide": "https://www.reddit.com/r/pathofdiablo/comments/jb4p07/hemorrhage_meatwall_corpse_explosion_variants/",
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=dead",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-24T01%3A35%3A59.475440Z"
@@ -438,6 +482,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=ffdc054e",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-23T06%3A00%3A21.197782Z"
@@ -454,6 +499,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=3348f72e",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-22T05%3A58%3A44.739265Z"
@@ -473,6 +519,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=nmact2",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-22T01%3A08%3A58.076183Z"
@@ -492,6 +539,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=lvl-40-starting-nm",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-21T02%3A11%3A07.395097Z"
@@ -508,6 +556,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=05e984ba",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-20T06%3A02%3A46.103872Z"
@@ -524,6 +573,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=42fc6556",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-19T06%3A00%3A00.571388Z"
@@ -543,6 +593,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=nm",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-18T01%3A59%3A09.887031Z"
@@ -559,6 +610,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=6d588d5b",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-17T05%3A52%3A49.710805Z"
@@ -578,6 +630,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=a5",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-17T01%3A35%3A18.575216Z"
@@ -594,6 +647,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=90176d40",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-16T05%3A52%3A23.264913Z"
@@ -613,6 +667,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=meph",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-16T01%3A25%3A35.311426Z"
@@ -632,6 +687,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=a3",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-15T01%3A14%3A27.852886Z"
@@ -651,6 +707,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=lvl20",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-14T22%3A59%3A03.069890Z"
@@ -667,6 +724,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=239accef",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-14T05%3A46%3A44.836012Z"
@@ -686,6 +744,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=norm-andy-done",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-13T01%3A47%3A50.812126Z"
@@ -702,6 +761,7 @@
           ],
           "automatic": false,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=andy-norm",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-13T01%3A41%3A26.818465Z"
@@ -721,6 +781,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillIssue&t=fresh-start",
           "canonicalUrl": "character.html?c=SkillIssue&t=2026-07-12T21%3A35%3A58.028606Z"
@@ -738,7 +799,8 @@
       "tags": [
         "Sorc",
         "HC",
-        "story"
+        "story",
+        "guide"
       ],
       "snapshotLinks": [
         {
@@ -754,6 +816,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=dead",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-08-05T02%3A00%3A22.627376Z"
@@ -770,6 +833,7 @@
           ],
           "automatic": false,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=97e612d8",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-08-05T01%3A31%3A14.105984Z"
@@ -787,6 +851,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=starting-nm",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-08-04T22%3A01%3A41.633695Z"
@@ -800,10 +865,12 @@
           "tags": [
             "Sorc",
             "HC",
-            "story"
+            "story",
+            "guide"
           ],
           "automatic": false,
           "story": true,
+          "guide": "https://qordwasalreadytaken.github.io/My-PoD-Characters",
           "favorite": true,
           "url": "character.html?c=SkillTissue&t=edit-test",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-08-04T00%3A59%3A43.067306Z"
@@ -820,6 +887,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=d161b34c",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-08-02T06%3A00%3A14.747926Z"
@@ -839,6 +907,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=nm",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-31T06%3A02%3A10.217708Z"
@@ -855,6 +924,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=dc7536b8",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-30T05%3A54%3A41.270123Z"
@@ -871,6 +941,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=7a344da4",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-28T05%3A57%3A22.301150Z"
@@ -887,6 +958,7 @@
           ],
           "automatic": true,
           "story": false,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=6c0e4c8e",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-27T06%3A09%3A01.939345Z"
@@ -903,6 +975,7 @@
           ],
           "automatic": false,
           "story": false,
+          "guide": null,
           "favorite": true,
           "url": "character.html?c=SkillTissue&t=fav",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-26T13%3A04%3A08.066810Z"
@@ -915,10 +988,12 @@
           "title": "Level 20",
           "tags": [
             "Sorc",
-            "HC"
+            "HC",
+            "guide"
           ],
           "automatic": true,
           "story": false,
+          "guide": "https://qordwasalreadytaken.github.io/My-PoD-Characters/",
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=level-20",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-26T06%3A01%3A41.773531Z"
@@ -938,6 +1013,7 @@
           ],
           "automatic": false,
           "story": true,
+          "guide": null,
           "favorite": false,
           "url": "character.html?c=SkillTissue&t=11",
           "canonicalUrl": "character.html?c=SkillTissue&t=2026-07-25T01%3A46%3A15.266924Z"
