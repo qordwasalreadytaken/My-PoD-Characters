@@ -13,7 +13,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": null,
         "favorite": false,
@@ -355,7 +356,9 @@
         "title": "Andy Norm",
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -1995,7 +1998,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": null,
         "favorite": false,
@@ -3144,7 +3148,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -4915,7 +4921,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "lvl20",
         "favorite": false,
@@ -6624,7 +6631,7 @@
             "ItemLevel": "20",
             "LevelReq": 6,
             "PropertyList": [
-              "ÿc1Unidentified"
+              "\u00ffc1Unidentified"
             ],
             "Position": {
               "x": 5,
@@ -6648,7 +6655,7 @@
             "ItemLevel": "20",
             "LevelReq": 1,
             "PropertyList": [
-              "ÿc1Unidentified"
+              "\u00ffc1Unidentified"
             ],
             "Position": {
               "x": 5,
@@ -6718,7 +6725,7 @@
             "ItemLevel": "23",
             "LevelReq": 12,
             "PropertyList": [
-              "ÿc1Unidentified"
+              "\u00ffc1Unidentified"
             ],
             "Position": {
               "x": 5,
@@ -6742,7 +6749,7 @@
             "ItemLevel": "19",
             "LevelReq": 5,
             "PropertyList": [
-              "ÿc1Unidentified"
+              "\u00ffc1Unidentified"
             ],
             "Position": {
               "x": 4,
@@ -6792,7 +6799,7 @@
             "ItemLevel": "13",
             "LevelReq": 9,
             "PropertyList": [
-              "ÿc1Unidentified"
+              "\u00ffc1Unidentified"
             ],
             "Position": {
               "x": 1,
@@ -7010,7 +7017,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "a3",
         "favorite": false,
@@ -8873,7 +8881,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "meph",
         "favorite": false,
@@ -10599,7 +10608,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -12386,7 +12397,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "a5",
         "favorite": false,
@@ -14020,7 +14032,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -15624,7 +15638,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "nm",
         "favorite": false,
@@ -17061,7 +17076,7 @@
             "ItemLevel": "40",
             "LevelReq": 3,
             "PropertyList": [
-              "ÿc1Unidentified"
+              "\u00ffc1Unidentified"
             ],
             "Position": {
               "x": 8,
@@ -17177,7 +17192,7 @@
             "ItemLevel": "43",
             "LevelReq": 12,
             "PropertyList": [
-              "ÿc1Unidentified"
+              "\u00ffc1Unidentified"
             ],
             "Position": {
               "x": 7,
@@ -17564,7 +17579,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -19126,7 +19143,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -19591,7 +19610,7 @@
             "LevelReq": 20,
             "SocketCount": "0",
             "PropertyList": [
-              "ÿc1Corrupted",
+              "\u00ffc1Corrupted",
               "+50% Increased Attack Speed",
               "+48% Enhanced Damage",
               "+60 to Attack Rating",
@@ -20715,7 +20734,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": null,
         "favorite": false,
@@ -21176,7 +21196,7 @@
             "LevelReq": 20,
             "SocketCount": "0",
             "PropertyList": [
-              "ÿc1Corrupted",
+              "\u00ffc1Corrupted",
               "+50% Increased Attack Speed",
               "+48% Enhanced Damage",
               "+60 to Attack Rating",
@@ -22346,7 +22366,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "nmact2",
         "favorite": false,
@@ -22855,7 +22876,7 @@
             "LevelReq": 20,
             "SocketCount": "0",
             "PropertyList": [
-              "ÿc1Corrupted",
+              "\u00ffc1Corrupted",
               "+50% Increased Attack Speed",
               "+48% Enhanced Damage",
               "+60 to Attack Rating",
@@ -24047,7 +24068,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -24551,7 +24574,7 @@
             "LevelReq": 20,
             "SocketCount": "0",
             "PropertyList": [
-              "ÿc1Corrupted",
+              "\u00ffc1Corrupted",
               "+50% Increased Attack Speed",
               "+48% Enhanced Damage",
               "+60 to Attack Rating",
@@ -25651,7 +25674,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -26193,7 +26218,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "ÿc1Corrupted",
+              "\u00ffc1Corrupted",
               "Melee attacks deal splash damage",
               "+10 to Maximum Damage",
               "+35% Enhanced Defense",
@@ -27480,7 +27505,9 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story",
+          "guide"
         ],
         "slug": "dead",
         "favorite": false,

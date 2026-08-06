@@ -10,7 +10,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false
       },

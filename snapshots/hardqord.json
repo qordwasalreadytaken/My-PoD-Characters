@@ -1467,6 +1467,11 @@
         "skills_updated": [],
         "equipped_added": [],
         "equipped_removed": []
+      },
+      "metadata": {
+        "tags": [
+          "Sorc"
+        ]
       }
     },
     {
@@ -2748,6 +2753,11 @@
           "Nokozan Relic",
           "Stealth"
         ]
+      },
+      "metadata": {
+        "tags": [
+          "Sorc"
+        ]
       }
     },
     {
@@ -2760,7 +2770,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "fresh-start",
         "favorite": true,
@@ -4357,6 +4368,11 @@
         ],
         "equipped_removed": [
           "Wirt's Leg"
+        ]
+      },
+      "metadata": {
+        "tags": [
+          "Sorc"
         ]
       }
     },
@@ -6109,6 +6125,11 @@
           "Iratha's Collar"
         ],
         "equipped_removed": []
+      },
+      "metadata": {
+        "tags": [
+          "Sorc"
+        ]
       }
     },
     {
@@ -6121,7 +6142,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "lvl20",
         "favorite": false,
@@ -9680,6 +9702,11 @@
           "Pelta Lunata",
           "Storm Coil"
         ]
+      },
+      "metadata": {
+        "tags": [
+          "Sorc"
+        ]
       }
     },
     {
@@ -11484,6 +11511,11 @@
           "Angelic Sickle",
           "Arctic Binding",
           "Arctic Furs"
+        ]
+      },
+      "metadata": {
+        "tags": [
+          "Sorc"
         ]
       }
     },
@@ -13314,6 +13346,11 @@
         ],
         "equipped_added": [],
         "equipped_removed": []
+      },
+      "metadata": {
+        "tags": [
+          "Sorc"
+        ]
       }
     },
     {
@@ -13327,7 +13364,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "nm",
         "favorite": true,
@@ -15148,7 +15186,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "32",
         "favorite": true,
@@ -16852,7 +16891,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false
       },
@@ -18532,7 +18573,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": null,
         "favorite": true,
@@ -20210,7 +20252,8 @@
         "tags": [
           "sorc",
           "hc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": null,
         "favorite": false,
@@ -21941,7 +21984,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false
       },
@@ -23746,7 +23791,10 @@
         "title": "Beat NM Andy",
         "description": "Beat NM Andy, on to Act 2",
         "journal": "Not sure if this bow build is adequate for NM Act 2, still waiting for more tiem drops before respec'ing. ISO 3-socket helmet, better 4-socket bow for new merc.",
-        "tags": [],
+        "tags": [
+          "Sorc",
+          "story"
+        ],
         "slug": null,
         "favorite": false,
         "story": true
@@ -25472,7 +25520,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": null,
         "favorite": false,
@@ -27304,7 +27353,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": null,
         "favorite": false,
@@ -28761,7 +28811,7 @@
     "level": 50,
     "latestSnapshot": "f126b788",
     "snapshotCount": 18,
-    "milestoneCount": 7,
+    "milestoneCount": 9,
     "lastUpdated": "2026-07-12T18:37:38.595971Z"
   }
 }

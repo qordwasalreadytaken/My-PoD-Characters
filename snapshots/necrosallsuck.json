@@ -10,7 +10,9 @@
         "title": "First snapshot",
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Necro"
+        ],
         "slug": null,
         "favorite": false
       },
@@ -1975,7 +1977,11 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Necro",
+          "story",
+          "guide"
+        ],
         "slug": null,
         "favorite": true,
         "guide": "https://qordwasalreadytaken.github.io",

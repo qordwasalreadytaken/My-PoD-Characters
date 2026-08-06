@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-06T22:35:17.085807Z",
+  "generated": "2026-08-06T23:49:53.451985Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -42,7 +42,7 @@
       "level": 50,
       "latestSnapshot": "f126b788",
       "snapshotCount": 18,
-      "milestoneCount": 7,
+      "milestoneCount": 9,
       "lastUpdated": "2026-07-12T18:37:38.595971Z",
       "tags": [
         "Sorc",
@@ -60,8 +60,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -80,8 +80,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -98,8 +98,8 @@
           "title": "Beat NM Andy",
           "tags": [
             "Sorc",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -154,8 +154,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -191,8 +191,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -211,8 +211,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -282,8 +282,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -336,8 +336,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -404,9 +404,9 @@
           "title": null,
           "tags": [
             "Necro",
-            "SC",
             "story",
-            "guide"
+            "guide",
+            "SC"
           ],
           "automatic": false,
           "story": true,
@@ -459,9 +459,9 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
             "story",
-            "guide"
+            "guide",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -514,8 +514,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -534,8 +534,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -588,8 +588,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -625,8 +625,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -662,8 +662,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -682,8 +682,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -702,8 +702,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -739,8 +739,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -776,8 +776,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -811,8 +811,8 @@
           "title": "Dead",
           "tags": [
             "Sorc",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -846,8 +846,8 @@
           "title": "Starting NM",
           "tags": [
             "Sorc",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -864,9 +864,9 @@
           "title": "Edit test",
           "tags": [
             "Sorc",
-            "HC",
             "story",
-            "guide"
+            "guide",
+            "HC"
           ],
           "automatic": false,
           "story": true,
@@ -988,8 +988,8 @@
           "title": "Level 20",
           "tags": [
             "Sorc",
-            "HC",
-            "guide"
+            "guide",
+            "HC"
           ],
           "automatic": true,
           "story": false,
@@ -1008,8 +1008,8 @@
             "sorc",
             "ssfhc",
             "frig",
-            "HC",
-            "story"
+            "story",
+            "HC"
           ],
           "automatic": false,
           "story": true,

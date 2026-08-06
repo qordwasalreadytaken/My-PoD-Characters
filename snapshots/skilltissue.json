@@ -13,7 +13,8 @@
         "tags": [
           "sorc",
           "ssfhc",
-          "frig"
+          "frig",
+          "story"
         ],
         "slug": "11",
         "favorite": false,
@@ -943,7 +944,10 @@
         "title": "Level 20",
         "description": "Skills and Equipment at level 20",
         "journal": "Switched to Angelic set peices, hope it helps with the AR issues",
-        "tags": [],
+        "tags": [
+          "Sorc",
+          "guide"
+        ],
         "slug": "Level-20",
         "favorite": false,
         "story": false,
@@ -2425,7 +2429,9 @@
         "title": "adding favorite",
         "description": "adding favorite description",
         "journal": "adding favorite journal text",
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": "fav",
         "favorite": true,
         "story": false
@@ -3886,7 +3892,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -5513,7 +5521,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -7260,7 +7270,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -9086,7 +9098,8 @@
         "tags": [
           "ssfhc",
           "frig",
-          "nm"
+          "nm",
+          "Sorc"
         ],
         "slug": "nm",
         "favorite": false,
@@ -11010,7 +11023,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "story": false
@@ -13153,7 +13168,11 @@
         "title": "Edit test",
         "description": "adding favorite description",
         "journal": "adding favorite journal text",
-        "tags": [],
+        "tags": [
+          "Sorc",
+          "story",
+          "guide"
+        ],
         "slug": null,
         "favorite": true,
         "guide": "https://qordwasalreadytaken.github.io/My-PoD-Characters",
@@ -15291,7 +15310,10 @@
         "title": "Starting NM",
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc",
+          "story"
+        ],
         "slug": null,
         "favorite": false,
         "guide": null,
@@ -17180,7 +17202,9 @@
         "title": null,
         "description": null,
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc"
+        ],
         "slug": null,
         "favorite": false,
         "guide": null,
@@ -19270,7 +19294,10 @@
         "title": "Dead",
         "description": "Dam dolls",
         "journal": null,
-        "tags": [],
+        "tags": [
+          "Sorc",
+          "story"
+        ],
         "slug": null,
         "favorite": false,
         "guide": null,
