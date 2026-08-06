@@ -71,7 +71,7 @@ def build_snapshot_auto_tags(snap):
         tags.append("story")
 
     metadata = snap.get("metadata", {})
-    if isinstance(metadata, dict) and metadata.get("guide") is True:
+    if isinstance(metadata, dict) and metadata.get("guide"):
         tags.append("guide")
 
     return dedupe_tags(tags)
@@ -100,7 +100,7 @@ def build_character_auto_tags(archive, summary):
 
     if any(
         isinstance(s.get("metadata"), dict) and
-        s["metadata"].get("guide") is True
+        s["metadata"].get("guide")
         for s in snapshots
     ):
         tags.append("guide")
@@ -224,7 +224,7 @@ def build_snapshot_links(archive, character_name, site_base_url):
             "tags": tags,
             "automatic": not is_milestone,
             "story": metadata.get("story") is True,
-            "guide": metadata.get("guide") is True,
+            "guide": metadata.get("guide"),
             "favorite": metadata.get("favorite") is True,
             "url": make_share_url(site_base_url, character_name, key),
             "canonicalUrl": make_share_url(site_base_url, character_name, canonical_key),

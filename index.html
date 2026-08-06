@@ -895,13 +895,6 @@
 
     }
 
-    function guideToTag(guide) {
-      if (guide === true) {
-        return "guide";
-      }
-      return "";
-    }
-
   function getAutomaticSnapshotTags(snapshot) {
     if (!snapshot || typeof snapshot !== "object") {
       return [];
@@ -934,10 +927,10 @@
       tags.push("story");
     }
 
-    const guideTag = guideToTag(metadata.guide);
-    if (guideTag) {
-      tags.push(guideTag);
+    if (metadata.guide) {
+      tags.push("guide");
     }
+
 
     return dedupeTags(tags);
   }
