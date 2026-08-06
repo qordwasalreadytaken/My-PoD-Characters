@@ -9,6 +9,47 @@ from collections import Counter
 ARCHIVE_VERSION = 1
 
 
+CLASS_TAG_MAP = {
+    "assassin": "Asn",
+    "amazon": "Ama",
+    "barbarian": "Barb",
+    "druid": "Druid",
+    "necromancer": "Necro",
+    "paladin": "Pal",
+    "sorceress": "Sorc",
+}
+
+
+def class_to_tag(class_name):
+    if not isinstance(class_name, str):
+        return None
+
+    normalized = class_name.strip().lower()
+    if not normalized:
+        return None
+
+    return CLASS_TAG_MAP.get(normalized)
+
+
+def dedupe_tags(values):
+    result = []
+    seen = set()
+
+    for value in values:
+        tag = str(value).strip()
+        if not tag:
+            continue
+
+        key = tag.lower()
+        if key in seen:
+            continue
+
+        seen.add(key)
+        result.append(tag)
+
+    return result
+
+
 class CharacterArchive:
     def __init__(self, archive_dir="snapshots"):
         self.archive_dir = archive_dir
@@ -184,6 +225,28 @@ class CharacterArchive:
         else:
             changes = self._empty_changes()
 
+        class_tag = class_to_tag(
+            character_data.get("Class") if isinstance(character_data, dict) else None
+        )
+
+        if isinstance(tags, list):
+            tag_values = tags
+        elif isinstance(tags, str) and tags.strip():
+            tag_values = [part.strip() for part in tags.split(",") if part.strip()]
+        else:
+            tag_values = []
+
+        if class_tag:
+            tag_values = dedupe_tags(tag_values + [class_tag])
+        else:
+            tag_values = dedupe_tags(tag_values)
+
+        if isinstance(guide, str) and guide.strip():
+            tag_values = dedupe_tags(tag_values + ["guide"])
+
+        if story is True:
+            tag_values = dedupe_tags(tag_values + ["story"])
+
         snapshot = {
             "id": uuid.uuid4().hex[:8],
             "timestamp": datetime.utcnow().isoformat() + "Z",
@@ -193,7 +256,7 @@ class CharacterArchive:
                 "title": title,
                 "description": description,
                 "journal": journal,
-                "tags": tags or [],
+                "tags": tag_values,
                 "slug": slug,
                 "favorite": favorite,
                 "guide": guide,
