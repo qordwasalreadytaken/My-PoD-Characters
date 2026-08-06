@@ -184,8 +184,10 @@ Shortlist of to-do's
 | X | Add left/right arrow keyboard keys for navigation through snapshots  |
 | X | Add "favorites" and favorite filtering  |
 | X | Add automatic class and story tagging  |
-| X | Tag filtering should respect class and story tags  |
-|   | Combine character name search and filter tag |
+| X | Tag filtering should include class and story tags  |
+|   | Add support for filter on guide |
+|   | Allow filtering on multipls tags |
+|   | Fix compact link so slug comes last |
 | - | Improve mobile dashboard |
 |   | Improve mobile armory |
 

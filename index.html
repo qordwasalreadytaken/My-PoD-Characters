@@ -929,6 +929,10 @@
       tags.push("story");
     }
 
+    if (metadata.guide === true) {
+      tags.push("guide");
+    }
+
     return dedupeTags(tags);
   }
 
