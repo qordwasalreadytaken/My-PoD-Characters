@@ -893,8 +893,13 @@
         return "";
       }
 
-      const normalized = className.trim().toLowerCase();
-      return CLASS_TAG_MAP[normalized] || "";
+    }
+
+    function guideToTag(guide) {
+      if (guide === true) {
+        return "guide";
+      }
+      return "";
     }
 
   function getAutomaticSnapshotTags(snapshot) {
@@ -929,8 +934,9 @@
       tags.push("story");
     }
 
-    if (metadata.guide === true) {
-      tags.push("guide");
+    const guideTag = guideToTag(metadata.guide);
+    if (guideTag) {
+      tags.push(guideTag);
     }
 
     return dedupeTags(tags);
