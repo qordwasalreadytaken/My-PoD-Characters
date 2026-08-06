@@ -185,7 +185,7 @@ Shortlist of to-do's
 | X | Add "favorites" and favorite filtering  |
 | X | Add automatic class and story tagging  |
 | X | Tag filtering should include class and story tags  |
-|   | Add support for filter on guide |
+| X | Add support for filter on guide |
 |   | Allow filtering on multipls tags |
 |   | Fix compact link so slug comes last |
 | - | Improve mobile dashboard |
