@@ -674,7 +674,7 @@
       </header>
       <div class="section filters">
         <input id="searchInput" class="search" type="text" placeholder="Search by character name">
-        <input id="tagInput" class="search" type="text" placeholder="Filter snapshots by tag">
+        <input id="tagInput" class="search" type="text" placeholder="Filter by tags (comma-separated)">
         <select id="characterSort" class="search" aria-label="Sort characters">
           <option value="default">Sort: Default</option>
           <option value="updated">Sort: Recently updated</option>
@@ -956,7 +956,10 @@
     }
 
     function getTagFilterTerm() {
-      return dom.tagInput.value.trim().toLowerCase();
+      return dom.tagInput.value
+        .split(",")
+        .map((tag) => tag.trim().toLowerCase())
+        .filter(Boolean);
     }
 
     function getCharacterSortMode() {
@@ -1212,12 +1215,17 @@
       return "?";
     }
 
-    function linkMatchesTag(link, term) {
-      if (!term) {
+    function linkMatchesTag(link, terms) {
+      if (!terms.length) {
         return true;
       }
 
-      return normalizeTags(link && link.tags).some((tag) => tag.toLowerCase().includes(term));
+      const tags = normalizeTags(link && link.tags)
+        .map((tag) => tag.toLowerCase());
+
+      return terms.every((term) =>
+        tags.some((tag) => tag.includes(term))
+      );
     }
 
     function characterMatchesTag(character, term) {
@@ -1233,21 +1241,26 @@
       return links.some((link) => linkMatchesTag(link, term));
     }
 
-    function snapshotMatchesTag(snapshot, term) {
-      if (!term) {
+    function snapshotMatchesTag(snapshot, terms) {
+      if (!terms.length) {
         return true;
       }
 
-      const metadata = snapshot && snapshot.metadata && typeof snapshot.metadata === "object"
-        ? snapshot.metadata
-        : {};
+      const metadata =
+        snapshot && snapshot.metadata && typeof snapshot.metadata === "object"
+          ? snapshot.metadata
+          : {};
 
       const mergedTags = dedupeTags([
         ...normalizeTags(metadata.tags),
         ...getAutomaticSnapshotTags(snapshot)
       ]);
 
-      return mergedTags.some((tag) => tag.toLowerCase().includes(term));
+      const normalizedTags = mergedTags.map((tag) => tag.toLowerCase());
+
+      return terms.every((term) =>
+        normalizedTags.some((tag) => tag.includes(term))
+      );
     }
 
     function getVisibleSnapshots() {
@@ -1422,17 +1435,19 @@
         </div>
         <div class="snapshot-meta">
           <span>Latest: ${formatDate(state.selectedCharacter.lastUpdated)}</span>
-          ${tagTerm ? `<span>Tag: ${safeText(dom.tagInput.value.trim())}</span>` : ""}
-        </div>
+          ${tagTerm.length
+            ? `<span>Tags: ${safeText(dom.tagInput.value.trim())}</span>`
+            : ""}
+          </div>
       `;
 
       if (visibleSnapshots.length === 0) {
         const empty = document.createElement("li");
         empty.className = "message";
-        empty.textContent = tagTerm
+        empty.textContent = tagTerm.length
           ? "No snapshots match this tag filter for this character."
           : "No snapshots found for this character.";
-        dom.snapshotList.appendChild(empty);
+          dom.snapshotList.appendChild(empty);
         return;
       }
 
