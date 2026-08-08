@@ -101,7 +101,7 @@ Prefer a guided setup?
 Watch the complete walkthrough covering GitHub Actions, milestones, and navigating the dashboard.
 
 https://youtu.be/FBi_JUntV3Q
-<iframe width="560" height="315" src="https://youtu.be/FBi_JUntV3Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## How It Works
 
