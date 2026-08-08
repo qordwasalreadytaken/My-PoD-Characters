@@ -100,7 +100,7 @@ Prefer a guided setup?
 
 Watch the complete walkthrough covering GitHub Actions, milestones, and navigating the dashboard.
 
-*Audio issues on the first video made it kinda suck, need to record a new one*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FBi_JUntV3Q?si=tMOSKrVxnC8FUNjD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## How It Works
