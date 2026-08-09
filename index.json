@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-08T05:37:04.266203Z",
+  "generated": "2026-08-09T01:44:14.763090Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -431,6 +431,38 @@
           "favorite": false,
           "url": "character.html?c=necrosallsuck&t=first-snapshot",
           "canonicalUrl": "character.html?c=necrosallsuck&t=2026-07-09T11%3A19%3A34.405985Z"
+        }
+      ]
+    },
+    {
+      "name": "noskillsanissue",
+      "class": "Sorceress",
+      "level": 12,
+      "latestSnapshot": "a9909a1d",
+      "snapshotCount": 1,
+      "milestoneCount": 1,
+      "lastUpdated": "2026-08-09T01:44:14.761395Z",
+      "tags": [
+        "Sorc",
+        "HC"
+      ],
+      "snapshotLinks": [
+        {
+          "label": "2026-08-09T01:44:14.761395Z",
+          "key": "a9909a1d",
+          "timestamp": "2026-08-09T01:44:14.761395Z",
+          "id": "a9909a1d",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": false,
+          "story": false,
+          "guide": null,
+          "favorite": true,
+          "url": "character.html?c=noskillsanissue&t=a9909a1d",
+          "canonicalUrl": "character.html?c=noskillsanissue&t=2026-08-09T01%3A44%3A14.761395Z"
         }
       ]
     },
