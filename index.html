@@ -197,6 +197,35 @@
       color: var(--muted);
     }
 
+    .snapshot-row .snapshot-meta {
+      flex-wrap: nowrap;
+      width: 100%;
+    }
+
+    .snapshot-row .snapshot-meta > span:first-child {
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
+    .snapshot-row .change-summary {
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .snapshot-row .status-chips {
+      margin-left: auto;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 4px;
+      white-space: nowrap;
+      color: var(--accent);
+    }
+
     .kpi-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -664,6 +693,23 @@
     .story-nav-button {
         transition: background 0.15s, border-color 0.15s, color 0.15s;
     }
+
+.status-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 24px;
+    padding: 0 6px;
+    margin-right: 6px;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    background: #222;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: var(--accent);
+}
 
   </style>
 </head>
@@ -1442,8 +1488,10 @@
         currentIndex < 0 ||
         currentIndex >= visibleSnapshots.length - 1;      
       const tagTerm = getTagFilterTerm();
-      dom.snapshotCount.textContent = String(visibleSnapshots.length);
-
+      dom.snapshotCount.textContent =
+        currentIndex >= 0
+          ? `${currentIndex + 1} / ${visibleSnapshots.length}`
+          : String(visibleSnapshots.length);
       if (!state.selectedCharacter) {
         dom.timelineHeader.innerHTML = '<div class="muted">Select a character to browse snapshots.</div>';
         return;
@@ -1487,7 +1535,26 @@
 
         const level = snapshot && snapshot.data && snapshot.data.Stats ? snapshot.data.Stats.Level : "?";
         const label = snapshot.metadata && snapshot.metadata.automatic === false ? "Milestone" : "Auto";
+        const metadata = snapshot.metadata && typeof snapshot.metadata === "object" ? snapshot.metadata : {};
+        const statusChips = [];
 
+        if (metadata.favorite) {
+          statusChips.push(
+            `<span title="Favorite">★ </span>`
+          );
+        }
+
+        if (metadata.story) {
+          statusChips.push(
+            `<span title="Story snapshot">S </span>`
+          );
+        }
+
+        if (metadata.guide) {
+          statusChips.push(
+            `<span title="Featured in build guide">G </span>`
+          );
+        }
         button.innerHTML = `
           <div class="name-line">
             <span>${formatDate(snapshot.timestamp)}</span>
@@ -1496,6 +1563,7 @@
           <div class="snapshot-meta">
             <span>${label}</span>
             <span class="change-summary">${changeSummary}</span>
+            <span class="status-chips">${statusChips.join("")}</span>
           </div>
         `;
         const changeSummaryElement = button.querySelector(".change-summary");
@@ -1570,6 +1638,7 @@
 
     function renderSnapshotDetail() {
       if (!state.selectedSnapshot) {
+        
         dom.detailRoot.innerHTML = '<div class="message">Select a snapshot from the timeline.</div>';
         dom.statusPill.textContent = "Idle";
         syncQuickviewButtonState();
@@ -1594,12 +1663,31 @@
       ]);
 
       const changeChips = [];
+      const statusChips = [];
 
       const addedSkills = Array.isArray(changes.skills_added) ? changes.skills_added.length : 0;
       const removedSkills = Array.isArray(changes.skills_removed) ? changes.skills_removed.length : 0;
       const updatedSkills = Array.isArray(changes.skills_updated) ? changes.skills_updated.length : 0;
       const addedGear = Array.isArray(changes.equipped_added) ? changes.equipped_added.length : 0;
       const removedGear = Array.isArray(changes.equipped_removed) ? changes.equipped_removed.length : 0;
+
+if (metadata.favorite) {
+  statusChips.push(
+    `<span class="status-chip" title="Favorite">★</span>`
+  );
+}
+
+if (metadata.story) {
+  statusChips.push(
+    `<span class="status-chip" title="Story snapshot">S</span>`
+  );
+}
+
+if (metadata.guide) {
+  statusChips.push(
+    `<span class="status-chip" title="Featured in build guide">G</span>`
+  );
+}
 
       if (addedSkills > 0) {
         changeChips.push(`<span class="change-chip good">+${addedSkills} new skills</span>`);
@@ -1619,7 +1707,7 @@
       if (changeChips.length === 0) {
         changeChips.push('<span class="change-chip">No tracked changes</span>');
       }
-
+     
       const skills = getSkillRows(snapshot);
       const gear = getGearTitles(snapshot);
 
@@ -1630,7 +1718,7 @@
       const gearHtml = gear.length
         ? gear.map((item) => `<li class="stat-row"><span>${safeText(item.worn)}</span><span>${safeText(item.title)}</span></li>`).join("")
         : "<li class=\"muted\">No equipment data.</li>";
-
+//console.log("STATUS CHIPS:", statusChips);
       dom.detailRoot.innerHTML = `
         <div class="hero">
           <h1>${safeText(data.Name, safeText(state.selectedCharacter && state.selectedCharacter.name))}</h1>
@@ -1644,7 +1732,10 @@
           <div class="kpi"><span class="label">Snapshot Type</span><span class="value">${metadata.automatic === false ? "Milestone" : "Automatic"}</span></div>
         </div>
 
-        <div style="margin-bottom: 12px;">${changeChips.join("")}</div>
+        <div style="margin-bottom: 12px;">
+          ${statusChips.join("")}
+          ${changeChips.join("")}
+        </div>
 
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
           <span class="badge">Hardcore: ${data.IsHardcore ? "Yes" : "No"}</span>
