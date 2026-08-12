@@ -1,5 +1,20 @@
 /* CSS sorted by DOM order */
 
+:root {
+    --bg: #000000;
+    --bg-soft: #141414;
+    --card: #1a1a1a;
+    --card-alt: #212121;
+    --ink: #e2e2e2;
+    --muted: #a7a7a7;
+    --accent: #c0a080;
+    --accent-2: #d0d0d0;
+    --accent-3: #8d0b2cb4;
+    --good: #9ad1ac;
+    --bad: #d99b9b;
+    --line: #333333;
+    --shadow: rgba(0, 0, 0, 0.45);
+}
 
 /* #header */
 
@@ -52,7 +67,7 @@
     padding: 8px;
     font-size: 1.1rem;
     margin-bottom: 12px;
-    border-radius: 4px;
+/*    border-radius: 4px; */
     border: 1px solid #444;
     background: #181818;
     color: #fff;
@@ -147,7 +162,7 @@
 .snapshot-meta-box {
         background: #1a1a1a;
         border: 1px solid #333;
-        border-radius: 6px;
+/*        border-radius: 6px; */
         padding: 10px;
         color: #ddd;
         font-size: 0.9rem;
@@ -930,7 +945,7 @@
     background: #000;
     color: #c0a080;
     border: 2px solid #c0a080;
-    border-radius: 6px;
+/*    border-radius: 6px; */
     font-size: 16px;
     text-align: center;
     visibility: hidden;
@@ -1043,16 +1058,22 @@
 }
     
 .story-nav-button {
-        border: 1px solid #444;
-        background: #141414;
-        color: #ddd;
-        border-radius: 6px;
-        padding: 4px 10px;
-        font-size: 0.85rem;
-        cursor: pointer;
+      border: 1px solid var(--line);
+      background: rgba(14, 14, 14, 0.9);
+      color: var(--accent-2);
+/*      border-radius: 999px; */
+      padding: 5px 11px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: border-color 140ms ease, color 140ms ease, background 140ms ease;
     }
 
-
+.story-nav-button:hover:not(:disabled) {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(20, 20, 20, 0.96);
+}
     
 .story-nav-button:disabled {
         opacity: 0.45;
@@ -1358,7 +1379,7 @@ div, span {
     background-color: black;
     color: #c0a080;
     padding: 10px;
-    border-radius: 6px;
+/*    border-radius: 6px; */
     font-size: 14px;
     border: 2px solid #c0a080;
     max-width: 580px;
@@ -1419,6 +1440,10 @@ div, span {
     color: #fce874;
 }
 
+.title-q_normal, .title-q_low, .title-q_high {
+    color: white;
+}
+
 
 
 .title-q_crafted{
@@ -1459,6 +1484,11 @@ div, span {
 
 .tag-q_rare{
     color: #fce874;
+}
+
+
+.tag-q_normal, .tag-q_high, .tag-q_low {
+    color: white;
 }
 
 
@@ -1968,7 +1998,7 @@ img {
     color: #c0a080;
     text-align: center;
     padding: 5px 0;
-    border-radius: 6px;
+/*    border-radius: 6px; */
     font-size: 14px;
     border-style: solid;
     border-color: #c0a080;
