@@ -729,15 +729,19 @@
         <span id="characterCount" class="pill">0</span>
       </header>
       <div class="section filters">
-        <input id="searchInput" class="search" type="text" placeholder="Search by character name">
-        <input id="tagInput" class="search" type="text" placeholder="Filter by tags (comma-separated)">
+        <input
+          id="searchInput"
+          class="search"
+          type="text"
+          placeholder="Search characters or tags"
+        >
         <select id="characterSort" class="search" aria-label="Sort characters">
           <option value="default">Sort: Default</option>
           <option value="updated">Sort: Recently updated</option>
           <option value="snapshots">Sort: Most snapshots</option>
           <option value="alpha">Sort: A to Z</option>
         </select>
-      </div>
+      </div> 
       <ul id="characterList" class="list"></ul>
     </section>
 
@@ -827,7 +831,6 @@
 
     const dom = {
       searchInput: document.getElementById("searchInput"),
-      tagInput: document.getElementById("tagInput"),
       characterSort: document.getElementById("characterSort"),
       characterList: document.getElementById("characterList"),
       snapshotList: document.getElementById("snapshotList"),
@@ -949,6 +952,7 @@
         return "";
       }
 
+      return CLASS_TAG_MAP[className.trim().toLowerCase()] || "";
     }
 
   function getAutomaticSnapshotTags(snapshot) {
@@ -1007,14 +1011,11 @@
       return dedupeTags(tags);
     }
 
-    function getCharacterFilterTerm() {
-      return dom.searchInput.value.trim().toLowerCase();
-    }
-
-    function getTagFilterTerm() {
-      return dom.tagInput.value
-        .split(",")
-        .map((tag) => tag.trim().toLowerCase())
+    function getSearchTerms() {
+      return dom.searchInput.value
+        .trim()
+        .toLowerCase()
+        .split(/\s+/)
         .filter(Boolean);
     }
 
@@ -1271,65 +1272,87 @@
       return "?";
     }
 
-    function linkMatchesTag(link, terms) {
-      if (!terms.length) {
+    function linkMatchesTag(link, term) {
+      if (!term) {
         return true;
       }
 
       const tags = normalizeTags(link && link.tags)
         .map((tag) => tag.toLowerCase());
 
-      return terms.every((term) =>
-        tags.some((tag) => tag.includes(term))
-      );
+      return tags.some((tag) => tag.includes(term));
     }
 
-    function characterMatchesTag(character, term) {
+    function snapshotMatchesTag(snapshot, term) {
       if (!term) {
         return true;
       }
 
-      if (getCharacterTags(character).some((tag) => tag.toLowerCase().includes(term))) {
-        return true;
-      }
-
-      const links = Array.isArray(character && character.snapshotLinks) ? character.snapshotLinks : [];
-      return links.some((link) => linkMatchesTag(link, term));
-    }
-
-    function snapshotMatchesTag(snapshot, terms) {
-      if (!terms.length) {
-        return true;
-      }
-
-      const metadata =
-        snapshot && snapshot.metadata && typeof snapshot.metadata === "object"
-          ? snapshot.metadata
-          : {};
-
-      const mergedTags = dedupeTags([
-        ...normalizeTags(metadata.tags),
+      const tags = dedupeTags([
+        ...normalizeTags(snapshot?.metadata?.tags),
         ...getAutomaticSnapshotTags(snapshot)
-      ]);
+      ]).map((tag) => tag.toLowerCase());
 
-      const normalizedTags = mergedTags.map((tag) => tag.toLowerCase());
-
-      return terms.every((term) =>
-        normalizedTags.some((tag) => tag.includes(term))
-      );
+      return tags.some((tag) => tag.includes(term));
     }
+
+function characterMatchesSearch(character, terms) {
+  if (!terms.length) {
+    return true;
+  }
+
+  const name = String(character.name || "").toLowerCase();
+
+  const characterTags = getCharacterTags(character)
+    .map((tag) => tag.toLowerCase());
+
+  const links = Array.isArray(character?.snapshotLinks)
+    ? character.snapshotLinks
+    : [];
+
+  return terms.every((term) => {
+    // Character name
+    if (name.includes(term)) {
+      return true;
+    }
+
+    // Character-level tags
+    if (characterTags.some((tag) => tag.includes(term))) {
+      return true;
+    }
+
+    // Any snapshot belonging to this character
+    return links.some((link) => linkMatchesTag(link, term));
+  });
+}
+
+function snapshotMatchesSearch(snapshot, terms) {
+  if (!terms.length) {
+    return true;
+  }
+
+  return terms.every((term) => {
+    return snapshotMatchesTag(snapshot, term);
+  });
+}
 
     function getVisibleSnapshots() {
-      const tagTerm = getTagFilterTerm();
+      const searchTerms = getSearchTerms();
+
+      const characterName = String(state.selectedCharacter?.name || "").toLowerCase();
+
+      const snapshotTerms = searchTerms.filter(
+        (term) => !characterName.includes(term)
+      );
 
       return state.snapshots.filter((snapshot) => {
-        const tagMatch = snapshotMatchesTag(snapshot, tagTerm);
+        const searchMatch = snapshotMatchesSearch(snapshot, snapshotTerms);
 
         const favoriteMatch =
           !state.showFavoritesOnly ||
           snapshot?.metadata?.favorite === true;
 
-        return tagMatch && favoriteMatch;
+        return searchMatch && favoriteMatch;
       });
     }
 
@@ -1356,55 +1379,54 @@
     }
 
     function applyCharacterFilter() {
-      const term = getCharacterFilterTerm();
-      const tagTerm = getTagFilterTerm();
+      const searchTerms = getSearchTerms();
+
       state.filteredCharacters = state.characters.filter((char) => {
-          const name = (char.name || "").toLowerCase();
-
-          const favoriteMatch =
-              !state.showFavoritesOnly ||
-              (char.snapshotLinks ?? []).some(snapshot => snapshot?.favorite === true);
-
-          return (
-              name.includes(term) &&
-              characterMatchesTag(char, tagTerm) &&
-              favoriteMatch
+        const favoriteMatch =
+          !state.showFavoritesOnly ||
+          (char.snapshotLinks ?? []).some(
+            (snapshot) => snapshot?.favorite === true
           );
+
+        return (
+          characterMatchesSearch(char, searchTerms) &&
+          favoriteMatch
+        );
       });
 
       const sortMode = getCharacterSortMode();
 
       if (sortMode === "snapshots") {
         state.filteredCharacters.sort((a, b) => {
-          const aCount = Number(a && a.snapshotCount ? a.snapshotCount : 0);
-          const bCount = Number(b && b.snapshotCount ? b.snapshotCount : 0);
+          const aCount = Number(a?.snapshotCount || 0);
+          const bCount = Number(b?.snapshotCount || 0);
 
           if (bCount !== aCount) {
             return bCount - aCount;
           }
 
-          return String(a && a.name ? a.name : "").localeCompare(String(b && b.name ? b.name : ""));
+          return String(a?.name || "").localeCompare(String(b?.name || ""));
         });
         return;
       }
 
       if (sortMode === "updated") {
         state.filteredCharacters.sort((a, b) => {
-          const aTime = String(a && a.lastUpdated ? a.lastUpdated : "");
-          const bTime = String(b && b.lastUpdated ? b.lastUpdated : "");
+          const aTime = String(a?.lastUpdated || "");
+          const bTime = String(b?.lastUpdated || "");
 
           if (bTime !== aTime) {
             return bTime.localeCompare(aTime);
           }
 
-          return String(a && a.name ? a.name : "").localeCompare(String(b && b.name ? b.name : ""));
+          return String(a?.name || "").localeCompare(String(b?.name || ""));
         });
         return;
       }
 
       if (sortMode === "alpha") {
         state.filteredCharacters.sort((a, b) => {
-          return String(a && a.name ? a.name : "").localeCompare(String(b && b.name ? b.name : ""));
+          return String(a?.name || "").localeCompare(String(b?.name || ""));
         });
       }
     }
@@ -1487,7 +1509,7 @@
       dom.snapshotNext.disabled =
         currentIndex < 0 ||
         currentIndex >= visibleSnapshots.length - 1;      
-      const tagTerm = getTagFilterTerm();
+      const searchTerms = getSearchTerms();
       dom.snapshotCount.textContent =
         currentIndex >= 0
           ? `${currentIndex + 1} / ${visibleSnapshots.length}`
@@ -1504,16 +1526,16 @@
         </div>
         <div class="snapshot-meta">
           <span>Latest: ${formatDate(state.selectedCharacter.lastUpdated)}</span>
-          ${tagTerm.length
-            ? `<span>Tags: ${safeText(dom.tagInput.value.trim())}</span>`
-            : ""}
+          ${searchTerms.length
+            ? `<span>Filter: ${safeText(dom.searchInput.value.trim())}</span>`
+            : ""}            
           </div>
       `;
 
       if (visibleSnapshots.length === 0) {
         const empty = document.createElement("li");
         empty.className = "message";
-        empty.textContent = tagTerm.length
+        empty.textContent = searchTerms.length
           ? "No snapshots match this tag filter for this character."
           : "No snapshots found for this character.";
           dom.snapshotList.appendChild(empty);
@@ -2035,9 +2057,6 @@ if (metadata.guide) {
           renderSnapshotList();
       });      
       dom.searchInput.addEventListener("input", () => {
-        void handleFiltersChanged();
-      });
-      dom.tagInput.addEventListener("input", () => {
         void handleFiltersChanged();
       });
       dom.characterSort.addEventListener("change", () => {
