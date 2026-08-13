@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-12T05:31:15.224946Z",
+  "generated": "2026-08-13T05:31:54.440053Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -437,16 +437,33 @@
     {
       "name": "noskillsanissue",
       "class": "Sorceress",
-      "level": 14,
-      "latestSnapshot": "d757d49e",
-      "snapshotCount": 2,
+      "level": 20,
+      "latestSnapshot": "dea04e3e",
+      "snapshotCount": 3,
       "milestoneCount": 1,
-      "lastUpdated": "2026-08-12T05:31:14.997690Z",
+      "lastUpdated": "2026-08-13T05:31:53.710354Z",
       "tags": [
         "Sorc",
         "HC"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-08-13T05:31:53.710354Z",
+          "key": "dea04e3e",
+          "timestamp": "2026-08-13T05:31:53.710354Z",
+          "id": "dea04e3e",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "guide": null,
+          "favorite": false,
+          "url": "character.html?c=noskillsanissue&t=dea04e3e",
+          "canonicalUrl": "character.html?c=noskillsanissue&t=2026-08-13T05%3A31%3A53.710354Z"
+        },
         {
           "label": "2026-08-12T05:31:14.997690Z",
           "key": "d757d49e",
