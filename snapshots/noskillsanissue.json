@@ -170,7 +170,6 @@
         "Equipped": [
           {
             "Quality": "Normal",
-            "ID": "48597446",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -185,7 +184,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1142196374",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel",
                 "Tag": "Jewel",
@@ -227,7 +225,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "988004023",
             "QualityCode": "q_rare",
             "Title": "Dire Blazer",
             "Tag": "Boots",
@@ -258,7 +255,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3785515493",
             "QualityCode": "q_unique",
             "Title": "Nagelring",
             "Tag": "Ring",
@@ -287,7 +283,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3062320753",
             "QualityCode": "q_set",
             "Title": "Angelic Halo",
             "Tag": "Ring",
@@ -314,7 +309,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "485802639",
             "QualityCode": "q_set",
             "Title": "Angelic Mantle",
             "Tag": "Ring Mail",
@@ -343,7 +337,6 @@
           },
           {
             "Quality": "Magic",
-            "ID": "2372603360",
             "QualityCode": "q_magic",
             "Title": "Amulet of Regrowth",
             "Tag": "Amulet",
@@ -369,7 +362,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "877028567",
             "QualityCode": "q_set",
             "Title": "Death's Hand",
             "Tag": "Leather Gloves",
@@ -399,7 +391,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "2248139068",
             "QualityCode": "q_set",
             "Title": "Death's Guard",
             "Tag": "Sash",
@@ -428,7 +419,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "468186018",
             "QualityCode": "q_normal",
             "Title": "Light Crossbow",
             "Tag": "Light Crossbow",
@@ -442,7 +432,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Sapphire",
                 "Tag": "Flawed Sapphire",
@@ -468,7 +457,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Sapphire",
                 "Tag": "Flawed Sapphire",
@@ -494,7 +482,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Sapphire",
                 "Tag": "Flawed Sapphire",
@@ -537,7 +524,6 @@
           },
           {
             "Quality": "Magic",
-            "ID": "2377953075",
             "QualityCode": "q_magic",
             "Title": "Bolts of Quality",
             "Tag": "Bolts",
@@ -562,7 +548,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "2489876392",
             "QualityCode": "q_unique",
             "Title": "Skewer of Krintiz",
             "Tag": "Sabre",
@@ -597,7 +582,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "148725227",
             "QualityCode": "q_unique",
             "Title": "Pelta Lunata",
             "Tag": "Buckler",
@@ -833,7 +817,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Normal",
-            "ID": "1848688074",
             "QualityCode": "q_normal",
             "Title": "Leather Armor",
             "Tag": "Leather Armor",
@@ -848,7 +831,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -873,7 +855,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -914,7 +895,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "954302604",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -929,7 +909,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -954,7 +933,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -995,7 +973,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "751677905",
             "QualityCode": "q_high",
             "Title": "Short Bow",
             "Tag": "Short Bow",
@@ -1009,7 +986,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -1035,7 +1011,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -1061,7 +1036,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -1288,7 +1262,6 @@
         "Equipped": [
           {
             "Quality": "Normal",
-            "ID": "48597446",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -1303,7 +1276,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1142196374",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel",
                 "Tag": "Jewel",
@@ -1345,7 +1317,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "988004023",
             "QualityCode": "q_rare",
             "Title": "Dire Blazer",
             "Tag": "Boots",
@@ -1376,7 +1347,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3785515493",
             "QualityCode": "q_unique",
             "Title": "Nagelring",
             "Tag": "Ring",
@@ -1405,7 +1375,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3062320753",
             "QualityCode": "q_set",
             "Title": "Angelic Halo",
             "Tag": "Ring",
@@ -1432,7 +1401,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "485802639",
             "QualityCode": "q_set",
             "Title": "Angelic Mantle",
             "Tag": "Ring Mail",
@@ -1461,7 +1429,6 @@
           },
           {
             "Quality": "Magic",
-            "ID": "2372603360",
             "QualityCode": "q_magic",
             "Title": "Amulet of Regrowth",
             "Tag": "Amulet",
@@ -1487,7 +1454,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "877028567",
             "QualityCode": "q_set",
             "Title": "Death's Hand",
             "Tag": "Leather Gloves",
@@ -1517,7 +1483,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "2248139068",
             "QualityCode": "q_set",
             "Title": "Death's Guard",
             "Tag": "Sash",
@@ -1546,7 +1511,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "468186018",
             "QualityCode": "q_normal",
             "Title": "Light Crossbow",
             "Tag": "Light Crossbow",
@@ -1560,7 +1524,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Sapphire",
                 "Tag": "Flawed Sapphire",
@@ -1586,7 +1549,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Sapphire",
                 "Tag": "Flawed Sapphire",
@@ -1612,7 +1574,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Sapphire",
                 "Tag": "Flawed Sapphire",
@@ -1655,7 +1616,6 @@
           },
           {
             "Quality": "Magic",
-            "ID": "2377953075",
             "QualityCode": "q_magic",
             "Title": "Bolts of Quality",
             "Tag": "Bolts",
@@ -1680,7 +1640,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "2489876392",
             "QualityCode": "q_unique",
             "Title": "Skewer of Krintiz",
             "Tag": "Sabre",
@@ -1715,7 +1674,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "148725227",
             "QualityCode": "q_unique",
             "Title": "Pelta Lunata",
             "Tag": "Buckler",
@@ -2000,7 +1958,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Normal",
-            "ID": "1848688074",
             "QualityCode": "q_normal",
             "Title": "Leather Armor",
             "Tag": "Leather Armor",
@@ -2015,7 +1972,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -2040,7 +1996,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -2081,7 +2036,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "954302604",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -2096,7 +2050,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -2121,7 +2074,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -2162,7 +2114,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "751677905",
             "QualityCode": "q_high",
             "Title": "Short Bow",
             "Tag": "Short Bow",
@@ -2176,7 +2127,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -2202,7 +2152,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -2228,7 +2177,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -3104,7 +3052,7 @@
             "ItemLevel": "20",
             "LevelReq": 1,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 7,
@@ -3129,7 +3077,7 @@
             "ItemLevel": "23",
             "LevelReq": 10,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 5,
@@ -3329,7 +3277,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Normal",
-            "ID": "1848688074",
             "QualityCode": "q_normal",
             "Title": "Leather Armor",
             "Tag": "Leather Armor",
@@ -3344,7 +3291,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -3369,7 +3315,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -3410,7 +3355,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "954302604",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -3425,7 +3369,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -3450,7 +3393,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Topaz",
                 "Tag": "Chipped Topaz",
@@ -3491,7 +3433,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "751677905",
             "QualityCode": "q_high",
             "Title": "Short Bow",
             "Tag": "Short Bow",
@@ -3505,7 +3446,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -3531,7 +3471,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -3557,7 +3496,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",

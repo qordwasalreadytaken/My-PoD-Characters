@@ -5,6 +5,7 @@ import time
 from datetime import datetime
 
 import requests
+from archive import strip_equipped_item_ids
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -102,12 +103,13 @@ def fetch_character_summary(session, char_name, timeout, max_retries):
     if response is None or response.status_code != 200:
         return None
     try:
-        return response.json()
+        return strip_equipped_item_ids(response.json())
     except ValueError:
         return None
 
 
 def seed_snapshot(char_name, summary, timestamp):
+    strip_equipped_item_ids(summary)
     os.makedirs(SNAPSHOT_DIR, exist_ok=True)
     snapshot_path = os.path.join(SNAPSHOT_DIR, f"{char_name.lower()}.json")
 

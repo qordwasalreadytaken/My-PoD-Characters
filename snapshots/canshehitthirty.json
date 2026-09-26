@@ -1096,7 +1096,7 @@
             "ItemLevel": "55",
             "LevelReq": 33,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 1,
@@ -1250,7 +1250,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Superior",
-            "ID": "2574637518",
             "QualityCode": "q_runeword",
             "Title": "Stealth",
             "Tag": "Breast Plate",
@@ -1266,7 +1265,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -1291,7 +1289,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -1341,7 +1338,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "455563263",
             "QualityCode": "q_normal",
             "Title": "Helm",
             "Tag": "Helm",
@@ -1356,7 +1352,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "3233446308",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Ire",
                 "Tag": "Jewel",
@@ -1400,7 +1395,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "1527116356",
             "QualityCode": "q_runeword",
             "Title": "Insight",
             "Tag": "Bill",
@@ -1418,7 +1412,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -1443,7 +1436,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tir Rune",
                 "Tag": "Tir Rune",
@@ -1468,7 +1460,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -1493,7 +1484,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Sol Rune",
                 "Tag": "Sol Rune",

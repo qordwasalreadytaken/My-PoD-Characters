@@ -50,6 +50,33 @@ def dedupe_tags(values):
     return result
 
 
+def strip_equipped_item_ids(character_data):
+    target_keys = {"Equipped", "MercenaryEquipped"}
+
+    def strip_ids(node):
+        if isinstance(node, dict):
+            node.pop("ID", None)
+            for value in node.values():
+                strip_ids(value)
+        elif isinstance(node, list):
+            for item in node:
+                strip_ids(item)
+
+    def visit(node):
+        if isinstance(node, dict):
+            for key, value in node.items():
+                if key in target_keys:
+                    strip_ids(value)
+                else:
+                    visit(value)
+        elif isinstance(node, list):
+            for item in node:
+                visit(item)
+
+    visit(character_data)
+    return character_data
+
+
 class CharacterArchive:
     def __init__(self, archive_dir="snapshots"):
         self.archive_dir = archive_dir

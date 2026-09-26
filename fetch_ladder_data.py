@@ -15,6 +15,7 @@ pp = pprint.PrettyPrinter(indent=4)
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import glob
+from archive import strip_equipped_item_ids
 
 # Directories and files
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -138,7 +139,7 @@ def GetAllCharData():
 
         response = requests.get(CHAR_URL.format(char_name=char_name))
         if response.status_code == 200:
-            character_data.append(response.json())
+            character_data.append(strip_equipped_item_ids(response.json()))
         else:
             print(f"⚠️ Failed to fetch character: {char_name}")
 
@@ -186,7 +187,7 @@ def GetAllHCCharData():
 
         response = requests.get(CHAR_URL.format(char_name=char_name))
         if response.status_code == 200:
-            character_data.append(response.json())
+            character_data.append(strip_equipped_item_ids(response.json()))
         else:
             print(f"⚠️ Failed to fetch character: https://beta.pathofdiablo.com/api/characters/{char_name}/summary")
 
@@ -421,7 +422,7 @@ def fetch_character_summary(char_name):
     url = CHAR_URL.format(char_name=char_name)
     response = requests.get(url)
     if response.status_code == 200:
-        return response.json()
+        return strip_equipped_item_ids(response.json())
     print(f"⚠️ Failed to fetch watched character: {url} ({response.status_code})")
     return None
 

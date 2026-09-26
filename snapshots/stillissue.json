@@ -161,7 +161,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -193,7 +192,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "4055087640",
             "QualityCode": "q_rare",
             "Title": "Havoc Eye",
             "Tag": "Ring",
@@ -224,7 +222,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1206747638",
             "QualityCode": "q_set",
             "Title": "Arctic Furs",
             "Tag": "Quilted Armor",
@@ -253,7 +250,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "4044176913",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -268,7 +264,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "3575785375",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel",
                 "Tag": "Jewel",
@@ -310,7 +305,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -339,7 +333,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "860299230",
             "QualityCode": "q_unique",
             "Title": "Nagelring",
             "Tag": "Ring",
@@ -368,7 +361,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -401,7 +393,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "4142296208",
             "QualityCode": "q_rare",
             "Title": "Carrion Song",
             "Tag": "Dagger",
@@ -435,7 +426,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "2186147672",
             "QualityCode": "q_unique",
             "Title": "Umbral Disk",
             "Tag": "Small Shield",
@@ -450,7 +440,7 @@
             "LevelReq": 9,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "30% Increased Chance of Blocking",
               "+10% Increased Lightning Damage",
               "Hit Blinds Target +1",
@@ -620,7 +610,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Rare",
-            "ID": "1894471675",
             "QualityCode": "q_rare",
             "Title": "Corpse Shell",
             "Tag": "Cap",
@@ -650,7 +639,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "3757811559",
             "QualityCode": "q_normal",
             "Title": "Light Crossbow",
             "Tag": "Light Crossbow",
@@ -664,7 +652,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Emerald",
                 "Tag": "Chipped Emerald",
@@ -689,7 +676,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Chipped Ruby",
                 "Tag": "Chipped Ruby",

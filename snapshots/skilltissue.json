@@ -163,7 +163,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -194,7 +193,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -223,7 +221,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1206747638",
             "QualityCode": "q_set",
             "Title": "Arctic Furs",
             "Tag": "Quilted Armor",
@@ -252,7 +249,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -284,7 +280,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3785515493",
             "QualityCode": "q_unique",
             "Title": "Nagelring",
             "Tag": "Ring",
@@ -313,7 +308,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -346,7 +340,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "48597446",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -361,7 +354,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1142196374",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel",
                 "Tag": "Jewel",
@@ -403,7 +395,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3324066248",
             "QualityCode": "q_rare",
             "Title": "Storm Scalpel",
             "Tag": "Crystal Sword",
@@ -438,7 +429,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "2186147672",
             "QualityCode": "q_unique",
             "Title": "Umbral Disk",
             "Tag": "Small Shield",
@@ -825,7 +815,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Superior",
-            "ID": "751677905",
             "QualityCode": "q_high",
             "Title": "Short Bow",
             "Tag": "Short Bow",
@@ -839,7 +828,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -865,7 +853,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -891,7 +878,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -1136,7 +1122,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -1167,7 +1152,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -1196,7 +1180,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1206747638",
             "QualityCode": "q_set",
             "Title": "Arctic Furs",
             "Tag": "Quilted Armor",
@@ -1225,7 +1208,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -1257,7 +1239,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -1290,7 +1271,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "48597446",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -1305,7 +1285,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1142196374",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel",
                 "Tag": "Jewel",
@@ -1347,7 +1326,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -1378,7 +1356,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3062320753",
             "QualityCode": "q_set",
             "Title": "Angelic Halo",
             "Tag": "Ring",
@@ -1405,7 +1382,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3723897306",
             "QualityCode": "q_set",
             "Title": "Angelic Sickle",
             "Tag": "Sabre",
@@ -1436,7 +1412,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -1452,7 +1427,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -1477,7 +1451,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -1502,7 +1475,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -2245,7 +2217,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -2279,7 +2250,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2639271838",
             "QualityCode": "q_rare",
             "Title": "Cruel Suit",
             "Tag": "Leather Armor",
@@ -2310,7 +2280,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "751677905",
             "QualityCode": "q_high",
             "Title": "Short Bow",
             "Tag": "Short Bow",
@@ -2324,7 +2293,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -2350,7 +2318,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -2376,7 +2343,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -2599,7 +2565,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -2630,7 +2595,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -2659,7 +2623,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1206747638",
             "QualityCode": "q_set",
             "Title": "Arctic Furs",
             "Tag": "Quilted Armor",
@@ -2688,7 +2651,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -2720,7 +2682,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -2753,7 +2714,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "48597446",
             "QualityCode": "q_normal",
             "Title": "Cap",
             "Tag": "Cap",
@@ -2768,7 +2728,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1142196374",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel",
                 "Tag": "Jewel",
@@ -2810,7 +2769,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -2841,7 +2799,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3062320753",
             "QualityCode": "q_set",
             "Title": "Angelic Halo",
             "Tag": "Ring",
@@ -2868,7 +2825,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3723897306",
             "QualityCode": "q_set",
             "Title": "Angelic Sickle",
             "Tag": "Sabre",
@@ -2899,7 +2855,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -2915,7 +2870,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -2940,7 +2894,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -2965,7 +2918,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -3708,7 +3660,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -3742,7 +3693,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2639271838",
             "QualityCode": "q_rare",
             "Title": "Cruel Suit",
             "Tag": "Leather Armor",
@@ -3773,7 +3723,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "751677905",
             "QualityCode": "q_high",
             "Title": "Short Bow",
             "Tag": "Short Bow",
@@ -3787,7 +3736,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -3813,7 +3761,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -3839,7 +3786,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -4074,7 +4020,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -4105,7 +4050,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -4134,7 +4078,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -4166,7 +4109,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -4199,7 +4141,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -4230,7 +4171,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3062320753",
             "QualityCode": "q_set",
             "Title": "Angelic Halo",
             "Tag": "Ring",
@@ -4257,7 +4197,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "30486553",
             "QualityCode": "q_normal",
             "Title": "Breast Plate",
             "Tag": "Breast Plate",
@@ -4273,7 +4212,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -4298,7 +4236,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -4323,7 +4260,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -4366,7 +4302,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "499312772",
             "QualityCode": "q_set",
             "Title": "Arcanna's Head",
             "Tag": "Skull Cap",
@@ -4381,7 +4316,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1779977775",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Spirit",
                 "Tag": "Jewel",
@@ -4409,7 +4343,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -4429,7 +4363,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3723897306",
             "QualityCode": "q_set",
             "Title": "Angelic Sickle",
             "Tag": "Sabre",
@@ -4460,7 +4393,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -4476,7 +4408,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -4501,7 +4432,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -4526,7 +4456,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -5332,7 +5261,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -5366,7 +5294,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -5402,7 +5329,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "751677905",
             "QualityCode": "q_high",
             "Title": "Short Bow",
             "Tag": "Short Bow",
@@ -5416,7 +5342,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -5442,7 +5367,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -5468,7 +5392,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -5710,7 +5633,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -5741,7 +5663,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -5770,7 +5691,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -5802,7 +5722,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -5835,7 +5754,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -5866,7 +5784,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "30486553",
             "QualityCode": "q_normal",
             "Title": "Breast Plate",
             "Tag": "Breast Plate",
@@ -5882,7 +5799,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -5907,7 +5823,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -5932,7 +5847,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -5975,7 +5889,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "499312772",
             "QualityCode": "q_set",
             "Title": "Arcanna's Head",
             "Tag": "Skull Cap",
@@ -5991,7 +5904,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1779977775",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Spirit",
                 "Tag": "Jewel",
@@ -6018,7 +5930,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -6044,7 +5955,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -6065,7 +5976,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "599381874",
             "QualityCode": "q_rare",
             "Title": "Bitter Grip",
             "Tag": "Ring",
@@ -6095,7 +6005,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "4221964783",
             "QualityCode": "q_high",
             "Title": "Long Bow",
             "Tag": "Long Bow",
@@ -6124,7 +6033,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1393154094",
             "QualityCode": "q_unique",
             "Title": "Dragonbreath",
             "Tag": "Arrows",
@@ -6153,7 +6061,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1452882947",
             "QualityCode": "q_set",
             "Title": "Berserker's Hatchet",
             "Tag": "Double Axe",
@@ -6171,7 +6078,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -6196,7 +6102,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -6221,7 +6126,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -6246,7 +6150,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -6271,7 +6174,6 @@
               },
               {
                 "Quality": "Magic",
-                "ID": "3713424653",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Ire",
                 "Tag": "Jewel",
@@ -6318,7 +6220,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -6334,7 +6235,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -6359,7 +6259,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -6384,7 +6283,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -7081,7 +6979,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -7115,7 +7012,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -7151,7 +7047,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "751677905",
             "QualityCode": "q_high",
             "Title": "Short Bow",
             "Tag": "Short Bow",
@@ -7165,7 +7060,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -7191,7 +7085,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -7217,7 +7110,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Flawed Ruby",
                 "Tag": "Flawed Ruby",
@@ -7446,7 +7338,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -7477,7 +7368,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -7506,7 +7396,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -7538,7 +7427,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -7571,7 +7459,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -7602,7 +7489,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "499312772",
             "QualityCode": "q_set",
             "Title": "Arcanna's Head",
             "Tag": "Skull Cap",
@@ -7618,7 +7504,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1779977775",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Spirit",
                 "Tag": "Jewel",
@@ -7645,7 +7530,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -7671,7 +7555,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -7692,7 +7576,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "599381874",
             "QualityCode": "q_rare",
             "Title": "Bitter Grip",
             "Tag": "Ring",
@@ -7722,7 +7605,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "30486553",
             "QualityCode": "q_normal",
             "Title": "Breast Plate",
             "Tag": "Breast Plate",
@@ -7738,7 +7620,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -7763,7 +7644,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -7788,7 +7668,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -7831,7 +7710,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "4221964783",
             "QualityCode": "q_high",
             "Title": "Long Bow",
             "Tag": "Long Bow",
@@ -7846,7 +7724,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -7871,7 +7748,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -7896,7 +7772,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -7939,7 +7814,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1393154094",
             "QualityCode": "q_unique",
             "Title": "Dragonbreath",
             "Tag": "Arrows",
@@ -7968,7 +7842,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1452882947",
             "QualityCode": "q_set",
             "Title": "Berserker's Hatchet",
             "Tag": "Double Axe",
@@ -7986,7 +7859,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -8011,7 +7883,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -8036,7 +7907,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -8061,7 +7931,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -8086,7 +7955,6 @@
               },
               {
                 "Quality": "Magic",
-                "ID": "3713424653",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Ire",
                 "Tag": "Jewel",
@@ -8133,7 +8001,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -8149,7 +8016,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -8174,7 +8040,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -8199,7 +8064,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -8850,7 +8714,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -8886,7 +8749,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -8901,7 +8763,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -8950,7 +8811,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "411265105",
             "QualityCode": "q_set",
             "Title": "Vidala's Barb",
             "Tag": "Long Battle Bow",
@@ -8964,7 +8824,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -8990,7 +8849,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -9016,7 +8874,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -9042,7 +8899,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -9276,7 +9132,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -9307,7 +9162,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -9336,7 +9190,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -9368,7 +9221,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -9401,7 +9253,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -9432,7 +9283,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "499312772",
             "QualityCode": "q_set",
             "Title": "Arcanna's Head",
             "Tag": "Skull Cap",
@@ -9448,7 +9298,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1779977775",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Spirit",
                 "Tag": "Jewel",
@@ -9475,7 +9324,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -9501,7 +9349,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -9522,7 +9370,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "599381874",
             "QualityCode": "q_rare",
             "Title": "Bitter Grip",
             "Tag": "Ring",
@@ -9552,7 +9399,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "30486553",
             "QualityCode": "q_normal",
             "Title": "Breast Plate",
             "Tag": "Breast Plate",
@@ -9568,7 +9414,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -9593,7 +9438,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -9618,7 +9462,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -9661,7 +9504,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "4221964783",
             "QualityCode": "q_high",
             "Title": "Long Bow",
             "Tag": "Long Bow",
@@ -9676,7 +9518,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -9701,7 +9542,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -9726,7 +9566,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -9769,7 +9608,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1393154094",
             "QualityCode": "q_unique",
             "Title": "Dragonbreath",
             "Tag": "Arrows",
@@ -9798,7 +9636,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1452882947",
             "QualityCode": "q_set",
             "Title": "Berserker's Hatchet",
             "Tag": "Double Axe",
@@ -9816,7 +9653,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -9841,7 +9677,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -9866,7 +9701,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -9891,7 +9725,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -9916,7 +9749,6 @@
               },
               {
                 "Quality": "Magic",
-                "ID": "3713424653",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Ire",
                 "Tag": "Jewel",
@@ -9963,7 +9795,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -9979,7 +9810,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -10004,7 +9834,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -10029,7 +9858,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -10778,7 +10606,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -10814,7 +10641,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -10829,7 +10655,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -10878,7 +10703,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "411265105",
             "QualityCode": "q_set",
             "Title": "Vidala's Barb",
             "Tag": "Long Battle Bow",
@@ -10892,7 +10716,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -10918,7 +10741,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -10944,7 +10766,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -10970,7 +10791,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -11205,7 +11025,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -11236,7 +11055,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -11265,7 +11083,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -11297,7 +11114,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -11330,7 +11146,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -11361,7 +11176,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "499312772",
             "QualityCode": "q_set",
             "Title": "Arcanna's Head",
             "Tag": "Skull Cap",
@@ -11377,7 +11191,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1779977775",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Spirit",
                 "Tag": "Jewel",
@@ -11404,7 +11217,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -11430,7 +11242,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -11451,7 +11263,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "599381874",
             "QualityCode": "q_rare",
             "Title": "Bitter Grip",
             "Tag": "Ring",
@@ -11481,7 +11292,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "30486553",
             "QualityCode": "q_normal",
             "Title": "Breast Plate",
             "Tag": "Breast Plate",
@@ -11497,7 +11307,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -11522,7 +11331,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -11547,7 +11355,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -11590,7 +11397,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "4221964783",
             "QualityCode": "q_high",
             "Title": "Long Bow",
             "Tag": "Long Bow",
@@ -11605,7 +11411,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -11630,7 +11435,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -11655,7 +11459,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -11698,7 +11501,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1393154094",
             "QualityCode": "q_unique",
             "Title": "Dragonbreath",
             "Tag": "Arrows",
@@ -11727,7 +11529,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1452882947",
             "QualityCode": "q_set",
             "Title": "Berserker's Hatchet",
             "Tag": "Double Axe",
@@ -11745,7 +11546,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -11770,7 +11570,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -11795,7 +11594,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -11820,7 +11618,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -11845,7 +11642,6 @@
               },
               {
                 "Quality": "Magic",
-                "ID": "3713424653",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Ire",
                 "Tag": "Jewel",
@@ -11892,7 +11688,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -11908,7 +11703,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -11933,7 +11727,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -11958,7 +11751,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -12686,7 +12478,7 @@
             "ItemLevel": "28",
             "LevelReq": 0,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 0,
@@ -12737,7 +12529,7 @@
             "ItemLevel": "28",
             "LevelReq": 15,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 0,
@@ -12764,7 +12556,7 @@
             "ItemLevel": "28",
             "LevelReq": 11,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 1,
@@ -12814,7 +12606,7 @@
             "ItemLevel": "28",
             "LevelReq": 20,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 2,
@@ -12861,7 +12653,7 @@
             "ItemLevel": "28",
             "LevelReq": 14,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 7,
@@ -12923,7 +12715,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -12959,7 +12750,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -12974,7 +12764,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -13023,7 +12812,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "411265105",
             "QualityCode": "q_set",
             "Title": "Vidala's Barb",
             "Tag": "Long Battle Bow",
@@ -13037,7 +12825,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -13063,7 +12850,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -13089,7 +12875,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -13115,7 +12900,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -13347,7 +13131,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -13378,7 +13161,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3531681665",
             "QualityCode": "q_set",
             "Title": "Arctic Binding",
             "Tag": "Light Belt",
@@ -13407,7 +13189,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -13439,7 +13220,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3493160890",
             "QualityCode": "q_unique",
             "Title": "The Hand of Broc",
             "Tag": "Leather Gloves",
@@ -13472,7 +13252,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -13503,7 +13282,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "499312772",
             "QualityCode": "q_set",
             "Title": "Arcanna's Head",
             "Tag": "Skull Cap",
@@ -13519,7 +13297,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1779977775",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Spirit",
                 "Tag": "Jewel",
@@ -13546,7 +13323,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -13572,7 +13348,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -13593,7 +13369,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "599381874",
             "QualityCode": "q_rare",
             "Title": "Bitter Grip",
             "Tag": "Ring",
@@ -13623,7 +13398,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "30486553",
             "QualityCode": "q_normal",
             "Title": "Breast Plate",
             "Tag": "Breast Plate",
@@ -13639,7 +13413,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -13664,7 +13437,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -13689,7 +13461,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -13732,7 +13503,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "4221964783",
             "QualityCode": "q_high",
             "Title": "Long Bow",
             "Tag": "Long Bow",
@@ -13747,7 +13517,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -13772,7 +13541,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -13797,7 +13565,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -13840,7 +13607,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1393154094",
             "QualityCode": "q_unique",
             "Title": "Dragonbreath",
             "Tag": "Arrows",
@@ -13869,7 +13635,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1452882947",
             "QualityCode": "q_set",
             "Title": "Berserker's Hatchet",
             "Tag": "Double Axe",
@@ -13887,7 +13652,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -13912,7 +13676,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -13937,7 +13700,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -13962,7 +13724,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -13987,7 +13748,6 @@
               },
               {
                 "Quality": "Magic",
-                "ID": "3713424653",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Ire",
                 "Tag": "Jewel",
@@ -14034,7 +13794,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -14050,7 +13809,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -14075,7 +13833,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -14100,7 +13857,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -14828,7 +14584,7 @@
             "ItemLevel": "28",
             "LevelReq": 0,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 0,
@@ -14879,7 +14635,7 @@
             "ItemLevel": "28",
             "LevelReq": 15,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 0,
@@ -14906,7 +14662,7 @@
             "ItemLevel": "28",
             "LevelReq": 11,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 1,
@@ -14956,7 +14712,7 @@
             "ItemLevel": "28",
             "LevelReq": 20,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 2,
@@ -15003,7 +14759,7 @@
             "ItemLevel": "28",
             "LevelReq": 14,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 7,
@@ -15065,7 +14821,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -15101,7 +14856,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -15116,7 +14870,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -15165,7 +14918,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "411265105",
             "QualityCode": "q_set",
             "Title": "Vidala's Barb",
             "Tag": "Long Battle Bow",
@@ -15179,7 +14931,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -15205,7 +14956,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -15231,7 +14981,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Ruby",
                 "Tag": "Perfect Ruby",
@@ -15257,7 +15006,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -15509,7 +15257,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -15540,7 +15287,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3022417272",
             "QualityCode": "q_rare",
             "Title": "Rune Greaves",
             "Tag": "Boots",
@@ -15572,7 +15318,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -15603,7 +15348,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "499312772",
             "QualityCode": "q_set",
             "Title": "Arcanna's Head",
             "Tag": "Skull Cap",
@@ -15619,7 +15363,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1779977775",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Spirit",
                 "Tag": "Jewel",
@@ -15646,7 +15389,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -15672,7 +15414,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -15693,7 +15435,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "599381874",
             "QualityCode": "q_rare",
             "Title": "Bitter Grip",
             "Tag": "Ring",
@@ -15723,7 +15464,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "30486553",
             "QualityCode": "q_normal",
             "Title": "Breast Plate",
             "Tag": "Breast Plate",
@@ -15739,7 +15479,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -15764,7 +15503,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -15789,7 +15527,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -15832,7 +15569,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "17631656",
             "QualityCode": "q_set",
             "Title": "Sander's Taboo",
             "Tag": "Heavy Gloves",
@@ -15863,7 +15599,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "63087451",
             "QualityCode": "q_rare",
             "Title": "Spirit Cord",
             "Tag": "Light Belt",
@@ -15895,7 +15630,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "621013506",
             "QualityCode": "q_runeword",
             "Title": "Insight",
             "Tag": "Hunter's Bow",
@@ -15911,7 +15645,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -15936,7 +15669,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tir Rune",
                 "Tag": "Tir Rune",
@@ -15961,7 +15693,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -15986,7 +15717,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Sol Rune",
                 "Tag": "Sol Rune",
@@ -16038,7 +15768,6 @@
           },
           {
             "Quality": "Craft",
-            "ID": "496774342",
             "QualityCode": "q_crafted",
             "Title": "Viper Eye",
             "Tag": "Arrows",
@@ -16068,7 +15797,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1452882947",
             "QualityCode": "q_set",
             "Title": "Berserker's Hatchet",
             "Tag": "Double Axe",
@@ -16086,7 +15814,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -16111,7 +15838,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -16136,7 +15862,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -16161,7 +15886,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -16186,7 +15910,6 @@
               },
               {
                 "Quality": "Magic",
-                "ID": "3713424653",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Ire",
                 "Tag": "Jewel",
@@ -16233,7 +15956,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -16249,7 +15971,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -16274,7 +15995,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -16299,7 +16019,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -16951,7 +16670,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -16987,7 +16705,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -17002,7 +16719,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -17051,7 +16767,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "2469774302",
             "QualityCode": "q_runeword",
             "Title": "Insight",
             "Tag": "Cedar Bow",
@@ -17067,7 +16782,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -17092,7 +16806,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tir Rune",
                 "Tag": "Tir Rune",
@@ -17117,7 +16830,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -17142,7 +16854,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Sol Rune",
                 "Tag": "Sol Rune",
@@ -17394,7 +17105,6 @@
         "Equipped": [
           {
             "Quality": "Rare",
-            "ID": "93230381",
             "QualityCode": "q_rare",
             "Title": "Storm Coil",
             "Tag": "Ring",
@@ -17425,7 +17135,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2965729287",
             "QualityCode": "q_rare",
             "Title": "Storm Heart",
             "Tag": "Amulet",
@@ -17456,7 +17165,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "499312772",
             "QualityCode": "q_set",
             "Title": "Arcanna's Head",
             "Tag": "Skull Cap",
@@ -17472,7 +17180,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1779977775",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Spirit",
                 "Tag": "Jewel",
@@ -17499,7 +17206,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -17525,7 +17231,7 @@
             ],
             "SocketCount": "2",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "Melee attacks deal splash damage",
               "+5 to Energy",
               "+6 to Life",
@@ -17546,7 +17252,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "599381874",
             "QualityCode": "q_rare",
             "Title": "Bitter Grip",
             "Tag": "Ring",
@@ -17576,7 +17281,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "30486553",
             "QualityCode": "q_normal",
             "Title": "Breast Plate",
             "Tag": "Breast Plate",
@@ -17592,7 +17296,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -17617,7 +17320,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -17642,7 +17344,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -17685,7 +17386,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "17631656",
             "QualityCode": "q_set",
             "Title": "Sander's Taboo",
             "Tag": "Heavy Gloves",
@@ -17716,7 +17416,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "63087451",
             "QualityCode": "q_rare",
             "Title": "Spirit Cord",
             "Tag": "Light Belt",
@@ -17748,7 +17447,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3038639069",
             "QualityCode": "q_rare",
             "Title": "Corpse Stalker",
             "Tag": "Heavy Boots",
@@ -17779,7 +17477,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "621013506",
             "QualityCode": "q_runeword",
             "Title": "Insight",
             "Tag": "Hunter's Bow",
@@ -17795,7 +17492,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -17820,7 +17516,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tir Rune",
                 "Tag": "Tir Rune",
@@ -17845,7 +17540,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -17870,7 +17564,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Sol Rune",
                 "Tag": "Sol Rune",
@@ -17922,7 +17615,6 @@
           },
           {
             "Quality": "Craft",
-            "ID": "496774342",
             "QualityCode": "q_crafted",
             "Title": "Viper Eye",
             "Tag": "Arrows",
@@ -17952,7 +17644,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "1452882947",
             "QualityCode": "q_set",
             "Title": "Berserker's Hatchet",
             "Tag": "Double Axe",
@@ -17970,7 +17661,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -17995,7 +17685,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -18020,7 +17709,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -18045,7 +17733,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -18070,7 +17757,6 @@
               },
               {
                 "Quality": "Magic",
-                "ID": "3713424653",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel of Ire",
                 "Tag": "Jewel",
@@ -18117,7 +17803,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "502733875",
             "QualityCode": "q_normal",
             "Title": "Kite Shield",
             "Tag": "Kite Shield",
@@ -18133,7 +17818,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -18158,7 +17842,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -18183,7 +17866,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -19043,7 +18725,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -19079,7 +18760,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -19094,7 +18774,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -19143,7 +18822,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "2469774302",
             "QualityCode": "q_runeword",
             "Title": "Insight",
             "Tag": "Cedar Bow",
@@ -19159,7 +18837,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -19184,7 +18861,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tir Rune",
                 "Tag": "Tir Rune",
@@ -19209,7 +18885,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -19234,7 +18909,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Sol Rune",
                 "Tag": "Sol Rune",
@@ -20315,7 +19989,7 @@
             "ItemLevel": "52",
             "LevelReq": 23,
             "PropertyList": [
-              "\u00ffc1Unidentified"
+              "ÿc1Unidentified"
             ],
             "Position": {
               "x": 0,
@@ -20676,7 +20350,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Unique",
-            "ID": "1823545141",
             "QualityCode": "q_unique",
             "Title": "Darkglow",
             "Tag": "Ring Mail",
@@ -20712,7 +20385,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "2720120030",
             "QualityCode": "q_rare",
             "Title": "Cruel Veil",
             "Tag": "Skull Cap",
@@ -20727,7 +20399,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Skull",
                 "Tag": "Perfect Skull",
@@ -20776,7 +20447,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "2469774302",
             "QualityCode": "q_runeword",
             "Title": "Insight",
             "Tag": "Cedar Bow",
@@ -20792,7 +20462,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -20817,7 +20486,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tir Rune",
                 "Tag": "Tir Rune",
@@ -20842,7 +20510,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -20867,7 +20534,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Sol Rune",
                 "Tag": "Sol Rune",

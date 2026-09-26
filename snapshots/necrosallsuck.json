@@ -220,7 +220,6 @@
         "Equipped": [
           {
             "Quality": "Set",
-            "ID": "3799826791",
             "QualityCode": "q_set",
             "Title": "Death's Guard",
             "Tag": "Sash",
@@ -249,7 +248,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "2123745160",
             "QualityCode": "q_runeword",
             "Title": "Stealth",
             "Tag": "Chain Mail",
@@ -265,7 +263,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -290,7 +287,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -338,7 +334,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "1659803753",
             "QualityCode": "q_rare",
             "Title": "Order Hold",
             "Tag": "Ring",
@@ -369,7 +364,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "2969638593",
             "QualityCode": "q_unique",
             "Title": "Manald Heal",
             "Tag": "Ring",
@@ -398,7 +392,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3293010216",
             "QualityCode": "q_unique",
             "Title": "Waterwalk",
             "Tag": "Sharkskin Boots",
@@ -433,7 +426,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "479959066",
             "QualityCode": "q_unique",
             "Title": "Peasant Crown",
             "Tag": "War Hat",
@@ -447,7 +439,7 @@
             "LevelReq": 28,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "+1 to All Skills",
               "+15% Faster Run/Walk",
               "+100% Enhanced Defense",
@@ -467,7 +459,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3753014490",
             "QualityCode": "q_rare",
             "Title": "Death Heart",
             "Tag": "Amulet",
@@ -497,7 +488,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3737283722",
             "QualityCode": "q_set",
             "Title": "Trang-Oul's Claws",
             "Tag": "Heavy Bracers",
@@ -529,7 +519,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1912719563",
             "QualityCode": "q_unique",
             "Title": "Pelta Lunata",
             "Tag": "Buckler",
@@ -544,7 +533,7 @@
             "LevelReq": 2,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "+40% Faster Block Rate",
               "20% Increased Chance of Blocking",
               "+10% Increased Lightning Damage",
@@ -566,7 +555,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "2989352716",
             "QualityCode": "q_runeword",
             "Title": "Spirit",
             "Tag": "Crystal Sword",
@@ -583,7 +571,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -608,7 +595,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -633,7 +619,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -658,7 +643,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Amn Rune",
                 "Tag": "Amn Rune",
@@ -708,7 +692,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "4187854324",
             "QualityCode": "q_runeword",
             "Title": "Rhyme",
             "Tag": "Unraveller Head",
@@ -725,7 +708,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Shael Rune",
                 "Tag": "Shael Rune",
@@ -750,7 +732,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -1659,7 +1640,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Normal",
-            "ID": "3970219722",
             "QualityCode": "q_normal",
             "Title": "Skull Cap",
             "Tag": "Skull Cap",
@@ -1674,7 +1654,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1480642344",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel",
                 "Tag": "Jewel",
@@ -1716,7 +1695,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "1140026221",
             "QualityCode": "q_high",
             "Title": "Mage Plate",
             "Tag": "Mage Plate",
@@ -1731,7 +1709,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -1756,7 +1733,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -1781,7 +1757,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -1824,7 +1799,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "390975770",
             "QualityCode": "q_runeword",
             "Title": "Insight",
             "Tag": "War Fork",
@@ -1842,7 +1816,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -1867,7 +1840,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tir Rune",
                 "Tag": "Tir Rune",
@@ -1892,7 +1864,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -1917,7 +1888,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Sol Rune",
                 "Tag": "Sol Rune",
@@ -2191,7 +2161,6 @@
         "Equipped": [
           {
             "Quality": "Set",
-            "ID": "3799826791",
             "QualityCode": "q_set",
             "Title": "Death's Guard",
             "Tag": "Sash",
@@ -2220,7 +2189,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "2123745160",
             "QualityCode": "q_runeword",
             "Title": "Stealth",
             "Tag": "Chain Mail",
@@ -2236,7 +2204,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -2261,7 +2228,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -2309,7 +2275,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "1659803753",
             "QualityCode": "q_rare",
             "Title": "Order Hold",
             "Tag": "Ring",
@@ -2340,7 +2305,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "2969638593",
             "QualityCode": "q_unique",
             "Title": "Manald Heal",
             "Tag": "Ring",
@@ -2369,7 +2333,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "3293010216",
             "QualityCode": "q_unique",
             "Title": "Waterwalk",
             "Tag": "Sharkskin Boots",
@@ -2404,7 +2367,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "479959066",
             "QualityCode": "q_unique",
             "Title": "Peasant Crown",
             "Tag": "War Hat",
@@ -2418,7 +2380,7 @@
             "LevelReq": 28,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "+1 to All Skills",
               "+15% Faster Run/Walk",
               "+100% Enhanced Defense",
@@ -2438,7 +2400,6 @@
           },
           {
             "Quality": "Rare",
-            "ID": "3753014490",
             "QualityCode": "q_rare",
             "Title": "Death Heart",
             "Tag": "Amulet",
@@ -2468,7 +2429,6 @@
           },
           {
             "Quality": "Set",
-            "ID": "3737283722",
             "QualityCode": "q_set",
             "Title": "Trang-Oul's Claws",
             "Tag": "Heavy Bracers",
@@ -2500,7 +2460,6 @@
           },
           {
             "Quality": "Unique",
-            "ID": "1912719563",
             "QualityCode": "q_unique",
             "Title": "Pelta Lunata",
             "Tag": "Buckler",
@@ -2515,7 +2474,7 @@
             "LevelReq": 2,
             "SocketCount": "0",
             "PropertyList": [
-              "\u00ffc1Corrupted",
+              "ÿc1Corrupted",
               "+40% Faster Block Rate",
               "20% Increased Chance of Blocking",
               "+10% Increased Lightning Damage",
@@ -2537,7 +2496,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "2989352716",
             "QualityCode": "q_runeword",
             "Title": "Spirit",
             "Tag": "Crystal Sword",
@@ -2554,7 +2512,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -2579,7 +2536,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Thul Rune",
                 "Tag": "Thul Rune",
@@ -2604,7 +2560,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ort Rune",
                 "Tag": "Ort Rune",
@@ -2629,7 +2584,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Amn Rune",
                 "Tag": "Amn Rune",
@@ -2679,7 +2633,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "4187854324",
             "QualityCode": "q_runeword",
             "Title": "Rhyme",
             "Tag": "Unraveller Head",
@@ -2696,7 +2649,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Shael Rune",
                 "Tag": "Shael Rune",
@@ -2721,7 +2673,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Eth Rune",
                 "Tag": "Eth Rune",
@@ -3630,7 +3581,6 @@
         "MercenaryEquipped": [
           {
             "Quality": "Normal",
-            "ID": "3970219722",
             "QualityCode": "q_normal",
             "Title": "Skull Cap",
             "Tag": "Skull Cap",
@@ -3645,7 +3595,6 @@
             "Sockets": [
               {
                 "Quality": "Magic",
-                "ID": "1480642344",
                 "QualityCode": "q_magic",
                 "Title": "Brute's Jewel",
                 "Tag": "Jewel",
@@ -3687,7 +3636,6 @@
           },
           {
             "Quality": "Superior",
-            "ID": "1140026221",
             "QualityCode": "q_high",
             "Title": "Mage Plate",
             "Tag": "Mage Plate",
@@ -3702,7 +3650,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -3727,7 +3674,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -3752,7 +3698,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Perfect Emerald",
                 "Tag": "Perfect Emerald",
@@ -3795,7 +3740,6 @@
           },
           {
             "Quality": "Normal",
-            "ID": "390975770",
             "QualityCode": "q_runeword",
             "Title": "Insight",
             "Tag": "War Fork",
@@ -3813,7 +3757,6 @@
             "Sockets": [
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Ral Rune",
                 "Tag": "Ral Rune",
@@ -3838,7 +3781,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tir Rune",
                 "Tag": "Tir Rune",
@@ -3863,7 +3805,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Tal Rune",
                 "Tag": "Tal Rune",
@@ -3888,7 +3829,6 @@
               },
               {
                 "Quality": "Unknown",
-                "ID": "0",
                 "QualityCode": "",
                 "Title": "Sol Rune",
                 "Tag": "Sol Rune",

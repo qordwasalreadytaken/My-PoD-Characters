@@ -3,7 +3,7 @@ import argparse
 import os
 import requests
 
-from archive import CharacterArchive
+from archive import CharacterArchive, strip_equipped_item_ids
 from build_index import build_index
 
 
@@ -198,7 +198,7 @@ def fetch_character(name):
             response = requests.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
 
             if response.status_code == 200:
-                return response.json()
+                return strip_equipped_item_ids(response.json())
 
             print(f"  Attempt {attempt}/{MAX_FETCH_ATTEMPTS} failed for {name}: HTTP {response.status_code}")
         except requests.RequestException as exc:
