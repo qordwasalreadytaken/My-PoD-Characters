@@ -151,7 +151,7 @@ class CharacterArchive:
         }
 
     def save(self, archive):
-
+        strip_equipped_item_ids(archive)
         self.update_summary(archive)
 
         path = self._path(archive["character"])

@@ -39,6 +39,7 @@ def save_character_history(char_name, history):
     path = os.path.join(SNAPSHOT_DIR, f'{char_name}.json')
     # Save all snapshot files in lowercase
     path = os.path.join(SNAPSHOT_DIR, f'{char_name.lower()}.json')
+    strip_equipped_item_ids(history)
     with open(path, 'w') as f:
         json.dump(history, f, indent=2)
 

@@ -125,6 +125,7 @@ def seed_snapshot(char_name, summary, timestamp):
         history = []
 
     history.append({"timestamp": timestamp, "data": summary})
+    strip_equipped_item_ids(history)
     save_json(snapshot_path, history)
 
 
