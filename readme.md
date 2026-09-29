@@ -77,11 +77,12 @@ Beyond basic archiving, interactive armory snapshots offer a visual alternative 
 ## Quick Start
 
 1. Fork this repo.
-2. Enable GitHub Actions.
+2. Enable GitHub Actions for your fork.
 3. Add your character names.
 4. Run the initial snapshot workflow.
-5. Enable the scheduled workflow.
-6. Visit your GitHub Pages site.
+5. Enable/configure GitHub Pages to use GitHub Actions.
+6. Enable the scheduled workflow.
+7. Visit your GitHub Pages site.
 
 That's it.
 
