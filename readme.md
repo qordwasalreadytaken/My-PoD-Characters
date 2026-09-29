@@ -1,5 +1,3 @@
-# Readme Under Construction
-
 # The Journaling Nephalem
 
 Capture your Path of Diablo journey one snapshot at a time.
@@ -188,7 +186,7 @@ Shortlist of to-do's
 | X | Add support for filter on guide |
 | X | Allow filtering on multipls tags |
 |   | Fix compact link so slug comes last |
-| - | Improve mobile dashboard |
+| - | Improve mobile dashboard, some sections are not long enough so mobile scroll feels clunky |
 |   | Improve mobile armory |
 
 
