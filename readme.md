@@ -76,13 +76,19 @@ Beyond basic archiving, interactive armory snapshots offer a visual alternative 
 
 ## Quick Start
 
-1. Fork this repo.
-2. Enable GitHub Actions for your fork.
-3. Add your character names.
-4. Run the initial snapshot workflow.
-5. Enable/configure GitHub Pages to use GitHub Actions.
-6. Enable the scheduled workflow.
-7. Visit your GitHub Pages site.
+Choose how you want to create your copy:
+
+- **Fork this repo** to keep it connected to the original repository.
+- **Use your own repository:** Download the code and upload it to a new repository you own. This keeps your copy independent, with no fork relationship to this repository.
+
+Then set up your repository:
+
+1. Enable GitHub Actions.
+2. Add your character names.
+3. Run the initial snapshot workflow.
+4. Enable/configure GitHub Pages to use GitHub Actions.
+5. Enable the scheduled workflow.
+6. Visit your GitHub Pages site.
 
 That's it.
 
