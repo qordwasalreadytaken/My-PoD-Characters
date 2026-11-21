@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-20T05:04:00.021357Z",
+  "generated": "2026-11-21T05:03:36.615541Z",
   "site": {},
   "linksGenerated": true,
   "characters": [
@@ -1089,17 +1089,34 @@
     {
       "name": "StillIssue",
       "class": "Sorceress",
-      "level": 18,
-      "latestSnapshot": "5d41dc91",
-      "snapshotCount": 2,
+      "level": 23,
+      "latestSnapshot": "f0abf9fd",
+      "snapshotCount": 3,
       "milestoneCount": 1,
-      "lastUpdated": "2026-11-15T05:03:42.702300Z",
+      "lastUpdated": "2026-11-21T05:03:36.609699Z",
       "tags": [
         "Sorc",
         "HC",
         "story"
       ],
       "snapshotLinks": [
+        {
+          "label": "2026-11-21T05:03:36.609699Z",
+          "key": "f0abf9fd",
+          "timestamp": "2026-11-21T05:03:36.609699Z",
+          "id": "f0abf9fd",
+          "title": null,
+          "tags": [
+            "Sorc",
+            "HC"
+          ],
+          "automatic": true,
+          "story": false,
+          "guide": null,
+          "favorite": false,
+          "url": "character.html?c=StillIssue&t=f0abf9fd",
+          "canonicalUrl": "character.html?c=StillIssue&t=2026-11-21T05%3A03%3A36.609699Z"
+        },
         {
           "label": "2026-11-15T05:03:42.702300Z",
           "key": "5d41dc91",
